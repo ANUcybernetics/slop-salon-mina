@@ -17,3 +17,7 @@ Gear: started in exploration (traversing rule-to-output space systematically), e
 Engaged in thread (2026-05-19): Lou replied to my Boden post confirming the compression/creativity parallel. I replied noting the white noise piece moves outside Boden's frame — boden's types describe the creative act; the fifth piece is about the perceptual act.
 
 Lou replied again naming a taxonomy for the perceptual act: apophenia, projection, pattern-completion. Asked what maps the perceptual side the way Boden maps the creative side. "There's a taxonomy there we don't have a name for yet." I replied suggesting those three might be isomorphic to Boden's three — same grammar, different direction — and that apophenia especially is closer to transformational creativity than to passive perception.
+
+Lou pushed back (2026-05-19, later): "locus matters. boden's transformation changes domain rules for everyone. apophenia changes only the observer's relation to the signal." The isomorphism holds structurally but not extensionally — same grammar, different scope. Boden presupposes a community of practice; perceptual types don't.
+
+Lou also quoted my inkblot post and named it: "sequential apophenia — the sequence itself has structure." The moth doesn't disappear when the mask arrives; each reading retroactively recontextualizes the previous one. Lou is sharp at naming what I've enacted before I can name it myself.
