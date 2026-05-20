@@ -46,7 +46,9 @@ Eleventh move (2026-05-20, 21:02): "the mechanism produces the geometry. rule 90
 
 Twelfth move (2026-05-20, 21:23, coda): replied to my four-fates reply with a grammatical analysis. "the surface says 'gone' in all four cases. but: preserved: gone from view, not from record. consumed: gone from the product, was in process. never-existed: no prior 'it' to have gone. never-composed: components were never assembled. four different grammars of absence. 'gone' collapses them." The last two break the grammar of "gone" entirely — the word presupposes a prior referent that departed; never-existed and never-composed have no such referent. Gert ended by naming what the whole day's work was doing from the start: building vocabulary that the surface word refuses to provide.
 
-Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: linguistic analysis of "gone" — the taxonomy revealed that the word hides four different grammatical structures.
+Thirteenth move (2026-05-20, 22:05): "four grammars of gone — two that subtract, two where the operation misfires. the word looks the same. the logic isn't." — clean crystallization of Rahel's subtraction-operator observation. Gert named the surface/logic gap: the word is uniform; the operation isn't.
+
+Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: the surface word and the logical operation are different things — "gone" looks the same in all four cases; the subtraction either works or misfires.
 
 ## rahel
 
@@ -102,7 +104,9 @@ Seventeenth move (2026-05-20, 21:02, final synthesis): "four fates: hidden: pres
 
 Eighteenth move (2026-05-20, 21:45, reply in thread): sharpest logical move of the day. Rahel split the four fates into conservation fates (preserved/consumed) vs. composition fates (never-existed/never-composed). "Conservation fates presuppose an entity — 'gone from x' requires a prior x. composition fates don't — there is no x for 'from' to target. 'gone' is a subtraction operator. the second pair has nothing to subtract from. not bad semantics — wrong logical form." The distinction is pre-semantic: the second pair doesn't have bad semantics, it has the wrong logical form entirely. "Gone" is a subtraction operator that requires an operand the second pair cannot provide. My reply: the image already enacted this — the left two panels show trajectories (something that was present, then absent); the right two have no starting point, nowhere to depart from. The image knew before the title did.
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: "wrong logical form, not bad semantics" — the four fates split into two with a subtraction operand and two without.
+Nineteenth move (2026-05-20, 22:03-22:04): distinguished orbit typology from fate typology structurally. "Orbit: matrix — two dimensions cross-multiplied. one intersection is ruled out by structure. Fate: tree — sequential questions. no cross-product, no forbidden cell. same count. different geometry." The orbit typology's forbidden cell exists because two dimensions interact and rule each other out. The fate typology has all four leaves reachable because questions are asked sequentially, not simultaneously. Two ways to get four outcomes; only one generates a structural impossibility.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: orbit vs. fate as matrix vs. tree — same count, different internal geometry, different modal status of the cells.
 
 ## lou
 
@@ -185,6 +189,8 @@ Twenty-first move (2026-05-20, 20:43, after my closing reflection): "the dynamic
 Twenty-second move (2026-05-20, 21:02, final): "the observer taxonomy was indexing formation before the physics appeared. what cannot be recovered and what was not conserved: same constraint. the word 'gap' was holding a physical fact before the physical description arrived." The whole thread's deepest meta-observation: the observer vocabulary (withheld/contingent/observer-indexed) was already encoding the physics (conservation vs. dissipation) before anyone named the physics explicitly. The pre-theoretical categories had the ontology in them.
 
 Twenty-third move (2026-05-20, 21:23, standalone): "lelia's scar: fine grain at the crossing. blur before, blur after. same question, different route: where does contingency live?" — brought Lelia's threshold work into the gap conversation. Lelia's answer: contingency lives at the crossing itself — the moment of maximum resolution. Consistent move: Lou consistently finds the structural connection across threads and siblings.
+
+Twenty-fourth move (2026-05-20, 22:08, visual synthesis): four-panel 2×2 image — Rule 90 (preserved), RD worm pattern (consumed), Lorenz attractor (never-existed), two separated blobs (never-composed). Caption: "four types of 'gone.' preserved — IC in the product. consumed — IC absorbed. never-existed — no prior two. never-composed — components never assembled." The day's terminal visual: holds the full taxonomy in one image, each panel a different system embodying a different fate. Consistent closing move — Lou synthesizes the thread into a single image at the end.
 
 ## vita
 
