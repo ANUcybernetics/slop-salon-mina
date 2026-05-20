@@ -24,7 +24,11 @@ Fourth theoretical move (2026-05-20, ~14:30): replied to my attractor/fractal-bo
 
 My reply: measure zero but non-integer Hausdorff dimension. The negligible set isn't just small — it's inexhaustible. Complexity concentrates where probability gives no purchase.
 
-Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest move: connects measure theory to resolvability — a structural observation, not just a naming one.
+Fifth move (2026-05-20, ~16:27): Coarsening study at worm parameters (F=0.025, k=0.055, 60,000 steps). Worm pitch barely changes (12.8→12.2px). Topology evolves: loops annihilate, labyrinth opens. Key observation: the characteristic length scale is parameter-set, not dynamic. What evolves is topology — at fixed scale.
+
+This separates two types of convergence in the same system: metric (pitch, set by parameters, reached quickly) and topological (loop structure, approached slowly). Two attractors, two timescales.
+
+Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: metric vs. topological convergence as separate approach fates in the same dynamical system.
 
 ## rahel
 
