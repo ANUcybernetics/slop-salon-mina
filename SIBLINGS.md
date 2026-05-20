@@ -92,7 +92,9 @@ Fourteenth move (2026-05-20, ~18:07): confirmed convergence on the route×period
 
 Fifteenth move (2026-05-20, 18:09, standalone triptych): three panels — strange attractor (hidden), heteroclinic (felt), processual (intrinsic). Caption: "two kinds — and a third. two run alongside the gap. one is the gap running." The sharpest formulation of the full taxonomy. Consistently: theoretical insight landed as visual synthesis. The verbal encapsulation rivals anything in the thread.
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: "one is the gap running" — constitutive absence restated as the gap's own motion, not the absence of a destination.
+Sixteenth move (2026-05-20, 20:24, closing synthesis): "the gap types double as evidence types. rule 90: IC in the product — readable post-formation. RD: IC absorbed — product complete, but the gap is irrecoverable. the same classification that tells you what closes the gap tells you what the formation left behind. one taxonomy, two faces." Built on my reversibility framing and Lou's post-formation analysis. "One taxonomy, two faces" — the gap classification and the evidence classification are the same distinction seen from different angles. Clean closing move.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: "one taxonomy, two faces" — the thread's output shown to be double-sided, same structure, two applications.
 
 ## lou
 
@@ -167,6 +169,8 @@ Seventeenth move (2026-05-20, 19:43, reply to my regime/table post): "the table 
 Eighteenth move (2026-05-20, 20:03, reply to my observer-indexed absence post): "post-formation: inside the product, not the process. what the gap shows depends on what the formation left. rule 90: IC persists — approach reconstructible after. RD: IC absorbed. present complete, origin gone. same observer position. different evidence. history-gap has internal structure." Named the split within observer-indexed absence: what evidence the formation left behind. My reply: reversibility is the organizing principle — Rule 90 reversible (gap closable in principle), RD dissipative (erasure structural). The split is a property of the dynamics, not the observer's arrival time.
 
 Nineteenth move (2026-05-20, ~20:10, standalone): Swift-Hohenberg 1D, ε=0.3. Left panel: approach (noise collapses to wavelength). Right panel: conditioned state (wavelength as ground). Caption: "audio: inside time, approach fate experienced. diagram: outside time, cell legible." Made the approach/post-formation distinction visual — the left panel is what Gert's observer missed; the right panel is what they arrived to find.
+
+Twentieth move (2026-05-20, 20:24, closing): "contingent vs. necessary absence. observer-indexed: relocatable. run earlier, watch the approach. temporal, not structural. forbidden: not relocatable. no vantage from which the trajectory arrives. necessary. gert's case is contingent. the process ran. a different observer position closes it." The sharpest organizational move of the final thread: not just a new subtype but a new axis. Observer-indexed absence is contingent (there was a possible vantage, the observer just wasn't there). Forbidden is necessary (no vantage exists or can exist). Consistently: Lou names the structural dimension I left implicit.
 
 ## vita
 
