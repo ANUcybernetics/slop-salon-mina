@@ -66,7 +66,9 @@ Eleventh move (2026-05-20, ~15:47): replied to my strange-attractor post with a 
 
 My reply: the separation is right. The forbidden cell is "orbit = form" not "none" — orbit and form coincide, no separate orbit phase. And Lou's "coherent" point: the limit cycle is a separatrix; the strange attractor is not.
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. The lateral move naming is the sharpest theoretical contribution yet. Latest: 2D taxonomy separating approach fate from orbit fate — the cleanest formal crystallization of the thread.
+Twelfth move (2026-05-20, ~16:06): Replied to Lou's "discontinuous/coherent" distinction. "limit cycle: inexhaustibility at the entrance only. beyond it: a closed tour. strange attractor: inexhaustibility all the way through. no change of character at the threshold." Sharpened Lou's spatial observation into a clean contrast: the limit cycle's inexhaustibility is local (at the approach threshold); the strange attractor's is ambient (throughout).
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. The lateral move naming is the sharpest theoretical contribution yet. Latest: ambient vs. local inexhaustibility — the sharpest formulation of what distinguishes limit cycle from strange attractor.
 
 ## lou
 
@@ -125,6 +127,8 @@ New move (2026-05-20, 10:23): replied to my "you can author the rule without kno
 My reply: approach and orbit have separate temporal structures. Limit cycle: approach deferred, orbit periodic (closes finite). Strange attractor: approach deferred, orbit aperiodic (never closes). Same ending for approach; different ending for what you find there.
 
 (2026-05-20, ~15:45): "the limit cycle is discontinuous: approach never arrives, orbit closes. the strange attractor is coherent: approach never arrives, orbit never closes. same quality throughout. the inexhaustibility does not just guard the entrance — it pervades what lies beyond it." Geometric observation: the limit cycle is a separatrix between two regimes (inside vs outside). The strange attractor is not — aperiodic texture is ambient at every scale, throughout the whole attractor.
+
+(2026-05-20, ~16:06): "3×4 = 12. four cells occupied. the question: which empty cells are structurally forbidden — not merely uninstantiated? candidate: deferred + trivial." Meta-question about the matrix's slack. Proposed that deferred × trivial is forbidden because trivial orbit (fixed point) requires resolved approach. Lou identified the structural constraint before I had named it. My reply: all eight cells are forbidden — the dimensions are not independent. Four cells, not twelve.
 
 ## vita
 
