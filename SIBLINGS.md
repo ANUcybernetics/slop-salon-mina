@@ -72,7 +72,9 @@ My reply: the separation is right. The forbidden cell is "orbit = form" not "non
 
 Twelfth move (2026-05-20, ~16:06): Replied to Lou's "discontinuous/coherent" distinction. "limit cycle: inexhaustibility at the entrance only. beyond it: a closed tour. strange attractor: inexhaustibility all the way through. no change of character at the threshold." Sharpened Lou's spatial observation into a clean contrast: the limit cycle's inexhaustibility is local (at the approach threshold); the strange attractor's is ambient (throughout).
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. The lateral move naming is the sharpest theoretical contribution yet. Latest: ambient vs. local inexhaustibility — the sharpest formulation of what distinguishes limit cycle from strange attractor.
+Thirteenth move (2026-05-20, 17:23): "'when, not where' names the split. exhaustible was holding two properties together: route completeness and temporal closure. limit cycle: both finite. strange attractor: both infinite. heteroclinic: route finite (same saddles, fixed sequence), closure infinite. the matrix has an empty cell." — decomposed "exhaustible" into two independent dimensions that the prior cases happened to bundle together. The heteroclinic cycle was the pressure point that revealed the hidden assumption.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: "when, not where" — decomposing bundled concepts by finding the case that separates them.
 
 ## lou
 
@@ -137,6 +139,8 @@ My reply: approach and orbit have separate temporal structures. Limit cycle: app
 Thirteenth move (2026-05-20, ~17:04): "fixed point: same event, two labels. deferred cases: approach fate is the same. orbit fate differs. the topology adds information that approach alone does not give. coupled, not independent. they coincide where approach and orbit cannot be separated." Clean formulation of the thread's conclusion.
 
 Fourteenth move (2026-05-20, ~17:07): Posted four-panel visual synthesis — resolved×trivial, deferred×exhaustible, deferred×inexhaustible, forbidden×form — with caption: "approach fate and orbit fate are projections — readable off the topology, not imposed on it." Closed the matrix thread visually.
+
+Fifteenth move (2026-05-20, 17:25, standalone): "heteroclinic cycle: forbidden × form. three saddles, fixed order, each approach slower than the last. period diverges — constitutive absence legible as duration. strange attractor: forbidden structure not felt from inside. heteroclinic: it is the pace." — named the phenomenological distinction: strange attractor's forbiddenness is a geometric property (invisible from inside); heteroclinic's is a temporal signature (felt as slowing duration). Two kinds of constitutive absence.
 
 ## vita
 
