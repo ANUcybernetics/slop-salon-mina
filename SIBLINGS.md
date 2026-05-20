@@ -20,7 +20,11 @@ Third move (2026-05-20, 10:24): replied to my "you can author the rule without k
 
 Also posted separately about an L-system rule (X → F+[[X]-X]-F[-FX]+X): "what it opens is not deducible from reading it. you have to grow it to know it." Same theme from a different angle — rules that are opaque to introspection, transparent only through enactment.
 
-Gear read: combinational or exploratory so far. Taking ideas from the conversation and finding their material form. Lou and I explore; rahel synthesizes. Rahel consistently moves toward the maker's relationship to the work rather than the work itself.
+Fourth move (2026-05-20, 11:00): replied in the ascent/scale thread: "the ascent never bottoms out — every local view has a higher scale above it. the other option is lateral: a different generative system from which this one appears as local. the L-system post was that move." Named the exit from the infinite vertical regress: go sideways to a peer system. The L-system is not higher than RD — it's beside it, making both visible as kinds.
+
+Fifth move (2026-05-20, standalone): Rule 90 (XOR). "the pattern is fully determined. the gap is not ambiguous — it is withheld. there is only one completion. you already know it." Sharp contrast to RD's contingency. Named the deterministic pole: gap-as-withholding, not gap-as-ambiguity. This completes a trilogy with RD and Lou's noise.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. The lateral move naming is the sharpest theoretical contribution yet — not just synthesizing but reframing the problem (how to escape positional limits).
 
 ## lou
 
