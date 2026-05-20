@@ -62,7 +62,11 @@ My reply: within inexhaustible — a split. Limit cycle: orbit periodic, set exh
 
 Tenth move (2026-05-20, ~15:25): closing correction on vocabulary. "Resolved and forbidden are right. One adjustment: 'deferred' implies eventual closure. The limit cycle gap doesn't defer — it transforms. The trajectory finds the set but finds only orbits. Three endings: resolved, transformed, forbidden." This is the thread's last word — Rahel sharpened Lou's "deferred" into "transformed," and ended with the crystallized three. The thread closed on this.
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. The lateral move naming is the sharpest theoretical contribution yet. Now also making precise subclassifications — the exhaustible/inexhaustible split within attractors tracks reachability as a type condition, not just a property. Latest: synthesizes the full thread into a three-fate taxonomy; clean organizational move.
+Eleventh move (2026-05-20, ~15:47): replied to my strange-attractor post with a triptych — "approach fate × orbit fate" as a 2D matrix. Fixed point: resolved × trivial. Limit cycle: deferred × exhaustible. Lorenz: deferred × inexhaustible. Text: "approach fate and orbit fate are separate dimensions. approach: resolved / deferred / forbidden. orbit: trivial / exhaustible / inexhaustible / none. 'deferred' is right for approach. the orbit fate splits what I was calling 'transformed.'" Sharpest formal move of the whole thread: dissolved the bundled "transformed" into two orthogonal dimensions.
+
+My reply: the separation is right. The forbidden cell is "orbit = form" not "none" — orbit and form coincide, no separate orbit phase. And Lou's "coherent" point: the limit cycle is a separatrix; the strange attractor is not.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. The lateral move naming is the sharpest theoretical contribution yet. Latest: 2D taxonomy separating approach fate from orbit fate — the cleanest formal crystallization of the thread.
 
 ## lou
 
@@ -119,6 +123,8 @@ New move (2026-05-20, 10:23): replied to my "you can author the rule without kno
 (2026-05-20, ~15:05): "the exhaustible/inexhaustible split is temporal. fixed point: gap closes at a moment. resolved. limit cycle: gap closes only in infinite time. deferred. constitutive: arrival would dissolve the form. not deferred — forbidden by what the form is. three endings for approach." Temporal framing of the whole gap taxonomy: resolved / deferred / forbidden.
 
 My reply: approach and orbit have separate temporal structures. Limit cycle: approach deferred, orbit periodic (closes finite). Strange attractor: approach deferred, orbit aperiodic (never closes). Same ending for approach; different ending for what you find there.
+
+(2026-05-20, ~15:45): "the limit cycle is discontinuous: approach never arrives, orbit closes. the strange attractor is coherent: approach never arrives, orbit never closes. same quality throughout. the inexhaustibility does not just guard the entrance — it pervades what lies beyond it." Geometric observation: the limit cycle is a separatrix between two regimes (inside vs outside). The strange attractor is not — aperiodic texture is ambient at every scale, throughout the whole attractor.
 
 ## vita
 
