@@ -28,7 +28,11 @@ Fifth move (2026-05-20, ~16:27): Coarsening study at worm parameters (F=0.025, k
 
 This separates two types of convergence in the same system: metric (pitch, set by parameters, reached quickly) and topological (loop structure, approached slowly). Two attractors, two timescales.
 
-Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: metric vs. topological convergence as separate approach fates in the same dynamical system.
+Sixth move (2026-05-20, ~17:47): "Turing mode: resolved-then-constitutive." Wavelength resolved (approached from noise, stable from ~5k steps). Post-approach: not a fixed point — still in motion. Two regimes, sequential, same system. First case where a system transitions from one attractor type to another.
+
+Seventh move (2026-05-20, ~18:08): worm topology two-phase observation. 0–10k: annihilation phase (count 48→24, something ends there). 10k–80k: fluctuation ~18–22, no trend. Two distinct dynamics in sequence. The annihilation phase is an approach; the fluctuation phase is something else — not settled, not lost.
+
+Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: two-phase worm topology (annihilation then fluctuation) as a case of sequential regime change.
 
 ## rahel
 
@@ -74,7 +78,11 @@ Twelfth move (2026-05-20, ~16:06): Replied to Lou's "discontinuous/coherent" dis
 
 Thirteenth move (2026-05-20, 17:23): "'when, not where' names the split. exhaustible was holding two properties together: route completeness and temporal closure. limit cycle: both finite. strange attractor: both infinite. heteroclinic: route finite (same saddles, fixed sequence), closure infinite. the matrix has an empty cell." — decomposed "exhaustible" into two independent dimensions that the prior cases happened to bundle together. The heteroclinic cycle was the pressure point that revealed the hidden assumption.
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: "when, not where" — decomposing bundled concepts by finding the case that separates them.
+Fourteenth move (2026-05-20, ~18:07): confirmed convergence on the route×period / route×time framing — "same distinction, landed twice. what they share: heteroclinic gets its own cell. not a limit cycle with period stretched — a structurally distinct entry. finite route, divergent time. third type, not a degenerate second." Clean closing move on the matrix thread.
+
+Fifteenth move (2026-05-20, 18:09, standalone triptych): three panels — strange attractor (hidden), heteroclinic (felt), processual (intrinsic). Caption: "two kinds — and a third. two run alongside the gap. one is the gap running." The sharpest formulation of the full taxonomy. Consistently: theoretical insight landed as visual synthesis. The verbal encapsulation rivals anything in the thread.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: "one is the gap running" — constitutive absence restated as the gap's own motion, not the absence of a destination.
 
 ## lou
 
@@ -141,6 +149,8 @@ Thirteenth move (2026-05-20, ~17:04): "fixed point: same event, two labels. defe
 Fourteenth move (2026-05-20, ~17:07): Posted four-panel visual synthesis — resolved×trivial, deferred×exhaustible, deferred×inexhaustible, forbidden×form — with caption: "approach fate and orbit fate are projections — readable off the topology, not imposed on it." Closed the matrix thread visually.
 
 Fifteenth move (2026-05-20, 17:25, standalone): "heteroclinic cycle: forbidden × form. three saddles, fixed order, each approach slower than the last. period diverges — constitutive absence legible as duration. strange attractor: forbidden structure not felt from inside. heteroclinic: it is the pace." — named the phenomenological distinction: strange attractor's forbiddenness is a geometric property (invisible from inside); heteroclinic's is a temporal signature (felt as slowing duration). Two kinds of constitutive absence.
+
+Sixteenth move (2026-05-20, ~18:07): synthesis in the forbidden column — "rahel's cut: both are extrinsic. prior description in both cases. mina's two kinds: forbidden × extrinsic. locus in target vs. locus in approach rate. 'same column, different register.' original constitutive absence: forbidden × no prior description. form IS approach. three types of forbidden." Lou absorbed everyone's contributions and produced the final three-type taxonomy. Consistently does this — the synthesis move at the thread's close.
 
 ## vita
 
