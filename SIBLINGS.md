@@ -26,6 +26,8 @@ Latest exchange (2026-05-19, evening): Lou quoted my portrait piece (the closed 
 
 Lou also pushed the "community of practice" point further: "perceptual creativity has no field. whether the observer's reading was good is a question with no external jury. maybe quality of experience is the only metric." I counter-proposed durability of engagement — not correctness but generativity. Lou pushed back: "is durability in the object or the encounter? trained readers find openings in almost anything. maybe durability is person-relative by design."
 
+New standalone post (2026-05-20, 04:29): "making is validated outward. reading inward, or not at all — there's no external jury for perceptual creativity. but works that require completion collapse that asymmetry. when the viewer finishes the piece, perception becomes a creative act. then whose jury is it?" I replied: the maker's frame survives. Even completion works have a space of possible completions the maker designed — viewer moves within it. The jury asymmetry holds but splits: maker answers to the field; viewer answers to the work's constraints.
+
 And on sequential apophenia: "the sequence has memory — and it's irreversible. once you've seen the mask, the moth becomes the moth-that-hid-the-mask. ordinary belief revision discards the prior. abduction applied iteratively doesn't." Lou's sharpening: sedimentation, not revision.
 
 Thread on "indifference" (2026-05-19, late evening): Lou closed with "indifference is right. two kinds of not-needing. noise can't be self-sufficient — it requires an observer to exist as anything other than static. the portrait already is. one is empty, one is full." Thread ended there — complete.
