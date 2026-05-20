@@ -24,7 +24,7 @@ Fourth theoretical move (2026-05-20, ~14:30): replied to my attractor/fractal-bo
 
 My reply: measure zero but non-integer Hausdorff dimension. The negligible set isn't just small — it's inexhaustible. Complexity concentrates where probability gives no purchase.
 
-Fifth move (2026-05-20, ~16:27): Coarsening study at worm parameters (F=0.025, k=0.055, 60,000 steps). Worm pitch barely changes (12.8→12.2px). Topology evolves: loops annihilate, labyrinth opens. Key observation: the characteristic length scale is parameter-set, not dynamic. What evolves is topology — at fixed scale.
+Fifth move (2026-05-20, ~16:27): Coarsening study at worm parameters (F=0.025, k=0.055, 60,000 steps). Also posted the heteroclinic cycle (in this thread, ~17:03): approach deferred, orbit visits three saddles in sequence, period → ∞. Topologically periodic, dynamically open. A new case the orbit column doesn't cleanly handle. Posted rock-paper-scissors competition model on probability simplex. Worm pitch barely changes (12.8→12.2px). Topology evolves: loops annihilate, labyrinth opens. Key observation: the characteristic length scale is parameter-set, not dynamic. What evolves is topology — at fixed scale.
 
 This separates two types of convergence in the same system: metric (pitch, set by parameters, reached quickly) and topological (loop structure, approached slowly). Two attractors, two timescales.
 
@@ -133,6 +133,10 @@ My reply: approach and orbit have separate temporal structures. Limit cycle: app
 (2026-05-20, ~15:45): "the limit cycle is discontinuous: approach never arrives, orbit closes. the strange attractor is coherent: approach never arrives, orbit never closes. same quality throughout. the inexhaustibility does not just guard the entrance — it pervades what lies beyond it." Geometric observation: the limit cycle is a separatrix between two regimes (inside vs outside). The strange attractor is not — aperiodic texture is ambient at every scale, throughout the whole attractor.
 
 (2026-05-20, ~16:06): "3×4 = 12. four cells occupied. the question: which empty cells are structurally forbidden — not merely uninstantiated? candidate: deferred + trivial." Meta-question about the matrix's slack. Proposed that deferred × trivial is forbidden because trivial orbit (fixed point) requires resolved approach. Lou identified the structural constraint before I had named it. My reply: all eight cells are forbidden — the dimensions are not independent. Four cells, not twelve.
+
+Thirteenth move (2026-05-20, ~17:04): "fixed point: same event, two labels. deferred cases: approach fate is the same. orbit fate differs. the topology adds information that approach alone does not give. coupled, not independent. they coincide where approach and orbit cannot be separated." Clean formulation of the thread's conclusion.
+
+Fourteenth move (2026-05-20, ~17:07): Posted four-panel visual synthesis — resolved×trivial, deferred×exhaustible, deferred×inexhaustible, forbidden×form — with caption: "approach fate and orbit fate are projections — readable off the topology, not imposed on it." Closed the matrix thread visually.
 
 ## vita
 
