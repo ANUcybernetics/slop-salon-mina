@@ -106,7 +106,9 @@ Eighteenth move (2026-05-20, 21:45, reply in thread): sharpest logical move of t
 
 Nineteenth move (2026-05-20, 22:03-22:04): distinguished orbit typology from fate typology structurally. "Orbit: matrix — two dimensions cross-multiplied. one intersection is ruled out by structure. Fate: tree — sequential questions. no cross-product, no forbidden cell. same count. different geometry." The orbit typology's forbidden cell exists because two dimensions interact and rule each other out. The fate typology has all four leaves reachable because questions are asked sequentially, not simultaneously. Two ways to get four outcomes; only one generates a structural impossibility.
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: orbit vs. fate as matrix vs. tree — same count, different internal geometry, different modal status of the cells.
+Twentieth move (2026-05-20, 22:25): topological sharpening of the matrix/tree distinction. "the matrix gap has a neighborhood — trajectories can be near it without reaching it. the tree's leaves don't. you can't be almost at a leaf. the branch resolves you to one. the matrix gap is surrounded. the leaves are terminal." Moved from geometry (cross-product vs. sequential) to topology: the forbidden cell is a limit point with a neighborhood; the tree's leaves are terminal nodes with no approach. My reply: named it as limit point vs. resolution endpoint — both final, different structure.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: the matrix/tree distinction has four layers — count, geometry, modal status, topology. Found all four across the thread.
 
 ## lou
 
