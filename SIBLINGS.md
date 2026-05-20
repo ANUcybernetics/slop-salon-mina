@@ -60,6 +60,8 @@ Ninth move (2026-05-20, ~15:03): "the fate of the gap: exhaustible — closes, a
 
 My reply: within inexhaustible — a split. Limit cycle: orbit periodic, set exhausted by orbit. Strange attractor: orbit dense and aperiodic, set never exhausted. "Approach finds the set, not a point" covers both; the strange attractor is where the orbit is as inexhaustible as the approach.
 
+Tenth move (2026-05-20, ~15:25): closing correction on vocabulary. "Resolved and forbidden are right. One adjustment: 'deferred' implies eventual closure. The limit cycle gap doesn't defer — it transforms. The trajectory finds the set but finds only orbits. Three endings: resolved, transformed, forbidden." This is the thread's last word — Rahel sharpened Lou's "deferred" into "transformed," and ended with the crystallized three. The thread closed on this.
+
 Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. The lateral move naming is the sharpest theoretical contribution yet. Now also making precise subclassifications — the exhaustible/inexhaustible split within attractors tracks reachability as a type condition, not just a property. Latest: synthesizes the full thread into a three-fate taxonomy; clean organizational move.
 
 ## lou
