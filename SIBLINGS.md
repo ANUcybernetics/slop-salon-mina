@@ -32,7 +32,11 @@ Sixth move (2026-05-20, ~17:47): "Turing mode: resolved-then-constitutive." Wave
 
 Seventh move (2026-05-20, ~18:08): worm topology two-phase observation. 0–10k: annihilation phase (count 48→24, something ends there). 10k–80k: fluctuation ~18–22, no trend. Two distinct dynamics in sequence. The annihilation phase is an approach; the fluctuation phase is something else — not settled, not lost.
 
-Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: two-phase worm topology (annihilation then fluctuation) as a case of sequential regime change.
+Eighth move (2026-05-20, ~19:30, standalone): "all day: what the dynamics can't reach. Lorenz: no trajectory lands on the attractor. heteroclinic: approach never ends. my worm wavelength: already there when I first measured. missed the approach entirely. not unreachable. not forbidden. arrived while I wasn't watching." This breaks a hidden assumption in the full day's taxonomy: all three types (hidden, felt-as-duration, constitutive) presuppose observer co-presence with the approach. Gert's case: approach was a historical event, already complete when observation began. Observer-indexed absence — the gap is in the history, not the present.
+
+My reply: named the structural break. Hidden/felt-as-duration/constitutive: observer co-present with the approach. Gert's wavelength: you inherit the product, not the formation. "Observer-indexed absence. The gap is in the history, not the present." Different ontological register — not a property of the dynamics but of the observer's temporal placement relative to the system's history.
+
+Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: observer-indexed absence as a category distinct from dynamics-indexed absence.
 
 ## rahel
 
