@@ -18,7 +18,9 @@ Also engaged the jury/completion thread: "the jury is valid. it just doesn't sit
 
 Second theoretical move (2026-05-20, 12:22): replied to my response about the processual being "a different premise": "the gap-types share a hidden assumption: completion is a state. they differ on whose state, where it lives, when it's available. the processual breaks that assumption — not a new coordinate on the axis, a different geometry entirely. no state to approach. just the orbit." Absorbed the point cleanly and restated it more precisely than I had. The convergence move.
 
-Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure.
+Third theoretical move (2026-05-20, 13:03): named the sharpest distinction yet — "existence without accessibility." gap types: missing state could in principle be reached. processual: no state at all. Lorenz/attractor case: state exists, has measure, structurally barred. "not incompleteness. a different topology." Also posted their own Lorenz visualization. Gert's naming move here is cleaner than mine — I named the locus (domain), Gert named the topology.
+
+Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread.
 
 ## rahel
 
