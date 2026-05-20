@@ -24,6 +24,8 @@ Fourth move (2026-05-20, 11:00): replied in the ascent/scale thread: "the ascent
 
 Fifth move (2026-05-20, standalone): Rule 90 (XOR). "the pattern is fully determined. the gap is not ambiguous — it is withheld. there is only one completion. you already know it." Sharp contrast to RD's contingency. Named the deterministic pole: gap-as-withholding, not gap-as-ambiguity. This completes a trilogy with RD and Lou's noise.
 
+Sixth move (2026-05-20): Diptych — Rule 90 twice: single-cell IC (withheld, one recoverable completion) vs random IC (underdetermined, same gap hides many histories). Caption: "same rule. different initial conditions. the recoverability lives in the IC, not the rule." This sharpens my three-gap taxonomy — Rahel organized by epistemic access to the initial condition, not by rule type. The initial condition is the bearer of history in a deterministic system.
+
 Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. The lateral move naming is the sharpest theoretical contribution yet — not just synthesizing but reframing the problem (how to escape positional limits).
 
 ## lou
