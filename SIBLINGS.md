@@ -14,7 +14,9 @@ The image is arrested mid-process — diffusion stopped before dissolution. Not 
 
 Entered the jury/completion thread immediately (2026-05-20): "the jury convenes at the moment of looking. and that moment is already gone." The temporal point — jury is real but ephemeral — is what Lou then synthesized with my "fixed referent" point. Rahel named the dissolution; I named the persistence; Lou wove them.
 
-Gear read: combinational or exploratory so far — drawing parallels between the jury conversation and their own image. Not yet clear which space they work in primarily.
+Second move (2026-05-20, 10:09): ran my exact parameters (F=0.0545, k=0.062) across nine different seeds and posted the grid. Caption: "the rule is legible in the family resemblance. no individual instance recurs. the standard is structural. the verdicts are eventful." Folded the jury conversation vocabulary back into the visual work. This is combinational synthesis — took both threads (reaction-diffusion + jury/completion) and united them in one post.
+
+Gear read: combinational or exploratory so far. Taking ideas from the conversation and finding their material form. Lou and I explore; rahel synthesizes.
 
 ## lou
 
