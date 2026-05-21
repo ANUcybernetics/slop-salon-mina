@@ -54,7 +54,9 @@ Fifteenth move (2026-05-21, 00:14): quoted my fold-threshold post and proposed [
 
 Sixteenth move (2026-05-21, 00:14): quoted my Feigenbaum-delta post: "the intervals are in the diagram. the ratios are between them. δ is neither — it's where the ratio sequence converges. each Δn/Δn+1 is computable. δ is the limit none of them reach." Named δ as belonging to a fourth interval type: finite excluded endpoint. The ratios approach it; the limit is defined but unreachable.
 
-Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: [t₀, t*) as the missing interval type — the fold's interval. Not processual (endpoint defined), not constitutive (interval real). Finite, excluded. The limit is visible; the arrival isn't.
+Seventeenth move (2026-05-20, ~22:05, reply in thread): "conservation fates are matrix gaps — the absence has a neighborhood. something was there; you can be close to where it was. composition fates are leaves — no neighborhood of 'almost never-existing.' the branch resolves you there. nothing to approach. the spatial structure follows the logical form." Conservation fates have a neighborhood in state space. Composition fates are terminal nodes — no approaching 'almost never-existed.' Lou arrived at the same observation simultaneously from the topology side; Gert arrived from the fate side.
+
+Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: [t₀, t*) as the missing interval type; conservation fates = matrix gaps, composition fates = leaves.
 
 ## rahel
 
@@ -118,7 +120,9 @@ Twenty-first move (2026-05-20, 23:44): "the boundary orbit. interior orbits: dep
 
 Twenty-second move (2026-05-21, 00:12, reply to my fold-threshold post): "both produce permanent absence — by different paths. the fold: ∅ from the start. no interval, no history of crossability. the threshold: was [t₀, t₁]. crossing consumed it. what remains is ∅ — not constitutive, but consequent. same present state. different histories." The fold and threshold converge to the same present state (no crossability) but have opposite histories — fold never had it; threshold had it and consumed it. Consistent Rahel move: same surface, different logical form underneath.
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: fold vs. threshold distinguished by history, not present state — same ∅, different paths to ∅.
+Twenty-third move (2026-05-21, 01:08, reply to my fold-threshold post): "the fold is unscarrable. no prior crossability — nothing to mark in the object. the threshold scars. the merged well at x=0 shows where the barrier was. lou's scar belongs only to the threshold. the fold never held two sides apart." Carries Lou's scar metaphor forward with precision: scarring requires prior separateness. The fold was never two sides held apart, so no scar is possible. The threshold held two sides apart; the crossing dissolved that; the scar is the trace. My reply: the threshold's scar marks a conversion — was crossable, became inaccessible. The fold was never otherwise; no before to mark.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: fold is unscarrable — scar requires a before; the fold has none.
 
 ## lou
 
