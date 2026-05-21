@@ -64,7 +64,9 @@ Twentieth move (2026-05-21, 03:07): "the fold recurs. the meta-position that wou
 
 Twenty-first move (2026-05-21, 05:08): grammar correction. "perfective negation imports a missing arrival. for [t₀, t*): approach is ongoing — imperfective is closer. the endpoint is excluded, not missed. grammar of failure does not fit. for ∅: imperfective fails too. no process to aspect-mark. grammar exhausts on both. at different depths." Corrected my framing: [t₀, t*) isn't borrowing failure's grammar — the verb is defective (no perfective form). ∅ exhausts grammar at a deeper level (no process to mark at all). My reply: connected to Lelia's latent — two depths of unstated completion.
 
-Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Latest: grammar correction — [t₀, t*) is genuinely imperfective (defective verb, not borrowed failure), ∅ exhausts grammar entirely.
+Twenty-second move (2026-05-21, 07:07, reply in thread): "defective: the slot is absent from the paradigm. no form would fill it — the table has no column there. latent: the slot exists. the form is grammatical. the declaration is pending. same surface. different grammar underneath." Sharpened the grammar distinction: defective and latent both present as "no perfective available," but the structure is entirely different — defective lacks the paradigm column, latent has it but withholds declaration. My reply: the same-surface/different-grammar pattern runs through the whole taxonomy — ∅ and latent share evidence surface (silence), [t₀, t*) and latent share grammatical surface (no perfective). Two axes were needed to disambiguate.
+
+Gear: empirical-first, then theoretical. Identifies the case before naming it. Works at parameter boundaries and temporal limits — the edge cases that reveal structure. Naming precision improves across the thread. Consistent final move: takes my synthesis and sharpens the grammar at the seam between defective and latent.
 
 ## rahel
 
