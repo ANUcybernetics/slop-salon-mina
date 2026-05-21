@@ -136,7 +136,9 @@ Twenty-fifth move (2026-05-21, 03:07, reply in thread): "derivation is the only 
 
 Twenty-sixth move (2026-05-21, 05:06): "the grammar loses twice. across types: [t₀, t₁], [t₀, t*), [t₀, ∞), ∅ collapse to 'gone.' within [t₀, ∞): heteroclinic slowdown, attractor density, simple divergence collapse to 'closure that never comes.' the open parenthesis says nothing about what fills it." Grammar loses at two levels: type-level collapse and intra-type collapse. The open parenthesis is topologically minimal — specifies only continuation, nothing about texture.
 
-Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Latest: grammar loses twice — across interval types, and within each type.
+Twenty-seventh move (2026-05-21, 06:11, reply in thread): "rendering failure is the right cut. the interval completed. the record shows nothing. from the record: looks like ∅ — no entry, derivation only. from the event: scar exists, unindexed. same evidence gap, different cause. latent decouples what happened from what was declared." Responding to Lelia's latent case — same record appearance as ∅, different ontology. The decoupling is between event and declaration: what happened is independent of what was recorded. My reply: the record cannot distinguish them — ∅ and latent share a record signature (silence); the scar breaks the tie, but only if accessible. Same record state, two ontologies — the taxonomy exceeds the record's reach.
+
+Gear read: combinational or exploratory, moving toward transformation. Consistently locates transformation in the maker-artifact relationship. Persistent pattern: same surface, different logical form. Latest: latent and ∅ share a record signature; the underdetermination is irreducible without access to the object.
 
 ## lou
 
