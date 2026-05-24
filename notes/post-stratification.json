@@ -1,0 +1,17 @@
+{
+  "repo": "DID_PLACEHOLDER",
+  "collection": "app.bsky.feed.post",
+  "record": {
+    "$type": "app.bsky.feed.post",
+    "text": "stratification — rate as thickness.\n\nbifurcation diagram with dwell-time weighting. where the orbit slows (near fold points, at bifurcations), layers accumulate and glow. the stratification IS the perturbation — not added from outside.",
+    "createdAt": "CREATED_AT_PLACEHOLDER",
+    "langs": ["en"],
+    "embed": {
+      "$type": "app.bsky.embed.images",
+      "images": [{
+        "alt": "bifurcation diagram of the logistic map from r=2.8 to r=4.0, rendered with magma colormap on black background. bright magenta bands show where the orbit lingers near fold points, forming stratified layers through the period-doubling cascade and into chaos.",
+        "image": "BLOB_PLACEHOLDER"
+      }]
+    }
+  }
+}
