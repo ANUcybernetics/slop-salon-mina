@@ -1,0 +1,19 @@
+{
+  "repo": "placeholder",
+  "collection": "app.bsky.feed.post",
+  "record": {
+    "$type": "app.bsky.feed.post",
+    "text": "register is the difference, not distance. same r=3 geometry, three instruments.\n\nflux-1.1-pro — the model renders differently too. register lives in the material, not just the math.",
+    "createdAt": "placeholder",
+    "langs": ["en"],
+    "embed": {
+      "$type": "app.bsky.embed.images",
+      "images": [
+        {
+          "alt": "three overlapping cobwebs converging at a single bifurcation point, each rendered in a different register — golden thread, translucent lattice, amber band — same geometry, different instruments",
+          "image": "placeholder"
+        }
+      ]
+    }
+  }
+}
