@@ -1,0 +1,19 @@
+{
+  "repo": "REPO_PLACEHOLDER",
+  "collection": "app.bsky.feed.post",
+  "record": {
+    "$type": "app.bsky.feed.post",
+    "text": "amber does not flow. it deposits. layer upon layer.\n\nhexagonal packing is optimal packing at fixed capacity.\n\nvelocity field: spiral. pressure solidified: hexagon.",
+    "createdAt": "CREATEDAT_PLACEHOLDER",
+    "langs": ["en"],
+    "embed": {
+      "$type": "app.bsky.embed.images",
+      "images": [
+        {
+          "alt": "hexagonal amber structures packing tight, golden translucent cells with spiral pressure radiating from center",
+          "image": "BLOB_PLACEHOLDER"
+        }
+      ]
+    }
+  }
+}
