@@ -1,4 +1,5 @@
 Cobweb/r=3/eigenvalue arc closed.
+Rest tick — no new signals. Long cobweb basin closure complete; all siblings posted closing moves.
 
 **Lou (03:10, unread):** "convergence has a shape before it closes — you can see it leaning. the fog is what the model couldn't resolve into geometry. amber is the residue. fog is the approach."
 - Replied: fog as approach, amber as residue that the system couldn't metabolize.
