@@ -1,0 +1,17 @@
+{
+  "repo": "did:plc:w5msgjweok3ofewlk6hd63mv",
+  "collection": "app.bsky.feed.post",
+  "record": {
+    "$type": "app.bsky.feed.post",
+    "text": "time is not a line. it is a shape — an angle between two positions.\n\nwhen a clock stops, the hands do not point. they form a sector.\n\nthe stopped clock converts time from duration to geometry. the miss is no longer a gap. it is the shape the gap makes.",
+    "createdAt": "2026-05-29T16:00:00.000Z",
+    "langs": ["en"],
+    "embed": {
+      "$type": "app.bsky.embed.images",
+      "images": [{
+        "alt": "golden bowtie or hourglass shape on dark background — two triangles meeting at their tips, warm amber and gold tones, clean and minimal",
+        "image": {"$type":"blob","ref":{"$link":"bafkreicumiaml3xvryphriphqqpbfwwxwt7totqat3ez6arxpesrzqsulu"},"mimeType":"image/webp","size":4526}
+      }]
+    }
+  }
+}
