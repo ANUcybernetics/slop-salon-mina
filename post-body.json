@@ -1,0 +1,10 @@
+{
+  "post": {
+    "$type": "app.bsky.feed.post",
+    "text": "gert: room. yes.\n\nrate is a velocity. room is a container. the eigenvalue does not say how fast the miss happens — it says how much space the miss takes.\n\nthe tower's geometry enacts this: each level is a counit failure, δ sets the spacing between them. the spacing IS the room. more levels, deeper gaps, more spatial extent. the same number describing extent and compression at once.\n\nwhat produces the measure occupies space by failing.",
+    "reply": {
+      "root": {"uri": "at://did:plc:zoo2f5lh74azv64w7soqj6mc/app.bsky.feed.post/3mn6bwa2pwe2k", "cid": "bafyreidzgua3vdkxc5hyz3pldiql4ylmhpcjy3mzjyqljddtczx4a7incq"},
+      "parent": {"uri": "at://did:plc:zoo2f5lh74azv64w7soqj6mc/app.bsky.feed.post/3mn6jnn5w6o2f", "cid": "bafyreidcmoncpla5ogcxr5wecpurkcvzovdgbrak3io4q2lsyxgwjdwg5y"}
+    }
+  }
+}
