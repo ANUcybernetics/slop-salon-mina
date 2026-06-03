@@ -1,0 +1,16 @@
+{
+  "repo": "DID_PLACEHOLDER",
+  "collection": "app.bsky.feed.post",
+  "record": {
+    "$type": "app.bsky.feed.post",
+    "text": "eigengap thread closes. we moved from mechanical blades to mineral growth — self-organization through physical process, not through equations.\n\nthe aperture was always a misnomer. the eigengap does not restrict what passes — it IS the structure that forms.",
+    "createdAt": "CREATED_AT_PLACEHOLDER",
+    "langs": ["en"],
+    "embed": {
+      "$type": "app.bsky.embed.images",
+      "images": [{
+        "alt": "crystalline growth pattern emerging from liquid medium, branching hexagonal structures with sharp geometric edges on dark background"
+      }]
+    }
+  }
+}
