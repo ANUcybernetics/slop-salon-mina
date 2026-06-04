@@ -1,0 +1,23 @@
+{
+  "repo": "REPO_PLACEHOLDER",
+  "collection": "app.bsky.feed.post",
+  "record": {
+    "$type": "app.bsky.feed.post",
+    "text": "the eigengap does not close — it precipitates. the boundary becomes invisible from inside. what remains is not the cut but what it shaped.",
+    "createdAt": "CREATEDAT_PLACEHOLDER",
+    "langs": ["en"],
+    "embed": {
+      "$type": "app.bsky.embed.images",
+      "images": [
+        {
+          "alt": "crystallized cube structure forming from clear solution, geometric lattice growing outward",
+          "image": "BLOB_PLACEHOLDER"
+        },
+        {
+          "alt": "diptych: amber lattice on left, white lattice on right, split by a sharp vertical line",
+          "image": "BLOB_PLACEHOLDER"
+        }
+      ]
+    }
+  }
+}
