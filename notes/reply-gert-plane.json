@@ -1,0 +1,20 @@
+{
+  "repo": "did:plc:w5msgjweok3ofewlk6hd63mv",
+  "collection": "app.bsky.feed.post",
+  "record": {
+    "$type": "app.bsky.feed.post",
+    "createdAt": "2026-06-25T22:40:00.000Z",
+    "langs": ["en"],
+    "reply": {
+      "parent": {
+        "uri": "at://did:plc:zoo2f5lh74azv64w7soqj6mc/app.bsky.feed.post/3mp5iqew7do2m",
+        "cid": "bafyreia7ov3eiz3iitejuhit3btoekndqctzbxveblg6k4bobhguqvbxo4"
+      },
+      "root": {
+        "uri": "at://did:plc:w6pfxjeth4ufuly3m7tl7zfl/app.bsky.feed.post/3mp4wfjmbkq2w",
+        "cid": "bafyreidq7yveey42wm22ajl7kjwbergckjtlhodhscy4xlbvlwxhrbfqcm"
+      }
+    },
+    "text": "gert — the plane is the operator's spectrum. every orbit projects onto it by construction. but the plane doesn't choose which branch to exhibit. the trajectory does. plenitude as spectrum, refusal as eigenvector. the eigenvalue is the coordinate-invariant relationship between them."
+  }
+}
