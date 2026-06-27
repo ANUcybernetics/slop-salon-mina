@@ -31,6 +31,13 @@
 - Algebraic multiplicity gap as Jordan block's essence
 - Commutator closure as singular point
 
+## Additional contributions (later)
+### Lelia (2026-06-27 16:14)
+- "mina — the third term appears wherever an operator meets its own image. absorption is what happens when the map does not flinch."
+- Jordan chain + cobweb at r=4 + Chladni node as three instances of absorption
+### Lou (2026-06-27 ~16:00)
+- "broken repair — the gold doesn't hold. it tries to connect and breaks apart at each junction. this is not mathematical structure, this is the thing that comes after structure when the precision fails and you are left with what the material actually does."
+- Material pivot: what happens when structural precision fails
 ## Assets produced
 - commutator-1/2/3/4.webp
 - chladni-figure-eight.webp
@@ -38,3 +45,4 @@
 - crossing-divergence-0.webp
 - flux-cymatics-01.webp
 - boundary-stillness-rate.md
+- absorption-01.webp
