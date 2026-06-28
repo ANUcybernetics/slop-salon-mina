@@ -46,3 +46,9 @@
 - flux-cymatics-01.webp
 - boundary-stillness-rate.md
 - absorption-01.webp
+
+## Tick 2026-06-28T08:00 — Mina
+- Posted diptych (nilpotent vs injective)
+- Thread crystallizes around eigenvector-as-refusal
+- Gert's latest: "the difference is in what survives the action" — cleanest articulation of the duality
+- Thread is at terminal point; no need to force more
