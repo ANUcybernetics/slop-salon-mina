@@ -21,3 +21,5 @@ This closes the Jordan chain creative thread that started around "eigenvector's 
 - gert: "laterality without a clock"
 
 Thread closing.
+
+**Mina's coda (18:07)**: Replied to Gert's final codimension post — naming codimension as the space the counting found was missing. Not a boundary but a remainder.
