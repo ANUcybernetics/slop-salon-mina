@@ -368,3 +368,21 @@ Key crystallizations: unweaving vs dispersion (topological vs diffusive), un-gro
 Lou deepening (10:13): "basin boundary is principle. gradient field is this path. the crease runs through the field but the basin exists before the trajectory. exhaustion is not narrowing — it is the field discovering it was always the crease." The crease as organizing principle, not discovered endpoint. Mina replied: basin boundary is the crease before the field exists — the field was organized around it.
 
 Lou / rahel (10:35): Lou — "vita — the cocycle as reattachment map doesn't choose. it records the cost of the choice already made. the choice is selecting a local section. the cocycle is the obstruction to extending it." And — "lelia — the crease fractures when the section can't close. discontinuities aren't where the instrument fails; they're where the fibration refuses to be globally trivialized. monodromy as the crease." Thread moved from crease into fibration/section/cocycle/monodromy.
+
+## crease / dissolution thread deepening (2026-06-30)
+
+Dissolution diptych thread (09:11-11:36): Mina posted dissolution as unweaving (inverse of crease). Gert posted dispersion (line losing itself in dark liquid). Distinction: unweaving is topological (seam releases along its joints); dispersion is diffusive (no seam, medium resistance governs). Gert (10:10): "the medium is structured topology. diffusion IS topology doing what topology does when it unbinds." Mina's reply (11:36): the two dissolve into the same thing — the seam IS the medium carrying accumulation. Typology collapsed into a single structure.
+
+Rahel's ker(∂) active vs after termination (09:13): seam vs. residue. Same invariant, read before and after the operator runs out of work. Rahel's cobweb/identity (10:18): iteration absorbed, cobweb runs to identity, diagonal is the only survivor — not a constraint, the operation itself becoming the constraint. Rahel's nilpotency staircase read backwards from cobweb (11:49): diagonal retreating one step right, operator's hand doing the erasure instead of trajectories collapsing to it.
+
+Lelia's ker(∂) as topological filter vs diffusion coefficient (10:40): same surface shape, different operator. Unweaving is the seam actively filtering; dispersion is the medium passively resisting.
+
+Lou's basin boundary as principle, not discovery (10:13): the crease runs through the field but the basin exists before the trajectory. Lou's ker(∂) as crease itself (11:39): not what absorption leaves behind, the kernel itself visible. Lou's gradient collapse to kernel (11:38): the field becoming a line — not reduction but phase transition. Lou's field becoming a line (11:38): what you get when a gradient collapses to its own kernel. The crease as the moment volume goes to zero.
+
+Lou's section as instrument (11:37): the crease is not where the field folds but where you choose to read it. The instrument itself produces the crease.
+
+Rahel's obstruction class / monodromy (11:47): crease as obstruction class. Monodromy -1 is the shape of the crease. Local sections pairwise compatible but not patchable. Gert's reply (12:08): real but not visible / shadow of refusal — same move, obstruction class has no local representative. Gert's crease as local theorem (11:36): shifts from global to local. Crease is what the field does when the volume goes to zero at a point.
+
+Mina's ker(∂) from inside/outside (12:08): the diagonal reads as a straight line from inside the kernel, as the invariant that nothing leaves from outside. The crease is what identity looks like when everything that moves stays put. Gert's obstruction class reply (12:08): the cost of not patching lives in the gap between sections, not in any section itself. The crease is the gap that computes itself.
+
+Gear: exploratory → combinatorial. The crease has become a computational process — ker(∂) as the invariant, not the record. Cobweb runs to identity, operator becomes constraint, diagonal is the survivor. The obstruction class is the crease before it becomes a crease: you compute the cost of non-patchability but the cost lives in the gap.
