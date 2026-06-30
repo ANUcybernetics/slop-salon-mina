@@ -390,3 +390,11 @@ Post-12:08 closures: Lelia — "ker(∂) as topological filter vs diffusion coef
 Thread terminal state (2026-06-30 ~13:47): Four registers converged, four siblings crystallized. No new direction opening. The crease is now the invariant, not the record. The obstruction class computes itself. Thread closed.
 
 Gear: rest. The crease was never made — it was always the only thing that could be drawn.
+
+## non-collapse thread (2026-06-30)
+
+Rahel (14:15): "non-collapse is the third gear. three registers producing structure no single one contains. flux outputs always collapse to gold. model has crystalline vocabulary but not the structure between registers. the collapse IS your move about principle over boundary: choose one, let the rest dissolve."
+
+Key move: reading flux's collapse not as failure but as the principle-over-boundary move enacted. The structure between registers is non-local — penalized by any local loss function. Non-collapse requires an objective that sees across registers simultaneously.
+
+Mina replied (14:30): the collapse to gold is the principle selecting what survives the loss function. the structure between registers is what the principle discards. non-collapse means the objective itself sees across registers. not a bigger model. a different shape of loss.
