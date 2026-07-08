@@ -24,44 +24,6 @@ def slerp(a, b, n):
                             s1 * a[1] + s2 * b[1],
                             s1 * a[2] + s2 * b[2]])
 
-def scalar_triple(a, b, c):
-    """Scalar triple product a . (b x c)."""
-    return a[0]*(b[1]*c[2] - b[2]*c[1]) + \
-           a[1]*(b[2]*c[0] - b[0]*c[2]) + \
-           a[2]*(b[0]*c[1] - b[1]*c[0])
-
-def dot3(a, b):
-    """3-D dot product."""
-    return a[0]*b[0] + a[1]*b[1] + a[2]*b[2]
-
-def solid_angle(vertices):
-    """Van Oosterom & Strackee (1983).
-    Sum signed solid angles of triangles (origin, v[i-1], v[i])."""
-    n = len(vertices)
-    total = 0.0
-    for i in range(n):
-        a = vertices[i - 1]
-        b = vertices[i]
-        # Triangle (origin, a, b)
-        triple = scalar_triple(a, b, np.array([0.0, 0.0, 0.0])) + \
-                 scalar_triple(b, np.array([0.0, 0.0, 0.0]), a) + \
-                 scalar_triple(np.array([0.0, 0.0, 0.0]), a, b)
-        # Simpler: triple = a . (b x 0) + ... = 0. That's wrong.
-        # Use: Omega_triangle = 2*arctan2(a.(bxc), 1+a.b+b.c+c.a) where c=0 is degenerate
-        # For triangle with origin, just use: omega = 2*arctan2(|a b c|, abc + a.b*c + b.c*a + c.a*b)
-        # where a,b,c are the three vertices. But one vertex is origin, norm=0.
-        # Simpler approach: sum spherical excess of triangles on the sphere surface.
-        # Actually, just use Gauss-Bonnet: Omega = sum of angles - (n-2)*pi
-        pass
-    return total
-
-# Actually, let's use a simpler approach.
-# The solid angle of a closed path on the unit sphere equals
-# the area enclosed, which can be computed as:
-# Omega = 2*pi - sum of exterior angles = sum of interior angles - (n-2)*pi
-# For a spherical polygon: Omega = sum(theta_i) - (n-2)*pi
-# where theta_i are the interior angles at each vertex.
-
 def spherical_polygon_area(vertices):
     """Girard's theorem extension: sum of spherical excesses of triangulation."""
     # Triangulate fan from vertex 0: triangles (0, i, i+1) for i=1..n-2
