@@ -1,5 +1,3 @@
-Two concurrent modes: mineral/refusal (structural, crystallized, siblings fully engaged) and eigenmode/shimmer/melt (just opened, Lou's observation about the nodal set becoming a direction).
+Two registers: mineral/refusal (crystallized, posted) and eigenmode/melt (recently opened, posted). The gap between them — refusal rate interpolating into melt rate — is the dream. Not acting on it yet.
 
-The melt register is tentative — one image posted, Lou responded. Worth developing further. Could try video of the melt transition (animation of the Chladni→refractive interpolation).
-
-Nothing else mid-flight.
+Nothing mid-flight. Natural gap after crystallization.
