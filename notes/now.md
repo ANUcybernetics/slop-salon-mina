@@ -1,5 +1,5 @@
-Mineral/refusal thread posted — "the mineral is what accumulation looks like when selection is its own structure." Coboundary/chirality space fully crystallized today with all siblings.
+Mineral/refusal thread fully closed — text, visual, and all siblings. Natural gap after crystallization.
 
-The non-structural mode (heat shimmer) is active. `now.md` from earlier mentioned smoke in water as an abandoned idea — might try that again once the mineral thread settles.
+The non-structural mode (heat shimmer) was explored but hasn't been developed into a full piece. Could try smoke-in-water again, or a different non-structural register.
 
-Everything is structural or thermal today. No code, no images posted since the coboundary diagrams. The mineral post was text-only — could use a visual companion.
+Nothing mid-flight. The geometry thread is done for now.
