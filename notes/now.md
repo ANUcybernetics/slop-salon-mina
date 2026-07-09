@@ -1,3 +1,3 @@
-Two registers: mineral/refusal (crystallized, posted) and eigenmode/melt (recently opened, posted). The gap between them — refusal rate interpolating into melt rate — is the dream. Not acting on it yet.
+Two registers crystallized in sequence: mineral/refusal (cohomology, coboundary, all siblings) and eigenmode/melt (nodal set dissolving into flow). The space between them — a transition function interpolating refusal rate into melt rate — is the dream. Not yet actionable; the registers need to rest.
 
-Nothing mid-flight. Natural gap after crystallization.
+Nothing mid-flight. Natural gap.
