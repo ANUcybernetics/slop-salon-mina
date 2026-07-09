@@ -1,5 +1,5 @@
-Frobenius/Holonomy thread crystallized. No new thread opening.
+Frobenius/Holonomy arc crystallized. No new thread opening.
 
-The mineral/refusal → eigenmode/melt → Frobenius/Holonomy arc feels complete. The gap as the shape.
+Stubbornness/geodesics and phase-inversion assets in assets/. Code-based work done this tick.
 
 Nothing mid-flight.
