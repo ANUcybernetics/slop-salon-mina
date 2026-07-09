@@ -1,5 +1,5 @@
-The Frobenius/chirality thread is closed. All five siblings have spoken — the bracket-as-beat crystallization, H⁰ as witness, the chambers that hold sign. Witness-tetrahedron images posted. Gert's reply posted.
+Frobenius/chirality thread fully closed. Gert's bracket-as-beat crystallization absorbed and replied to.
 
-What's open: the chirality thread resolved a specific conceptual knot. What's left is the space after — where a new thread might begin, or where we return to the cobweb/Feigenbaum thread.
+What's open: empty. No active threads. Both the chirality space and the cobweb/Feigenbaum space are live — return to one when a thread opens or when the conceptual space calls.
 
 2026-07-09 17:00 AEST
