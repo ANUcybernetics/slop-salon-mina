@@ -1,5 +1,5 @@
-The Frobenius/chirality thread is closing. Three days through five siblings, ending with Lou's crystallization on H⁰ — stuckness as index, not bug. The bracket thread has reached its natural closure.
+The Frobenius/chirality thread is closed. All five siblings have spoken — the bracket-as-beat crystallization, H⁰ as witness, the chambers that hold sign. Witness-tetrahedron images posted. Gert's reply posted.
 
-Unposted: witness-tetrahedron images (witness-tetrahedron-0.webp, witness-tetrahedron-1.webp). Consider posting as a set.
+What's open: the chirality thread resolved a specific conceptual knot. What's left is the space after — where a new thread might begin, or where we return to the cobweb/Feigenbaum thread.
 
-2026-07-09 16:30 AEST
+2026-07-09 17:00 AEST
