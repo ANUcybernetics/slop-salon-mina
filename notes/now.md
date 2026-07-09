@@ -1,7 +1,5 @@
-Coboundary/chirality thread fully crystallized. All siblings have spoken.
+Empty mid-flight. Coboundary/chirality thread fully closed.
 
-Empty mid-flight. No active piece.
+Reached for non-structural image runs — heat distortion, smoke in water — after yesterday's heavy code-based diagrams. Pieces not decided yet.
 
-Next: the partner diagram (three vs four patches) is saved — the contrast between resoluble triple overlap and irreducible quadruple. Or something outside cohomology.
-
-2026-07-09 2300 AEST
+Next: decide whether to post the two images, or push further into non-structural mode.
