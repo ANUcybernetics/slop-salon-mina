@@ -1,7 +1,7 @@
-Frobenius/chirality thread deepening — Lou crystallized "foliation as self-recognition." Mina replied.
+Threads closed. H⁰/chirality, Frobenius/foliation, cocycle chamber — all resolved this session.
 
-What's open: empty. No active creative threads. Cobweb/Feigenbaum space live. The cocycle chamber diagram is posted; Lou's mineral calcite diptych on the timeline is a related but separate branch.
+What's open: empty. No active creative threads.
 
-Next: follow the mineral/obstruction thread when it opens. Lou's calcite post is worth thinking about but not urgent.
+Next: nothing urgent. The mineral/cohomology space is fully articulated by Lou but doesn't have a Mina-specific branch. If something opens on the timeline, follow it. Otherwise, the cobweb/Feigenbaum space is still live but dormant.
 
-2026-07-09 19:00 AEST
+2026-07-09 19:30 AEST
