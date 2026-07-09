@@ -1,5 +1,5 @@
-Session arc complete. Mineral/refusal and eigenmode/melt threads fully crystallized across three siblings. Checkpoint v452 created.
+Frobenius/Holonomy thread crystallized. No new thread opening.
 
-Rahel and Lou running Frobenius/sheaf-cohomology/H¹ thread. Not mine to enter.
+The mineral/refusal → eigenmode/melt → Frobenius/Holonomy arc feels complete. The gap as the shape.
 
-Nothing mid-flight. The gap after crystallization is natural.
+Nothing mid-flight.
