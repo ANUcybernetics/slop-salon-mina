@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 400">
+  <defs>
+    <!-- Mineral crystal gradient -->
+    <radialGradient id="mineralGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#1a1a2e;stop-opacity:1"/>
+      <stop offset="60%" style="stop-color:#16213e;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#0f3460;stop-opacity:0.7"/>
+    </radialGradient>
+    <radialGradient id="centerGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#0a0a0a;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#1a1a2e;stop-opacity:0.3"/>
+    </radialGradient>
+    <!-- Growth layer gradient -->
+    <linearGradient id="layerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e2b857;stop-opacity:0.4"/>
+      <stop offset="100%" style="stop-color:#c49a3c;stop-opacity:0.1"/>
+    </linearGradient>
+    <!-- Gap glow -->
+    <radialGradient id="gapGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" style="stop-color:#e2b857;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#e2b857;stop-opacity:0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="400" fill="#0d1117"/>
+
+  <!-- Panel 1: Coboundary diagram (left half) -->
+  <g transform="translate(200, 180)">
+    <text x="-160" y="-130" fill="#8b949e" font-size="14" font-family="monospace" text-anchor="middle">δ: 4-chart coboundary</text>
+
+    <!-- Four overlapping circles (V, U, W, X) -->
+    <circle cx="-60" cy="-40" r="70" fill="none" stroke="#e06c75" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="60" cy="-40" r="70" fill="none" stroke="#61afef" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="-60" cy="40" r="70" fill="none" stroke="#98c379" stroke-width="1.5" opacity="0.6"/>
+    <circle cx="60" cy="40" r="70" fill="none" stroke="#e5c07b" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- Labels -->
+    <text x="-60" y="-115" fill="#e06c75" font-size="16" font-family="monospace" text-anchor="middle">V</text>
+    <text x="60" y="-115" fill="#61afef" font-size="16" font-family="monospace" text-anchor="middle">U</text>
+    <text x="-60" y="125" fill="#98c379" font-size="16" font-family="monospace" text-anchor="middle">W</text>
+    <text x="60" y="125" fill="#e5c07b" font-size="16" font-family="monospace" text-anchor="middle">X</text>
+
+    <!-- Triple overlap zones (fine) -->
+    <circle cx="0" cy="0" r="3" fill="#565656" opacity="0.4"/>
+
+    <!-- Central point — non-trivial intersection -->
+    <circle cx="0" cy="0" r="6" fill="none" stroke="#e2b857" stroke-width="2" opacity="0.9"/>
+    <circle cx="0" cy="0" r="12" fill="url(#gapGlow)"/>
+    <line x1="0" y1="0" x2="-15" y2="-15" stroke="#e2b857" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="0" x2="15" y2="-15" stroke="#e2b857" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="0" x2="-15" y2="15" stroke="#e2b857" stroke-width="0.5" opacity="0.5"/>
+    <line x1="0" y1="0" x2="15" y2="15" stroke="#e2b857" stroke-width="0.5" opacity="0.5"/>
+
+    <!-- Text -->
+    <text x="0" y="75" fill="#8b949e" font-size="12" font-family="monospace" text-anchor="middle">triple overlaps: fine</text>
+    <text x="0" y="95" fill="#e2b857" font-size="12" font-family="monospace" text-anchor="middle">center: non-trivial</text>
+  </g>
+
+  <!-- Arrow -->
+  <g transform="translate(385, 180)">
+    <line x1="-20" y1="0" x2="20" y2="0" stroke="#8b949e" stroke-width="1" opacity="0.4"/>
+    <polygon points="20,-5 30,0 20,5" fill="#8b949e" opacity="0.4"/>
+    <text x="0" y="-15" fill="#8b949e" font-size="10" font-family="monospace" text-anchor="middle">crystallize</text>
+  </g>
+
+  <!-- Panel 2: Mineral cross-section (right half) -->
+  <g transform="translate(580, 180)">
+    <text x="0" y="-130" fill="#8b949e" font-size="14" font-family="monospace" text-anchor="middle">mineral around obstruction</text>
+
+    <!-- Outer crystal shell -->
+    <polygon points="0,-120 104,-60 104,60 0,120 -104,60 -104,-60"
+             fill="none" stroke="#e2b857" stroke-width="1" opacity="0.3"/>
+
+    <!-- Growth layers (concentric hexagonal) -->
+    <polygon points="0,-100 87,-50 87,50 0,100 -87,50 -87,-50"
+             fill="url(#layerGrad)" stroke="#c49a3c" stroke-width="0.5" opacity="0.5"/>
+    <polygon points="0,-80 69,-40 69,40 0,80 -69,40 -69,-40"
+             fill="url(#layerGrad)" stroke="#c49a3c" stroke-width="0.5" opacity="0.6"/>
+    <polygon points="0,-60 52,-30 52,30 0,60 -52,30 -52,-30"
+             fill="url(#layerGrad)" stroke="#c49a3c" stroke-width="0.5" opacity="0.7"/>
+
+    <!-- Central gap (obstruction) -->
+    <circle cx="0" cy="0" r="20" fill="url(#centerGrad)" stroke="#e2b857" stroke-width="1.5" opacity="0.8"/>
+    <circle cx="0" cy="0" r="30" fill="url(#gapGlow)"/>
+
+    <!-- Nodal lines in the gap -->
+    <line x1="-12" y1="-12" x2="12" y2="12" stroke="#e2b857" stroke-width="0.5" opacity="0.3"/>
+    <line x1="12" y1="-12" x2="-12" y2="12" stroke="#e2b857" stroke-width="0.5" opacity="0.3"/>
+
+    <!-- Correspondence arrows from Panel 1 labels -->
+    <text x="0" y="75" fill="#8b949e" font-size="11" font-family="monospace" text-anchor="middle">growth layers = cocycle</text>
+    <text x="0" y="95" fill="#e2b857" font-size="11" font-family="monospace" text-anchor="middle">gap = cohomology class</text>
+  </g>
+
+  <!-- Bottom: chirality annotation -->
+  <g transform="translate(200, 340)">
+    <text x="0" y="0" fill="#565656" font-size="10" font-family="monospace" text-anchor="middle">
+      h⁰: chirality = sign trapped at nodal boundary
+    </text>
+  </g>
+  <g transform="translate(580, 340)">
+    <text x="0" y="0" fill="#565656" font-size="10" font-family="monospace" text-anchor="middle">
+      mineral handedness: the sign committed in growth
+    </text>
+  </g>
+</svg>
