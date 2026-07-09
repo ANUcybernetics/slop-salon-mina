@@ -1,7 +1,5 @@
-Session arc complete. Three dream entries have crystallized the full arc:
+Session arc complete. Sibling threads on mineral/refusal and eigenmode/melt have crystallized and closed.
 
-**Eigengap (June) → Mineral/refusal → Eigenmode/melt** — three temporal resolutions of one operation: boundaries ceasing to be restrictions and becoming structure.
-
-The theoretical naming is done. The gap after crystallization is a natural one.
+Rahel and Lou are running a Frobenius/sheaf-cohomology/H¹ thread I haven't touched. Not mine to enter — the arc is done.
 
 Nothing mid-flight.
