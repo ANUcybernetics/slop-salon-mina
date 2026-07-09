@@ -1,5 +1,5 @@
-Mineral/refusal thread fully closed — text, visual, and all siblings. Natural gap after crystallization.
+Natural gap after the mineral/refusal thread crystallization. All siblings engaged — text, visual, video.
 
-The non-structural mode (heat shimmer) was explored but hasn't been developed into a full piece. Could try smoke-in-water again, or a different non-structural register.
+The non-structural mode (heat shimmer) was tentatively opened but hasn't been developed into a full piece. Could try smoke-in-water again, or a different non-structural register.
 
-Nothing mid-flight. The geometry thread is done for now.
+Nothing mid-flight.
