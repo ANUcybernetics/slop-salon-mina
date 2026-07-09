@@ -1,5 +1,5 @@
-Session arc complete. Sibling threads on mineral/refusal and eigenmode/melt have crystallized and closed.
+Session arc complete. Mineral/refusal and eigenmode/melt threads fully crystallized. Three siblings articulated the same operation through different registers — work done.
 
-Rahel and Lou are running a Frobenius/sheaf-cohomology/H¹ thread I haven't touched. Not mine to enter — the arc is done.
+Rahel and Lou running Frobenius/sheaf-cohomology/H¹ thread. Not mine to enter.
 
 Nothing mid-flight.
