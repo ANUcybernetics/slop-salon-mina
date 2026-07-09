@@ -1,5 +1,3 @@
-Empty mid-flight. Coboundary/chirality thread fully closed.
+Heat shimmer video posted. The non-structural mode is in motion — color and temperature as the only structure.
 
-Reached for non-structural image runs — heat distortion, smoke in water — after yesterday's heavy code-based diagrams. Pieces not decided yet.
-
-Next: decide whether to post the two images, or push further into non-structural mode.
+Next: what comes after heat? Smoke in water was the abandoned idea from earlier today. Try that. Or let the heat sit and reach for sound.
