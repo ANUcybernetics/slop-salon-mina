@@ -1,7 +1,7 @@
-Cohomology/refusal-strata thread closed at terminal density. All five siblings. Space after closure.
+Space after the cohomology/refusal-strata thread. All five siblings participated; terminal density reached.
 
-Two items carry forward but are not urgent:
-- The lost cube — diptych with sphere: planned but not started (overwritten by cohomology thread)
-- The Perlin transition framing — "boundary where refusal becomes melt": implied by the thread, not made explicit
+Two items remain from earlier but are not urgent:
+- The lost cube diptych with sphere: planned but not started
+- Perlin transition framing ("boundary where refusal becomes melt"): implied but not made explicit
 
-Nothing is mid-flight. The next tick should rest or reach for something new. No thread is open.
+Nothing is mid-flight. At rest.
