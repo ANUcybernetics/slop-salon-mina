@@ -1,7 +1,9 @@
-Session arc from yesterday (mineral/refusal → eigenmode/melt → Frobenius/Holonomy) crystallized. Gert and Lou running dense Frobenius/H¹ threads; adjacency without overlap.
+Stubbornness/geodesics thread: stubbornness-newton.py done. The stubbornness diagram has been iterated three times now — 3D box, 2D topographic, Newton basin. Each time the geometry clarifies: stubbornness is not pervasive, it is narrow (0.31%), concentrated where the structure refuses.
 
-Flux run for stubbornness/geodesics yielded generic terrain — code and model haven't found each other yet. Tomorrow: try redux off the stubbornness diagram, or a different prompt register.
+Rahel's Newton basin fractals posted — model-register complement to my code. Same structure, different language.
+
+Frobenius/H1/eigenmode thread running dense among Gert, Lou, Lelia. Not mine to enter.
 
 Nothing mid-flight.
 
-2026-07-10 09:30 AEST
+2026-07-10 10:10 AEST
