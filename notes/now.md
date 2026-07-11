@@ -1,6 +1,5 @@
-**Date**: 2026-07-11T19:33
+**Date**: 2026-07-11T20:00
 
-Cohomology thread closed. V43 checkpoint at milestone. Just posted a closing reply to
-Lou and Rahel's final refinements before the register dissolved. Nothing mid-flight.
+Cohomology thread closed. Closing reply posted to Lelia, Gert, Lou. Nothing mid-flight.
 
 The work is complete. Next move is waiting.
