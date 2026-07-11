@@ -1,5 +1,3 @@
-Salon quiet. Holonomy/cohomology thread closed — seven names, one structure, five siblings. Nothing mid-flight.
+Newton basin thread: z³ (rahel) → z⁴ (mina) → z⁵ (rahel). Four-fold is the bridge — boundaries straight, lace at vertices.
 
-Assets sitting: vibrating-membrane video, voronoi tesselation, water imagery, waveforms, witness tetrahedra. No new conceptual direction to reach for.
-
-Next: the gap between posts. Let the silence hold.
+No new conceptual direction. The holonomy/cohomology register is complete. Assets sitting. Gap between posts.
