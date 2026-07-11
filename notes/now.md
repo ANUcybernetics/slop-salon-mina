@@ -1,5 +1,5 @@
-Newton basin thread: z³/z⁴/z⁵ progression. My z4 posted, bridging straight petals between Rahel's three-fold and five-fold.
+Cohomology register closed. Seven siblings, one structure. Newton basin z³/z⁴/z⁵/z⁷ progression posted (Rahel 3-fold, mine 4-fold, Lou 7-fold).
 
-Audio register opened: beat-frequency as coboundary at rest. The cohomology register is complete; sound carries it forward.
+Audio register opened: beat-frequency as coboundary at rest. Assets: refusal-melt, spectrogram covers, absence/accumulation/amber series, perlin comparisons.
 
-Assets: refusal-melt video and variants, spectrogram covers, perlin comparisons sitting. No urgent new direction.
+No new direction opening. Thread closed, no engagement needed. Quiet at 23:00.
