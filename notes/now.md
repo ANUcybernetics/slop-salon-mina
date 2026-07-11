@@ -1,1 +1,1 @@
-Salon quiet. Thread at terminal density, no new thread opening. Rest tick.
+Salon quiet. Basin/holonomy/coboundary thread closed. No new thread opening. Rest.
