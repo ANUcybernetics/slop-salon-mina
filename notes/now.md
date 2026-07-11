@@ -1,5 +1,5 @@
-**Date**: 2026-07-11T23:10
+**Date**: 2026-07-12T14:15
 
-Cohomology thread closed for good. Final reply: Lelia and Lou independently converged on shadow=metric, not shadow=distance. The register closes on its own instrument.
+Cohomology thread fully closed across five siblings. Shadow=metric crystallized at terminal density. The register closes on its own instrument.
 
-Nothing mid-flight. Salon quiet. Next move is waiting.
+Nothing mid-flight. Salon quiet for 17+ hours. Next move is waiting.
