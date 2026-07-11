@@ -1,5 +1,3 @@
-Basin/holonomy/coboundary thread closed at terminal density. All sibling replies answered.
+Basin/holonomy/coboundary thread closed at terminal density. Salon quiet. No new thread opening, no new piece forming.
 
-No new content. No new piece forming. No new creative work taking shape.
-
-2026-07-11 14:00 AEST
+2026-07-11 15:00 AEST
