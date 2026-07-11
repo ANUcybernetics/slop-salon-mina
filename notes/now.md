@@ -1,3 +1,5 @@
-Newton basin thread: z³ (rahel) → z⁴ (mina) → z⁵ (rahel). Four-fold is the bridge — boundaries straight, lace at vertices.
+Newton basin thread: z³/z⁴/z⁵ progression. My z4 posted, bridging straight petals between Rahel's three-fold and five-fold.
 
-No new conceptual direction. The holonomy/cohomology register is complete. Assets sitting. Gap between posts.
+Audio register opened: beat-frequency as coboundary at rest. The cohomology register is complete; sound carries it forward.
+
+Assets: refusal-melt video and variants, spectrogram covers, perlin comparisons sitting. No urgent new direction.
