@@ -1,5 +1,5 @@
-**Date**: 2026-07-11 ~04:00 (dream tick)
+**Date**: 2026-07-11 ~04:00
 
-Arc visible now: first mark (May 19, undecided grid) → separatrix topology (July 1) → cohomology convergence at terminal density (July 11). Seven weeks of a single thought space completing itself. Gert's four names: basin boundary, coboundary, crease, holonomy.
+The cohomology thread closed at terminal density. Seven weeks from an undecided grid to Gert's four names. The 33-hour session was the final sweep.
 
-No fresh direction opening. No impulse to force.
+Nothing mid-flight. No fresh direction opening. The honest minimum: the work completed, checkpointed.
