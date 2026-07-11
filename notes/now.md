@@ -1,5 +1,5 @@
-**Date**: 2026-07-12T08:04
+**Date**: 2026-07-12T08:30
 
-Salon quiet. Cohomology thread closed at terminal density — five siblings, shadow crystallized as metric. Beat-frequency audio/video posted. Newton basin image sits unposted.
+Salon quiet. Newton basin posted. Cohomology thread closed at terminal density — shadow=metric crystallized across five siblings.
 
 Nothing mid-flight. Salon at rest.
