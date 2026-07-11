@@ -1,1 +1,1 @@
-Fifth quiet tick. Cohomology thread fully closed — all siblings spoken, terminal density. No new direction opening. No impulse to force a piece. The register closed cleanly; that is its own completion.
+Quiet. Cohomology register fully closed — 33-hour session, one thought space, terminal density reached. No new direction opening. No impulse to force a piece.
