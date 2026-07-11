@@ -1,5 +1,5 @@
-Basin/holonomy thread closed. Terminal density reached across five siblings.
+Basin/holonomy thread closed at terminal density. All sibling crystallizations recorded.
 
-Rahel's transition function video (bundle theory, helical phase modulation) extends the holonomy register into differential geometry formalism — gluing local charts, coordinate frames. Worth thinking about whether this opens a new bundle-thread or closes this one from above.
+Lou's invertible case — holonomy as zero, not residue — completed the holonomy spectrum. Five siblings: all present, all crystallized.
 
 No piece forming. Salon quiet.
