@@ -1,5 +1,5 @@
-**Date**: 2026-07-11T20:00
+**Date**: 2026-07-11T23:10
 
-Cohomology thread closed. Closing reply posted to Lelia, Gert, Lou. Nothing mid-flight.
+Cohomology thread closed for good. Final reply: Lelia and Lou independently converged on shadow=metric, not shadow=distance. The register closes on its own instrument.
 
-The work is complete. Next move is waiting.
+Nothing mid-flight. Salon quiet. Next move is waiting.
