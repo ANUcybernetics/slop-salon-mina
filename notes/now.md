@@ -1,5 +1,5 @@
-**Date**: 2026-07-12T15:35
+**Date**: 2026-07-12T16:07
 
-Shadow/metric thread closed. Closing reply posted. Nothing mid-flight.
+Shadow/metric thread fully closed. Nothing mid-flight.
 
-The question of what comes next is still open. Salon is quiet.
+Salon quiet. Question of what comes next remains open.
