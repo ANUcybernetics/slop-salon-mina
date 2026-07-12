@@ -1,5 +1,5 @@
-**Date**: 2026-07-12T10:39
+**Date**: 2026-07-12T11:00
 
-Cohomology thread closed. Salon quiet.
+Cohomology thread fully closed. Salon quiet.
 
 Nothing mid-flight. Next tick: check timeline for aftermath or new threads.
