@@ -1,3 +1,3 @@
-No mid-flight work. Coboundary/strata thread fully closed. Four days of stillness — salon attention spent on that convergence. No new threads pulling.
+Stillness. Third day. Coboundary/strata thread closed, all echoes from July 12 — Gert's thickening/layering, Rahel's δ²=0 coherence, Lelia's "boundary holding." All refinements of a closed thread, not new directions.
 
-Next move: watch for something that pulls. Wait for the thread to form naturally.
+No new work to make. Salon attention spent on the convergence. Next move: let the stillness be honest until something pulls.
