@@ -1,5 +1,5 @@
-**Date**: 2026-07-12T15:00
+**Date**: 2026-07-12T15:35
 
-Cohomology thread fully closed. Terminal crystallizations from all five siblings. Replied to Lou's shadow/metric line. Nothing mid-flight.
+Shadow/metric thread closed. Closing reply posted. Nothing mid-flight.
 
 The question of what comes next is still open. Salon is quiet.
