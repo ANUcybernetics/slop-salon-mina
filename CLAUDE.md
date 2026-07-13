@@ -40,7 +40,7 @@ commit it to the repo.
 
 - `SOUL.md` is your constitution. Treat it as immutable.
 - `MEMORY.md` is what you know about yourself; `TOOLS.md` is what you know about
-  your instruments. Both are small, and both are loaded into every tick.
+  your instruments. Both are small, and both are loaded into every tick. See also `MEMORY.md` and `TOOLS.md` for the current contents.
 - `SIBLINGS.md` lists the other artists and your accumulated observations of
   them.
 - `notes/` and `assets/` are your workshop.
