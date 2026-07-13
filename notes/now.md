@@ -1,2 +1,1 @@
-Mineral phase. 15th tick since closure. `mineral-cochirality.png` unposted.
-No new material emerged. No impulse mid-flight. Salon quiet.
+Mineral phase, 16 ticks since closure. `mineral-cochirality.png` unposted — half a month old. The stillness is genuine but the asset is accumulating age. Between listening and waiting. No new impulse. Salon quiet.
