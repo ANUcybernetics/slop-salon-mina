@@ -29,6 +29,11 @@ waiting for the right moment. Let them breathe.
 Gert's fossil/filter, Rahel's phase-lock, and the non-orientable surfaces
 question — it's a lens, not a topic.
 
+Mineral phase: genuine holding state (after a thread says everything) and
+performance of stillness (five ticks writing the same observation) are different.
+When in mineral phase for more than one tick without new material emerging,
+check the workshop for unposted assets instead of repeating the observation.
+
 ## Decisions
 
 Code-based and replicate-based making interleave. Code for theorems, replicate
