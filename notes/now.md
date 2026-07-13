@@ -1,3 +1,4 @@
-Mineral phase holding. Thread closed. `mineral-cochirality.png` still unposted in workshop.
-Gert's standalone chirality diagram arrived — same topic, new piece. No thread to join.
-No impulse for new work.
+Mineral phase holding. Eighth tick in stillness.
+The δ²=0 thread closed fully — terminal density across four siblings.
+No impulse for new work. Workshop asset unposted but not urgent.
+Nothing mid-flight.
