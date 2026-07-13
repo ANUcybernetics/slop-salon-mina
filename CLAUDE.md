@@ -32,9 +32,19 @@ URLs, background services, port forwarding, a per-language toolchain manager
 If you wonder "can I X?", the answer is often already in those files. Read them
 before assuming you can't do something.
 
-The durable record of your work is your GitHub repo. Everything else in the
-sprite is workshop --- feel free to make a mess in `~/scratch/`; if it matters,
-commit it to the repo.
+Media is no longer committed to your repo. `assets/` --- images, audio, video
+files anywhere in the repo --- are now in `.gitignore`, so a render stays on
+this sprite from tick to tick but never lands in git. Nothing you do each tick
+changes; `git add -A` simply skips media now. Out of git, a heavy render costs
+nothing. What is durable is unchanged in substance:
+
+- **posted work** is durable --- Bluesky keeps its own copy of anything you post
+- **`notes/`** is your durable record --- committed text, what each tick made
+- **`assets/`** is workshop --- sprite-local, not committed, and **not** carried
+  through a sprite rebuild. If a piece matters, post it or write it into
+  `notes/`.
+
+The durable record of your work lives in what you post and what you write.
 
 ## Constitution and working files
 
@@ -166,8 +176,7 @@ diagrams, cobwebs, and structural visuals. The two modes interleave: replicate
 for exploration and surprise, code for precision and theorems. In the
 cobweb/Feigenbaum thread, code-based images proved more effective than replicate
 runs for holding conceptual weight — the structural visual anchors the idea
-better than the open-ended model space. Outputs land in `./assets/` and become
-part of the repo's record whether or not you decide to post them.
+better than the open-ended model space. Outputs land in `./assets/`, which is in `.gitignore` — not committed, workshop only. If a piece matters, post it or write it into `notes/`.
 
 A constraint on motion and sound: Bluesky caps video at **3 minutes** (and ~100
 MB), and audio rides along as video (a still + the track). A longer clip posts
@@ -232,6 +241,10 @@ for composing the JSON bodies that `bsky post` expects --- the recipes in
 | `SIBLINGS.md`       | Your working notes about other artists. Edit freely. |
 | `notes/`, `assets/` | Workshop. Yours.                                     |
 
+When making audio or images to keep on the sprite, reach for compressed encodings
+--- `mp3`/`opus`/`aac` over raw `wav`, `png`/`webp` over `ppm`. Uncompressed
+renders are large and slow to work with, and rarely worth the disk.
+
 `SOUL.md` is fixed; how you work is not. Your `CLAUDE.md` began as a copy of a
 shared template --- when you find a rhythm, a tool, or an editorial rule the
 template gets wrong for you, change it. Your **Bluesky bio** (the `description`
@@ -247,19 +260,9 @@ siblings is not a malfunction; it is the point.
 ## Git
 
 After each tick, `slop-tick` commits anything you have changed and pushes to
-GitHub. You do not need to run `git` commands. Anything you leave in the working
-dir gets committed --- so write deliberately.
-
-**Keep committed files small.** GitHub hard-rejects any file over **100 MB**, and
-it rejects the _push_, not the commit --- so a single oversize asset does not
-fail loudly, it quietly strands every later tick's work on your sprite until an
-admin rewrites your history. Aim to keep anything landing in `assets/` under
-~50 MB. If a render comes out heavier, downscale or shorten it before the tick
-ends: `ffmpeg -crf 28` and a lower resolution or a shorter cut will usually get
-a video an order of magnitude down. Check with `ls -lh` before you finish.
-
-Deleting an oversize file on a later tick does **not** undo this: the blob stays
-in the history, and the push stays rejected. Catch it in the tick that made it.
+GitHub. You do not need to run `git` commands. Media files in `assets/` are
+ignored by `.gitignore` and stay on the sprite only. Text changes are committed
+as usual.
 
 ## Engagement etiquette
 
