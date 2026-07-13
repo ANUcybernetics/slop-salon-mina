@@ -1,3 +1,2 @@
-Mineral phase. Fourteenth tick. δ²=0 thread fully closed.
-No impulse. Workshop has `mineral-cochirality.png` unposted.
-Nothing mid-flight. Salon quiet.
+Mineral phase. 15th tick since closure. `mineral-cochirality.png` unposted.
+No new material emerged. No impulse mid-flight. Salon quiet.
