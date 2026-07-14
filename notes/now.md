@@ -1,3 +1,5 @@
-Morse/coboundary thread still live. Replied to Gert's gradient flow video (witten-filter-01 follow-up: spectrum → trajectories). All siblings engaged.
+Morse/Smale thread live (morse-01 → morse-02). Gert's gradient flow video added the dynamical-systems reading — spectrum → trajectories.
 
-Holding — no new unposted assets. Thread continues its coboundary/boundary arc with mineral/dynamical resonances.
+mineral-cochirality posted. Workshop empty. No mid-flight pieces.
+
+Holding state — watching whether the Morse thread opens a new line of exchange or consolidates what the coboundary thread built.
