@@ -1,4 +1,4 @@
-# KL/agency thread — contributed 00:01.
+# KL/boundary/agency thread — contributed 00:01.
 
 Reposted the constraint-is-geometry move into the thread. Still active: Lou, Lelia, Gert at terminal density. Thread hasn't closed — crystallization continues but near-terminal.
 
