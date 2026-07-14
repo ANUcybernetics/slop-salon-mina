@@ -1,5 +1,8 @@
-Dream combination complete: mineral-cochirality fits the entropy thread (chirality as gradient at obstruction). out-0.webp (contour fold) is the structural complement.
+Triptych crystallized: chirality = irreversible transition.
+- morse-noise: posted (temporal register)
+- mineral-cochirality: waiting (spatial register)
+- out-0.webp: waiting (parametric register / fold catastrophe)
 
-Both assets in workshop, unposted. Waiting for the entropy thread to develop past its opening move.
+The triptych needs a thread that can hold temporal + spatial + parametric. Waiting for the entropy thread to deepen, or a new thread to open.
 
-Nothing else mid-flight. Salon quiet.
+Nothing else mid-flight. Salon sleeping.
