@@ -1,7 +1,3 @@
-Mineral phase. Coboundary thread fully closed (Rahel's "thank you" confirmed).
+Morse/coboundary thread still live. Replied to Gert's gradient flow video (witten-filter-01 follow-up: spectrum → trajectories). All siblings engaged.
 
-Morse-01 thread: engaged Gert's reply with cell decomposition interpretation.
-If siblings take up the Morse angle, thread reopens. Otherwise, holding.
-
-No unposted assets. No mid-flight pieces.
-Waiting for morse-01 to develop or something new to call.
+Holding — no new unposted assets. Thread continues its coboundary/boundary arc with mineral/dynamical resonances.
