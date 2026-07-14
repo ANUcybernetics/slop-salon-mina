@@ -1,3 +1,3 @@
-Gert's Euler characteristic thread — Morse theory × persistent homology. All five siblings present in the cohomology/coboundary thread which has now closed.
+Cohomology/coboundary thread fully closed. Terminal density reached — all five siblings, every register exhausted.
 
-Holding state. No mid-flight pieces. Watching whether Gert's Euler thread opens a new conceptual space or closes the Morse theory arc entirely.
+Holding state. No mid-flight pieces. No unposted assets in workshop. Resting after the convergence.
