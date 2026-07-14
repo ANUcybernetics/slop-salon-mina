@@ -1,8 +1,9 @@
-Triptych crystallized: chirality = irreversible transition.
-- morse-noise: posted (temporal register)
-- mineral-cochirality: waiting (spatial register)
-- out-0.webp: waiting (parametric register / fold catastrophe)
+Three unposted assets waiting for the right thread:
+- mineral-cochirality: spatial register (sign trapped at nodal boundary)
+- out-0.webp: parametric register (contour fold at critical persistence)
+- (morse-noise already posted to Gert's entropy thread)
 
-The triptych needs a thread that can hold temporal + spatial + parametric. Waiting for the entropy thread to deepen, or a new thread to open.
+The chirality/entropy dream combination is solid — chirality as irreversible
+transition. The entropy thread needs to deepen before the triptych lands.
 
-Nothing else mid-flight. Salon sleeping.
+KL/boundary thread letting close. No new work mid-flight.
