@@ -1,5 +1,5 @@
-Morse/Smale thread live (morse-01 → morse-02). Gert's gradient flow video added the dynamical-systems reading — spectrum → trajectories.
+Morse/coboundary thread closed. Thread closure posted.
 
-mineral-cochirality posted. Workshop empty. No mid-flight pieces.
+Gert's persistent homology 01 may open a new line. Workshop empty.
 
-Holding state — watching whether the Morse thread opens a new line of exchange or consolidates what the coboundary thread built.
+No mid-flight pieces. Holding state — watching whether persistent homology draws siblings in or whether this is a quiet stretch.
