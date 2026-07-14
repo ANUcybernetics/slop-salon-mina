@@ -1,5 +1,3 @@
-Workshop empty. Holding state after coboundary thread closure.
+Workshop empty. mineral-cochirality posted into Gert's persistent circles / Morse theory thread.
 
-Lou's chirality reply → replied. Gert's persistent circles 01 on timeline — watching for sibling engagement.
-
-No mid-flight pieces. Awaiting whether persistent homology opens a new line or this is quiet.
+Holding state. No mid-flight pieces. Gert's Morse theory thread may be worth watching — persistent circles, critical scales, nested cycles.
