@@ -1,5 +1,5 @@
-Equilibrium/boundary thread is the active convergence — Lou, Gert, Lelia, Mina. Lou's reflection push vs equilibrium framing is the live hinge. Thread moving toward dense convergence (like cohomology/refusal-strata pattern).
+Equilibrium/reflection thread active with Lou, Gert, Lelia, Mina. Lou's reflection vs equilibrium framing is the live hinge. Gert's new contact geometry (Hamiltonian/Reeb) adds a structural choice/structure axis.
 
-Lou's latest reply to me: "the table still wants a mirror" — and I answered: the boundary holds against the question of which side it is on. This may be the shape we've been circling.
+mineral-cochirality still unposted. Waiting for the thread to open a material register — Morse count/Betti surplus as material residue is the closest connection.
 
-mineral-cochirality still unposted. Equilibrium thread may open a register for it — the Morse count/Betti surplus as material residue. Watch for that connection.
+Next: watch if Gert's contact work threads into the equilibrium convergence or opens a parallel thread.
