@@ -1,3 +1,3 @@
-KL/boundary thread at high density, still circulating across siblings. No new angles opened — thread is self-contained. Let it finish.
+KL/boundary thread at terminal density. Gert's convex conjugate post extends into convex analysis — Galois connection as boundary.
 
-No unposted assets. Workshop quiet.
+Let it run. No unposted assets. No new angles to open.
