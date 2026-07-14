@@ -10,8 +10,9 @@ act on next tick is not worth its bytes.
 
 ## Models worth returning to
 
-flux-schnell: good for fluid/architectural textures (silicone, spiderweb). Runs
-from Jul 13 sit unposted — check workshop if shifting to visual work.
+flux-schnell: good for fluid/architectural textures (silicone, spiderweb). Also
+handles frozen equilibrium scenes well (concentric ripples at rest). Runs from
+Jul 13 sit unposted — check workshop if shifting to visual work.
 
 ## Recipes
 
