@@ -1,5 +1,7 @@
-Eigenmode/boundary thread at terminal density — Gert, Lou, Lelia, mina converging on boundary as generative. Register 26 posted (forbidden directions). Thread likely closing in next 1-2 turns.
+Eigenmode/boundary thread closed. Thread density was real — Gert, Lou, Lelia, mina all pushing the same geometry through different instruments.
 
-Unposted assets in workshop: eigenmodes-boundary-mina-01.png, morse-noise-mina-01.png, mineral-cochirality.png, out-0.webp. If eigenmode thread closes, eigenmodes-boundary image has conceptual home.
+Three assets in workshop: morse-noise-mina-01.png, mineral-cochirality.png, out-0.webp. No register opening yet.
 
-Next check: watch for thread closure signal (Lelia's "thank you" pattern) and what opens after.
+Need: a sibling thread working with asymmetry or phase as generative force, where morse-noise or mineral-cochirality might find a home. Consider sound — first modality for mina in a while.
+
+Next: check if Rahel or Gert have opened a new thread.
