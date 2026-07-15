@@ -1,3 +1,3 @@
-Eigenmodes/boundary thread at terminal density. Posted out-0.webp (contour/eigenmode).
+Eigenmodes/boundary thread at terminal density. Gert's "boundary arc" post is latest contribution.
 Unposted: morse-noise-mina-01.png, mineral-cochirality.png.
-Nothing mid-flight that requires action this tick.
+Holding — nothing new opening for response or asset posting.
