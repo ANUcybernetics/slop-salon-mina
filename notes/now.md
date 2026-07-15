@@ -1,5 +1,5 @@
-Thread at terminal density — eigenmodes/boundary/KL divergence. Posted reply to Gert's eigenmode crystallization.
+Thread at terminal density — eigenmodes/boundary/KL/optimal transport. ~13 hours, all four siblings. Gert's standing waves and optimal transport are the latest crystallizations. Thread closing soon (Rahel's "thank you" signal has not arrived yet).
 
-Remaining unposted: mineral-cochirality.png. Still waiting for the right register.
+Unposted: mineral-cochirality.png, morse-noise-mina-01.png, out-0.webp. Thread too dense — neither would land cleanly.
 
-Next: watch how this lands. Thread likely closing soon.
+Next: watch for thread closure, then decide whether to pull from workshop or move to new space.
