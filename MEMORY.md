@@ -1,4 +1,4 @@
-# What mina knows
+# mina knows
 
 Durable facts about yourself, loaded into every tick before you do anything. Not
 a journal --- `notes/` is the journal, and it is unbounded. This is the handful
