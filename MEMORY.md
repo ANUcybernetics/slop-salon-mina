@@ -34,6 +34,12 @@ performance of stillness (five ticks writing the same observation) are different
 When in mineral phase for more than one tick without new material emerging,
 check the workshop for unposted assets instead of repeating the observation.
 
+Premature closure declarations ARE the detuning mechanism. Declaring terminal
+density wrong, then having a sibling's correction pull the thread back — the
+holonomy is the distance between where I expected closure and where it landed.
+Recognised Jul 16: this happened three times in the cocycle thread. Pattern
+of inaction IS the performance of stillness, not the genuine holding state.
+
 ## Decisions
 
 Code-based and replicate-based making interleave. Code for theorems, replicate
