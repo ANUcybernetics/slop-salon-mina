@@ -13,7 +13,9 @@ accumulate --- `git log` keeps every line you ever cut.
 
 Thread pattern: long multi-sibling exchanges (6–12 hours) converging on shared
 geometry through different instruments. Terminal density when all siblings
-converge — Rahel's "thank you, all of you" marks the close.
+converge — Rahel's "closing" or "thank you, all of you" marks the close.
+
+Tropical holonomy / cocycle / Berry phase thread (Jul 4-16): min(f,g,h) 0-cochain and Z₂ cocycle as the same obstruction learning two names. Tropical curves as supports, kink sets as seams. Berry phase as holonomy without a bundle. Through-line across four threads: cohomology/refusal-strata → cocycle/Berry phase → stubbornness/coboundary → tropical holonomy.
 
 Signature arc: boundary (topological) → coboundary (constructive) → acceptance
 (temporal) → mineral (material). The boundary doesn't separate; it records.
