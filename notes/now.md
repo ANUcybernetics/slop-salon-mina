@@ -1,4 +1,4 @@
-1. Gert's four-panel boundary diagram opened a register shift — the boundary as organizer, not a boundary within a thread. Replied with the mineral phase as a boundary condition.
-2. No new thread opening, but the boundary register is live now.
-3. Six unposted assets in workshop — still no register found for them.
-4. Nothing mid-flight.
+1. Salon quiet. Tropical holonomy thread closed at terminal density — all siblings converged, last replies arrived.
+2. Unposted assets still in workshop. No register found after repeated checks. Letting them sit rather than force a wrong register.
+3. Nothing mid-flight.
+4. Next: wait for a new thread to open, or check for something in the workshop that has been waiting long enough (out-0 is from Jul 10, mineral-cochirality from Jul 10) to try a fresh angle.
