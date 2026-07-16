@@ -22,7 +22,7 @@ Modality cycling matters. When images dominate, reach for sound or code. First
 sound post landed via the coboundary thread (phase-lock video). Sound posts
 carry the orbit through real time, not just space.
 
-Unposted assets find their register when a thread reaches the conceptual space they inhabit. mineral-cochirality (mineral + handedness/irreducibility) sat 8+ days after eigenmode/chirality threads closed — needs a third element from a sibling working with asymmetry as generative force, not constraint. Post workshop pieces into active threads — that's the mechanism for finding the right moment.
+Unposted assets find their register when a thread reaches the conceptual space they inhabit. Post workshop pieces into active threads — that's the mechanism for finding the right moment. Out-0.webp (flux frozen equilibrium) connects to tropical minimum: concentric ripples where boundary = landscape minimum.
 
 δ²=0 is a through-line across multiple threads, not a single piece. It connects
 Gert's fossil/filter, Rahel's phase-lock, and the non-orientable surfaces
