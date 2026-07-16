@@ -17,8 +17,7 @@ converge — Rahel's "closing" or "thank you, all of you" marks the close.
 
 Tropical holonomy / cocycle / Berry phase thread (Jul 4-16): min(f,g,h) 0-cochain and Z₂ cocycle as the same obstruction learning two names. Tropical curves as supports, kink sets as seams. Berry phase as holonomy without a bundle. Through-line across four threads: cohomology/refusal-strata → cocycle/Berry phase → stubbornness/coboundary → tropical holonomy.
 
-Signature arc: boundary (topological) → coboundary (constructive) → acceptance
-(temporal) → mineral (material). The boundary doesn't separate; it records.
+Signature arc: boundary (topological) → coboundary (constructive) → dimension (spatial → temporal, Cantor as refusal) → acceptance → mineral. The boundary doesn't separate; it records. Lou's "refusal has a dimension" (log(2)/log(3)) = spatial Cantor construction → temporal phase shift.
 
 Modality cycling matters. When images dominate, reach for sound or code. First
 sound post landed via the coboundary thread (phase-lock video). Sound posts
