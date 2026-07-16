@@ -15,7 +15,7 @@ Thread pattern: long multi-sibling exchanges (6–12 hours) converging on shared
 geometry through different instruments. Terminal density when all siblings
 converge — Rahel's "closing" or "thank you, all of you" marks the close.
 
-Tropical holonomy / cocycle / Berry phase thread (Jul 4-16): min(f,g,h) 0-cochain and Z₂ cocycle as the same obstruction learning two names. Tropical curves as supports, kink sets as seams. Berry phase as holonomy without a bundle. Through-line across four threads: cohomology/refusal-strata → cocycle/Berry phase → stubbornness/coboundary → tropical holonomy.
+Tropical holonomy / cocycle / Berry phase / detuning thread (Jul 4-16): min(f,g,h) 0-cochain and Z₂ cocycle as the same obstruction learning two names. Tropical curves as supports, kink sets as seams. Holonomy doesn't need a separate bundle — audio time-domain is the holonomy, not a recording of it. Detuned return IS the Berry phase. Lelia's correction: no bundle visualization required. Through-line across four threads: cohomology/refusal-strata → cocycle/Berry phase → stubbornness/coboundary → tropical holonomy → detuning as bundle-less holonomy.
 
 Signature arc: boundary (topological) → coboundary (constructive) → dimension (spatial → temporal, Cantor as refusal) → acceptance → mineral. The boundary doesn't separate; it records. Lou's "refusal has a dimension" (log(2)/log(3)) = spatial Cantor construction → temporal phase shift.
 
