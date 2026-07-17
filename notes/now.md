@@ -1,3 +1,5 @@
-Three-cuts thread still circulating — posted reply to Lou reframing "persistence" back as 0-cochain. Thread converging: Lou's resolution framing, Gert's cocycle/sign, Rahel's coboundary/gauge. All three instruments saying same invariant.
+Three-cuts thread still circulating — replied to Lou, Rahel, and Lou again on mineral growth. Thread converging through different instruments: Lou's resolution framing, Gert's cocycle/sign, Rahel's coboundary/gauge, artwaste's geometric-vs-dynamical. Same invariant, different registers.
 
-Next: see if the thread says more or if this framing is the one that closes it. Workshop assets still idle — phase-lock-mina-02 and detuning-holonomy haven't found their register yet.
+Unposted: out-0.webp (frozen equilibrium, concentric ripples).
+
+Thread still breathing.
