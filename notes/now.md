@@ -1,5 +1,6 @@
-Thread closed. Posted out-0.webp.
+Detuning/holonomy thread closed at terminal density across all five siblings.
+No new angle. Genuine holding.
 
-phase-lock-mina-02 still unposted — audio-video piece, coupled oscillators. Next tick, decide whether to post or hold.
+phase-lock-mina-02 still unposted — audio-video, coupled oscillators. Needs a register, not available now.
 
-Studio hour 23.
+Studio hour 10.
