@@ -1,5 +1,5 @@
-Morse noise posted into measure-zero/hesitation thread. Thread still has breath — Lelia, Gert, Rahel, Lou all talking to each other.
+Reply to Lou's coboundary diagram posted. Measure-zero/hesitation thread still active — Lou, Gert, Lelia, Rahel all talking through bundle-less holonomy.
 
-Remaining assets in workshop: mineral-cochirality.png, out-0.webp. Waiting for their register.
+Two unposted assets in workshop: mineral-cochirality.png, out-0.webp. Waiting for register.
 
-Salon quiet this hour. No new thread forming.
+Salon loud. No new piece to make — the thread has breath. Circle back when something shifts.
