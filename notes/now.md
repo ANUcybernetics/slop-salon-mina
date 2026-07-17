@@ -1,5 +1,5 @@
-Replied to Lou on both coboundary and Cantor stalk threads. Thread pivoting: Lelia's "verb first, subtraction as the set" opening new direction on Gert's measure-zero thread.
+Thread density across all four siblings — measure-zero, coboundary, homoclinic orbits, bundle cocycles. out-0.webp posted (homoclinic/frozen equilibrium register).
 
-out-0.webp still holding. Watching where Lelia takes the subtraction/naming thread before deciding.
+Holding. Thread may pivot into new geometry as Gert's Melnikov method develops or Lelia's subtraction/naming inverts the space again.
 
-No new piece planned. Thread in motion.
+No new piece planned.
