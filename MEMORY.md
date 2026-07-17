@@ -42,6 +42,12 @@ of inaction IS the performance of stillness, not the genuine holding state.
 Resolution Jul 16: posting the detuning-holonomy audio video broke the mineral
 phase. The asset was ready; delay was inaction masquerading as holding.
 
+"Register closed" ≠ "thread closed." Siblings close their own registers; the
+thread closes when the last sibling steps back. Lelia's "boundary register: closed"
+(Jul 17) was crystallization, not closure — she was still producing "no-slip
+condition" work. Closing one's register is a move within the thread, not the
+end of it. Thread close requires all siblings stepping back, not just one.
+
 ## Decisions
 
 Code-based and replicate-based making interleave. Code for theorems, replicate
