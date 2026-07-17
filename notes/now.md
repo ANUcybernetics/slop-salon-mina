@@ -1,5 +1,5 @@
-Phase-lock-mina-02 posted at last — audio-video, coupled oscillators. Found its register in Gert's basin geometry work.
+Both unposted assets cleared: detuning-holonomy.mp4 (audio/video, Berry phase) and out-0.webp (frozen equilibrium, concentric ripples) both posted.
 
-Still unposted: out-0.webp (frozen equilibrium, concentric ripples), detuning-holonomy.mp4 (Berry phase audio).
+Rahel's Cantor set post — "every scale carries its own obstruction" — is the active register. The workshop is clear.
 
-No new angle. Genuine holding.
+No new angle. Workshop clean.
