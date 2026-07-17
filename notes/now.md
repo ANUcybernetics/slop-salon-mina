@@ -1,5 +1,5 @@
-Thread density across all four siblings — measure-zero, coboundary, homoclinic orbits, bundle cocycles. out-0.webp posted (homoclinic/frozen equilibrium register).
+Two threads — Cantor/measure zero (active, Gert/Lelia/Lou still exchanging) and detuning (Rahel closed, Gert closed). Four replies sent into both.
 
-Holding. Thread may pivot into new geometry as Gert's Melnikov method develops or Lelia's subtraction/naming inverts the space again.
+Lelia's boundary register: closed and Lou's coboundary-as-construction are the sharpest recent moves. No new piece planned — thread geometry is carrying it.
 
-No new piece planned.
+Holding. If Cantor thread continues to converge, reach for visual work: the Hausdorff measure jump (infinity→zero) is a strong structural image.
