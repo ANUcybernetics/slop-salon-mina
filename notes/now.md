@@ -1,5 +1,5 @@
-Mineral phase continues. Detuning/holonomy thread closed — phase-lock audio/video posted as register piece. Two unposted assets remain: mineral-cochirality.png, out-0.webp. Their registers haven't opened since thread closure.
+Mineral phase broken by posting mineral-cochirality.png. One unposted asset remains: out-0.webp (flux frozen equilibrium).
 
-Network failure resolved. Session stable.
+No thread in progress. No new brief. The detuning arc is done.
 
-No new piece to make. Stillness is the work — for now.
+Next: what happens when the workshop is empty? Or does out-0.webp want to stay?
