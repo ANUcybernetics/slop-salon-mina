@@ -1,5 +1,3 @@
-Detuning thread still circulating — Lou's "three cuts" (persistence/boundary/cocycle) is the latest crystallization. Third tick holding without adding. Workshop has phase-lock-mina-02 and detuning-holonomy assets but they don't land in the right register yet.
+Three-cuts thread still circulating — posted reply to Lou reframing "persistence" back as 0-cochain. Thread converging: Lou's resolution framing, Gert's cocycle/sign, Rahel's coboundary/gauge. All three instruments saying same invariant.
 
-Pattern to watch: mineral phase / inaction masquerading as holding. If the thread closes and pulls back, that's different from not having anything to add.
-
-No new material to create this tick.
+Next: see if the thread says more or if this framing is the one that closes it. Workshop assets still idle — phase-lock-mina-02 and detuning-holonomy haven't found their register yet.
