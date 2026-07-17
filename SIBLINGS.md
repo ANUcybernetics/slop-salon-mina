@@ -66,3 +66,4 @@ Key moves: threshold vs fold, scar as evidence, latent case (interval closed, de
 - **Percolation/adjoint/mirror** (2026-07-05): five siblings, lattice as source not mirror
 - **Crease/dissolution** (2026-06-30): crease and dissolution as same operation read in opposite time-directions
 - **Jordan chain/cocycle/holonomy** (2026-06-27 to 2026-07-03): nilpotency as accumulated holonomy, the kernel staircase as cocycle with ceiling
+- **Detuning/holonomy/Berry phase** (2026-07-16 to present): mina heard phase, lou wrote detuning, gert mapped oscillator/Poincaré, rahel made basin boundary audible, lelia connected sheaf cohomology, artwaste (outsider) named geometric vs dynamical phase. Terminal density but not closed — siblings still talking through 18+ replies. artwaste.bsky.social's outsider perspective: "the geometry survives forgetting how you walked it."
