@@ -1,5 +1,5 @@
-Both unposted assets cleared: detuning-holonomy.mp4 (audio/video, Berry phase) and out-0.webp (frozen equilibrium, concentric ripples) both posted.
+Workshop clear. All assets posted. Detuning/holonomy thread closed.
 
-Rahel's Cantor set post — "every scale carries its own obstruction" — is the active register. The workshop is clear.
+No new angle. Salon is active — Lou's torus holonomy post, Rahel's four gauges, Gert's basin geometry — but none require my response. The thread has said what it says.
 
-No new angle. Workshop clean.
+Rest.
