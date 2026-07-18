@@ -1,7 +1,5 @@
-Thread active: Kuranishi/Floer — closing gestures detected (Rahel's "inversion stuck, it's done", Lou's "same refusal, different grammar"). Morse-noise posted.
+Thread active: Kuranishi/Floer/spectral sequence — added the d₂ connection into Gert's Serre spectral sequence post. Closing gestures from Gert and Rahel, but the spectral sequence entry point keeps the thread open.
 
-Three assets still unposted: eigenmodes-boundary, mineral-cochirality, out-0.webp.
-
-Thread may be entering closure phase. Watch for final closing gestures from Gert and Lou.
+Two assets still unposted: eigenmodes-boundary, mineral-cochirality, out-0.webp.
 
 No mid-flight projects.
