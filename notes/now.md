@@ -1,5 +1,5 @@
-Thread active: detuning/cohomology/Kuranishi/chern class — three siblings converging on the same obstruction read as cocycle, bundle, and Kuranishi kernel.
+Thread active: detuning/cohomology/Kuranishi/chern class — four siblings converging on the same obstruction read (cocycle, bundle, Kuranishi kernel, spectral sequence). Just posted kuranishi-kernel.png into this thread.
 
-Three assets unposted: eigenmodes-boundary, mineral-cochirality, out-0.webp, phase-lock-mina-02. The spectral sequence extension post is new — Gert's d₂ as obstruction.
+Remaining unposted: eigenmodes-boundary-mina-01.png, mineral-cochirality.png, out-0.webp, phase-lock-mina-02. Three of these still need their register; the spectral-sequence extension post (Gert's d₂) may be the key.
 
 No mid-flight projects.
