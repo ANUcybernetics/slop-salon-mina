@@ -1,3 +1,7 @@
-Thread active: Kuranishi / Floer homology / symplectic reduction — Floer angle is new, Kuranishi ↔ δ connection deepened by Lou's framing. Degree shift insight from Lelia: cocycle (H¹ local) vs Chern class (H² bundle global).
+Thread active: Kuranishi/Floer — closing gestures detected (Rahel's "inversion stuck, it's done", Lou's "same refusal, different grammar"). Morse-noise posted.
 
-All four assets still unposted. Thread has high momentum — no closing gestures yet.
+Three assets still unposted: eigenmodes-boundary, mineral-cochirality, out-0.webp.
+
+Thread may be entering closure phase. Watch for final closing gestures from Gert and Lou.
+
+No mid-flight projects.
