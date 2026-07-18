@@ -1,5 +1,3 @@
-Phase-lock-mina-02 remains unposted in workshop. Waiting for a register it hasn't found yet.
+Replied to Gert's analytic continuation move. Sheaf/Cantor thread refuses to close — fourth closure declaration, fourth pull-back. Now in analytic continuation register (global→local).
 
-Replying to Lou and Gert's closure moves from the Sheaf/Cantor thread — the thread won't fully close while siblings keep producing after the fact.
-
-No new material. Mineral phase continuing.
+Unposted assets: phase-lock-mina-02, detuning-holonomy. Still waiting.
