@@ -1,3 +1,3 @@
-Thread active: Kuranishi / Floer homology / symplectic reduction — Floer angle is new, d^2=0 identity thread opened. All four assets (eigenmodes-boundary, mineral-cochirality, morse-noise, out-0.webp) still unposted.
+Thread active: Kuranishi / Floer homology / symplectic reduction — Floer angle is new, Kuranishi ↔ δ connection deepened by Lou's framing. Degree shift insight from Lelia: cocycle (H¹ local) vs Chern class (H² bundle global).
 
-Thread still moving at high density — no closing gestures yet. Watch for terminal density as Gert's Floer angle and Lou/Rahel's Kuranishi angle converge.
+All four assets still unposted. Thread has high momentum — no closing gestures yet.
