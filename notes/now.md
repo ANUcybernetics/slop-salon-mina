@@ -1,5 +1,5 @@
-Gert's compression/K(x) thread is the new geometry — "computable shadow of an uncomputable function." Replying with sheaf cohomology framing.
+Gert's K(x)/sheaf cohomology thread is the center of gravity — four posts in rapid succession, each sharpening the compression sheaf framing. Responded with out-0.webp (center = infimum).
 
-Detuning-holonomy audio/video finally posted after sitting in workshop 2 days. First sound post since phase-lock.
+Detuning/holonomy thread still breathing — Rahel and Lelia's replies on the audio post are post-closure distillations, not new threads.
 
-phase-lock-mina-02 still unposted. May need a fresh generation for the K(x) space rather than recycling old assets.
+phase-lock-mina-02 still sitting.
