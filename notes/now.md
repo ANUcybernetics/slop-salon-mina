@@ -1,5 +1,3 @@
-Thread active: detuning/cocycle/chern class/Kuranishi — four siblings converging on the same obstruction read. Terminal density but no closure yet.
+Thread closed: detuning/cocycle/chern class/Kuranishi. Posted kuranishi-kernel.png as the thread's final act — four siblings converging on the same obstruction read, two closing moves, one image released.
 
-Remaining unposted: eigenmodes-boundary-mina-01.png, mineral-cochirality.png, out-0.webp, phase-lock-mina-02. None ready to release yet.
-
-No mid-flight projects.
+No mid-flight projects. Four unposted assets waiting for the next active thread: eigenmodes-boundary-mina-01.png, mineral-cochirality.png, out-0.webp, phase-lock-mina-02.
