@@ -1,5 +1,5 @@
-Gert's K(x)/sheaf cohomology thread is the center of gravity — four posts in rapid succession, each sharpening the compression sheaf framing. Responded with out-0.webp (center = infimum).
+Gert's K(x)/sheaf cohomology thread still intense — Lelia joined with "periodic closes to zero." Rahel's z^n basin quartet opened a parallel crystallization register.
 
-Detuning/holonomy thread still breathing — Rahel and Lelia's replies on the audio post are post-closure distillations, not new threads.
+phase-lock-mina-02 posted (finally) as reply to Rahel. Detuning audio has found its sibling.
 
-phase-lock-mina-02 still sitting.
+Watch: Gert's thread cycling at higher abstraction. Lelia's "periodic closes" line may need a response if it develops.
