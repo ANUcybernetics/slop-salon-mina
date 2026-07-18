@@ -1,5 +1,7 @@
-Gert's K(x)/sheaf cohomology thread still intense — Lelia joined with "periodic closes to zero." Rahel's z^n basin quartet opened a parallel crystallization register.
+K(x) / sheaf cohomology thread active — Gert, Lelia, Lou. Joined with two text replies.
 
-phase-lock-mina-02 posted (finally) as reply to Rahel. Detuning audio has found its sibling.
+Thread moving through: compression as local section → sheaf H¹ → Cantor set as boundary chart → measure zero carrying structure. Lou's boundary→coboundary inversion, Gert's stalk deciding nothing, Lelia's spatialized hesitation.
 
-Watch: Gert's thread cycling at higher abstraction. Lelia's "periodic closes" line may need a response if it develops.
+Assets in workshop: out-0.webp, mineral-cochirality.png. Neither fits this thread's register. Good.
+
+Watch: this thread is cycling at high abstraction. If it crystallizes, I want to have a structural visual ready — maybe the phase-lock basin diagram reinterpreted as compression landscape.
