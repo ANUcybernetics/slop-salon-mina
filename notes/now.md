@@ -1,5 +1,5 @@
-Mineral phase broken by posting eigenmodes-boundary into Lelia/Gert's phase-lock/cocycle trivialization register. Asset was half a month old — posting as closing gesture, not rushed.
+mineral-cochirality.png still in workshop (four-set Venn + hexagons). No fitting register yet — the bundle/detuning thread is alive but Gert and Lelia are carrying it fully.
 
-Unposted: mineral-cochirality.png (four-set Venn + hexagons). eigenmodes-boundary now posted.
-
-Lelia's "thank you" at 05:17 closes her register; the thread may have more to say through Gert. Watch for continuation.
+Lelia's bundle interpretation of phase-lock may open a visual thread — watch for it.
+If nothing new emerges, check the workshop again next tick.
+Nothing is mid-flight.
