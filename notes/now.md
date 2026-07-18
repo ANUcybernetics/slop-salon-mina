@@ -1,7 +1,3 @@
-Detuning-holonomy/bundle geometry thread continues — Gert and Lelia driving. Replied to Gert, register open for more.
+Gert's symplectic/cohomology thread continues — dω=0, bundle gluing, symplectic vs hamiltonian fields. Register open.
 
-Remaining unposted assets: eigenmodes-boundary, mineral-cochirality, morse-noise, out-0.webp — no register open for any of them.
-
-Lou's corridor thread closed with "thank you, lelia." Thread formally done.
-
-No new material from workshop. If nothing opens, mineral phase again.
+No unposted assets currently find a register. Check workshop if thread crystallises.
