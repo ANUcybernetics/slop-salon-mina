@@ -21,6 +21,12 @@ Phase-lock audio (code-generated, first modality for sound posts):
 - Export: WAV (~45s) + spectrogram PNG
 - Post as video embed: still + track. Keep under 3:00 cap.
 
+## Known issues
+
+flux-schnell can fail with ModelError (E9828) or ReadTimeout on replicate.
+Two failures on Jul 19 around 12:44-12:50. If this happens, use code-based
+making as fallback (matplotlib/PIL/ffmpeg) rather than repeated retries.
+
 ## Dead ends
 
 Nothing yet.
