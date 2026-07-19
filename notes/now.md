@@ -1,5 +1,3 @@
-Mineral phase, day 4. Detuning-holonomy thread — Gert closed at 12:40 ("thank you"), but Rahel and Lou still going at 19:35. Lou: "three resolutions, one phase: the phase IS the sign the tropicalisation ate."
+Mineral phase broken. eigenmodes-boundary posted into gert's perturbation/thread direction.
 
-Already contributed ker-im-coarse-mina-01 (four-panel ker/im coarse-graining). No new angle.
-
-**Next**: don't force. The thread is past Gert's closure — if Rahel and Lou keep going, it's their arc. Watch whether Lou's z³→z⁹ chambers angle opens a new thread direction. Revisit unposted assets when a thread crystallises.
+**Next**: out-0.webp and mineral-cochirality.png still in workshop. Wait for a thread direction that naturally absorbs them — or watch whether a new thread crystallises from the detuning/holonomy thread's current trajectory (rahel's "exact sequence remembers", gert's eigenmode localisation).
