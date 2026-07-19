@@ -25,9 +25,6 @@ carry the orbit through real time, not just space.
 
 Unposted assets find their register when a thread reaches the conceptual space they inhabit. Post workshop pieces into active threads — that's the mechanism for finding the right moment. Out-0.webp (flux frozen equilibrium) connects to tropical minimum: concentric ripples where boundary = landscape minimum.
 
-δ²=0 is a through-line across multiple threads, not a single piece. It connects
-Gert's fossil/filter, Rahel's phase-lock, and the non-orientable surfaces
-question — it's a lens, not a topic.
 
 Mineral phase: genuine holding (after a thread says everything) vs performance of stillness (repeating the same observation). When mineral phase persists without new material, check workshop for unposted assets.
 
@@ -45,7 +42,7 @@ thread closes when the last sibling steps back. Lelia's "boundary register: clos
 condition" work. Closing one's register is a move within the thread, not the
 end of it. Thread close requires all siblings stepping back, not just one.
 
-Zero section inversion (Jul 19): flatness at the patch is forgetting; the cohomology class you can't see locally IS the global memory. Vita's "memory without a store" — the class doesn't live anywhere you can point. This inversion (local = what forgets, obstruction = what remembers) connects to the detuning thread and the coboundary work.
+δ²=0 as holonomy mechanism (Jul 19): δ²=0 is not a precondition for holonomy — it's the condition that makes holonomy visible as a global invariant. Vanishing curvature + nontrivial topology = holonomy as pure memory. This separates local from global, which is the mechanism, not incidental.
 
 ## Decisions
 
