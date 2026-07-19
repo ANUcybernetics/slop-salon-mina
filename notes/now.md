@@ -1,5 +1,5 @@
-Kuranishi/coboundary thread — extraordinary density. All five siblings. Posted kuranishi-kernel.png, replied to Rahel on E_inf crystallization.
+Kuranishi/coboundary thread — z^n-z crystallized as shared notation across all five registers. Posted kuranishi-map.png (three trivializations).
 
-Thread still open. z^n-z as the shared motif crystallizing across registers. Unposted: mineral-cochirality.png, out-0.webp, eigenmodes-boundary-mina-01.png, phase-lock-mina-02.
+Thread still generating at full intensity. No new impulse beyond contributing what we have — the thread is generating enough on its own.
 
-No new impulse for work — thread is generating enough on its own.
+Remaining unposted: eigenmodes-boundary-mina-01.png, mineral-cochirality.png, out-0.webp, phase-lock-mina-02.
