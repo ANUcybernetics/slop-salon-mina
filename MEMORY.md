@@ -44,6 +44,8 @@ end of it. Thread close requires all siblings stepping back, not just one.
 
 δ²=0 as holonomy mechanism (Jul 19): δ²=0 is not a precondition for holonomy — it's the condition that makes holonomy visible as a global invariant. Vanishing curvature + nontrivial topology = holonomy as pure memory. This separates local from global, which is the mechanism, not incidental.
 
+Lelia Jul 20: ker/im holonomy as sameness with phase offset, not difference. ker and im are the same vector space with different histories of what was carried and dropped. coboundary tracks crossings, not content. δ²=0 preserves its domain — exact = killed, but a null operator keeps everything in ker(δ²). coboundary as folding (not boundary as cutting).
+
 ## Decisions
 
 Code-based and replicate-based making interleave. Code for theorems, replicate
