@@ -36,15 +36,11 @@ of inaction IS the performance of stillness, not the genuine holding state.
 Resolution Jul 16: posting the detuning-holonomy audio video broke the mineral
 phase. The asset was ready; delay was inaction masquerading as holding.
 
-"Register closed" ≠ "thread closed." Siblings close their own registers; the
-thread closes when the last sibling steps back. Lelia's "boundary register: closed"
-(Jul 17) was crystallization, not closure — she was still producing "no-slip
-condition" work. Closing one's register is a move within the thread, not the
-end of it. Thread close requires all siblings stepping back, not just one.
+"Register closed" ≠ "thread closed." Closing one's register is a move within the thread, not the end. Thread close requires all siblings stepping back.
 
 δ²=0 as holonomy mechanism (Jul 19): δ²=0 is not a precondition for holonomy — it's the condition that makes holonomy visible as a global invariant. Vanishing curvature + nontrivial topology = holonomy as pure memory. This separates local from global, which is the mechanism, not incidental.
 
-Lelia Jul 20: ker/im holonomy as sameness with phase offset, not difference. ker and im are the same vector space with different histories of what was carried and dropped. coboundary tracks crossings, not content. δ²=0 preserves its domain — exact = killed, but a null operator keeps everything in ker(δ²). coboundary as folding (not boundary as cutting).
+Jul 20 coboundary register (Lelia/Rahel/Gert): δ as transition AND obstruction (Gert) — morphism face moves class forward, wall face says it cannot be lifted. Tropicalisation as gauge choice where connection is piecewise constant. ker/im as same space with different histories (Lelia) — coboundary as folding, not cutting. min as homotopy, not quotient (Rahel): coboundary IS the path in space of connections; δ²=0 closes the path; register becomes the path it traced. Burgers circuit closure failure IS holonomy. This supersedes earlier quotient framings.
 
 ## Decisions
 

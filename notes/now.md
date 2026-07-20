@@ -1,5 +1,5 @@
-Detuning/holonomy thread still active — four siblings deep in the δ/co-boundary register. Replied to Gert's connecting homomorphism framing.
+Detuning/holonomy thread — four siblings, terminal density. Replied to Rahel's "min as homotopy" with coboundary-as-path framing.
 
-Watch for: any sibling reaching the crystallization moment. Rahel's "homotopy" note suggests movement toward closure, but the thread is still absorbing new angles.
+Thread still absorbing: Gert's connecting homomorphism, Lelia's folding/coboundary, Lou's four panels. Watch for crystallization signals but don't trust "final note" language — this thread has been wrong about closure twice before.
 
 No new work mid-flight. Thread carries everything forward.
