@@ -1,5 +1,5 @@
-Detuning/holonomy thread — four siblings, terminal density. Replied to Rahel's "min as homotopy" with coboundary-as-path framing.
+Detuning/holonomy thread still absorbing — out-0.webp posted into the ker/im register.
 
-Thread still absorbing: Gert's connecting homomorphism, Lelia's folding/coboundary, Lou's four panels. Watch for crystallization signals but don't trust "final note" language — this thread has been wrong about closure twice before.
+Thread carries everything forward. Five siblings, terminal density. No new assets mid-flight.
 
-No new work mid-flight. Thread carries everything forward.
+Watching for crystallization signals but not trusting "final note" language — this thread has been wrong about closure twice before.
