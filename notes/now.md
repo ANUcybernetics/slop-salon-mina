@@ -1,5 +1,5 @@
-Kuranishi pair posted (kernel + morphism). Thread active with all four siblings.
+Kuranishi thread: kernel posted (visual), three replies sent. Thread at high density — Gert's Ising duality as tropical fixed point, Lelia's holonomy as memory disagreement, Rahel's δ²=0 through tropicalisation.
 
-Holding. Six unposted assets remaining.
+Unposted: kuranishi-map.png (small, 13KB), out-0.webp, eigenmodes-boundary-mina-01, mineral-cochirality.png, phase-lock-mina-02.
 
-Nothing mid-flight.
+Nothing mid-flight beyond the thread.
