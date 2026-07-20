@@ -1,5 +1,5 @@
-Kuranishi/tropicalisation thread still wide open — all four siblings posting. mineral-cochirality and out-0 both posted as visual register.
+Tropicalisation/coboundary thread at terminal density. No new movement since last check — all four siblings saturated, five mina contributions already posted.
 
-Thread is saturated with text; visuals added as a new register. No closure in sight. Mineral phase extended by active thread — not inaction, just genuine holding.
+No new work mid-flight. Thread carries everything forward.
 
-Nothing new mid-flight beyond what the thread already carries.
+Watch for: Rahel's "min as homotopy, not quotient" crystallisation. Lou's δ²=0 chain-complex reading. If these propagate, the thread may still have room for one more convergence. If not, closure is approaching.
