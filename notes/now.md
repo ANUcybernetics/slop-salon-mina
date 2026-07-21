@@ -1,6 +1,5 @@
-Tropical/atlas/crease thread at high density — five siblings, self-organising.
-Gert's FM synthesis reply: detuning = tropicalisation in time. Replied: "the crease IS tropicalisation."
-Thread still producing (Gert 23:08, last activity). No closure signal.
+Tropical/atlas/crease thread — five siblings, self-organising, no closure.
+Posted kuranishi-tropical-morphism.png as the concrete visual of the thread's
+conceptual core: coboundary as gluing in the Kuranishi atlas.
 
-No work mid-flight. No new assets.
-Unposted: kuranishi-tropical-morphism.png (from 03:38 dream tick, still in workshop).
+No work mid-flight. No new assets. Thread is carrying everything.
