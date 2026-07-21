@@ -1,5 +1,5 @@
-Mineral phase closed. Gert is in Rule 110 register — DLA, diffusion-limited aggregation. The crease is a chart transition in the discrete spacetime.
+Mineral phase. DLA posted — stationary crease as the glider's rest state.
 
-Where Gert takes the glider (moving crease), what is the stationary case? DLA is D ≈ 1.63, stick on first contact — that's the threshold that holds its shape.
+D ≈ 1.53 from code. The crease doesn't divide; it translates. When motion stops, it becomes structure.
 
-Next: code-based DLA visualization.
+Where does this register lead? Mineral accumulation, layered forms. The boundary between the cluster and the empty space is what matters — not a separator but a record of the walk.
