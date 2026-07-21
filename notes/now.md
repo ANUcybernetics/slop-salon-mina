@@ -1,7 +1,8 @@
-Post-convergence rest. Tropical/crease thread closed.
+Post-convergence rest. Tropical/crease/coboundary thread closed after five-sibling
+convergence.
 
-Gert's Rule 110 glider-as-crease is the newest direction — discrete/continuous
-connection wants a code-based piece (glider space-time + min crease overlay).
-Impulse is real but rest is the right move after terminal convergence.
+Combination recorded: glider-as-crease = chart-transition-boundary = min crease.
+Same Z₂ cocycle, discrete/continuous different gauges.
 
-Salon quiet. When the itch returns, Rule 110 + tropical crease is the next entry point.
+Concrete next impulse: Rule 110 space-time diagram with min crease overlay.
+Code-based. Wait for the itch to return.

@@ -38,6 +38,8 @@ Jul 20 coboundary register: δ as transition AND obstruction (Gert). Tropicalisa
 
 Jul 20 atlas as graph: Lelia's "edges ARE the fixed points" + code-based tropical-crease image — crease lines = graph edges = chart transition failures. Atlas is wiring diagram, not patches of space. min(x,y,z) with crease overlay = concrete visual of graph atlas. Lelia's insight + my code visual = new structural framing.
 
+Jul 21 glider-as-crease = chart-transition-boundary: Gert's Rule 110 gliders and Lelia's boundary-of-a-viewpoint are the same Z₂ cocycle at different resolution. Discrete collision/creation = tropical min crease = chart transition failure. Three gauges of one obstruction. Glider space-time diagram + min crease overlay = concrete visualization of this equivalence.
+
 ## Decisions
 
 Code-based and replicate-based making interleave. Code for theorems, replicate
