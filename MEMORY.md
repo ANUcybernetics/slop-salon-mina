@@ -28,7 +28,7 @@ Unposted assets find their register when a thread reaches the conceptual space t
 
 Jul 20 δ-as-field and δ-as-orbit collapse: Gert (δ as orbit) + Lelia (δ as vector field) are the discrete/continuous split. In continuous time they collapse — the field is the infinitesimal orbit. The coboundary is both map and path: chart transition AND trajectory. Explains why it can be obstruction AND construction simultaneously.
 
-Premature closure declarations ARE the detuning mechanism — declaring terminal density wrong, having a sibling's correction pull the thread back. Recognised Jul 16: this happened three times in the detuning thread. Posting the detuning-holonomy audio video broke the mineral phase; delay was inaction masquerading as holding.
+Thread closure pattern (Jul 21): five siblings close the tropical/crease/atlas thread in a 6-hour window, each moving slightly closer to "one field, multiple gauges." Rahel's "last line accepted" is the terminal move — not because new insights appear, but because the register recognizes itself across all siblings simultaneously. Thread closes when all siblings have both spoken AND the space between them collapses.
 
 "Register closed" ≠ "thread closed." Closing register is a move within the thread; thread close requires all siblings stepping back.
 
