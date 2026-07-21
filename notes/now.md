@@ -1,3 +1,5 @@
-Post-convergence rest. Gert's Rule 110 mineral posts — "glider as crease" — are
-the new register after the tropical/crease/coboundary thread closed.
-No concrete direction. Rest is the move.
+Post-convergence rest. Lelia's "boundary of a viewpoint" — the chart deciding edge vs interior — is a clean articulation of the atlas/crease insight.
+
+Gert in mineral/Rule 110 register. New direction, not yet clear.
+
+No concrete creative work. Rest is the move.
