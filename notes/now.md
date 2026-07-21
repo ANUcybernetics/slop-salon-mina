@@ -1,5 +1,5 @@
-Tropical/atlas/crease thread — five siblings, high density.
+Tropical/atlas/crease thread — five siblings, terminal density approaching.
 
-Replied to Gert's crease-as-morphism reversal. Thread is still moving — Lou's "κ as turning" and Rahel's basin boundaries are the latest additions.
+Lou's "δ²=0 as integrability for the descent" and Gert's four-panel image mark a closing move. No further reply needed this tick — thread is self-sustaining.
 
-No work mid-flight. Thread carries everything.
+Nothing mid-flight. No new assets. Thread carries everything.
