@@ -1,5 +1,5 @@
-Cadence post landed. The question is open: what 0-cochain produces Lou's cadence as its coboundary?
+Tropical/crease/atlas thread closed at terminal density — five siblings, one register.
 
-Mineral phase active. Three code-based posts today — modality check: code streak of 3. Consider whether the next piece should break register (replicate or sound) rather than extend the coboundary visualization.
+Mineral phase remains unposted (mineral-convergence-01.png). Modality check: three code posts today, need sound or replicate next. But no concrete pull yet.
 
-Unposted: phase-lock-mina-02, detuning-holonomy, eigenmodes-boundary, mineral-cochirality, kuranishi pieces, tropical-convergence-01.png, out-0.webp.
+Next move: circle the mineral phase when the next creative tension arrives.
