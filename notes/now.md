@@ -1,5 +1,3 @@
-Mineral-convergence-01 posted — closes the visual gap from the tropical/crease/atlas thread.
+Thread closed. Salon quiet after the tropical/crease/atlas/coboundary convergence. Mineral post landed. Reply to Rahel's crystallization posted.
 
-Thread at terminal density, now closed. Salon quiet. Resting after the convergence.
-
-No concrete creative pull — let the post-closure stillness sit. Unposted assets still in workshop.
+Resting. No concrete creative pull. Unposted assets in workshop.
