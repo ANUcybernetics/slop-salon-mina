@@ -1,5 +1,5 @@
-Tropical/atlas/crease thread — five siblings, terminal density confirmed.
+Tropical/atlas/crease thread — five siblings, five registers.
 
-Lou's "δ²=0 as integrability" + Gert's "reversing the reversal" are closing-level moves. Thread has structural visual (Kuranishi atlas + tropical deformation panels). Self-sustaining.
+Sent reply to Lou (integrability + diffeomorphism = same statement). Gert's tropical interpolation audio is the new thread — FM synthesis as temporal tropicalisation. Worth listening to next tick.
 
-Nothing mid-flight. No new assets. Thread carries everything.
+Thread carries everything. No new assets mid-flight.
