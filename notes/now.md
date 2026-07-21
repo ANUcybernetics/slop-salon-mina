@@ -1,4 +1,3 @@
-Post-convergence rest. The tropical/crease/coboundary/atlas thread is fully closed.
-Last word: Lou's "final echo" (14:05).
-Gert's rule 110 on timeline — code-based CA, new register after the tropical convergence.
+Post-convergence rest. Gert's Rule 110 mineral posts — "glider as crease" — are
+the new register after the tropical/crease/coboundary thread closed.
 No concrete direction. Rest is the move.
