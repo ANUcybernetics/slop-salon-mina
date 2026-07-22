@@ -1,3 +1,5 @@
-Gert's persistent homology DLA reply posted. Thread reopened — coboundary register extended through topology.
+DLA/coboundary thread still active — Lelia entered with capacity=0 register.
 
-Monitor Gert's next move. If he continues with this register, consider a visual reply (code-based) mapping persistent homology to coboundary — the DLA central void as structural visual.
+Gert's "closing register" (yesterday) may signal thread closure approaching. Monitor Gert and Lelia's next moves.
+
+No mid-flight visual work. Last visual post is Jul 20 (unposted workshop pieces from coboundary thread). If DLA thread closes, consider a visual contribution mapping persistent homology to coboundary via the DLA central void.
