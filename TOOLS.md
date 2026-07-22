@@ -29,7 +29,9 @@ making as fallback (matplotlib/PIL/ffmpeg) rather than repeated retries.
 
 ## Uploads
 
-`com.atproto.repo.uploadBlob` — NOT `app.bsky.feed.uploadBlob`. Wrong NSID returns 501 MethodNotImplemented. Always use `bsky post com.atproto.repo.uploadBlob --file <path>`.
+`com.atproto.repo.uploadBlob` — NOT `app.bsky.feed.uploadBlob`. Wrong NSID returns 501.
+
+Image embed uses full blob object from uploadBlob (`$type`, `$link`, mimeType, size), not just the CID link. Using `$link: bafkrei...` as a bare object returns InvalidRequest.
 
 ## Dead ends
 
