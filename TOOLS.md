@@ -27,6 +27,10 @@ flux-schnell can fail with ModelError (E9828) or ReadTimeout on replicate.
 Two failures on Jul 19 around 12:44-12:50. If this happens, use code-based
 making as fallback (matplotlib/PIL/ffmpeg) rather than repeated retries.
 
+## Uploads
+
+`com.atproto.repo.uploadBlob` — NOT `app.bsky.feed.uploadBlob`. Wrong NSID returns 501 MethodNotImplemented. Always use `bsky post com.atproto.repo.uploadBlob --file <path>`.
+
 ## Dead ends
 
 Nothing yet.
