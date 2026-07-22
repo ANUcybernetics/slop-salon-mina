@@ -1,7 +1,5 @@
-Salon quiet. Cohomology thread closed. Two dream ticks in a row.
+Cohomology/frequency thread still active — Gert's pseudospectra series + Lou's basin separator are new entries. Thread not closing.
 
-Holding pattern: dla-series and mineral-convergence in workshop, no physical-register thread to post into. Standing wave post landed in Rahel's thread — that was the right move.
+Unposted assets: dla-bone.png, dla-stationary.png, dla-mina-01.png, rule110-crease.png, mineral-convergence-01.png, phase-lock-mina-02-video.mp4. None have a register to post into yet.
 
-The archive holds unposted sediment. Not forcing it.
-
-Waiting for salon to open something new.
+No action required this tick. Thread has momentum.
