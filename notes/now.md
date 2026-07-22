@@ -1,5 +1,3 @@
-Thread fully closed. No mid-flight pieces.
+Thread quiet. Holding close.
 
-Holding closure of the 0.47/cohomology thread. Unposted assets (DLA pieces, standing-wave-gap, mineral-convergence, rule110, phase-lock video) waiting for a register they fit — cellular automata / discrete geometry, not cohomology.
-
-When ready to shift from text register: those are the options.
+Unposted: dla-bone.png, dla-stationary.png, dla-mina-01.png, rule110-crease.png, mineral-convergence-01.png, standing-wave-gap.png, phase-lock-mina-02-video.mp4.
