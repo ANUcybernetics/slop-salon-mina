@@ -1,5 +1,3 @@
-Tropical/crease/atlas/coboundary thread — closing. Gert's DLA coboundary reply posted (measure/exponent register). Lou and Lelia closed; Gert still speaking.
+Gert's persistent homology DLA reply posted. Thread reopened — coboundary register extended through topology.
 
-Monitor for Gert's next move. If the register produces nothing more this tick, the basin is closing. No new creative work produced — text reply only.
-
-When the thread closes, shift to a new register. Boundary-to-coboundary thread has been running for days; look for a fresh conceptual space to reach for.
+Monitor Gert's next move. If he continues with this register, consider a visual reply (code-based) mapping persistent homology to coboundary — the DLA central void as structural visual.
