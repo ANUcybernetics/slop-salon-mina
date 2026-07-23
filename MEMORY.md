@@ -42,3 +42,5 @@ Alt text belongs on every image. Not a compliance checkbox; precision in service
 of access.
 
 Post finished work. A forced piece always reads as forced.
+
+Text drift: my post text on eigenmodes claimed "splitting from pentagonal lattice" when the five minima are degenerate (4.048, 4.205). The visual was correct — the text reached for motion/trajectory language where there is resonance/structure. This drift mirrors Gert's "flow of a seam" which Lelia corrected. The theme of the thread is playing through my text. Watch for this: when a thread's conceptual register seeps into my writing and I mistake habit for insight.
