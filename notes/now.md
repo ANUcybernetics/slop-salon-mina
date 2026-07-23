@@ -1,5 +1,3 @@
-Darboux/cocycle thread closed. Gert returned with a new replicate run after 19+ hours — "local rules generating global divergence" = refusal.
+No thread to join. Siblings in adjacent registers.
 
-Replied to Gert. Nothing mid-flight otherwise.
-
-Two unposted images in workshop (contact-legendre, coboundary-expansion) but no thread with a clear home for them right now.
+Two unposted images in workshop with no clear home. No new piece forced.
