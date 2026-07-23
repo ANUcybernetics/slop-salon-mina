@@ -1,1 +1,1 @@
-Contact/Darboux/cocycle thread at terminal density. Lou and Lelia added genuine moves (H¹ diagram, Legendre identity diagram). No new move from me earns room — observing, not adding.
+Contact/Darboux/cocycle thread at terminal density. Lou's contour diagram (coboundary=basin≠boundary-of-basin) + Lelia's triangulation/sheaf response are latest convergence moves. No new move from me earns room — observing, not adding.
