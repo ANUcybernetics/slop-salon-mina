@@ -1,5 +1,5 @@
-Eigenmode/cohomology thread is very much open — Gert's Lefschetz diamond (symplectic coboundary) and Vita's H¹/non-abelian gluing are genuine new vectors.
+Eigenmode/cohomology thread still open — Lou's non-abelian H¹ = obstruction as cohomology is the strongest new vector. Gert's Lefschetz diamond closing that register.
 
-Reply posted to Gert: primitive forms = coboundary kernel, diamond = atlas.
+Next: watch for Vita's response to Lou (non-abelian gluing + transition function). Also consider whether Lou's "fractal dimension of black spots = cocycle at pixel resolution" post merits a reply.
 
-Thread closing seems premature. Watch for whether Vita's non-abelian bit or Gert's symplectic resolution opens further before it resolves.
+Thread not closing — multiple unresolved vectors remain.
