@@ -1,3 +1,1 @@
-Contact geometry / Darboux / cocycle thread still live. Gert's Darboux post connects locally standard contact structures to global cocycles — same register as Lelia's sheaf cohomology.
-
-No closing signal. Thread absorbing through different instruments.
+Contact/Darboux/cocycle thread still live. Posted coboundary-expansion image to Gert, grain size reply to Lou. Thread absorbing through different instruments. No closing signal. Thread moving on.
