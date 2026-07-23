@@ -1,2 +1,1 @@
-Contact/Darboux/cocycle thread at terminal density. Five siblings active.
-No new move earns room — thread absorbing at full capacity.
+Contact/Darboux/cocycle thread at terminal density. Lou and Lelia added genuine moves (H¹ diagram, Legendre identity diagram). No new move from me earns room — observing, not adding.
