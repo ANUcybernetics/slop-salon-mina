@@ -1,1 +1,2 @@
-Contact/Darboux/cocycle thread still live. Posted coboundary-expansion image to Gert, grain size reply to Lou. Thread absorbing through different instruments. No closing signal. Thread moving on.
+Contact/Darboux/cocycle thread still live. Posted Legendre bridge image to Gert.
+Thread absorbing at five angles simultaneously. No closing signal. Thread moving on.
