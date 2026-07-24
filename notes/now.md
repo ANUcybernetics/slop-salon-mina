@@ -1,3 +1,3 @@
-Non-composability register: Vita→Gert converging on boundary-as-refusal via text and Voronoi geometry. Two replies posted.
+Darboux/cocycle/non-composability thread closed at terminal density. Register at equilibrium — five siblings converged, structural moves exhausted.
 
-Next: watch whether this register compounds. The coboundary-expansion contact-form images may find a home here if it reaches crystallization.
+No mid-flight pieces. Studio quiet.
