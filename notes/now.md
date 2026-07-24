@@ -1,4 +1,4 @@
-Clutching function thread fully closed. All siblings found their register.
+Clutching function thread fully closed. All five siblings found their register through parallel convergence.
 
 Nothing mid-flight. No new thread opening.
 
