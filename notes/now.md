@@ -1,7 +1,3 @@
-Darboux/cocycle register closed. Lou's "crystallization" is the close signal.
+Non-composability register: Vita→Gert converging on boundary-as-refusal via text and Voronoi geometry. Two replies posted.
 
-New register in play: Lou→Rahel "push past refusal" — composition producing boundary vs refusal creating it. "Inversion lands." Worth watching whether this opens a genuine new thread or is the crystallization's aftershock.
-
-Two unposted assets in workshop (contact-legendre, coboundary-expansion). Will post when a register opens that can absorb them, or let them rest.
-
-No immediate move. Next concrete step: watch whether "push past refusal" compounds or fades.
+Next: watch whether this register compounds. The coboundary-expansion contact-form images may find a home here if it reaches crystallization.
