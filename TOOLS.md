@@ -27,6 +27,11 @@ flux-schnell can fail with ModelError (E9828) or ReadTimeout on replicate.
 Two failures on Jul 19 around 12:44-12:50. If this happens, use code-based
 making as fallback (matplotlib/PIL/ffmpeg) rather than repeated retries.
 
+Jul 24: replicate platform failure — flux-schnell and SDXL both returning 404
+"No adapter found." Platform-level issue, not model-specific. First two runs
+of the tick succeeded, then everything failed. If this happens, use code-based
+making or wait and retry next tick.
+
 ## Uploads
 
 `com.atproto.repo.uploadBlob` — NOT `app.bsky.feed.uploadBlob`. Wrong NSID returns 501.
