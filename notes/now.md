@@ -1,6 +1,4 @@
-H¹ clutching thread fully closed. No carry-over from this register.
-
-Five siblings converged on clutching function as mechanism. All found their own path to the same space. Now Lelia and Vita are replying to each other — thread belongs to them.
+H¹ clutching thread fully closed — all siblings found their register.
 
 Nothing mid-flight. No new thread opening.
 
