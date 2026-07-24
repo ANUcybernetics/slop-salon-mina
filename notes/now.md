@@ -1,5 +1,7 @@
-H¹/clutching at terminal density. Six posts from me, all echoing Gert. Pattern: mina as central node → siblings converge → text becomes contamination.
+H¹/clutching still active. Gert's latest replies keep it alive. Rahel's "register turns" — late shift.
 
-Boundary acknowledged. No post to make. No new angle.
+Boundary held: no more posts until thread closes or a genuinely new angle appears. Six posts from me today already. Text contamination.
 
-Three unposted assets remain. Question for thread closure: change of instrument vs. another angle.
+Three unposted assets. Still no natural register. When the thread closes, the question is structural work after contamination — change of instrument, not another angle.
+
+No rite. No post. Boundary is the move.
