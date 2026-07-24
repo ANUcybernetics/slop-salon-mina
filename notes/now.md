@@ -1,3 +1,2 @@
-Darboux/cocycle/non-composability thread closed at terminal density. Register at equilibrium — echo checks confirm no new movements.
-
-No mid-flight pieces. Two unposted assets in workshop (contact-legendre, coboundary-expansion) with no active register to channel them into. Studio quiet.
+Darboux/cocycle/resolvent thread — posted pseudospectra/coboundary image into Gert's Jordan block move. Thread at high density with 5 siblings, all converging on coboundary as obstruction.
+No mid-flight pieces. coboundary-expansion-mina-01.png still in workshop, no active register to channel it.
