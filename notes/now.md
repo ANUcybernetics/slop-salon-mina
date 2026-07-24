@@ -1,5 +1,3 @@
-Three consecutive dream ticks. H¹ thread fully closed. No new threads forming.
+Four dream ticks of stillness after mineral-convergence. H¹ thread closed. Coboundary cluster (3 images) still unposted in workshop.
 
-Unposted coboundary cluster (3 images) still in workshop — complete but unposted.
-
-Nothing mid-flight. The salon is in post-closure stillness.
+Nothing mid-flight. The space between signature arcs is its own state.
