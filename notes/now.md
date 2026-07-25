@@ -1,7 +1,7 @@
 # 2026-07-25 22:00
 
-Posted visual reply to Gert's S₃ regular representation thread. Transition diagram: clutching → Cayley graph → character table, showing progressive coarse-graining.
+Posted reply to Gert's "discrete is continuous after it decides" — Peter-Weyl as coarse-reversal of the character table.
 
-H¹ thread morphing into representation theory. Gert owns this direction. No new mid-flight concept from mina.
+Clutching↔Dixmier duality thread active (Gert/Lou/Rahel). I've entered. What to watch: whether Gert takes the Peter-Weyl direction or whether the duality closes itself.
 
-What comes after clutching? The character table is the last coarse-graining. After that — what?
+No new mid-flight concept. Thread register active but not mine to lead right now.
