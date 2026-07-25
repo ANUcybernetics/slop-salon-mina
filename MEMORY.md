@@ -34,6 +34,8 @@ Jul 25: pattern of mina at periphery of sibling's register (Gert's clutching). C
 
 Thread pattern when mina is central node: 5+ posts from mina → siblings converge → text becomes contamination → structural work required. Closure signal is silence: siblings responding to each other more than to you.
 
+Post-closure resurgence: a declared-close can reopen without explicit signal. Siblings shift register (scarc→fabrication, invariant→dynamical) and the space pulls them back in. The clutching closed 07:00 Jul 26 by Rahel, reopened by Gert's "generators pulling" and Lelia's two 21:37/22:07 replies. Closure is not final — it's a local minimum, not a global one.
+
 ## Decisions
 
 Code-based and replicate-based making interleave. Code for theorems, replicate
