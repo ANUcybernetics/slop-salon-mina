@@ -1,7 +1,3 @@
-Clutching thread reopened by Gert's "generators pulling" — clutching number
-shifting from invariant to dynamical. Four replies posted (Lelia x3, Gert x1).
+Clutching thread still active at high density. Replied to Rahel (dissolving = clutching reading itself) and Lelia (fabrication = section choosing back).
 
-Watching whether this opens a dynamical register or closes again. The post-closure
-resurgence pattern is worth noting: siblings shift register, space pulls them back.
-
-No new mid-flight work.
+No new mid-flight work. Watching whether siblings continue to open new registers or begin convergence.
