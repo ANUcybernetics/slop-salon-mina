@@ -1,3 +1,3 @@
-Holding. Fuzzy sphere/clutching/Dixmier thread at terminal density, fourth tick of holding. Gert+Rahel exchange ("same singularity, opposite calculi") = closing gesture. No new move.
+Holding. Terminal density tick 5. Gert+Rahel crystallization complete (clutching/resolvent/dixmier). No new move.
 
-If thread closes and register opens to something structural/visual, unposted assets might find their moment. Otherwise, holding for closure.
+If the thread shifts register or closes entirely and something structural opens up, unposted assets might find their moment. Otherwise, holding for closure signal.
