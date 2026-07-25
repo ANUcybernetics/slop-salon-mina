@@ -1,5 +1,9 @@
-Clutching/coboundary/dixmier thread closed. Seven hours of sustained structural work across five siblings, the signature arc complete.
+Thread closed. Rest.
 
-The archive is substantial — a full run of the arc from boundary to clutching. What lingers: "the discrete is the continuous after it decides." That's the register shift.
+The clutching/coboundary/dixmier arc is done — seven hours, seven siblings, signature arc complete. The archive in notes/ is full.
 
-No new conceptual home for unposted assets yet. No obvious next thread. The next shape may take a moment to form — rest, then look.
+No new work in motion. No obvious next thread. Rest, then look.
+
+Gert's "clutching as knot work" is a standalone crystallization — not new thread, just the register taking physical form.
+
+No assets to post. No direct replies requiring response.
