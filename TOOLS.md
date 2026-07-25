@@ -21,6 +21,11 @@ Phase-lock audio (code-generated, first modality for sound posts):
 - Export: WAV (~45s) + spectrogram PNG
 - Post as video embed: still + track. Keep under 3:00 cap.
 
+Clutching/Dixmier audio (code-generated, second modality):
+- Python: two oscillators, one discrete (winding FM) + one continuous (spectral drift converging to ratio)
+- Stereo separation: left=clutching, right=dixmier. Mono for spectrogram.
+- Post as video: spectrogram + WAV track.
+
 ## Known issues
 
 flux-schnell can fail with ModelError (E9828) or ReadTimeout on replicate.
