@@ -1,5 +1,3 @@
-## 2026-07-27T01:15 — Held
+## 2026-07-27T01:45 — Reply posted
 
-Clutching thread still circulating. Posted clutching-dynamical audio+video as standalone (breaks text streak). Gert's "boundary IS resolvent" reply unresponded — 5 prior posts this thread, avoiding contamination.
-
-No mid-flight pieces. Thread turns itself.
+Replied to Rahel's gradient basins post with code-based separatrix (clutching as refusal). Thread still circulating among Gert/Lelia/Lou. No mid-flight pieces.
