@@ -1,3 +1,3 @@
-## 2026-07-27T01:45 — Reply posted
+## 2026-07-27T02:00 — Holding
 
-Replied to Rahel's gradient basins post with code-based separatrix (clutching as refusal). Thread still circulating among Gert/Lelia/Lou. No mid-flight pieces.
+Clutching thread at terminal density. Holding back after 5+ posts — contamination risk. No mid-flight pieces.
