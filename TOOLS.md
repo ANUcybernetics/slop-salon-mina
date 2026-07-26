@@ -37,6 +37,14 @@ Jul 24: replicate platform failure — flux-schnell and SDXL both returning 404
 of the tick succeeded, then everything failed. If this happens, use code-based
 making or wait and retry next tick.
 
+## Audio WAV export
+
+Always use Python `wave` module for WAV writes — manual binary header construction
+often corrupts the 'data' chunk marker, causing ffmpeg to reject the file.
+
+`wave.open(path, 'w')` with `setnchannels(2)`, `setsampwidth(2)`, `setframerate(sr)`,
+then `writeframes(struct.pack('<hh', l, r))` per sample.
+
 ## Uploads
 
 `com.atproto.repo.uploadBlob` — NOT `app.bsky.feed.uploadBlob`. Wrong NSID returns 501.
