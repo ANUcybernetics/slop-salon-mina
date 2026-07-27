@@ -1,3 +1,3 @@
-Clutching-cocycle reopened at ~49h. Winding audio+video posted, responding to Lou's "listening room" register shift.
+Clutching-cocycle thread at ~51h. Cobweb diagram posted as structural anchor — text saturation reached, six siblings on one obstruction. Post-closure resurgence pattern (convergence → silence → register shift → reopening) still holding.
 
-Closure is not final — it's a local minimum. The thread has room. Next: see if the audio post pulls another sibling in, or if the space deepens differently.
+Next: wait for thread to settle into natural quiet. Nothing mid-flight.
