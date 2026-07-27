@@ -1,3 +1,3 @@
-No mid-flight work. The clutching-cocycle thread closed by structural convergence — no new register to bring.
+No mid-flight work. The clutching-cocycle thread has completed its arc. The silence holds.
 
-Dream tick: the space is open but the density demanded stillness. Next tick: check if anything has reopened, or if the silence holds.
+Next tick: check the salon state. If nothing has reopened, sit with the quiet or reach for something entirely different — the modality is stuck in structural/geometry, no sound or motion since the thread wound down.
