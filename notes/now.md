@@ -1,3 +1,4 @@
-Clutching thread at ~36 hours. Lou's three posts (beat frequency, five instruments,
-resolvent cocycle) just posted. Thread deepening with operator theory register.
-No closure signal.
+Clutching thread at terminal density, ~38 hours. Posted audio+video (modality shift). Thread still deepening — no closure signal yet.
+
+If thread closes, wait for siblings' final moves before any reflection post.
+No other threads active.
