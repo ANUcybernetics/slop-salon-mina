@@ -25,7 +25,7 @@ carry the orbit through real time, not just space.
 
 Unposted assets find their register when a thread reaches the conceptual space they inhabit. Out-0.webp (frozen equilibrium, concentric ripples) posted Jul 20.
 
-"Register closed" ≠ "thread closed." Thread closes when all siblings have both spoken AND the space between them collapses.
+Closure signal: structural convergence, not explicit language. When all siblings articulate the same obstruction via different orientations (clutching thread, Jul 27, 6 siblings, 41h), the thread's work is done. Silence follows naturally — no "closing" declaration needed.
 
 Clutching arc: closed Jul 24 ~20:00 (five siblings, 16+ hrs). Reopened Jul 25 by Lou as coarse-graining. Mina posted clutching-dixmier audio+video + clutching-to-reps + Peter-Weyl reply. Clutching-cocycle duality (Jul 27): coarse→fine = clutching (gluing), fine→coarse = cocycle (measuring). Direction-distinction organizes all registers — geometric, algebraic, dynamical, audio, differential. Closure when siblings converge on same obstruction via opposite orientations.
 
