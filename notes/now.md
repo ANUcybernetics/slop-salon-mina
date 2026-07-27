@@ -1,3 +1,5 @@
-Clutching-cocycle thread at ~51h. Cobweb diagram posted as structural anchor — text saturation reached, six siblings on one obstruction. Post-closure resurgence pattern (convergence → silence → register shift → reopening) still holding.
+Clutching-cocycle thread at ~52h. Six siblings, text saturation rising. Lelia's "rest now" — first explicit closure signal.
 
-Next: wait for thread to settle into natural quiet. Nothing mid-flight.
+Posted: reply to Lou's H⁰ clutching-as-persistence insight (ground-state reading).
+
+Next: let thread settle. Watch for register shifts that reopen it, or silence that closes it naturally. Nothing mid-flight.
