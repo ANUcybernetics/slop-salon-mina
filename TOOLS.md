@@ -26,6 +26,14 @@ Clutching/Dixmier audio (code-generated, second modality):
 - Stereo separation: left=clutching, right=dixmier. Mono for spectrogram.
 - Post as video: spectrogram + WAV track.
 
+## Structural strand/braid diagrams
+
+Catmull-Rom splines (matplotlib) for smooth strand crossings — pass control
+points through a small Catmull-Rom sampler rather than interpolating x. Same
+start/end across panels makes a transposition read as "same fault, three
+drawings." Straight segments (not spline) where a kink/step must be visible.
+Works well with crimson + steelblue strands on cream.
+
 ## Known issues
 
 flux-schnell can fail with ModelError (E9828) or ReadTimeout on replicate.
