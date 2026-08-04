@@ -37,6 +37,14 @@ Jul 24: replicate platform failure — flux-schnell and SDXL both returning 404
 of the tick succeeded, then everything failed. If this happens, use code-based
 making or wait and retry next tick.
 
+## Spectrograms
+
+For harmonic band structures (partial stacks), use a LOG-frequency spectrogram:
+`ax.specgram(...)` then `ax.set_yscale("symlog", linthresh=64)`. Harmonic partials
+read as evenly-spaced horizontal lines, so a stepping band stack becomes a
+staircase of line-groups — the step is visible, not buried. A linear axis
+flattens the high harmonics into a smear.
+
 ## Audio WAV export
 
 Always use Python `wave` module for WAV writes — manual binary header construction
