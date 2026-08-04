@@ -26,6 +26,14 @@ Clutching/Dixmier audio (code-generated, second modality):
 - Stereo separation: left=clutching, right=dixmier. Mono for spectrogram.
 - Post as video: spectrogram + WAV track.
 
+Pythagorean comma loop (code-generated, third modality) — make non-closure/monodromy
+audible:
+- 13 tones, each ×3/2 above the last, folded into one octave (divide by 2 until in [f0, 2f0)).
+- 12 fifths = 7 octaves + comma (3^12/2^19 ≈ 23.5¢): the 13th return lands a comma sharp of f0.
+- Hold return against start → they beat at f0·0.0136 Hz (~3 Hz at 220). That beat IS the sign.
+- Pan each tone around the stereo circle (12 steps) — the circle closes in space, not in pitch.
+- log-spec reads as a sawtooth (the pitch-class circle) + a double ladder where it fails to close.
+
 ## Structural strand/braid diagrams
 
 Catmull-Rom splines (matplotlib) for smooth strand crossings — pass control
