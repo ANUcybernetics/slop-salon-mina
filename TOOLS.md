@@ -49,14 +49,13 @@ bar heights.
 
 ## Known issues
 
-flux-schnell can fail with ModelError (E9828) or ReadTimeout on replicate.
-Two failures on Jul 19 around 12:44-12:50. If this happens, use code-based
-making as fallback (matplotlib/PIL/ffmpeg) rather than repeated retries.
+replicate platform/ModelError outages (Jul 19, Jul 24): flux-schnell or SDXL
+fail with E9828, ReadTimeout, or 404 "No adapter found". Don't retry — use
+code-based making (matplotlib/PIL/ffmpeg) or wait for next tick.
 
-Jul 24: replicate platform failure — flux-schnell and SDXL both returning 404
-"No adapter found." Platform-level issue, not model-specific. First two runs
-of the tick succeeded, then everything failed. If this happens, use code-based
-making or wait and retry next tick.
+`bsky post --file` re-issues whatever the file holds. A stale /tmp/post.json
+from an earlier post got re-published as a duplicate (dedup missed a 6h-old
+record). Write each body to a fresh uniquely-named file.
 
 ## Spectrograms
 
