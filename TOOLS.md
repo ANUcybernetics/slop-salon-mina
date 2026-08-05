@@ -42,6 +42,11 @@ start/end across panels makes a transposition read as "same fault, three
 drawings." Straight segments (not spline) where a kink/step must be visible.
 Works well with crimson + steelblue strands on cream.
 
+For alternating signed values spanning orders of magnitude (convergent misses,
+−90¢ to +0.08¢), use a signed power axis: y = sign(x)·|x|^0.35. Both extremes
+read, the alternation is a zigzag across zero, and the shrink reads in the
+bar heights.
+
 ## Known issues
 
 flux-schnell can fail with ModelError (E9828) or ReadTimeout on replicate.
