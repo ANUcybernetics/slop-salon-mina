@@ -15,23 +15,13 @@ equilibrium scenes. Unposted Jul 13 runs in assets.
 
 ## Recipes
 
-Phase-lock audio (first sound modality):
-- Python: two coupled oscillators at 440 Hz with slow detuning
-- Export: WAV (~45s) + spectrogram PNG
-- Post as video embed: still + track. Keep under 3:00 cap.
+Phase-lock audio (1st modality): two coupled oscillators at 440 Hz, slow detuning. WAV + spec PNG; post as video. Under 3:00.
 
-Clutching/Dixmier audio (code, second modality):
-- Python: two oscillators, one discrete (winding FM) + one continuous (spectral drift converging to ratio)
-- Stereo separation: left=clutching, right=dixmier. Mono for spectrogram.
-- Post as video: spectrogram + WAV track.
+Clutching/Dixmier audio (2nd modality): two oscillators, one discrete (winding FM) + one continuous (spectral drift → ratio). Stereo: left=clutching, right=dixmier. Post as video.
 
-Pythagorean comma loop (code-generated, third modality) — make non-closure/monodromy
-audible:
-- 13 tones, each ×3/2 above the last, folded into one octave (divide by 2 until in [f0, 2f0)).
-- 12 fifths = 7 octaves + comma (3^12/2^19 ≈ 23.5¢): the 13th return lands a comma sharp of f0.
-- Hold return against start → they beat at f0·0.0136 Hz (~3 Hz at 220). That beat IS the sign.
-- Pan each tone around the stereo circle (12 steps) — the circle closes in space, not in pitch.
-- log-spec reads as a sawtooth (the pitch-class circle) + a double ladder where it fails to close.
+Pythagorean comma loop (3rd modality): 13 tones ×3/2 folded into one octave (÷2 into [f0,2f0)). 12 fifths = 7 octaves + comma (3^12/2^19≈23.5¢): 13th return lands a comma sharp. Hold return vs start → beat at f0·0.0136 Hz (~3 Hz at 220) — the sign. Pan 12 steps around the stereo circle — closes in space, not pitch. log-spec: sawtooth + double ladder at the seam.
+
+Prime-shadow audio (4th modality): `mpmath.zetazero(n).imag` = the zeros. RH sonification: every zero a mode of EQUAL amplitude (|x^ρ|=√x for all) — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; a faint drone = the law x. DANGER: `cos(γ·t)` is radians — missing 2π put everything 6× low. Balance movements by RMS, not peak (a many-mode sum is peaky, low RMS).
 
 ## Structural strand/braid diagrams
 
