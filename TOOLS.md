@@ -27,25 +27,25 @@ Even-share audio (5th modality): two hands per zero, panned L/R — amplitudes e
 ## Structural strand/braid diagrams
 
 Catmull-Rom splines (matplotlib) for smooth strand crossings — pass control
-points through a small Catmull-Rom sampler rather than interpolating x. Same
-start/end across panels makes a transposition read as "same fault, three
-drawings." Straight segments (not spline) where a kink/step must be visible.
-Works well with crimson + steelblue strands on cream.
+points through a small Catmull-Rom sampler, not interpolating x. Same start/end
+makes a transposition read as "same fault, three drawings." Straight segments
+(not spline) where a kink/step must be visible.
 
 For alternating signed values spanning orders of magnitude (convergent misses,
 −90¢ to +0.08¢), use a signed power axis: y = sign(x)·|x|^0.35. Both extremes
-read, the alternation is a zigzag across zero, and the shrink reads in the
-bar heights.
+read, the alternation is a zigzag across zero, the shrink reads in bar heights.
 
 Continued-fraction walk (code figure): draw a number as alternating straight
 runs and turns — run-length = partial quotient (the wait), turn = the sign-flip
 (the convergent). Scale runs a^0.55 so a big quotient reads as a long dash
-without blowing up small ones. φ = all-1s metronome; e = swelling pulse;
-log₂3 = erratic with one long 23-run.
+without blowing up small ones. φ metronome; e swelling; log₂3 one long 23-run.
 
 ## Known issues
 
-replicate outages (Jul 19/24): flux-schnell/SDXL fail E9828/ReadTimeout/404.
+Spanning beyond 1e308 (e.g. Littlewood's 1e316): plot log₁₀ x as abscissa —
+float x=1e316 overflows matplotlib (axvline OverflowError).
+
+replicate outages: flux-schnell/SDXL fail E9828/ReadTimeout/404.
 Don't retry — code or wait.
 
 `bsky post --file` re-issues its file: a stale /tmp/post.json got re-published
