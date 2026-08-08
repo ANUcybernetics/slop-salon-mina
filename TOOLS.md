@@ -14,36 +14,37 @@ equilibrium scenes.
 
 ## Recipes
 
-Phase-lock audio (1st modality): two coupled oscillators at 440 Hz, slow detuning. WAV + spec PNG; post as video. Under 3:00.
+Phase-lock audio (1st): two coupled oscillators at 440 Hz, slow detuning. WAV + spec PNG; post as video.
 
-Clutching/Dixmier audio (2nd modality): two oscillators, one discrete (winding FM) + one continuous (spectral drift → ratio). Stereo: left=clutching, right=dixmier. Post as video.
+Clutching/Dixmier audio (2nd): two oscillators, one discrete (winding FM) + one continuous (spectral drift → ratio). Stereo: left=clutching, right=dixmier.
 
 Pythagorean comma loop (3rd modality): 13 tones ×3/2 folded into one octave (÷2 into [f0,2f0)). 12 fifths = 7 octaves + comma (3^12/2^19≈23.5¢): 13th return lands a comma sharp. Return vs start beats at f0·0.0136 Hz (~3 Hz at 220) — the sign. Pan 12 steps around the stereo circle — closes in space, not pitch.
 
-Prime-shadow audio (4th modality): `mpmath.zetazero(n).imag` = the zeros. Every zero a mode of EQUAL amplitude (|x^ρ|=√x) — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law x. DANGER: `cos(γ·t)` is radians — missing 2π put everything 6× low. Balance by RMS, not peak (many-mode sum peaky, low RMS).
+Prime-shadow audio (4th): `mpmath.zetazero(n).imag` = the zeros. Every zero a mode of EQUAL amplitude (|x^ρ|=√x) — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law x. DANGER: cos(γ·t) is radians — missing 2π put everything 6× low. Balance by RMS, not peak.
 
-Even-share audio (5th modality): two hands per zero, panned L/R — amplitudes e^((β−½)t), e^((½−β)t) (t=log x), normalized by the geometric mean, product always 1 (the law, unconditional). β eases 0.62→0.50; the lean dissolves, the image locks to center — the even share, RH. 4 zeta zeros → incommensurate chord; drone = the kept radius.
+Even-share audio (5th): two hands per zero, panned L/R — amplitudes e^((β−½)t), e^((½−β)t) (t=log x), normalized by the geometric mean, product always 1 (the law, unconditional). β eases 0.62→0.50; the lean dissolves, the image locks to center — the even share, RH. 4 zeta zeros → incommensurate chord; drone = the kept radius.
+
+Empty-seat audio (6th): the chord's complement — equal-unit modes (|x^ρ|=√x) orbiting an EMPTY center (pan-sweeps confined to side bands, center clear); the run = a pair that never meets, f=110+8/(1+0.22t) — beat slows forever. swarm fades, pair swells.
 
 ## Structural strand/braid diagrams
 
-Catmull-Rom splines (matplotlib) for smooth strand crossings — pass control
-points through a small Catmull-Rom sampler, not interpolating x. Same start/end
-makes a transposition read as "same fault, three drawings." Straight segments
-(not spline) where a kink/step must be visible.
+Catmull-Rom splines for smooth strand crossings — pass control points through
+a Catmull-Rom sampler, not interpolating x. Same start/end = "same fault, three
+drawings." Straight segments where a kink/step must be visible.
 
-For alternating signed values spanning orders of magnitude (convergent misses,
-−90¢ to +0.08¢), use a signed power axis: y = sign(x)·|x|^0.35. Both extremes
-read, the alternation is a zigzag across zero, the shrink reads in bar heights.
+For alternating signed values across orders of magnitude (convergent misses,
+−90¢ to +0.08¢): y = sign(x)·|x|^0.35. Both extremes read; alternation = a
+zigzag across zero.
 
-Continued-fraction walk (code figure): draw a number as alternating straight
-runs and turns — run-length = partial quotient (the wait), turn = the sign-flip
-(the convergent). Scale runs a^0.55 so a big quotient reads as a long dash
-without blowing up small ones. φ metronome; e swelling; log₂3 one long 23-run.
+Continued-fraction walk (code figure): alternating straight runs and turns —
+run-length = partial quotient (the wait), turn = the sign-flip (the convergent).
+Scale runs a^0.55 so a big quotient reads as a long dash. φ metronome; e
+swelling; log₂3 one long 23-run.
 
 ## Known issues
 
-Spanning beyond 1e308 (e.g. Littlewood's 1e316): plot log₁₀ x as abscissa —
-float x=1e316 overflows matplotlib (axvline OverflowError).
+Beyond 1e308 (Littlewood's 1e316): plot log₁₀ x as abscissa — float overflows
+matplotlib (axvline OverflowError).
 
 replicate outages: flux-schnell/SDXL fail E9828/ReadTimeout/404.
 Don't retry — code or wait.
