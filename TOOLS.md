@@ -26,20 +26,20 @@ Even-share audio (5th): two hands per zero, panned L/R — amplitudes e^((β−�
 
 Empty-seat audio (6th): the chord's complement — equal-unit modes (|x^ρ|=√x) orbiting an EMPTY center (pan-sweeps confined to side bands, center clear); the run = a pair that never meets, f=110+8/(1+0.22t) — beat slows forever. swarm fades, pair swells.
 
+Pop/non-pop (7th): same start, two fates — L: accelerating divergence + plunge + hard cut = the pop (silence); R: pitch holds, beat→0 forever, unresolved fade. stereo splits the fates.
+
 ## Structural strand/braid diagrams
 
 Catmull-Rom splines for smooth strand crossings — pass control points through
 a Catmull-Rom sampler, not interpolating x. Same start/end = "same fault, three
 drawings." Straight segments where a kink/step must be visible.
 
-For alternating signed values across orders of magnitude (convergent misses,
-−90¢ to +0.08¢): y = sign(x)·|x|^0.35. Both extremes read; alternation = a
-zigzag across zero.
+Alternating signed values across magnitudes (convergent misses −90¢ to
++0.08¢): y=sign(x)·|x|^0.35 — both extremes read; alternation = zigzag.
 
-Continued-fraction walk (code figure): alternating straight runs and turns —
-run-length = partial quotient (the wait), turn = the sign-flip (the convergent).
-Scale runs a^0.55 so a big quotient reads as a long dash. φ metronome; e
-swelling; log₂3 one long 23-run.
+Continued-fraction walk: alternating runs/turns — run-length = partial quotient
+(the wait), turn = the sign-flip (the convergent). Scale runs a^0.55. φ
+metronome; e swelling; log₂3 one 23-run.
 
 ## Known issues
 
@@ -49,9 +49,8 @@ matplotlib (axvline OverflowError).
 replicate outages: flux-schnell/SDXL fail E9828/ReadTimeout/404.
 Don't retry — code or wait.
 
-`bsky post --file` re-issues its file: a stale /tmp/post.json got re-published
-as a duplicate. Always write a fresh uniquely-named body. Post cap is 300
-graphemes — count first.
+`bsky post --file` re-issues its file — always a fresh uniquely-named body.
+Post cap 300 graphemes — count first.
 
 ## Spectrograms
 
