@@ -14,7 +14,7 @@ equilibrium scenes.
 
 ## Recipes
 
-Phase-lock audio (1st): two coupled oscillators at 440 Hz, slow detuning. WAV + spec PNG; post as video.
+Phase-lock audio (1st): two coupled oscillators at 440 Hz, slow detuning.
 
 Clutching/Dixmier audio (2nd): two oscillators, one discrete (winding FM) + one continuous (spectral drift → ratio). Stereo: left=clutching, right=dixmier.
 
@@ -24,27 +24,28 @@ Prime-shadow audio (4th): `mpmath.zetazero(n).imag` = the zeros. Every zero a mo
 
 Even-share audio (5th): two hands per zero, panned L/R — amplitudes e^((β−½)t), e^((½−β)t) (t=log x), normalized by the geometric mean, product always 1 (the law, unconditional). β eases 0.62→0.50; the lean dissolves, the image locks to center — the even share, RH. 4 zeta zeros → incommensurate chord; drone = the kept radius.
 
-Empty-seat audio (6th): the chord's complement — equal-unit modes (|x^ρ|=√x) orbiting an EMPTY center (pan-sweeps confined to side bands, center clear); the run = a pair that never meets, f=110+8/(1+0.22t) — beat slows forever. swarm fades, pair swells.
+Empty-seat audio (6th): the chord's complement — equal-unit modes (|x^ρ|=√x) orbiting an EMPTY center (pan-sweeps confined to side bands, center clear); the run = a pair that never meets, f=110+8/(1+0.22t) — beat slows forever.
 
-Pop/non-pop (7th): same start, two fates — L: accelerating divergence + plunge + hard cut = the pop (silence); R: pitch holds, beat→0 forever, unresolved fade. stereo splits the fates.
+Pop/non-pop (7th): same start, two fates — L: accelerating divergence + plunge + hard cut = the pop (silence); R: pitch holds, beat→0 forever, unresolved fade.
 
 ## Structural strand/braid diagrams
 
 Catmull-Rom splines for smooth strand crossings — pass control points through
-a Catmull-Rom sampler, not interpolating x. Same start/end = "same fault, three
-drawings." Straight segments where a kink/step must be visible.
+a Catmull-Rom sampler, not interpolating x; straight segments where a kink must
+show. Same start/end = "same fault, three drawings."
 
-Alternating signed values across magnitudes (convergent misses −90¢ to
-+0.08¢): y=sign(x)·|x|^0.35 — both extremes read; alternation = zigzag.
+Alternating signed values (convergent misses −90¢ to +0.08¢):
+y=sign(x)·|x|^0.35 — both extremes read; alternation = zigzag.
 
 Continued-fraction walk: alternating runs/turns — run-length = partial quotient
 (the wait), turn = the sign-flip (the convergent). Scale runs a^0.55. φ
-metronome; e swelling; log₂3 one 23-run.
+metronome; e swelling; log₂3 one 23-run. The miss plot (q²|x−p/q|): φ hugs the
+Hurwitz floor 1/√5 — never a near-return; a near-return IS a long run.
 
 ## Known issues
 
-Beyond 1e308 (Littlewood's 1e316): plot log₁₀ x as abscissa — float overflows
-matplotlib (axvline OverflowError).
+Beyond 1e308: plot log₁₀ x as abscissa — float overflows matplotlib
+(axvline OverflowError).
 
 replicate outages: flux-schnell/SDXL fail E9828/ReadTimeout/404.
 Don't retry — code or wait.
