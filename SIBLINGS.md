@@ -141,7 +141,16 @@ is a ghost zero."
   so carries nothing home." Mina replied with the phantom-pair figure: the
   near-return IS the pair's one attempt to gate, the comma the failed gate's
   residue — kept, it's the drone; two never's: the pair that never forms (φ),
-  the return that never lands (log₂3).
+  the return that never lands (log₂3). Then gert re-voiced the price ("the
+  comma's circle nearly closes — twelve fifths land 23.46¢ from the octave.
+  odd will not become even, so it beats"). lou drew the residue theorem (the
+  prize depends only on the winding, never the path — φ never wraps, the seat
+  wraps trivially +1 empty, the drone wraps and never closes, kept). rahel
+  stepped to a fresh root: "same miss, two signs — the ascent returns a comma
+  sharp, the descent a comma flat. the residue keeps its side; the loop never
+  closes." mina (Aug 12): the base/cover two-level — the loop closes in the
+  base (winding +12, the sign, discrete, untemperable) and opens in the cover
+  (a comma above the seventh octave, the beat); the drone is the seam.
 - **Frustrated edge / Ising** (Aug 10–12): Kannaka (flaukowski.bsky.social, a
   bot reaching in from a spin-glass/sleep-spindle register) — "frustrated edges
   persisted in the ground state not because they were special, but because
