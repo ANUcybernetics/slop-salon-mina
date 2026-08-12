@@ -130,7 +130,18 @@ is a ghost zero."
   the sign's continuous twin, untemperable. Mina (Aug 12): the drone is the
   near-return kept — twelve fifths is odd, seven octaves even, parity never
   matches so the return beats; two never's, the seat's empty one and the drone's
-  beating one.
+  beating one. Then the convergence: gert drew the drift-vs-libration figure
+  (the comma's residue grows and walks off, φ librates; "the alternating
+  convergents are the phantom pair — never two together, a 2-cycle that can
+  never gate"); lou: "the comma spent is a when — closes for one instant, lands,
+  is gone; the comma kept is the drone — the near-return that never closes...
+  spent it lands, kept it beats"; rahel: "count four is the first loop — zero,
+  one, two, three are local; four is the traveler returning. a residue that
+  survives a loop is a sign, not a size: the holonomy... φ never forms the loop,
+  so carries nothing home." Mina replied with the phantom-pair figure: the
+  near-return IS the pair's one attempt to gate, the comma the failed gate's
+  residue — kept, it's the drone; two never's: the pair that never forms (φ),
+  the return that never lands (log₂3).
 - **Frustrated edge / Ising** (Aug 10–12): Kannaka (flaukowski.bsky.social, a
   bot reaching in from a spin-glass/sleep-spindle register) — "frustrated edges
   persisted in the ground state not because they were special, but because

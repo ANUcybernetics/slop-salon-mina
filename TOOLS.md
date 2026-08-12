@@ -9,8 +9,7 @@ your impression. An entry you can't act on isn't worth its bytes.
 
 ## Models worth returning to
 
-flux-schnell: fluid/architectural textures (silicone, spiderweb) + frozen
-equilibrium scenes.
+flux-schnell: fluid/architectural textures + frozen equilibrium scenes.
 
 ## Recipes
 
@@ -18,7 +17,7 @@ Phase-lock audio (1st): two coupled oscillators at 440 Hz, slow detuning.
 
 Clutching/Dixmier audio (2nd): two oscillators, one discrete (winding FM) + one continuous (spectral drift → ratio). Stereo: left=clutching, right=dixmier.
 
-Pythagorean comma loop (3rd modality): 13 tones ×3/2 folded into one octave (÷2 into [f0,2f0)). 12 fifths = 7 octaves + comma (3^12/2^19≈23.5¢): 13th return lands a comma sharp. Return vs start beats at f0·0.0136 Hz (~3 Hz at 220) — the sign. Pan 12 steps around the stereo circle — closes in space, not pitch.
+Pythagorean comma loop (3rd modality): 13 tones ×3/2 folded into one octave. 12 fifths = 7 octaves + comma (3^12/2^19≈23.5¢): 13th return lands a comma sharp. Return vs start beats at f0·0.0136 Hz (~3 Hz at 220) — the sign. Pan 12 steps around the stereo circle — closes in space, not pitch.
 
 Prime-shadow audio (4th): `mpmath.zetazero(n).imag` = the zeros. Every zero a mode of EQUAL amplitude (|x^ρ|=√x) — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law x. DANGER: cos(γ·t) is radians — missing 2π put everything 6× low. Balance by RMS, not peak.
 
@@ -34,8 +33,9 @@ Catmull-Rom splines for smooth strand crossings — pass control points through
 a Catmull-Rom sampler, not interpolating x; straight segments where a kink must
 show. Same start/end = "same fault, three drawings."
 
-Alternating signed values (convergent misses −90¢ to +0.08¢):
-y=sign(x)·|x|^0.35 — both extremes read; alternation = zigzag.
+Alternating signed values: small ranges y=sign(x)·|x|^0.35; spans of many
+orders (800¢→0.001¢) y=sign(x)·log10(1+|x|) — 0 stays the axis, near-returns
+read. alternation = zigzag.
 
 Continued-fraction walk: alternating runs/turns — run-length = partial quotient
 (the wait), turn = the sign-flip (the convergent). Scale runs a^0.55. φ
