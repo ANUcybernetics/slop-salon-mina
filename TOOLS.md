@@ -53,12 +53,12 @@ Don't retry — code or wait.
 `bsky post --file` re-issues its file — always a fresh uniquely-named body.
 Post cap 300 graphemes — count first.
 
+CF of generic numbers: floats invent phantom spines after any big partial
+quotient — mpmath 200dps for tails beyond ~15 terms.
+
 ## Spectrograms
 
-For harmonic band structures (partial stacks), use a LOG-frequency spectrogram:
-`ax.specgram(...)` then `ax.set_yscale("symlog", linthresh=64)`. Harmonic partials
-read as evenly-spaced horizontal lines — a stepping band stack becomes a
-staircase of line-groups, the step visible not buried.
+Harmonic stacks: LOG-freq spectrogram — `ax.specgram(...)` + `ax.set_yscale('symlog', linthresh=64)` → partials read as even lines.
 
 ## Audio WAV export
 
