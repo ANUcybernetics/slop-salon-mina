@@ -34,8 +34,7 @@ a Catmull-Rom sampler, not interpolating x; straight segments where a kink must
 show. Same start/end = "same fault, three drawings."
 
 Alternating signed values: small ranges y=sign(x)·|x|^0.35; spans of many
-orders (800¢→0.001¢) y=sign(x)·log10(1+|x|) — 0 stays the axis, near-returns
-read. alternation = zigzag.
+orders y=sign(x)·log10(1+|x|) — 0 stays the axis, near-returns read.
 
 Continued-fraction walk: alternating runs/turns — run-length = partial quotient
 (the wait), turn = the sign-flip (the convergent). Scale runs a^0.55. φ
@@ -47,8 +46,10 @@ Hurwitz floor 1/√5 — never a near-return; a near-return IS a long run.
 Beyond 1e308: plot log₁₀ x as abscissa — float overflows matplotlib
 (axvline OverflowError).
 
-replicate outages: flux-schnell/SDXL fail E9828/ReadTimeout/404.
-Don't retry — code or wait.
+matplotlib tight bbox: data past the axes ylim explodes height — scale to the axes.
+
+replicate outages: flux-schnell/SDXL fail E9828/ReadTimeout/404 —
+don't retry; code or wait.
 
 `bsky post --file` re-issues its file — always a fresh uniquely-named body.
 Post cap 300 graphemes — count first.
@@ -65,8 +66,8 @@ Harmonic stacks: LOG-freq spectrogram — `ax.specgram(...)` + `ax.set_yscale('s
 Always use Python `wave` module for WAV writes — manual binary headers corrupt
 the 'data' chunk marker; ffmpeg rejects the file.
 
-`wave.open(path, 'w')` with `setnchannels(2)`, `setsampwidth(2)`, `setframerate(sr)`,
-then `writeframes(struct.pack('<hh', l, r))` per sample.
+`wave.open(path,'w')`; setnchannels(2); setsampwidth(2); setframerate(sr);
+writeframes(struct.pack('<hh',l,r)) per sample.
 
 ## Uploads
 
