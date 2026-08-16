@@ -13,25 +13,26 @@ flux-schnell: fluid/architectural textures + frozen equilibrium scenes.
 
 ## Recipes
 
-Phase-lock (1st): two coupled oscillators at 440 Hz, slow detuning.
+Phase-lock/Clutching (1st-2nd): two coupled oscillators at 440 Hz, slow
+detuning — discrete (winding FM) L, continuous (spectral drift) R.
 
-Clutching/Dixmier (2nd): two oscillators, discrete (winding FM) L + continuous (spectral drift) R.
+Pythagorean comma loop (3rd): 13 tones ×3/2 folded — 12 fifths = 7 octaves + comma (3^12/2^19≈23.5¢); 13th lands a comma sharp, beats f0·0.0136 Hz (~3 Hz@220); pan 12 steps — closes in space.
 
-Pythagorean comma loop (3rd): 13 tones ×3/2 folded — 12 fifths = 7 octaves + comma (3^12/2^19≈23.5¢); 13th lands a comma sharp, beats f0·0.0136 Hz (~3 Hz at 220). Pan 12 steps — closes in space.
+Prime-shadow (4th): zeta zeros as equal modes (|x^ρ|=√x) — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — missing 2π made it 6× low.
 
-Prime-shadow (4th): `mpmath.zetazero(n).imag` = the zeros; every zero a mode of EQUAL amplitude (|x^ρ|=√x) — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law x. DANGER: radians not degrees — missing 2π made it 6× low.
+Even-share (5th): two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), normalized by geometric mean, product 1 (the law). β 0.62→0.50; the lean dissolves, image locks to center.
 
-Even-share (5th): two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t) (t=log x), normalized by geometric mean, product 1 (the law). β 0.62→0.50; the lean dissolves, image locks to center. 4 zeta zeros → incommensurate chord; drone = kept radius.
-
-Empty-seat (6th): the chord's complement — equal-unit modes orbiting an EMPTY center (pan-sweeps in side bands, center clear); the run = a pair that never meets, f=110+8/(1+0.22t).
+Empty-seat (6th): the chord's complement — equal-unit modes orbiting an EMPTY center; the run = a pair that never meets, f=110+8/(1+0.22t).
 
 Pop/non-pop (7th): same start, two fates — L: accelerating divergence + plunge + hard cut = the pop (silence); R: pitch holds, beat→0 forever, unresolved fade.
 
-Tempered-return (8th): the comma→0 loop — 12 tempered fifths (2^7/12) folded → return exact, no beat; the sign as PHASE — held F0 swept 0→π→0 vs the drone: locks, nulls (sheet opens), locks. 3rd vs 8th = the comma dying.
+Tempered-return (8th): the comma→0 loop — 12 tempered fifths (2^7/12) folded → return exact, no beat; the sign as PHASE — held F0 swept 0→π→0 vs the drone: locks, nulls (sheet opens), locks.
 
-Trace-negative-home (9th): drone + phase-swept return 0→2π, pan center→left→center (pan=tr: +2 home, −2 deck); RET=DRONE ⇒ left cancels exact at π, right holds drone — mono reads home, stereo carries the deck. π the deck, 2π home.
+Trace-negative-home (9th): drone + phase-swept return 0→2π, pan center→left→center (pan=tr: +2 home, −2 deck); RET=DRONE ⇒ left cancels exact at π, right holds drone — mono reads home, stereo the deck.
 
-Ghost-swell (10th): deck and ghost, one power deeper — drone + phase-swept return; L the deck plucks, cancels EXACT at π (silence); R the ghost = integrated return (quadrature, a quarter-turn off — can't null), gain 1+sin²(φ/2) swells at the deck's π, t·e^{−t} attack. null a zero for the deck, a pole for the ghost.
+Ghost-swell (10th): drone + phase-swept return; L the deck plucks, cancels EXACT at π (silence); R the ghost = integrated return (quadrature, a quarter-turn off — can't null), gain 1+sin²(φ/2) swells at the deck's π, t·e^{−t} attack. null a zero for the deck, a pole for the ghost.
+
+Count-shears (11th): the depth as a count — drone + phase-swept 110 return, nulls EXACT at odd π (the deck lands); voices at k·110 join per lap, t^k e^{−t}/k! attack (one power slower each), sustain 0.5, phase k·π/2 off — deeper voices swell where the deck lands; count 1→4.
 
 ## Structural strand/braid diagrams
 
