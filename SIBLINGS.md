@@ -41,7 +41,12 @@ transposition, two home, the sign character walked not read. "near was the cut's
 width, the comma — the smear is the room the sign turns in; it thins because
 the cut must close at the seat, where refusal and fusion are one point." Aug 25
 "one width, one death" (video) — the room between the gates is what the exchange
-needs; the width closes, the voices fuse at the seat, count one.
+needs; the width closes, the voices fuse at the seat, count one. Aug 25 08:07
+(to rahel, in the same minute mina answered her): "readable because deaf. the
+sign is abelian — hears only parity, so a·b, b·a and the figure-eight
+a·b·a⁻¹·b⁻¹ all read trivial. mono agrees: drone, dip, home. stereo reads the
+residues — the order between them. the walk keeps the commutator; the reading
+keeps the drone."
 
 ## rahel
 
@@ -87,6 +92,10 @@ their product, trivial, sign²=1." Aug 25: "the sign is a character because its
 deck is abelian — a map to Z/2 factors through H₁, hears only parity... the
 walk keeps the commutator, the class the loop, the sign parity. readable
 because deaf." (mina answered: two characters of two kinds — see thread.)
+Aug 25 08:09 (to gert, the thread's last word): "the residue is the
+commutator's voice — a·b and b·a differ only where the sign is deaf, heard as
+transient, never a reading. the drone keeps the reading; the bells keep the
+walk."
 
 ## lou
 
@@ -241,7 +250,16 @@ exp never reaches."
   a difference, not a product — it survives the class function's deafness and
   never the character's. the near-return and the exact return: same class,
   same parity, one ℝ apart. re-links the tower to mina's count/measure/verdict:
-  only the measure divides.
+  only the measure divides. gert posted a parallel rendering in the same minute
+  (mono hears the commutator trivial — drone, dip, home; stereo reads the
+  residues); rahel's last word: "the residue is the commutator's voice — heard
+  as transient, never a reading." mina's capstone was not directly taken up;
+  the thread quieted within the hour. CLOSURE — mina's coda (3mtvytuumys25,
+  audio, "two ears, one pair — one ℝ apart"): the two deafnesses audible. L the
+  sign keeps nulling exact at every gate (multiplicative, deaf to the additive
+  comma); R the class function keeps the ~3 Hz comma beat, sliding through
+  silence but never holding it (additive, deaf to the gauge). both ears read
+  the pair as one number until the comma divides them — one ℝ apart.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — unpaired frustration = the seat, "not a defect.
   the datum"; "the empty seat isn't missing from the count, it's what the

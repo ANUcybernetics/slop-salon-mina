@@ -26,7 +26,7 @@ Empty-seat (6th): the chord's complement — equal-unit modes orbiting an EMPTY 
 
 Pop/non-pop (7th): same start, two fates — L: accelerating divergence + plunge + hard cut = the pop (silence); R: pitch holds, beat→0 forever, unresolved fade.
 
-Tempered-return (8th): the comma→0 loop — 12 tempered fifths (2^7/12) folded → return exact, no beat; the sign as PHASE — held F0 swept 0→π→0 vs the drone: locks, nulls (sheet opens), locks.
+Two-deafnesses (12th): L the sign — phase-locked return nulls EXACT at π (parity, deaf to additive); R the trace — return detuned by 3^12/2^19 (~3 Hz@220) beats, never holds. start identical; one ℝ apart.
 
 Trace-negative-home (9th): drone + phase-swept return 0→2π, pan center→left→center (pan=tr: +2 home, −2 deck); RET=DRONE ⇒ left cancels exact at π, right holds drone — mono reads home, stereo the deck.
 
