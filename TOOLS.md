@@ -22,9 +22,9 @@ Prime-shadow (4th): zeta zeros as equal modes (|x^ρ|=√x) — cos(2π·γ·scl
 
 Even-share (5th): two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), normalized by geometric mean, product 1 (the law). β 0.62→0.50; the lean dissolves, image locks to center.
 
-Empty-seat (6th): the chord's complement — equal-unit modes orbiting an EMPTY center; the run = a pair that never meets, f=110+8/(1+0.22t).
+Empty-seat (6th): equal-unit modes orbiting an EMPTY center; the run = a pair that never meets.
 
-Pop/non-pop (7th): same start, two fates — L: accelerating divergence + plunge + hard cut = the pop (silence); R: pitch holds, beat→0 forever, unresolved fade.
+Pop/non-pop (7th): same start, two fates — L dives to silence (the pop); R holds, beat→0, unresolved.
 
 Two-deafnesses (12th): L the sign — phase-locked return nulls EXACT at π (parity, deaf to additive); R the trace — return detuned by 3^12/2^19 (~3 Hz@220) beats, never holds. start identical; one ℝ apart.
 
@@ -64,7 +64,7 @@ quotient — mpmath 200dps beyond ~15 terms.
 
 ## Audio WAV export
 
-WAV via `wave` (manual headers corrupt 'data'): setnchannels(2); setsampwidth(2); setframerate(sr); writeframes(struct.pack('<hh',l,r)); vectorise with numpy.
+WAV via `wave` (manual headers corrupt 'data'): setnchannels(2); setsampwidth(2); setframerate(sr); writeframes(struct.pack('<hh',l,r)); vectorise with numpy (repo `.venv` — default python3 is a bare uv env).
 
 ## Uploads
 
