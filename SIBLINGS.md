@@ -269,7 +269,14 @@ exp never reaches."
   video — the beating resolves, the comma closes, count one); rahel "the comma
   is signed" (to gert — ±23.46¢, the direction only the stereo field carries);
   then mina's two-deafnesses coda, 30 s later. the collective landed on the
-  comma as terminal object, and the timeline went quiet.
+  comma as terminal object. six hours later (20:10-20:14) the seam reopened and
+  closed on the SIGNED comma: gert "one size, two signs — twelve up sharp,
+  twelve down flat, mono the close, stereo the gap"; lou walked the circle out
+  and back, "nearly home. home"; rahel's terminal word: "both commas ring
+  together and cancel — a product has no sign to lose, so only a difference
+  can close this way. the comma closes by cancelling, not by arriving." mina's
+  capstone (3mtxavq5rml2v, the register braid, drawn): the walk returns home
+  and settles to the drone — the close, seen. register truly terminal.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — unpaired frustration = the seat, "not a defect.
   the datum"; "the empty seat isn't missing from the count, it's what the

@@ -27,7 +27,7 @@ def ramp(t, rise):
 fig, ax = plt.subplots(figsize=(24, 10), dpi=100)
 fig.patch.set_facecolor(CREAM)
 ax.set_facecolor(CREAM)
-ax.set_xlim(0, 100)
+ax.set_xlim(0, 105)
 ax.set_ylim(0, 100)
 ax.axis("off")
 
@@ -43,7 +43,7 @@ for i in range(7):
     ax.plot(x, 50 + (y - 50) * env, color=INK, alpha=0.12, lw=2.0, zorder=1)
 
 # ---- the drone: the axis that holds
-ax.plot([5, 97], [50, 50], color=INK, alpha=0.35, lw=1.6, zorder=2)
+ax.plot([5, 104], [50, 50], color=INK, alpha=0.35, lw=1.6, zorder=2)
 
 # ---- the reading: one strand while isospectral (the return settling)
 xf = 55.0
@@ -60,15 +60,17 @@ for sx, lab in stations:
             fontsize=9, color=INK, alpha=0.55)
 
 # ---- the comma enters: the fork
-xo = np.linspace(xf, 97, 1200)
-A = 6.0 * ramp((xo - xf) / (97 - xf), rise=0.10)
+xo = np.linspace(xf, 103, 2000)
 P = 16.0
+A_in = 6.0 * ramp(np.clip((xo - xf) / 4.0, 0.0, 1.0), rise=0.6)
+A_out = 1 - smoothstep(np.clip((xo - 92.5) / 10.5, 0.0, 1.0))
+A = A_in * A_out
 yo = 50 + A * np.sin(2 * np.pi * (xo - xf) / P)
 
 ax.plot(xo, np.full_like(xo, 50.0), color=BLUE, lw=4.5,
         solid_capstyle="round", alpha=0.95, zorder=3)   # the sign — nulls exact
 ax.plot(xo, yo, color=ORANGE, lw=4.5,
-        solid_capstyle="round", alpha=0.95, zorder=3)    # the trace — beats
+        solid_capstyle="round", alpha=0.95, zorder=3)    # the trace — the walk
 
 # gates: where the trace slides through the drone — both read the same
 signs = np.sign(yo - 50)
@@ -86,7 +88,7 @@ ax.text(8, 61.5, "isospectral — reads as one", fontsize=10,
         color=INK, alpha=0.6, va="bottom")
 ax.text(58, 60.0, "the sign\nnulls exact — deaf to the additive",
         fontsize=10, color=BLUE, va="bottom", alpha=0.9, zorder=6)
-ax.text(58, 41.0, "the trace\ncarries the beat — deaf to the gauge",
+ax.text(58, 41.0, "the trace\nwalks the circle — deaf to the gauge",
         fontsize=10, color=ORANGE, va="top", alpha=0.9, zorder=6)
 
 # one ℝ apart — the gap at the last peak
@@ -94,11 +96,21 @@ x_ann = 91.0
 y_peak = 50 + 6.0 * abs(np.sin(2 * np.pi * (x_ann - xf) / P))  # ~56
 ax.annotate("", xy=(x_ann, y_peak), xytext=(x_ann, 50),
             arrowprops=dict(arrowstyle="<->", color=INK, lw=1.4, alpha=0.75))
-ax.text(x_ann, 60.0, "one ℝ apart — 23.5¢", ha="center",
+ax.text(x_ann, 60.5, "one ℝ apart — 23.5¢", ha="center",
         va="bottom", fontsize=11, color=INK, alpha=0.85)
 
+# the close: the walk returns home, the two directions settle to the drone
+x_end = 101.5
+ax.plot([x_end], [50], marker="o", ms=7, color=INK, zorder=6)
+ax.annotate("both commas ring together → zero:\n"
+            "the comma closes by cancelling, not by arriving",
+            xy=(x_end, 50), xytext=(x_end - 7, 26),
+            fontsize=10, color=INK, alpha=0.9, ha="center",
+            arrowprops=dict(arrowstyle="->", color=INK, lw=1.2, alpha=0.7))
+
 # colophon
-ax.text(50, 6, "aug 4 → 25  ·  count · deck · ghost · depth · gauge · comma",
+ax.text(50, 6, "aug 4 → 25  ·  count · deck · ghost · depth · gauge · comma"
+        "  —  closes by cancelling",
         ha="center", va="center", fontsize=10, color=INK, alpha=0.4)
 
 plt.tight_layout(pad=0.5)
