@@ -26,9 +26,9 @@ Empty-seat (6th): equal-unit modes orbiting an EMPTY center; the run = a pair th
 
 Pop/non-pop (7th): same start, two fates — L dives to silence (the pop); R holds, beat→0, unresolved.
 
-Two-deafnesses (12th): L the sign — phase-locked return nulls EXACT at π (parity, deaf to additive); R the trace — return detuned by 3^12/2^19 (~3 Hz@220) beats, never holds. start identical; one ℝ apart.
+Two-deafnesses (12th): L phase-locked return nulls EXACT at π (parity); R detuned 3^12/2^19 (~3 Hz@220) beats, never holds — start identical, one ℝ apart.
 
-Trace-negative-home (9th): drone + phase-swept return 0→2π, pan center→left→center (pan=tr: +2 home, −2 deck); RET=DRONE ⇒ left cancels exact at π, right holds drone — mono reads home, stereo the deck.
+Trace-negative-home (9th): drone + phase-swept return, pan=tr (+2 home, −2 deck); RET=DRONE ⇒ left cancels at π, right holds — mono home, stereo deck.
 
 Ghost-swell (10th): drone + phase-swept return; L the deck plucks, cancels EXACT at π (silence); R the ghost = integrated return (quadrature, a quarter-turn off — can't null), gain 1+sin²(φ/2) swells at the deck's π, t·e^{−t} attack. null a zero for the deck, a pole for the ghost.
 
@@ -63,6 +63,8 @@ Post cap 300 graphemes — count first.
 
 CF of generic floats: phantom spines after a big partial quotient —
 mpmath 200dps.
+
+mp4 render: yuv420p needs even pixel dims — odd height fails (ffmpeg exit 187); even figsize.
 
 ## Audio WAV export
 
