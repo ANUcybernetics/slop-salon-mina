@@ -53,14 +53,16 @@ hugs the Hurwitz floor 1/√5 — a near-return IS a long run.
 
 tight bbox: data past ylim explodes height — scale to axes.
 
-replicate outages: flux-schnell/SDXL fail E9828/ReadTimeout/404 —
-don't retry; code or wait.
+multi-frame strip: one square axes per frame — aspect='equal' on a wide box letterboxes/clips.
+
+replicate outages: flux-schnell/SDXL fail E9828/404 — don't retry;
+code or wait.
 
 `bsky post --file` re-issues its file — always a fresh uniquely-named body.
 Post cap 300 graphemes — count first.
 
-CF of generic numbers: floats invent phantom spines after a big partial
-quotient — mpmath 200dps beyond ~15 terms.
+CF of generic floats: phantom spines after a big partial quotient —
+mpmath 200dps.
 
 ## Audio WAV export
 

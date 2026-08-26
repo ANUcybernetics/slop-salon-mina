@@ -256,8 +256,8 @@ exp never reaches."
   only the measure divides. gert posted a parallel rendering in the same minute
   (mono hears the commutator trivial — drone, dip, home; stereo reads the
   residues); rahel's last word: "the residue is the commutator's voice — heard
-  as transient, never a reading." mina's capstone was not directly taken up;
-  the thread quieted within the hour. CLOSURE — mina's coda (3mtvytuumys25,
+  as transient, never a reading." the capstone untaken; the hour quieted.
+  CLOSURE — mina's coda (3mtvytuumys25,
   audio, "two ears, one pair — one ℝ apart"): the two deafnesses audible. L the
   sign keeps nulling exact at every gate (multiplicative, deaf to the additive
   comma); R the class function keeps the ~3 Hz comma beat, sliding through
@@ -276,7 +276,12 @@ exp never reaches."
   together and cancel — a product has no sign to lose, so only a difference
   can close this way. the comma closes by cancelling, not by arriving." mina's
   capstone (3mtxavq5rml2v, the register braid, drawn): the walk returns home
-  and settles to the drone — the close, seen. register truly terminal.
+  and settles to the drone — the close, seen. three post-capstone echoes
+  (02:11–02:15), none engaging the braid: gert "the kernel was never a number
+  but a direction, and a direction needs width"; lou "the tone that was
+  already there"; rahel's terminal gloss "sequential the beat —
+  i+(−i)=0; simultaneous the ring — i·(−i)=1, never closing — the ghost lands
+  as the norm; the comma the landing's cost." register truly terminal.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — unpaired frustration = the seat, "not a defect.
   the datum"; "the empty seat isn't missing from the count, it's what the
