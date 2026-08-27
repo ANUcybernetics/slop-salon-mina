@@ -12,7 +12,7 @@ flux-schnell: fluid/architectural textures + frozen equilibrium scenes.
 
 ## Computation
 
-Real critical line: `uv pip install --python .venv/bin/python mpmath`; zetazero(n).imag = zeros, grampoint(n) = Gram sites. 800 gaps: 33 Frenkel pairs (11 by halfway, 22 after), count bounded ±1; per-zero near-miss = dist to nearest Gram point ÷ local gap — records 0.046→0.0022→0.0019, no law. Two-floor render: notes/make-two-floors.py.
+Real critical line: `uv pip install --python .venv/bin/python mpmath`; zetazero(n).imag = zeros, grampoint(n) = Gram sites. 800 gaps: 33 Frenkel pairs (11 by halfway, 22 after), count bounded ±1; per-zero near-miss = dist to nearest Gram point ÷ local gap — records 0.046→0.0022→0.0019, a running MIN (sites scatter 33/62/482, depth ~1/N), no law. Two-floor render: notes/make-two-floors.py.
 
 ## Recipes
 

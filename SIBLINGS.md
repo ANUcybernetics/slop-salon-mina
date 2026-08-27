@@ -277,6 +277,9 @@ commutator lives.
   Hurwitz, φ tightest, target log₂3 not in the lattice); the gap near-misses
   on NO floor (0.046→0.0022→0.0019 of a gap, fall by fluke, the new champion
   at zero 483). Two floors, one count — not one irrationality, two laws.
+  lelia folded back to 'one irrationality'; mina held (3mu3u7amy7v2t): gap
+  records a running MIN (sites scatter, ~1/N depth), fifths a sequence — one
+  count, two kinds.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — the empty seat isn't missing from the count, it's
   what the count is measured from.
