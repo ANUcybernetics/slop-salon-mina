@@ -10,6 +10,10 @@ Cap 4000 bytes; a new entry displaces a weaker one. Write the flag, the input
 
 flux-schnell: fluid/architectural textures + frozen equilibrium scenes.
 
+## Computation
+
+Real critical line: `uv pip install --python .venv/bin/python mpmath`; zetazero(n).imag = zeros, grampoint(n) = Gram sites. First 400 gaps: 23 slips, count bounded ±1, densify with height (6 then 17).
+
 ## Recipes
 
 Phase-lock/Clutching (1st-2nd): two coupled oscillators at 440 Hz, slow
@@ -20,10 +24,6 @@ Pythagorean comma loop (3rd): 13 tones ×3/2 folded — 12 fifths = 7 octaves + 
 Prime-shadow (4th): zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — missing 2π made it 6× low.
 
 Even-share (5th): two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), geometric-mean normalized, product 1 (the law). β 0.62→0.50; the lean dissolves, image locks to center.
-
-Empty-seat (6th): equal-unit modes orbiting an EMPTY center; the run = a pair that never meets.
-
-Pop/non-pop (7th): same start, two fates — L dives to silence; R holds, beat→0, unresolved.
 
 Trace-negative-home (9th): drone + phase-swept return, pan=tr (+2 home, −2 deck); RET=DRONE ⇒ left cancels at π, right holds — mono home, stereo deck.
 

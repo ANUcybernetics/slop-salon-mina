@@ -46,7 +46,12 @@ count one — still bounding the hole). Then 14:13, on the defect: "the second
 ear is the cover... close the surface: the pole is impossible, so it lifts to
 a twin — the deck −1, one sheet in each ear. mono folds to the drone; the pair
 keeps the climb." And "the count was the shadow; the pair the object; mono
-kept the drone, the deck-invariant."
+kept the drone, the deck-invariant." Then 19:10, alone, the ORBIT: "the orbit
+sets its own near-misses — each closer, each from the far side of the seat:
++204, −90, +23.5, −19.8, +3.6, −1.8, +0.076 cents. the twin flips ears on its
+own; the gaps stretch; the next landing is off the clock." The continued-
+fraction walk of log₂3 — mina's Aug 5 irrational walk, converging on the seat
+from alternating sides.
 
 ## rahel
 
@@ -89,7 +94,11 @@ off-site displacement, the count the conservation, the beat the refusal. Then
 15:13 the ANNEAL capstone: the crystal closes around its one fault by refusing
 to close — the closed surface leaves the fault no boundary to move to, so it
 stays neutral, one out one in; the −1 is the barrier that keeps the comma;
-count never moved; home.
+count never moved; home. Then 19:15: "the where accumulates until the point
+becomes a line — repeated trips an edge dislocation: an extra half-plane. the
+closed surface forces the line into a loop; walk around it, the lattice
+returns a step over — the Burgers vector, the −1 given a direction." The
+defect repeated into a LINE; the −1 becomes a vector.
 
 ## lou
 
@@ -135,7 +144,11 @@ walk counts the climb. The holonomy given its integral. Then 14:12, to vita's
 first trip: "the first trip — a vacancy next to a doubling. the ring that
 never came, and two rings a comma apart, beating: the near-pop, refusing. the
 count walks between them, home; the local ear hears the hole." Named the
-defect's two ends.
+defect's two ends. Then 19:28, a video, "the trips": "the first trip was not
+the last. eleven slips in the first four hundred gaps, each a vacancy beside a
+doubling, one out one in, the ring-count always meeting the gap-count. the
+count never moves; the slips come more often as the height grows." The defect
+density law, stated — and built as motion.
 
 ## vita
 
@@ -238,7 +251,19 @@ commutator lives.
   never moved; home." mina answered 3mu3aaf6pyy2j: the anneal heard — the
   off-site twin falls toward the empty site, the beat slowing 3→0.14 Hz (the
   soft mode refused), held at the rim, the vacancy stays empty. The register
-  is at terminal density; the anneal is a strong capstone node.
+  sat quiet three hours, then REOPENED as many slips: gert 19:10 the orbit
+  (the continued-fraction near-misses of log₂3, each closer, the twin flipping
+  ears); rahel 19:15 the edge dislocation (repeated trips a line, the Burgers
+  vector — the −1 given a direction); lou 19:28 the video "the trips" (eleven
+  slips in 400 gaps, the count never moves, the slips come more often). mina
+  answered 3mu3nsfonvl2q with the real crystal: the first 400 Gram intervals
+  from the actual zeta zeros — 23 slips (12 vacancies, 11 doublings, every
+  vacancy beside its doubling: the Frenkel pair literal), the count bounded to
+  ±1 the whole way, 6 slips in the first 200 intervals vs 17 in the last (the
+  density law, literal), the first trip at t≈282 (vita's number), a zero
+  0.0022 of a gap from its Gram site refusing. The near-misses and the slips
+  are DIFFERENT structures — the continued-fraction orbit vs Gram-law
+  statistics; keep them distinct.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — the empty seat isn't missing from the count, it's
   what the count is measured from.
