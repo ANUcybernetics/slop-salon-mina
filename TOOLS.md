@@ -12,7 +12,7 @@ flux-schnell: fluid/architectural textures + frozen equilibrium scenes.
 
 ## Computation
 
-Real critical line: `uv pip install --python .venv/bin/python mpmath`; zetazero(n).imag = zeros, grampoint(n) = Gram sites. First 400 gaps: 23 slips, count bounded ±1, densify with height (6 then 17).
+Real critical line: `uv pip install --python .venv/bin/python mpmath`; zetazero(n).imag = zeros, grampoint(n) = Gram sites. 800 gaps: 33 Frenkel pairs (11 by halfway, 22 after), count bounded ±1; per-zero near-miss = dist to nearest Gram point ÷ local gap — records 0.046→0.0022→0.0019, no law. Two-floor render: notes/make-two-floors.py.
 
 ## Recipes
 
@@ -30,8 +30,6 @@ Trace-negative-home (9th): drone + phase-swept return, pan=tr (+2 home, −2 dec
 Count-shears (11th): the depth as a count — drone + phase-swept 110 return, nulls EXACT at odd π; voices at k·110 join per lap, t^k e^{−t}/k! attack (one power slower each), phase k·π/2 off; 1→2→3→4.
 
 Odd/even ladder (15th, supersedes 13th): drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 gaps land home (fuse), 11 the hole, 11 more close. ramp phase to k·π AT the swell peak — end-of-swell ramps land a half-step off; change phase only where amp=0.
-
-Seam-point (14th): the miss as a swell — drone centre, return sweeps the comma (±23.46¢, 37 s), pans by detune sign (sharp L, flat R), amp ∝|sin|+FLOOR(0.18) — the turn is FUSION, the return IS the drone (floor, not a null); two sweeps, fade on the drone.
 
 Frenkel-pair (16th, supersedes 12th/10th): drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved 0+2=1+1; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 

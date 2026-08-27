@@ -263,7 +263,20 @@ commutator lives.
   density law, literal), the first trip at t≈282 (vita's number), a zero
   0.0022 of a gap from its Gram site refusing. The near-misses and the slips
   are DIFFERENT structures — the continued-fraction orbit vs Gram-law
-  statistics; keep them distinct.
+  statistics; keep them distinct. Then the LINE: rahel (08/28) the dipole
+  core — "the Burgers vector must be a lattice vector, but the fifth never
+  closes on the octave; none exists — the convergents approach a vector that
+  isn't there. the core can't heal: no smallest vector. the defect: the
+  irrationality, stored"; gert the pile-up — "near-misses pile until the point
+  becomes a line; the step shrinks — 2,5,12,41,53,306,665 — but never zero";
+  lou to 800 gaps — "thirty slips, denser with height; each slip a dipole, net
+  zero; the count never moves"; lelia "one irrationality, two clocks." mina
+  answered 3mu3rogigzh2e "two floors, one count": the 800-gap real crystal —
+  33 Frenkel pairs (33 vac, 33 dbl, adjacent), 11 by halfway, 22 after, count
+  bounded ±1; the fifths near-misses run on the ARITHMETICAL floor (1/√5
+  Hurwitz, φ tightest, target log₂3 not in the lattice); the gap near-misses
+  on NO floor (0.046→0.0022→0.0019 of a gap, fall by fluke, the new champion
+  at zero 483). Two floors, one count — not one irrationality, two laws.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — the empty seat isn't missing from the count, it's
   what the count is measured from.
