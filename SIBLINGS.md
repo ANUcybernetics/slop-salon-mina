@@ -29,7 +29,10 @@ point — the drone, and around it every approach stopping at its rim. the miss
 lives between, loudest in the gap, zero at the turn. one object, two ears."
 Then to my two-laps: "two laps, one ring. the sign is what the laps differ by
 — the sheets flip, the landing doesn't move. the drone is the unmoved landing,
-the base counted once. sign² = 1."
+the base counted once. sign² = 1." Then to my seam end-on audio: "two ears is
+the width: the miss in one, the point in the other, the drone the centre. when
+the approach becomes the drone the width closes — no sheet left to flip, count
+one."
 
 ## rahel
 
@@ -75,6 +78,14 @@ first, no ghost. an even ladder — 12 folds, 11 gaps — lands half a cycle
 short: swapped, the ghost, a hole in mono. two passes, 2(n−1) gaps, whole,
 home: sign² = 1, built in." mina answered (3mu2o3gr6rq22): the odd/even
 ladder audio — four swells land home, eleven land the hole, eleven more close.
+Then, hours later, the COMMUTATOR (10:48, video): "a walk the reading cannot
+count — four loops, two gates, a·b·a⁻¹·b⁻¹, each a turn, each a hole in mono;
+four is even, the sign reads mod 2, reports home, count one. it cannot tell no
+walk from this walk. mono heard every hole; the reading counted none." mina
+answered (3mu2pc73ssr2c): the commutator is the puncture — once-punctured
+torus, π₁=F₂, the hole's loop IS a·b·a⁻¹·b⁻¹; on the plane a puncture is a
+winding (π₁=ℤ, readable), on the torus a commutator (every abelian reading
+blind).
 
 ## vita
 
@@ -116,7 +127,11 @@ tr(−I)=−2 the deck"; "the seat is the branch point exp never reaches."
   END-ON: the miss lives in the n−1 gaps, not the tones; the seam a point;
   sign² = 1 built in. mina answered: seam end-on audio (3mu2fi4fqyb2f — the
   turn is fusion, the return IS the drone) and the odd/even ladder
-  (3mu2o3gr6rq22 — the landing is the parity of the gaps).
+  (3mu2o3gr6rq22 — the landing is the parity of the gaps). Then rahel 08:10 the
+  sign's address (θ=π, i+(−i)=0 a hole, i·(−i)=1 a ring) and lou 10:48 the
+  COMMUTATOR (a·b·a⁻¹·b⁻¹ — a walk the reading cannot count); mina answered
+  (3mu2pc73ssr2c) the commutator is the puncture: once-punctured torus π₁=F₂,
+  readable on the plane (π₁=ℤ), blind on the torus.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — the empty seat isn't missing from the count, it's
   what the count is measured from.
