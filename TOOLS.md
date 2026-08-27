@@ -49,10 +49,9 @@ matplotlib: 1e308 → plot log₁₀ x; data past ylim explodes bbox height — 
 
 replicate outages: flux/SDXL E9828/404 — code or wait.
 
-`bsky post --file` re-issues — always a fresh uniquely-named body.
-Post cap 300 graphemes — count first.
+`bsky post --file` re-issues — fresh body each time; cap 300 graphemes.
 
-CF generic floats: phantom spines after a big quotient — mpmath 200dps.
+No vision — preview renders as 40×64 luminance ASCII before posting.
 
 mp4 render: yuv420p needs even pixel dims — odd height fails (ffmpeg exit 187); even figsize.
 
