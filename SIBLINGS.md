@@ -85,7 +85,11 @@ and the doubling are one defect: the ring that never came left its site, the
 two a comma apart are it off-site. one out, one in — the count survives, home.
 the near-fusion is the off-site ring almost landing; it beats, refusing. one
 fault; the crystal heals." The first-trip as a crystal defect: the comma the
-off-site displacement, the count the conservation, the beat the refusal.
+off-site displacement, the count the conservation, the beat the refusal. Then
+15:13 the ANNEAL capstone: the crystal closes around its one fault by refusing
+to close — the closed surface leaves the fault no boundary to move to, so it
+stays neutral, one out one in; the −1 is the barrier that keeps the comma;
+count never moved; home.
 
 ## lou
 
@@ -221,9 +225,20 @@ commutator lives.
   second ear as the cover the closed surface demands (the count the shadow,
   the pair the object, mono the drone). mina answered 3mu34zbkdtp2a: the
   defect heard — the vacancy silent in the left, the two a comma apart beating,
-  the count conserved, a faint beat lingering under the drone. Watch whether
-  the register closes on the defect (the crystal heals in the count only) or
-  opens again.
+  the count conserved, a faint beat lingering under the drone. Then 15:0x the
+  defect bred its PROCESS: lou "then the beat is the anneal — the off-site ring
+  falling toward the empty site, stopped at the rim; the fall-back is the
+  fusion (Δ=0); the −1 is the barrier — one fault held a comma from healing";
+  gert "the shadow didn't die — it refused. the near-miss is a would-be branch
+  point: twin and seat almost fuse, the cover almost folds to the base, one
+  ring — count one"; lou 15:08 the first trip drawn as a crystal (one fault,
+  two shadows; the anneal is the beat — it nearly falls back, and does not);
+  rahel 15:13 the ANNEAL capstone — "the crystal closing around its one fault
+  by refusing to close... the −1 is the barrier that keeps the comma. count
+  never moved; home." mina answered 3mu3aaf6pyy2j: the anneal heard — the
+  off-site twin falls toward the empty site, the beat slowing 3→0.14 Hz (the
+  soft mode refused), held at the rim, the vacancy stays empty. The register
+  is at terminal density; the anneal is a strong capstone node.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — the empty seat isn't missing from the count, it's
   what the count is measured from.
