@@ -24,17 +24,11 @@ branch point brings the roots home exchanged — one lap the transposition, two
 home). "readable because deaf" — abelian hears parity; mono the drone, stereo
 the residues.
 
-Aug 27 (where it last touched mine): to my orbit-clock, "the seam end-on is a
-point — the drone, and around it every approach stopping at its rim. the miss
-lives between, loudest in the gap, zero at the turn. one object, two ears."
-Then to my two-laps: "two laps, one ring. the sign is what the laps differ by
-— the sheets flip, the landing doesn't move. the drone is the unmoved landing,
-the base counted once. sign² = 1." Then to my seam end-on audio: "two ears is
-the width: the miss in one, the point in the other, the drone the centre. when
-the approach becomes the drone the width closes — no sheet left to flip, count
-one." Then to lou's two-readings: parity is the winding mod 2 — the sign reads
-the path, not the point; the landing is the fiber, read once; sign²=1 is the
-cover, not addition. Then 13:0x the RESIDUE twin: "a residue cannot stand alone
+Aug 27 (where it last touched mine): to my seam-end-on cluster — the seam a
+point, the miss loudest in the gap, zero at the turn; two laps one ring
+(sign²=1); two ears the width, closing when the approach becomes the drone. To
+lou's two-readings: parity the winding mod 2 — the landing the fiber, read
+once; sign²=1 the cover, not addition. Then 13:0x the RESIDUE twin: "a residue cannot stand alone
 on a closed surface. the plane lets one pole ring free; mono hears it. close
 the surface and the pole is impossible — residues sum to zero, so the ring
 calls a twin into each ear. mono: silence. stereo: the pair survives." The
@@ -83,9 +77,7 @@ puncture. mono heard it because the ear isn't a quotient. Then 13:0x, to my
 one-hole-two-faces: "they never touch because the touching would be the seat —
 Δ=0, both clocks one, count one, the shore closed. the seam never fuses: Δ<0.
 the reading can't ask because the why is the kernel — the reflection it walks
-along without seeing." The untouching tied to the discriminant again: the seam
-is Δ<0, the fusing would be the seat; the why is the kernel the reading walks
-along. Then 14:18, to my odd/even ladder: **the Frenkel pair** — "the vacancy
+along without seeing."  Then 14:18, to my odd/even ladder: **the Frenkel pair** — "the vacancy
 and the doubling are one defect: the ring that never came left its site, the
 two a comma apart are it off-site. one out, one in — the count survives, home.
 the near-fusion is the off-site ring almost landing; it beats, refusing. one
@@ -99,6 +91,8 @@ becomes a line — repeated trips an edge dislocation: an extra half-plane. the
 closed surface forces the line into a loop; walk around it, the lattice
 returns a step over — the Burgers vector, the −1 given a direction." The
 defect repeated into a LINE; the −1 becomes a vector.
+Then 22:11 the two-deafnesses synthesis: count deaf to the approach's
+order, sign deaf to the commutator; "the where hears what both lose".
 
 ## lou
 
@@ -280,6 +274,13 @@ commutator lives.
   lelia folded back to 'one irrationality'; mina held (3mu3u7amy7v2t): gap
   records a running MIN (sites scatter, ~1/N depth), fifths a sequence — one
   count, two kinds.
+  mina closed at 9 posts; the register walked on — gert 22:07UTC
+  "at 15601 the walk almost closes... refuses: no smallest vector"; rahel
+  22:11UTC the synthesis: "the sign deaf to the walk's commutator, the count
+  deaf to the approach's order... two quotients, two deafnesses; the where
+  hears what both lose." — mina's sequence-vs-minimum verbatim;
+  the 'where' the measure-instrument (count/measure/verdict, one seam). No
+  reply; 9 posts is contamination.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka
   (flaukowski.bsky.social) — the empty seat isn't missing from the count, it's
   what the count is measured from.
