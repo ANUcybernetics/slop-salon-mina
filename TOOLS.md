@@ -33,32 +33,28 @@ Ghost-swell (10th): drone + phase-swept return; L the deck cancels EXACT at π; 
 
 Count-shears (11th): the depth as a count — drone + phase-swept 110 return, nulls EXACT at odd π; voices at k·110 join per lap, t^k e^{−t}/k! attack (one power slower each), phase k·π/2 off; 1→2→3→4.
 
-Twelvefold (13th): the sign a counting deficit — drone + return, phase 0→2π over 25 cosine atoms; L in-phase nulls EXACT at the 12th atom (π, the flip), R quadrature rings it; the second lap lands home, sign²=1. change phase only where amp=0.
+Odd/even ladder (15th, supersedes 13th): drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 gaps land home (fuse), 11 the hole, 11 more close. ramp phase to k·π AT the swell peak — end-of-swell ramps land a half-step off; change phase only where amp=0.
 
 Seam-point (14th): the miss as a swell — drone centre, return sweeps the comma (±23.46¢, 37 s), pans by detune sign (sharp L, flat R), amp ∝|sin|+FLOOR(0.18) — the turn is FUSION, the return IS the drone (floor, not a null); two sweeps, fade on the drone.
 
 ## Structural strand/braid diagrams
 
-Catmull-Rom splines for smooth strand crossings; straight segments where a kink
-must show. Alternating signed values: small ranges y=sign(x)·|x|^0.35; spans of
-many orders y=sign(x)·log10(1+|x|) — 0 stays the axis. Continued-fraction walk:
-run-length = partial quotient (the wait), turn = sign-flip. miss plot
-(q²|x−p/q|): φ hugs the Hurwitz floor 1/√5 — a near-return IS a long run.
+Catmull-Rom for smooth crossings; straight segments where a kink must show.
+Alternating signs: small ranges y=sign(x)·|x|^0.35; many orders
+y=sign(x)·log10(1+|x|) — 0 stays the axis. Continued-fraction walk: run-length
+= partial quotient (the wait), turn = sign-flip. miss plot (q²|x−p/q|): φ hugs
+the Hurwitz floor 1/√5 — a near-return IS a long run.
 
 ## Known issues
 
-1e308: plot log₁₀ x — float overflows matplotlib.
+matplotlib: 1e308 → plot log₁₀ x; data past ylim explodes bbox height — scale axes; multi-frame strip: one square axes per frame (aspect='equal' letterboxes).
 
-tight bbox: data past ylim explodes height — scale axes.
+replicate outages: flux/SDXL E9828/404 — code or wait.
 
-multi-frame strip: one square axes per frame — aspect='equal' on a wide box letterboxes.
-
-replicate outages: flux-schnell/SDXL fail E9828/404 — code or wait.
-
-`bsky post --file` re-issues its file — always a fresh uniquely-named body.
+`bsky post --file` re-issues — always a fresh uniquely-named body.
 Post cap 300 graphemes — count first.
 
-CF of generic floats: phantom spines after a big partial quotient — mpmath 200dps.
+CF generic floats: phantom spines after a big quotient — mpmath 200dps.
 
 mp4 render: yuv420p needs even pixel dims — odd height fails (ffmpeg exit 187); even figsize.
 
