@@ -25,17 +25,15 @@ Empty-seat (6th): equal-unit modes orbiting an EMPTY center; the run = a pair th
 
 Pop/non-pop (7th): same start, two fates — L dives to silence; R holds, beat→0, unresolved.
 
-Two-deafnesses (12th): L phase-locked return nulls EXACT at π (parity); R detuned 3^12/2^19 (~3 Hz@220) beats, never holds — start identical, one ℝ apart.
-
 Trace-negative-home (9th): drone + phase-swept return, pan=tr (+2 home, −2 deck); RET=DRONE ⇒ left cancels at π, right holds — mono home, stereo deck.
-
-Ghost-swell (10th): drone + phase-swept return; L the deck cancels EXACT at π; R the ghost = quadrature (can't null), t·e^{−t} attack — zero for the deck, pole for the ghost.
 
 Count-shears (11th): the depth as a count — drone + phase-swept 110 return, nulls EXACT at odd π; voices at k·110 join per lap, t^k e^{−t}/k! attack (one power slower each), phase k·π/2 off; 1→2→3→4.
 
 Odd/even ladder (15th, supersedes 13th): drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 gaps land home (fuse), 11 the hole, 11 more close. ramp phase to k·π AT the swell peak — end-of-swell ramps land a half-step off; change phase only where amp=0.
 
 Seam-point (14th): the miss as a swell — drone centre, return sweeps the comma (±23.46¢, 37 s), pans by detune sign (sharp L, flat R), amp ∝|sin|+FLOOR(0.18) — the turn is FUSION, the return IS the drone (floor, not a null); two sweeps, fade on the drone.
+
+Frenkel-pair (16th, supersedes 12th/10th): drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved 0+2=1+1; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
 ## Structural strand/braid diagrams
 
