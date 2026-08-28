@@ -40,7 +40,7 @@ Murmuration-chorus (18th): 48 voices @220, no drone/return. homes core σ6¢+hal
 Catmull-Rom for smooth crossings; straight where a kink must show. Alternating
 signs: y=sign(x)·|x|^0.35 (few orders) / y=sign(x)·log10(1+|x|) (many) — 0 the
 axis. CF walk: run-length = partial quotient (the wait), turn = sign-flip. miss
-plot (q²|x−p/q|): φ hugs the Hurwitz floor 1/√5 — a near-return IS a long run.
+plot (q²|x−p/q|): floor 1/√5 universal (φ attains); log₂3/2 dives 0.042@665 (CF23); near-return IS a long run.
 
 ## Known issues
 
