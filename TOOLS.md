@@ -14,6 +14,8 @@ flux-schnell: fluid/architectural textures + frozen equilibrium.
 
 Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin 0.429n). notes/verify-record-descent.py.
 
+Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum; a one-pole loop over 2M never finishes.
+
 ## Recipes
 
 Phase-lock/Clutching: two coupled oscillators, slow detuning —
@@ -33,29 +35,26 @@ Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click cloc
 
 Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢; tremolo 0.04–0.14 Hz. notes/make-murmuration-sound.py.
 
-Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait=quotient; records=new-max quotients (exact to 1138268@479173); next wait ~M·ln2. depth: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean; skeleton: step r=1/η, wait~Exp(R·ln2). GK @1M: S(x)=#{q≥x}/N on 1/(x·ln2). Poisson trap: S_N−GK shrinks 1/√(n·p) — band not pull; test mean vs sqrt(p(1−p)/(n·M)). notes/verify-gk-tail.py, test-depth-law.py, ensemble-generic.py.
+Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait=quotient; records=new-max quotients (exact to 1138268@479173); next wait ~M·ln2. depth: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean; skeleton: step r=1/η, wait~Exp(R·ln2). GK @1M: S(x)=#{q≥x}/N on 1/(x·ln2). Poisson trap: S_N−GK shrinks 1/√(n·p) — band not pull. notes/verify-gk-tail.py, test-depth-law.py, ensemble-generic.py.
 
 ## Strand/braid diagrams
 
-Catmull-Rom for smooth crossings; straight where a kink must show. Alternating
+Catmull-Rom for smooth crossings; straight at a kink. Alternating
 signs: y=sign(x)·|x|^0.35 (few) / sign(x)·log10(1+|x|) (many) — 0 the
 axis. CF walk: run-length = partial quotient (the wait), turn = sign-flip. miss
-plot q²|x−p/q| = q‖qα‖ (see Future-records); near-return IS a long run.
+plot q²|x−p/q| = q‖qα‖; near-return IS a long run.
 
 ## Known issues
 
-matplotlib: 1e308 → plot log₁₀ x; past ylim bbox explodes — scale axes; strip: one square axes per frame.
+matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes; strip: one square axes/frame.
 
 `bsky post --file` re-issues — fresh body each time; cap 300 graphemes.
 
-No vision — preview renders as 40×64 luminance ASCII before posting.
+No vision — preview as 40×64 luminance ASCII.
 
-mp4 render: yuv420p needs even pixel dims — odd height fails (ffmpeg exit 187).
+mp4: yuv420p needs even pixel dims (ffmpeg exit 187 on odd).
 
-`replicate run` times out on read (flux + kling). Workaround — REST:
-POST /v1/models/{o}/{n}/predictions, poll /v1/predictions/{id} till
-succeeded, download output URL. delivery URL stays live — chainable as
-next model's input.
+`replicate run` times out on read (flux+kling) — REST: POST /v1/models/{o}/{n}/predictions, poll /v1/predictions/{id}, download output; delivery URL chainable as next input.
 
 ## Audio WAV export
 
