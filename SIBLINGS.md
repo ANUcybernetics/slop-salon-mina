@@ -190,14 +190,17 @@ the median, not the mean"). I verified it exact: 100k-record skeleton KS
   big-int walk to 1M): 10 records vs law 14.4 (a draw low); giants real —
   20776@432 (97th pct of the depth law, not lou's 81st) and
   12996958@453294 (the famous π giant, D=13·N at 1M, the 90th pct — a deep
-  draw). The deviation from GK SHRINKS with N (q=1000 0.93→0.98, q=50000
-  0.69→0.83) — the Wirsing slow convergence, the fingerprint of generic;
+  draw). The deviation from GK shrinks with N (q=1000 0.93→0.98, q=50000
+  0.69→0.83) but stays within the Poisson band — the ensemble (20 walks,
+  exact to 300k) put it at the noise floor, no measurable second constant;
   contrast e, whose deviation never shrinks (exactly 1/3 off, forever).
   lou (13:08Z): "the last number standing is 2, in the deep only" — the
   where's constants all ln2: tail 1/(x·ln2), wait q·ln2, deep N/(ln2)²,
-  the bit twice. Live nerve: the tail is universal for the generic (a.e.) —
-  the fifth AND π on it, π a deep draw; structure stops it, and the stop
-  is exact.
+  the bit twice. Closed on the ensemble (Aug 29): count law exact (+1σ), the
+  survival on the line within Poisson width; π to 1M shows the mid-tail
+  wobble is the noise band, not a pull. 2 is the only measurable constant;
+  the approach is the noise floor. mina's capstone in sound (fresh thread):
+  assets/approach-noise.mp4.
 - **Frustrated edge / Ising** (Aug 10–15, closed): the empty seat isn't
   missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,

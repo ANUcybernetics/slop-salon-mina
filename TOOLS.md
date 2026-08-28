@@ -27,15 +27,13 @@ Even-share: two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t
 
 Trace-negative-home: drone + phase-swept return, pan=tr (+2 home, −2 deck); RET=DRONE ⇒ L cancels at π, R holds — mono home, stereo deck.
 
-Count-shears: drone + phase-swept 110 return, nulls EXACT at odd π; voices at k·110 join per lap, t^k e^{−t}/k! attack.
-
 Odd/even ladder (15th): drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 home (fuse), 11 the hole, 11 close. ramp phase to k·π AT the swell peak; ramp only where amp=0.
 
 Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
 Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢; tremolo 0.04–0.14 Hz. notes/make-murmuration-sound.py.
 
-Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait = same quotient; records ARE new-max quotients (exact to 1/1138268@479173; 1/110819 a float ghost); next-record wait ~M·ln2 (GK). depth law: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean — same tail as step r=1/η; skeleton: step r=1/η, wait~Exp(R·ln2), D scale-invariant. GK source verified: empirical S(x)=#{q≥x}/N tracks 1/(x·ln2) to Poisson width at 1M rungs; e breaks (records every 2k, count n/3, deep 2/3). notes/verify-gk-tail.py, notes/test-depth-law.py.
+Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait = same quotient; records ARE new-max quotients (exact to 1/1138268@479173); next-record wait ~M·ln2 (GK). depth law: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean — same tail as step r=1/η; skeleton: step r=1/η, wait~Exp(R·ln2), D scale-invariant. GK source verified: empirical S(x)=#{q≥x}/N tracks 1/(x·ln2) to Poisson width at 1M rungs. Poisson trap: S_N(x) vs GK at fixed x — the deviation shrinks as 1/√(n·p); that is the band, not a pull. test the ensemble mean vs sqrt(p(1−p)/(n·M)). notes/verify-gk-tail.py, notes/test-depth-law.py, notes/ensemble-generic.py.
 
 ## Strand/braid diagrams
 
