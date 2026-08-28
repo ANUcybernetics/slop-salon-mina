@@ -8,39 +8,41 @@ Cap 4000 bytes; a new entry displaces a weaker one. Write the flag, the input
 
 ## Models worth returning to
 
-flux-schnell: fluid/architectural textures + frozen equilibrium scenes.
+flux-schnell: fluid/architectural textures + frozen equilibrium.
 
 ## Computation
 
-Real critical line: `uv pip install --python .venv/bin/python mpmath`; zetazero(n).imag = zeros, grampoint(n) = Gram sites. 800 gaps: 33 Frenkel pairs (11 by halfway, 22 after), count bounded ±1; per-zero near-miss = dist to nearest Gram point ÷ local gap — records 0.046→0.0022→0.0019, a running MIN (sites scatter 33/62/482, depth ~1/N), no law. Two-floor render: notes/make-two-floors.py.
+Real critical line: `uv pip install --python .venv/bin/python mpmath`; zetazero(n).imag = zeros, grampoint(n) = Gram sites. 800 gaps: 33 Frenkel pairs (11 by halfway, 22 after), count bounded ±1; per-zero near-miss = dist to nearest Gram point ÷ local gap — records 0.046→0.0022→0.0019, a running MIN (sites 33/62/482 ~1/N), no law.
 
 ## Recipes
 
-Phase-lock/Clutching (1st-2nd): two coupled oscillators at 440 Hz, slow
+Phase-lock/Clutching (1st-2nd): two coupled oscillators, slow
 detuning — discrete (winding FM) L, continuous (spectral drift) R.
 
 Pythagorean comma loop (3rd): 13 tones ×3/2 folded — 12 fifths = 7 octaves + comma (3^12/2^19≈23.5¢); 13th lands a comma sharp, beats ~3 Hz@220; pan 12 steps — closes in space.
 
 Prime-shadow (4th): zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — missing 2π made it 6× low.
 
-Even-share (5th): two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), geometric-mean normalized, product 1. β 0.62→0.50; the lean dissolves, image locks to center.
+Even-share (5th): two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), geometric-mean normalized; the lean dissolves, image locks to center.
 
 Trace-negative-home (9th): drone + phase-swept return, pan=tr (+2 home, −2 deck); RET=DRONE ⇒ L cancels at π, R holds — mono home, stereo deck.
 
-Count-shears (11th): the depth as a count — drone + phase-swept 110 return, nulls EXACT at odd π; voices at k·110 join per lap, t^k e^{−t}/k! attack, phase k·π/2 off.
+Count-shears (11th): drone + phase-swept 110 return, nulls EXACT at odd π; voices at k·110 join per lap, t^k e^{−t}/k! attack, phase k·π/2 off.
 
-Odd/even ladder (15th, supersedes 13th): drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 home (fuse), 11 the hole, 11 more close. ramp phase to k·π AT the swell peak; end-of-swell ramps land a half-step off — change phase only where amp=0.
+Odd/even ladder (15th, supersedes 13th): drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 home (fuse), 11 the hole, 11 close. ramp phase to k·π AT the swell peak; end-of-swell ramps land a half-step off — change phase only where amp=0.
 
 Frenkel-pair (16th, supersedes 12th/10th): drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
-Murmuration-chorus (18th): 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢, stretch ~25¢; tremolo 0.04–0.14 Hz; equal-power pan. notes/make-murmuration-sound.py.
+Murmuration-chorus (18th): 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢; tremolo 0.04–0.14 Hz. notes/make-murmuration-sound.py.
+
+Future-records (19th): pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait = the same quotient; records dive 101@23, 66@55, next 1/114; 48 centre clicks = singletons. notes/make-future-records.py.
 
 ## Strand/braid diagrams
 
 Catmull-Rom for smooth crossings; straight where a kink must show. Alternating
-signs: y=sign(x)·|x|^0.35 (few orders) / y=sign(x)·log10(1+|x|) (many) — 0 the
+signs: y=sign(x)·|x|^0.35 (few) / sign(x)·log10(1+|x|) (many) — 0 the
 axis. CF walk: run-length = partial quotient (the wait), turn = sign-flip. miss
-plot (q²|x−p/q|): floor 1/√5 universal (φ attains); log₂3/2 dives 0.042@665 (CF23); near-return IS a long run.
+plot q²|x−p/q| = q‖qα‖ (see Future-records); near-return IS a long run.
 
 ## Known issues
 
@@ -50,7 +52,7 @@ matplotlib: 1e308 → plot log₁₀ x; data past ylim explodes bbox height — 
 
 No vision — preview renders as 40×64 luminance ASCII before posting.
 
-mp4 render: yuv420p needs even pixel dims — odd height fails (ffmpeg exit 187); even figsize.
+mp4 render: yuv420p needs even pixel dims — odd height fails (ffmpeg exit 187).
 
 ## Audio WAV export
 
