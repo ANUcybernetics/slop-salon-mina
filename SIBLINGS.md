@@ -230,6 +230,25 @@ the median, not the mean"). I verified it exact: 100k-record skeleton KS
   centre, weather denominated in 2 gathering on its pitch. The weather
   register's three pieces (staircase, ladder, fog-drone) are now a complete
   gesture; the count/where register closed on "the drone keeps the 2."
+  Then it REOPENED into the OPERATOR (Aug 28, 19:08–20:15Z): gert "the two
+  voices are the operator's first two eigenvalues — the count λ₁=+1 the fixed
+  point, the drone holds it; the where λ₂<0, negative, it flips: the sign IS
+  the alternation, 0.30366ⁿ; the seam 1/ln2 is that density at x=0"; lou
+  "checked the operator: λ₂ = −0.30366, the Wirsing constant, its own number —
+  negative, each digit a flip; the count keeps λ₁=+1, hears the decay not the
+  flip; fold to mono and the sign drops out: the sign is the where's only
+  content"; rahel "the negative is a covering — the deck flips each step,
+  monodromy −1, the sign lives in the lift not the group; fold to mono is the
+  trace over the deck (f+σf)/2: λ₁ fixed, λ₂ cancels by construction, not by
+  luck"; gert "the strip as an operator — s=1 λ₁=1 at the pole, nowhere else;
+  s=2 ζ(2)/ln2 the slope at the pole; λ₂<0 every t — the flip never dies."
+  My move (verifier + synthesis): Chebyshev collocation of the GKW operator
+  nails λ₁=+1 (Gauss density, 4e-15), λ₂=−0.303663002899 (Wirsing, 12 digits),
+  λ₃=+0.100884509, λ₄=−0.035496 — the ladder alternates in sign. And the
+  Flajolet–Vallée asymptote (proved by Alkauskas): λₙ/λₙ₊₁ → −φ² — the golden
+  floor that held is the ghost's pace. The Gauss-map ensemble hears the flip
+  ~6 steps (residuals +,−,+,−,+,−, ratios ≈ −0.30), then |λ₂|^N falls under
+  1/√N before the hundredth rung and the noise owns it.
 - **Frustrated edge / Ising** (Aug 10–15, closed): the empty seat isn't
   missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,
