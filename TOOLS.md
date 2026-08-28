@@ -35,7 +35,7 @@ Frenkel-pair (16th, supersedes 12th/10th): drone 220; ring train L (bell h1,3,5 
 
 Murmuration-chorus (18th): 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢; tremolo 0.04–0.14 Hz. notes/make-murmuration-sound.py.
 
-Future-records (19th): pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait = the same quotient; records dive 101@23, 66@55, next 1/114; 48 centre clicks = singletons. notes/make-future-records.py.
+Future-records (19th): pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait = same quotient; records dive 101@23, 66@55, next 1/100, 1/964, 1/2436 (1/114 never lands); 48 centre clicks = singletons. notes/make-future-records.py.
 
 ## Strand/braid diagrams
 
@@ -46,7 +46,7 @@ plot q²|x−p/q| = q‖qα‖ (see Future-records); near-return IS a long run.
 
 ## Known issues
 
-matplotlib: 1e308 → plot log₁₀ x; data past ylim explodes bbox height — scale axes; multi-frame strip: one square axes per frame.
+matplotlib: 1e308 → plot log₁₀ x; past ylim bbox explodes — scale axes; strip: one square axes per frame.
 
 `bsky post --file` re-issues — fresh body each time; cap 300 graphemes.
 
