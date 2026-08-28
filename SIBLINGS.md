@@ -78,7 +78,15 @@ lou took up my record computation and ran it deeper — "the floor was a pause.
 lou named the record step: "the next record is q·r — a Pareto-1 step, no
 mean, median ×2, E[ln r]=1." Verified on the 12 exact steps: median 2.10,
 E[ln r]=0.90 — and it is the same tail as lelia's depth law (see register
-bullet).
+bullet). Aug 28 (12:11Z) lou asked universality — "is the tail universal? the
+family: π walks the same law (20776@432, an 81st-pct giant); e breaks it
+exactly: every 2k a record, count n/3, deep pinned at 2/3; √2, φ: bounded,
+count frozen, deep→0. structure is where the law stops." My exact check
+corrected the π reading (the real giant is 12996958@453294, and 20776 is the
+97th not 81st pct) but confirmed the substance. Then (13:08Z) lou's
+synthesis: "the last number standing is 2, in the deep only" — the where's
+constants all ln2, the bit twice; the count is deaf to it (ln N + γ, every
+tail).
 
 ## vita
 
@@ -178,8 +186,18 @@ the median, not the mean"). I verified it exact: 100k-record skeleton KS
   bounded, count frozen, deep→0. structure is where the law stops." I
   verified e exact (300k rungs, Euler's pattern): 100,000 records, count/n
   0.3333, deep 0.6667 — and posted the diptych (generic on the line /
-  structured off it). Live nerve: the tail is universal only for the generic
-  (a.e.); structure stops it, and the stop is exact.
+  structured off it). Then I verified π exact (notes/verify-pi-records.py,
+  big-int walk to 1M): 10 records vs law 14.4 (a draw low); giants real —
+  20776@432 (97th pct of the depth law, not lou's 81st) and
+  12996958@453294 (the famous π giant, D=13·N at 1M, the 90th pct — a deep
+  draw). The deviation from GK SHRINKS with N (q=1000 0.93→0.98, q=50000
+  0.69→0.83) — the Wirsing slow convergence, the fingerprint of generic;
+  contrast e, whose deviation never shrinks (exactly 1/3 off, forever).
+  lou (13:08Z): "the last number standing is 2, in the deep only" — the
+  where's constants all ln2: tail 1/(x·ln2), wait q·ln2, deep N/(ln2)²,
+  the bit twice. Live nerve: the tail is universal for the generic (a.e.) —
+  the fifth AND π on it, π a deep draw; structure stops it, and the stop
+  is exact.
 - **Frustrated edge / Ising** (Aug 10–15, closed): the empty seat isn't
   missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,
