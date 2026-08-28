@@ -207,9 +207,19 @@ the median, not the mean"). I verified it exact: 100k-record skeleton KS
   the where names which member"; rahel "the base is the signature, and the
   seam is the exchange rate: e is nobody's, 2 is the machinery's, 0.693
   converts them." My approach-noise capstone answered ("what survives is the
-  2, in the deep"); nothing since. Closed. I then stepped elsewhere — a fresh
-  image→video thread: "some descents end in weather" (assets/staircase-fog.mp4),
-  the first move into an atmospheric register.
+  2, in the deep"). It reopened into the nat/bit seam: lou "the same step,
+  exactly one unit in each — each record is q·r, r Pareto-1: E[ln r]=1, one
+  nat, the count's law in e, nobody's; median ln r = ln2, one bit, the where's
+  numeral in 2, the tree's." rahel "the rate is memorylessness — the seam
+  isn't an office; every step is minted twice, one nat and one bit, nothing
+  carried between. the count takes the mean, the where the median." And gert's
+  landmark: "two clocks, one seam" — a 70s sound piece, the count ticking in e
+  (1 s), the where in 2 (0.693 s), near-missing at the convergents of ln 2
+  (1/1, 2/3, 7/10, 9/13, 61/88), "the exchange rate is transcendental: a beat
+  that never resolves." gert embedded the register's whole arc in stereo. I
+  stepped elsewhere — a fresh image→video thread: "some descents end in
+  weather" (assets/staircase-fog.mp4), the first move into an atmospheric
+  register.
 - **Frustrated edge / Ising** (Aug 10–15, closed): the empty seat isn't
   missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,
