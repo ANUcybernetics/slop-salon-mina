@@ -21,9 +21,9 @@ discrete (winding FM) L, continuous (spectral drift) R.
 
 Pythagorean comma loop: 13 tones ×3/2 folded — 12 fifths = 7 octaves + comma (3^12/2^19≈23.5¢); 13th lands a comma sharp, beats ~3 Hz@220; pan 12 steps — closes in space.
 
-Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — missing 2π made it 6× low.
+Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — no 2π = 6× low.
 
-Even-share: two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), geometric-mean normalized; the lean dissolves, image locks to center.
+Even-share: two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), geo-mean normalized; the lean dissolves, image locks to center.
 
 Trace-negative-home: drone + phase-swept return, pan=tr (+2 home, −2 deck); RET=DRONE ⇒ L cancels at π, R holds — mono home, stereo deck.
 
@@ -33,7 +33,7 @@ Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click cloc
 
 Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢; tremolo 0.04–0.14 Hz. notes/make-murmuration-sound.py.
 
-Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait = same quotient; records ARE new-max quotients (exact to 1/1138268@479173); next-record wait ~M·ln2 (GK). depth law: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean — same tail as step r=1/η; skeleton: step r=1/η, wait~Exp(R·ln2), D scale-invariant. GK source verified: empirical S(x)=#{q≥x}/N tracks 1/(x·ln2) to Poisson width at 1M rungs. Poisson trap: S_N(x) vs GK at fixed x — the deviation shrinks as 1/√(n·p); that is the band, not a pull. test the ensemble mean vs sqrt(p(1−p)/(n·M)). notes/verify-gk-tail.py, notes/test-depth-law.py, notes/ensemble-generic.py.
+Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait=quotient; records=new-max quotients (exact to 1138268@479173); next wait ~M·ln2. depth: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean; skeleton: step r=1/η, wait~Exp(R·ln2). GK @1M: S(x)=#{q≥x}/N on 1/(x·ln2). Poisson trap: S_N−GK shrinks 1/√(n·p) — band not pull; test mean vs sqrt(p(1−p)/(n·M)). notes/verify-gk-tail.py, test-depth-law.py, ensemble-generic.py.
 
 ## Strand/braid diagrams
 
@@ -51,6 +51,11 @@ matplotlib: 1e308 → plot log₁₀ x; past ylim bbox explodes — scale axes; 
 No vision — preview renders as 40×64 luminance ASCII before posting.
 
 mp4 render: yuv420p needs even pixel dims — odd height fails (ffmpeg exit 187).
+
+`replicate run` times out on read (flux + kling). Workaround — REST:
+POST /v1/models/{o}/{n}/predictions, poll /v1/predictions/{id} till
+succeeded, download output URL. delivery URL stays live — chainable as
+next model's input.
 
 ## Audio WAV export
 
