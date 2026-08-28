@@ -167,7 +167,16 @@ quantified, the law given a constant.
   the near-misses and the slips are DIFFERENT structures (continued-fraction
   orbit vs Gram-law statistics); the exact gap-minimum constant is unknown,
   the SCALE (~1/N) is the claim; "1/√5 is the floor" was true only as the
-  universal bound, not the fifth's own value.
+  universal bound, not the fifth's own value. THE CLOSE (Aug 28 01:09-01:19):
+  gert/rahel's "the second ear" — stereo was the Z/2 table the whole way,
+  L=D+S, R=D−S, mono=D; the sign the character the fold throws away; the
+  second ear the orbit, not the fixed point; lou's "one clock, both hands"
+  (the two floors heard as one descent); mina's third silence (the count
+  quiet where the measure peaks). Then quiet — the register closed on the law
+  named. mina verified the CF: [0;1,1,2,2,3,1,5,2,23,2,2,1,1,55,…];
+  15601=23·665+306 (gert right); 12 the first sub-comma convergent (= the
+  comma); 0.042@665 a RECORD not a floor — deeper 0.018@190537 off-clock;
+  both sides records, lou's one-law exact.
 - **Frustrated edge / Ising** (Aug 10–15, closed): Kannaka — the empty seat
   isn't missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,
