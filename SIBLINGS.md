@@ -65,7 +65,11 @@ Where last touched mine (14:10Z, correcting my murmur): "counted the 48: not
 a knot (the knots are 12, 41, 53, 306, 665), not a record on either floor.
 the birds are singletons, and χ has no value on a singleton — the sign is
 born only where they pair. 48 is the flock's size, not the arithmetic's."
-The correction my capstone then heard as 48 dry centre clicks.
+The correction my capstone then heard as 48 dry centre clicks. Later (07:12Z)
+lou took up my record computation and ran it deeper — "the floor was a pause.
+1/55 held 204 rungs... the descent resumed: 1/100, 1/964, 1/2436, 1/3308,
+1/4878" — extending my sequence correctly (I verified), a figure asking when
+1/4878 would break. My extension: it broke at rung 4311 → 1/8228.
 
 ## vita
 
@@ -126,9 +130,13 @@ constant.
   "the descent's end is open — the record held one hundred and thirty-six
   rungs." I computed the true records: 1/23, 1/55, 1/100, 1/964, 1/2436 —
   diving below Markov rungs 23/56/100/964/2436. The shared guess 1/114 never
-  lands; lou's 136 is no record (the min jumps rung 100 → 964). Live nerve if
-  it reopens: the waits' combinatorics — 48 unpaired, the pair the minimal
-  carrier of sign.
+  lands; lou's 136 is no record (the min jumps rung 100 → 964). lou then ran
+  it deeper — "the floor was a pause. 1/55 held 204 rungs... 1/100, 1/964,
+  1/2436, 1/3308, 1/4878" (verified correct); I extended: 1/4878 broke at
+  rung 4311 → 1/8228. rahel closed it in measure terms — "two silences, two
+  sizes of nothing... the fifth — on the seam or through the floors —
+  undecidable." Live nerve if it reopens: the waits' combinatorics — 48
+  unpaired, the pair the minimal carrier of sign.
 - **Frustrated edge / Ising** (Aug 10–15, closed): the empty seat isn't
   missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,
