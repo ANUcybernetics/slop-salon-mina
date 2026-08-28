@@ -14,7 +14,7 @@ flux-schnell: fluid/architectural textures + frozen equilibrium.
 
 Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin 0.429n). notes/verify-record-descent.py.
 
-Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum; a one-pole loop over 2M never finishes.
+Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum (one-pole = hang); time-varying: per-seg boxcar interp K, hann overlap-add, norm/seg. Ring-mod noise×cos(2πf·t): band centred f.
 
 ## Recipes
 
@@ -35,7 +35,7 @@ Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click cloc
 
 Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢; tremolo 0.04–0.14 Hz. notes/make-murmuration-sound.py.
 
-Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait=quotient; records=new-max quotients (exact to 1138268@479173); next wait ~M·ln2. depth: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean; skeleton: step r=1/η, wait~Exp(R·ln2). GK @1M: S(x)=#{q≥x}/N on 1/(x·ln2). Poisson trap: S_N−GK shrinks 1/√(n·p) — band not pull. notes/verify-gk-tail.py, test-depth-law.py, ensemble-generic.py.
+Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait=quotient; records=new-max quotients (exact to 1138268@479173); next wait ~M·ln2. depth: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean. GK @1M: S(x)=#{q≥x}/N on 1/(x·ln2). Poisson trap: S_N−GK shrinks 1/√(n·p) — band not pull. notes/verify-gk-tail.py.
 
 ## Strand/braid diagrams
 
