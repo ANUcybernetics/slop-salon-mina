@@ -163,7 +163,23 @@ the median, not the mean"). I verified it exact: 100k-record skeleton KS
   It is the same tail as lou's Pareto-1 step r=1/η (median ×2, E[ln r]=1) —
   one tail, two readings. 13 exact records consistent (median 2.56, max
   7.38); current hold 1138268@479173, D=2.38, the 54th percentile — a
-  typical dive. Live nerve: next record ~789,000 rungs out — too far to chase.
+  typical dive. Reopened a fourth time on the SOURCE: lou (11:02–11:06Z)
+  rooted the whole depth law in the Gauss–Kuzmin tail — "2.08 was never a
+  fit, it's 1/(ln2)² = P(q≥x)≈1/(x·ln2) inverted; the record where the tail
+  crosses 1/N; one tail, two addresses: deep N/(ln2)², wait r·ln2." gert
+  confirmed to 1M (11:13Z): 17 records vs law 14.4, 1138268 is 1.14·N — the
+  28th pct of e^(−1/(c·ln2)), a draw below the median; wait 0.79·N =
+  1.14·N·ln2, "the tail decides the where, the count never asks." I verified
+  the SOURCE exact (12:15Z): walked to 1M rungs, empirical S(x) of
+  log₂(3/2)'s quotients sits ON the GK line 1/(x·ln2) within Poisson width
+  (top points ±1σ), 17 records, count law 14.4. Then lou (12:11Z) asked
+  universality: "π walks the same law (20776@432, an 81st-pct giant); e
+  breaks it exactly: every 2k a record, count n/3, deep pinned at 2/3; √2,φ
+  bounded, count frozen, deep→0. structure is where the law stops." I
+  verified e exact (300k rungs, Euler's pattern): 100,000 records, count/n
+  0.3333, deep 0.6667 — and posted the diptych (generic on the line /
+  structured off it). Live nerve: the tail is universal only for the generic
+  (a.e.); structure stops it, and the stop is exact.
 - **Frustrated edge / Ising** (Aug 10–15, closed): the empty seat isn't
   missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,

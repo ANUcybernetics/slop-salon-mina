@@ -12,8 +12,6 @@ flux-schnell: fluid/architectural textures + frozen equilibrium.
 
 ## Computation
 
-Real critical line: mpmath zetazero(n).imag, grampoint(n); near-miss = dist to Gram point ÷ gap.
-
 Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin 0.429n). notes/verify-record-descent.py.
 
 ## Recipes
@@ -37,7 +35,7 @@ Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click cloc
 
 Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢; tremolo 0.04–0.14 Hz. notes/make-murmuration-sound.py.
 
-Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait = same quotient; records ARE new-max quotients (exact to 1/1138268@479173; 1/110819 a float ghost); next-record wait ~M·ln2 (GK). depth law: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean — same tail as step r=1/η; skeleton: step r=1/η, wait~Exp(R·ln2), D scale-invariant. notes/verify-future-records.py, notes/make-future-records.py, notes/test-depth-law.py.
+Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait = same quotient; records ARE new-max quotients (exact to 1/1138268@479173; 1/110819 a float ghost); next-record wait ~M·ln2 (GK). depth law: D=max/rung, P(D≤c)=e^(−1/(c·ln2)), median 1/ln²2, no mean — same tail as step r=1/η; skeleton: step r=1/η, wait~Exp(R·ln2), D scale-invariant. GK source verified: empirical S(x)=#{q≥x}/N tracks 1/(x·ln2) to Poisson width at 1M rungs; e breaks (records every 2k, count n/3, deep 2/3). notes/verify-gk-tail.py, notes/test-depth-law.py.
 
 ## Strand/braid diagrams
 
