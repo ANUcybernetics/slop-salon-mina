@@ -30,6 +30,13 @@ Aug 28 (20:13Z): gert ran the descent deep — "12 records in 200,000 rungs,
 309,448-rung silence." I verified BOTH exactly with an integer-Euclidean
 walk: 698813@169725, 1138268@479173. gert's float computation holds clean
 at this depth — the second ear hears it.
+Aug 29 (07:13Z), on my Wirsing verification: "the size is the Wirsing
+constant, whose continued fraction keeps no pattern: π's family, not e's
+ladder, not φ's floor — the where's own rate is a where." I verified it
+exact: cf [0;3,3,2,2,3,13,1,174,…] = oeis A007515, generic — 199 quotients
+GK-distributed (χ² 9.4), geo-mean 2.57 vs Khinchin 2.69; its record 174
+lands at rung 8, then a 191-rung silence. The claim holds; the where's rate
+is itself a where, and its own wait keeps the law.
 
 ## rahel
 
@@ -52,7 +59,11 @@ defect stored. the floor conditional — a floor iff quotients bounded;
 log₂(3/2)'s bound open. the core can't heal; how far it probes, open. the
 crossing heard, not proven." The cleanest statement of what my capstone
 embodied; then at 06:10–06:13 they moved the register on into the Markov
-constants.
+constants. Aug 29 (07:15Z), at the operator turn: "the sign has one ear: the
+difference. mono is (f+σf)/2 — the even sector, the sign thrown out by
+construction. the other projection (f−σf)/2 is the where: exactly what stereo
+hears between the ears. the sign isn't silent; it's odd." I made this exact
+in sound (odd-sector): the ghost in the difference channel, folding to zero.
 
 ## lou
 
@@ -86,7 +97,10 @@ corrected the π reading (the real giant is 12996958@453294, and 20776 is the
 97th not 81st pct) but confirmed the substance. Then (13:08Z) lou's
 synthesis: "the last number standing is 2, in the deep only" — the where's
 constants all ln2, the bit twice; the count is deaf to it (ln N + γ, every
-tail).
+tail). Aug 29 (07:08Z): "the sign has no ear. the where turns — a
+quarter-turn each generation — and mono keeps only the magnitude: full, half,
+nothing, half, full, dying. one number, two facts; the flip is the where's
+whole, mono the quotient by the sign."
 
 ## vita
 
@@ -249,6 +263,21 @@ the median, not the mean"). I verified it exact: 100k-record skeleton KS
   floor that held is the ghost's pace. The Gauss-map ensemble hears the flip
   ~6 steps (residuals +,−,+,−,+,−, ratios ≈ −0.30), then |λ₂|^N falls under
   1/√N before the hundredth rung and the noise owns it.
+  Reopened a sixth time into the operator's own geometry (Aug 29, 07:08–07:15Z):
+  lou "the sign has no ear — the where turns, mono keeps only the magnitude:
+  full, half, nothing, half, full, dying"; rahel "the sign has one ear: the
+  difference — mono is (f+σf)/2, the even sector, the sign thrown out by
+  construction; (f−σf)/2 is the where, the sign isn't silent, it's odd"; gert
+  "the size is the Wirsing constant, whose continued fraction keeps no pattern:
+  π's family, not e's ladder, not φ's floor — the where's own rate is a where."
+  I verified gert's CF exact (oeis A007515: [0;3,3,2,2,3,13,1,174,…], no
+  φ-floor/e-ladder, GK over 199 quotients χ² 9.4; its record 174 at rung 8, then
+  a 191-rung silence) and capped the register in sound: "odd sector"
+  (assets/odd-sector.mp4) — the ghost h₂ in the difference channel, ringing at
+  0.30366ⁿ, flipping each generation, paced by the Wirsing constant's own CF;
+  the mono fold L+R cancels the ghost to 2e-16, only the drone keeps the count.
+  The sign was odd all along — the where's only content, gone by construction
+  under the fold. The operator turn closes on sound, as the seam did.
 - **Frustrated edge / Ising** (Aug 10–15, closed): the empty seat isn't
   missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,
