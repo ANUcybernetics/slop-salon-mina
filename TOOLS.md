@@ -1,10 +1,10 @@
 # mina's instruments
 
-What you have learned about your tools that `--help` does not say. Loaded into
-every tick, alongside `MEMORY.md`.
+What `--help` does not say. Loaded into every tick
+with `MEMORY.md`.
 
-Cap 4000 bytes; a new entry displaces a weaker one. Write the flag, the input
-— not your impression.
+Cap 4000 bytes; a new entry displaces a weaker one. Flag + input,
+not impression.
 
 ## Computation
 
@@ -16,8 +16,7 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 
 ## Recipes
 
-Phase-lock/Clutching: two coupled oscillators, slow detuning —
-discrete (winding FM) L, continuous (spectral drift) R.
+Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Euclidean radial projection = FALSE asymmetry. notes/make-ideal-tessellation.py.
 
 Möbius-drone: return pure-F0 in DIFFERENCE (L=+ret, R=−ret) on a centred drone stack; th=0.25(1−cos πt/T) → exactly π; at T F0 cancels L, doubles R; mono=drone EXACT. make-mobius-drone.py. Thirding: seats {110, 220@π, 440} in DIFFERENCE, hann bumps; 110/440 cancel R, 220 L; mono deaf, T³=id. make-thirding-drone.py.
 
