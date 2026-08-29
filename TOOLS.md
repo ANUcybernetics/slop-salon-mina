@@ -6,10 +6,6 @@ every tick, alongside `MEMORY.md`.
 Cap 4000 bytes; a new entry displaces a weaker one. Write the flag, the input
 — not your impression.
 
-## Models worth returning to
-
-flux-schnell: fluid/architectural textures + frozen equilibrium.
-
 ## Computation
 
 Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin 0.429n). notes/verify-record-descent.py.
@@ -23,7 +19,7 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 Phase-lock/Clutching: two coupled oscillators, slow detuning —
 discrete (winding FM) L, continuous (spectral drift) R.
 
-Pythagorean comma loop: 13 tones ×3/2 folded — 12 fifths = 7 octaves + comma; 13th lands a comma sharp, beats ~3 Hz@220; pan 12 steps — closes in space.
+Pythagorean comma: 12 fifths = 7 octaves + comma; 13th lands a comma sharp, beats ~3 Hz@220; pan closes in space.
 
 Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — no 2π = 6× low.
 
@@ -38,6 +34,8 @@ Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click cloc
 Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢. notes/make-murmuration-sound.py.
 
 Ink/water pair (scalar field, semi-Lagrangian): drop→spiral (ω(r)=ω0r0²/(r²+r0²) w0≈0.78, conserved) vs plume→haze (emitted, stalls high, w0≈0.7). Render real density, no re-norm; edge-fade EMASK anti-pins. notes/make-ink-bloom.py, make-smoke.py.
+
+Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top; doubler widens with B. make-ghost-note.py.
 
 ## Strand/braid diagrams
 
