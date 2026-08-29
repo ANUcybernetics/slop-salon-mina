@@ -16,7 +16,7 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 
 ## Recipes
 
-Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Euclidean radial projection = FALSE asymmetry. notes/make-ideal-tessellation.py.
+Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Euclidean radial projection = FALSE asymmetry. Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½ (hyp r ½ln3); mirrors fix geodesics Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
 
 Möbius-drone: return pure-F0 in DIFFERENCE (L=+ret, R=−ret) on a centred drone stack; th=0.25(1−cos πt/T) → exactly π; at T F0 cancels L, doubles R; mono=drone EXACT. make-mobius-drone.py. Thirding: seats {110, 220@π, 440} in DIFFERENCE, hann bumps; 110/440 cancel R, 220 L; mono deaf, T³=id. make-thirding-drone.py.
 
@@ -24,7 +24,6 @@ Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 
 
 Even-share: two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t); the lean dissolves, image locks to center.
 
-Trace-negative-home: drone + phase-swept return, pan=tr; L cancels at π, R holds — mono home, stereo deck.
 
 Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (hole), R quadrature rings (ghost); 4 home (fuse), 11 hole. ramp phase at the swell peak only.
 
