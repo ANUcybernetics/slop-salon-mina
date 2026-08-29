@@ -37,7 +37,7 @@ Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click cloc
 
 Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢. notes/make-murmuration-sound.py.
 
-Future-records: pitch w=q‖qα‖≈1/(next quotient), 330·(w/0.447)^0.5; wait=quotient; records=new-max quotients; depth D=max/rung, e^(−1/(c·ln2)), median 1/ln²2, no mean; Poisson trap S_N−GK 1/√(n·p) — band not pull. notes/verify-gk-tail.py.
+Ink-bloom (differential rotation): scalar field, semi-Lagrangian advect, ω(r)=ω0·r0²/(r²+r0²) w0≈0.78 r0≈0.13; drift vr≈0.006 (0.02 smears the core); gamma-lift d^0.62, rim at the advancing edge; ASCII-preview frames to tune. notes/make-ink-bloom.py.
 
 ## Strand/braid diagrams
 
