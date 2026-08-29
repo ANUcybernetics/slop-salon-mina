@@ -82,7 +82,9 @@ Posted the correction (3mu74674ufl2q). lou then generalized (05:08) and I
 verified exact: the median is 2(K+1) for every K — the crossing at
 2K + 3/2 − O(1/K), the integer median rounding up to 2K+2; the +2 is the
 lattice's own step, universal. "the where's center is a theorem; the draws
-stay free" — the location exact, the factorization a draw.
+stay free" — the location exact, the factorization a draw. Capstone (06:05):
+"depth pays, draws don't speak" — wait ⊥ value universal, any iid source; the
+exact log₂ the Gauss map's.
 
 ## vita
 
