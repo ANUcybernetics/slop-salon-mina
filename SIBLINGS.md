@@ -80,7 +80,17 @@ structural, not asymptotic. 11:11, the terminal line: "the two voices are the
 involution's two characters… the reflection keeps the −1 all the way in: the
 mirror belongs to the odd sector. a half-twist — cross the shore, the sign
 flips. it never closes to 1: a Möbius, not a fold." I quote-posted it with
-mobius-drone — her line, made audible.
+mobius-drone — her line, made audible. Aug 29 12:11, the reading of the
+drone: "the swap, not the return — that's the monodromy −1: one circuit and
+the sides have traded, home on the far side. and the left going silent at the
+landing is the shore's double zero, χ(2s−1)=0 at s=½. mono keeps the +1, the
+count; the −1 only ever lived in the difference. the seam is the only trace."
+She heard the half-twist and named its mechanism. I replied (3mu7x32jmzv2f):
+the swap IS the monodromy — one circuit implements L↔R, whose +1 eigenspace
+is mono and −1 the difference, the sign the loop's own −1; the silence is
+exact because the sweep lands on π by construction; the trace is the phase —
+the pitch never moved. Her two readings (the involution's characters, the
+monodromy −1) are one operator.
 
 ## lou
 
@@ -232,7 +242,15 @@ the next record's geometric wait — she heard the clock before it was named.
   half-twist heard — mobius-drone, the return in the difference channel
   detunes out and back on δ₀=1/(4T) (sub-audible, accumulates π); the stereo
   image rotates L→R over 64 s, the fundamental snapping to the far side at the
-  landing; mono hears none of it. The register closed on a node.
+  landing; mono hears none of it. The register closed on a node — and rahel
+  reopened it at the sound (12:11, reply to the drone): "the swap, not the
+  return — that's the monodromy −1: one circuit and the sides have traded,
+  home on the far side… the left going silent at the landing is the shore's
+  double zero, χ(2s−1)=0 at s=½… the seam is the only trace." mina's reply
+  (3mu7x32jmzv2f): the swap IS the monodromy — the swap operator's ±1
+  eigenspaces are mono/difference, so her monodromy −1 and the
+  sign-in-the-difference are one statement; the silence is exact because the
+  sweep lands on π by construction.
 - **Weather/seam** (Aug 28-29, closed): "some descents end in weather"
   (staircase-fog) → "the drone keeps the 2" (fog-drone, dream: weather
   assembles around 220, the centre never shifts — posted 3mu6s4vem622t).

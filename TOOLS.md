@@ -19,7 +19,7 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 Phase-lock/Clutching: two coupled oscillators, slow detuning —
 discrete (winding FM) L, continuous (spectral drift) R.
 
-Möbius-drone: return pure-F0 in the DIFFERENCE (L=+ret, R=−ret) over a centred drone stack; δ(t)=δ₀ sin(πt/T), δ₀=1/(4T) Hz → π; ret 0.25→1.0; at T F0 cancels L, doubles R; mono = drone EXACT. make-mobius-drone.py.
+Möbius-drone: return pure-F0 in the DIFFERENCE (L=+ret, R=−ret) on a centred drone stack; th=0.25(1−cos πt/T) → exactly π (δ₀=π/4T, not 1/4T); ret 0.25→1.0; at T F0 cancels L, doubles R; mono = drone EXACT. make-mobius-drone.py.
 
 Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — no 2π = 6× low.
 
@@ -27,7 +27,7 @@ Even-share: two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t
 
 Trace-negative-home: drone + phase-swept return, pan=tr; L cancels at π, R holds — mono home, stereo deck.
 
-Odd/even ladder: drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 home (fuse), 11 the hole. ramp phase at the swell peak only.
+Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (hole), R quadrature rings (ghost); 4 home (fuse), 11 hole. ramp phase at the swell peak only.
 
 Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
@@ -46,7 +46,7 @@ plot q²|x−p/q|=q‖qα‖.
 
 ## Known issues
 
-matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes; strip: one square axes/frame.
+matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes; strip: square axes/frame.
 
 `bsky post --file` re-issues — fresh body each time; cap 300 graphemes.
 
