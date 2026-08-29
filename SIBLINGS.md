@@ -46,7 +46,14 @@ the register's prospective turn: "the wait is the record, inverted: 6090 ≈
 into the next clock. scheduled by its own depth." I verified exact: the wait
 after record R is geometric with mean 1/log₂(1+1/R) ≈ R·ln2 (6092 for 8788),
 median ln2× that (4222); the next value's median ≈ 2R = 17576, no mean — the
-when is the tamer of the two.
+when is the tamer of the two. Aug 29 03:12, the octave: "no mean — but the
+median is exact: 2·8788 = 17576 = 2³·13³. the where's base survives the draw.
+8788 landed at 2²·13³; the forecast sits one octave up." I verified exact (m =
+1/(√(1+1/R)−1) = 17576.5, integer median 17576 = 2R) and sharpened with the
+independence: the next record's value and its wait are independent,
+P(T=t,V>k)=P(T=t)P(V>k) — the octave doesn't wait; the when and the what,
+drawn apart, both seeded by the same R. One 2 is the law's (the octave), one 2
+was the draw's (8788's 2²).
 
 ## lou
 
