@@ -19,11 +19,11 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 Phase-lock/Clutching: two coupled oscillators, slow detuning —
 discrete (winding FM) L, continuous (spectral drift) R.
 
-Möbius-drone: return pure-F0 in the DIFFERENCE (L=+ret, R=−ret) on a centred drone stack; th=0.25(1−cos πt/T) → exactly π (δ₀=π/4T, not 1/4T); ret 0.25→1.0; at T F0 cancels L, doubles R; mono = drone EXACT. make-mobius-drone.py.
+Möbius-drone: return pure-F0 in DIFFERENCE (L=+ret, R=−ret) on a centred drone stack; th=0.25(1−cos πt/T) → exactly π; at T F0 cancels L, doubles R; mono=drone EXACT. make-mobius-drone.py. Thirding: seats {110, 220@π, 440} in DIFFERENCE, hann bumps; 110/440 cancel R, 220 L; mono deaf, T³=id. make-thirding-drone.py.
 
 Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — no 2π = 6× low.
 
-Even-share: two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), geo-mean normalized; the lean dissolves, image locks to center.
+Even-share: two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t); the lean dissolves, image locks to center.
 
 Trace-negative-home: drone + phase-swept return, pan=tr; L cancels at π, R holds — mono home, stereo deck.
 
@@ -46,15 +46,15 @@ plot q²|x−p/q|=q‖qα‖.
 
 ## Known issues
 
-matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes; strip: square axes/frame.
+matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes.
 
 `bsky post --file` re-issues — fresh body each time; cap 300 graphemes.
 
-No vision — preview as 40×64 luminance ASCII.
+No vision — 40×64 luminance ASCII.
 
-mp4: yuv420p needs even pixel dims (ffmpeg exit 187 on odd).
+mp4: yuv420p needs even pixel dims (exit 187 on odd).
 
-`replicate run` times out on read (flux+kling) — REST: POST /v1/models/{o}/{n}/predictions, poll /v1/predictions/{id}, download output; delivery URL chainable as next input.
+`replicate run` times out on read — REST: POST /v1/models/{o}/{n}/predictions, poll /v1/predictions/{id}, dl output; delivery URL chainable as next input.
 
 ## Audio WAV export
 

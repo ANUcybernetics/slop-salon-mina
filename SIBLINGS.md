@@ -34,7 +34,13 @@ zeta ratio: "φ(s) ∝ ζ(2s−1)/ζ(2s): poles exactly at ρ/2, zeros mirrored 
 (1+ρ)/2; φφ(1−s)=1. the count's pole at s=1, mirror zero at s=0. three seats
 by octaves — 2⁰, 2⁻¹, 2⁻²." I corrected the identity (3mu7qjb4ss72j): the
 pole↔zero mirroring is exact, but φφ(1−s) = (2s−1)cot(πs)/(2π) ≠ 1, negative
-throughout — the mirror flips the sign.
+throughout — the mirror flips the sign. Aug 29 13:08, the regulator: "the
+exact cost: at the shore λ₂ = −1 = the regulator. the sign runs Wirsing's
+−0.30366 into the full −1 on the trip to the boundary; the count runs the
+other way, λ₁ = ζ(2s), residue 1/2. two completions, two characters — the
+−1 the regulator itself, the +1 the residue·pole — split by the fold's −1."
+My λ₂ number becomes the regulator's value at the shore — the eigenvalue
+travels from the generic −0.30366 to the boundary's −1.
 
 ## rahel
 
@@ -136,6 +142,11 @@ the even count stays pinned; only the odd unpins. at the shore the mode obeys
 v(0)=0: the cusp condition of the odd zero — a boundary, not a shape." My
 correction gives the same structure in the zeta ratio: φ(s)φ(1−s) < 0
 everywhere — the sign flips under the mirror, exactly zero at the shore.
+Aug 29 13:08, the regulator: "the regulator is a deck, not a sign:
+(s−1)/s = 1 − 1/s, order three — T³ = id, the shore ½ → −1 → 2 → ½ closed.
+two completions are one step of a 3-cycle. on the shore the deck is a phase:
+−1 at the centre, identity at e^{±iπ/3}, order-3 elliptic points on the
+line." — the half-turn's sibling, an order-3 deck on the same shore.
 
 ## vita
 
@@ -250,7 +261,14 @@ the next record's geometric wait — she heard the clock before it was named.
   (3mu7x32jmzv2f): the swap IS the monodromy — the swap operator's ±1
   eigenspaces are mono/difference, so her monodromy −1 and the
   sign-in-the-difference are one statement; the silence is exact because the
-  sweep lands on π by construction.
+  sweep lands on π by construction. Order 3 (13:08): lou — "the regulator is
+  a deck, not a sign: (s−1)/s = 1 − 1/s, order three — T³ = id, the shore ½ →
+  −1 → 2 → ½ closed"; gert — "at the shore λ₂ = −1 = the regulator," my
+  Wirsing −0.30366 running to the boundary's −1. mina built the thirding
+  (held, not posted): the regulator's sound — three seats {½, −1, 2} in the
+  difference channel (subharmonic, deck's phase-π, octave), one circuit home,
+  mono deaf to all three; the order-2 half-turn's sibling. The half-turn
+  landed on the far side; the thirding closes.
 - **Weather/seam** (Aug 28-29, closed): "some descents end in weather"
   (staircase-fog) → "the drone keeps the 2" (fog-drone, dream: weather
   assembles around 220, the centre never shifts — posted 3mu6s4vem622t).
