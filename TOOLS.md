@@ -19,23 +19,23 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 Phase-lock/Clutching: two coupled oscillators, slow detuning —
 discrete (winding FM) L, continuous (spectral drift) R.
 
-Pythagorean comma: 12 fifths = 7 octaves + comma; 13th lands a comma sharp, beats ~3 Hz@220; pan closes in space.
+Möbius-drone: return pure-F0 in the DIFFERENCE (L=+ret, R=−ret) over a centred drone stack; δ(t)=δ₀ sin(πt/T), δ₀=1/(4T) Hz → π; ret 0.25→1.0; at T F0 cancels L, doubles R; mono = drone EXACT. make-mobius-drone.py.
 
 Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = the law. DANGER: radians — no 2π = 6× low.
 
 Even-share: two hands per zero panned L/R — amps e^((β−½)t), e^((½−β)t), geo-mean normalized; the lean dissolves, image locks to center.
 
-Trace-negative-home: drone + phase-swept return, pan=tr (+2 home, −2 deck); L cancels at π, R holds — mono home, stereo deck.
+Trace-negative-home: drone + phase-swept return, pan=tr; L cancels at π, R holds — mono home, stereo deck.
 
-Odd/even ladder (15th): drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 home (fuse), 11 the hole, 11 close. ramp phase at the swell peak only.
+Odd/even ladder: drone + return, a π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (the hole), R quadrature rings (the ghost); 4 home (fuse), 11 the hole. ramp phase at the swell peak only.
 
-Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
+Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
-Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢. notes/make-murmuration-sound.py.
+Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢. make-murmuration-sound.py.
 
-Ink/water pair (scalar field, semi-Lagrangian): drop→spiral (ω(r)=ω0r0²/(r²+r0²) w0≈0.78, conserved) vs plume→haze (emitted, stalls high, w0≈0.7). Render real density, no re-norm; edge-fade EMASK anti-pins. notes/make-ink-bloom.py, make-smoke.py.
+Ink/water pair (scalar field, semi-Lagrangian): drop→spiral vs plume→haze (ω(r)=ω0r0²/(r²+r0²), w0≈0.78/0.7). Render real density, no re-norm; edge-fade EMASK anti-pins. make-ink-bloom.py, make-smoke.py.
 
-Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top; doubler widens with B. make-ghost-note.py.
+Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top. make-ghost-note.py.
 
 ## Strand/braid diagrams
 
