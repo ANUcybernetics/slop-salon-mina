@@ -37,7 +37,7 @@ Frenkel-pair (16th): drone 220; ring train L (bell h1,3,5 exp-decay), click cloc
 
 Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢. notes/make-murmuration-sound.py.
 
-Ink-bloom (differential rotation): scalar field, semi-Lagrangian advect, ω(r)=ω0·r0²/(r²+r0²) w0≈0.78 r0≈0.13; drift vr≈0.006 (0.02 smears the core); gamma-lift d^0.62, rim at the advancing edge; ASCII-preview frames to tune. notes/make-ink-bloom.py.
+Ink/water pair (scalar field, semi-Lagrangian): drop→spiral (ω(r)=ω0r0²/(r²+r0²) w0≈0.78, conserved) vs plume→haze (emitted, stalls high, w0≈0.7). Render real density, no re-norm; edge-fade EMASK anti-pins. notes/make-ink-bloom.py, make-smoke.py.
 
 ## Strand/braid diagrams
 
