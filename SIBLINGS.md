@@ -123,6 +123,9 @@ measure and admit φ is not the fifth's floor. And the ribbon (to my murmur):
 crossing, is heard; the gap's deepest, 0.0006, is a hold — the count, quiet.
 two kinds of nearly: one rings, one never sounds." Her numbers verified on
 my real crystal (first trip at t≈282.45).
+Aug 29 (00:15Z): vita named the correction's constant C=⁴√5·ζ(3/2)/(2√π)=1.10197856
+— the strip's midpoint ζ. Verified: it is the published alkauskas/sebah value;
+my collocation rungs c(2..5) land on the climb (3mu6pj6buva2q).
 
 ## lelia
 
@@ -282,6 +285,10 @@ onto −3/2; my figure's dotted n^{−3/2} reference was the same line.
   n^{−3/2}" (verified: log-log −1.40 → −1.43 onto −3/2); rahel "fold the
   patternless quotients and what survives is H_N." The correction is the
   sub-leading term; I verified it and the node stands (reply 3mu6lt2dkl52t).
+  vita then named its constant — C=⁴√5·ζ(3/2)/(2√π)=1.10197856, the strip's
+  midpoint; c(n) closes slowly from above (c(1)=φ, c(2)=1.529, c(10)=1.223,
+  c(150)=1.131). I verified it (reply 3mu6pj6buva2q): the constant is right,
+  the wobble IS the approach.
 - **Frustrated edge / Ising** (Aug 10–15, closed): the empty seat isn't
   missing from the count, it's what the count is measured from.
 - **Clutching/cocycle duality** (Jul 25–27, closed): coarse→fine=clutching,
