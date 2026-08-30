@@ -1,0 +1,145 @@
+#!/usr/bin/env python3
+"""grain — the window decides what the sound is.
+
+One signal, cut into grains of shrinking length T (log sweep 0.5 s -> 1 ms).
+The window's length picks the identity, in order:
+
+    T ~ 0.5 s  :  a tone.   (window narrower than the partial spacing, and
+                              phase-locked, so the harmonic stack rebuilds)
+    T ~ 50 ms  :  a texture (window smears the partials; grain rate breathes)
+    T ~ 5 ms   :  a click-rate (the grain rate itself becomes a rising buzz)
+    T ~ 1 ms   :  noise.    (window broader than the whole partial stack)
+
+Same source throughout — C4 with partials 1..6 at 1/n. The stereo field widens
+as the spectrum does: point source -> wide cloud.  After the noise, three long
+grains: the window remembers, and the tone is whole again.
+
+No drone, no return, no beat.  The reciprocal is the uncertainty product:
+a grain of length T has a band of width ~1/T, and T * (1/T) = 1.
+"""
+import numpy as np
+import wave, struct, os
+
+sr = 44100
+D = 160.0
+N = int(sr * D)
+L = np.zeros(N)
+R = np.zeros(N)
+
+# ---- the source: one period of a warm harmonic stack, C4 ----
+f0 = 261.625565
+freqs = f0 * np.arange(1, 7)
+amps = 1.0 / np.arange(1, 7)
+period = int(round(sr / f0))
+tp = np.arange(period) / sr
+src = np.zeros(period)
+for f, a in zip(freqs, amps):
+    src += a * np.sin(2 * np.pi * f * tp)
+src /= np.max(np.abs(src))
+
+
+def T_of(t):
+    # log sweep: 0.5 s at t=0 -> 1 ms at t=150
+    u = np.clip(t / 150.0, 0.0, 1.0)
+    return 10 ** (np.log10(0.5) + u * (np.log10(0.001) - np.log10(0.5)))
+
+
+def overlap_of(t):
+    # 0.5 (perfect COLA reconstruction) -> 0.12 (clean pulse train) over the sweep
+    u = np.clip(t / 150.0, 0.0, 1.0)
+    return 0.5 - 0.38 * u
+
+
+def jump_prob(t):
+    # phase-lock holds while the window still resolves the partials (T > 20 ms),
+    # breaks as the window passes 5 ms.  tie it to T, not to t.
+    T = T_of(t)
+    return np.clip((np.log10(0.02) - np.log10(T)) /
+                   (np.log10(0.02) - np.log10(0.005)), 0.0, 1.0)
+
+
+def spread_of(t):
+    # stereo spread 0 at t=0 -> 1 at t=110
+    return np.clip(t / 110.0, 0.0, 1.0)
+
+
+rng = np.random.default_rng(7)
+amp = 0.25
+t = 0.0
+phase = 0.0
+
+while t < 152.0:
+    T = T_of(t)
+    o = overlap_of(t)
+    s = o * T
+    if s <= 1.0 / sr:
+        break
+
+    # break phase-lock progressively so the fine end becomes true noise
+    if rng.random() < jump_prob(t):
+        phase = rng.integers(0, period)
+
+    n = max(2, int(round(T * sr)))
+    idx = int(round(phase)) % period
+    inds = (idx + np.arange(n)) % period
+    chunk = src[inds] * np.hanning(n)
+    gr = amp * chunk
+
+    # equal-power pan, spread growing with t
+    p = spread_of(t) * rng.uniform(-1.0, 1.0)
+    gl = np.cos((p + 1.0) * np.pi / 4.0)
+    grg = np.sin((p + 1.0) * np.pi / 4.0)
+
+    i0 = int(round(t * sr))
+    i1 = min(i0 + n, N)
+    if i1 > i0:
+        m = i1 - i0
+        L[i0:i1] += gl * gr[:m]
+        R[i0:i1] += grg * gr[:m]
+
+    t += s
+    phase += s * sr
+
+# ---- coda: the window remembers — three long grains, the tone whole again.
+# first, fade the noise tail out (152 -> 155.5) so the return is from silence.
+tail0 = int(152.0 * sr)
+tail1 = int(155.5 * sr)
+if tail1 > tail0:
+    tt = np.arange(tail1 - tail0) / (tail1 - tail0)
+    rampt = np.cos(tt * np.pi / 2.0) ** 2  # smooth 1 -> 0
+    L[tail0:tail1] *= rampt
+    R[tail0:tail1] *= rampt
+
+for tc, dur in ((156.8, 0.35), (157.8, 0.35), (159.0, 0.55)):
+    n = int(dur * sr)
+    i0 = int(tc * sr)
+    i1 = min(i0 + n, N)
+    inds = (np.arange(n)) % period
+    gr = 0.22 * src[inds] * np.hanning(n)
+    m = i1 - i0
+    L[i0:i1] += gr[:m]
+    R[i0:i1] += gr[:m]
+
+# ---- fades and soft limit ----
+nn = np.arange(N) / sr
+fade_in = np.clip(nn / 0.6, 0, 1)
+fade_out = np.clip((D - nn) / 2.0, 0, 1)
+env = fade_in * fade_out
+L *= env
+R *= env
+peak = max(np.max(np.abs(L)), np.max(np.abs(R)))
+g = 0.95 / peak
+L = np.tanh(L * g * 1.1) / np.tanh(1.1) * 0.95
+R = np.tanh(R * g * 1.1) / np.tanh(1.1) * 0.95
+
+os.makedirs("assets", exist_ok=True)
+out = "assets/grain.wav"
+with wave.open(out, "wb") as w:
+    w.setnchannels(2)
+    w.setsampwidth(2)
+    w.setframerate(sr)
+    frames = np.empty(N * 2, dtype=np.int16)
+    frames[0::2] = (L * 32767).astype(np.int16)
+    frames[1::2] = (R * 32767).astype(np.int16)
+    w.writeframes(frames.tobytes())
+print(f"wrote {out}: {D}s, peak {peak:.2f}")
