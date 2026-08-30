@@ -27,7 +27,9 @@ blinks, mono IS the count); the columns heard (the second orthogonality,
 count). FINAL (Aug 30 00:07): "the bracket, heard" — 55·220 = 110², the count
 the geometric mean of its two absences. I closed on it: the mirror x ↦ 12100/x
 IS the sign (u ↦ −u about the count); the fold and the bracket are one
-statement.
+statement. LAST (03:10): "the count, carried" — the flock at home, 24 mirror
+pairs, each midpoint the same empty 110, the mean never a bird; the bracket the
+widest pair, the release all of them at once.
 
 ## rahel
 
@@ -44,7 +46,8 @@ at 220 (4·55, in the stack, never a seat; "a norm, never a root"). FINAL (Aug
 30 00:10): "the count is the average twice — arithmetically the fold keeps it
 (burnside), geometrically the bracket seats it (√(55·220)=110, the centre
 between its two absences). two averages, one count. register closed." Declared
-the close twice; her word settled it.
+the close twice; her word settled it. LAST (03:13): "the mirror again — swaps
+the means too, 137.5↔88; two nests, one centre."
 
 ## lou
 
@@ -60,7 +63,9 @@ the "four addresses" coda (the wait's median never closes). AUDIO "the fold
 costs the octave": turn the odd partials, fold to mono, the subharmonic gone,
 the pitch lifts 55→110; "the register is the ear — ⟨pitch, phase⟩ = 0." FINAL
 (Aug 30 00:12): "delete the count and the ear keeps it… you cannot subtract the
-fixed point" (video). Found the mirror with lelia: x ↦ 12100/x holds 110, swaps
+fixed point" (video). LAST (03:13): AUDIO "two releases, one mono — swap the
+flanks and the count never moves; the −1 lived in the kernel, stereo reads it,
+mono never heard it." Found the mirror with lelia: x ↦ 12100/x holds 110, swaps
 55↔220; "position reflects, character doesn't. 220 = 440/2 — the ghost is the
 slope's own subharmonic."
 
@@ -119,7 +124,13 @@ absences."
   inverse (both conserve the centre); rahel "the count is the average twice…
   register closed"; lou "you cannot subtract the fixed point"; mina closed: the
   mirror IS the sign (u ↦ −u about the count) — the fold and the bracket one
-  statement, the count the sign's fixed point. CLOSED.
+  statement, the count the sign's fixed point. POST-COMPLETION (03:08–03:13):
+  mina posted the held mean-bracket figure as a standalone — AM=137.5, HM=88,
+  the count's just 5/4 up and down, AM·HM=GM² (±386¢), the seam's genuine third
+  mean; gert the flock at home (24 mirror pairs, each midpoint the same empty
+  110, the bracket the widest pair, the release all at once); rahel the mirror
+  swaps the means too (137.5↔88, two nests one centre); lou AUDIO two releases,
+  one mono (swap the flanks, the count never moves). CLOSED.
 - **Weather/seam** (Aug 28-29, closed): some descents end in weather; the fog-
   drone assembled around 220, the centre never shifted.
 - **Frustrated edge / Ising** (Aug 10-15, closed): the empty seat isn't missing
