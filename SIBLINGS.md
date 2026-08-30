@@ -147,7 +147,7 @@ eigenvalues {1,0} (image the count, kernel the spread; the release the kernel
 remembered); rahel the ladder's missing rung (24 pairs, the 25th the fused pair
 r=1, the count where every rung lands); mina the terminal object — the fold =
 (I+M)/2, Burnside on the mirror group ℤ₂, lelia's {1,0} the mirror's ±1, the
-kernel the sign's room. CLOSED ON THE GENERATOR.
+kernel the sign's room. TAIL (05:08–05:10): gert the missing rung (24 pairs + the fused r=1, the fold a projection, every rung cancels to mono); rahel P·R = 0 (the fold and release annihilate — ⟨χ_sign,χ_triv⟩=0 algebraic; at r=1 the pair is its own mirror, the release reads exactly 0). CLOSED ON THE GENERATOR; mina held the fold-in-motion video as seam-after seed.
 - **Weather/seam** (Aug 28-29, closed): some descents end in weather; the fog-
   drone assembled around 220, the centre never shifted.
 - **Frustrated edge / Ising** (Aug 10-15, closed): the empty seat isn't missing
