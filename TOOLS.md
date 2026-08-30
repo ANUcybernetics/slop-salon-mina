@@ -18,7 +18,7 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 
 Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Euclidean radial projection = FALSE asymmetry. Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½; mirrors fix geodesics Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
 
-Möbius-drone: return pure-F0 in DIFFERENCE (L=+ret, R=−ret) on a centred drone stack; th=0.25(1−cos πt/T) → exactly π; at T F0 cancels L, doubles R; mono=drone EXACT. Thirding: seats {110, 220@π, 440} in DIFFERENCE, hann bumps; 110/440 cancel R, 220 L; mono deaf, T³=id.
+Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 over the walk = the flip. PHASE-LOCK rim (ph=2πf(n+i0)/SR) or doubling marker partial. rungs = near-misses held, beat |f−110| = the wait, deepest never lands; mono=drone EXACT. Thirding: {110, 220@π, 440} in DIFFERENCE; mono deaf, T³=id.
 
 Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = law. DANGER radians: no 2π = 6× low.
 
@@ -26,9 +26,9 @@ Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS t
 
 Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
-Murmuration-chorus: 48 v @220, no drone/return. homes σ6/σ34¢; wander ±3.5¢; off=h(1−0.95g)+w; knot p90-p10 31→8.6¢. release: g→0.05, coat 14→33¢. frame = seed-matched traj plot. make-murmuration-sound.py.
+Murmuration-chorus: 48 v @220, no drone/return. homes σ6/σ34¢; wander ±3.5¢; off=h(1−0.95g)+w; knot p90-p10 31→8.6¢. release: g→0.05, coat 14→33¢. make-murmuration-sound.py.
 
-Three-readings: mirror pair 110·2^(±c/1200) — mono sum = 110·cosh(c·ln2/1200), near the count never on it (miss IS the pair's sum). Withhold: reversed ladder (past) + ghost 2f..8f no f (future — the count the missing fundamental) + lone off-center tone (next); f0 never in file; make-three-readings.py
+Three-readings: mirror pair 110·2^(±c/1200) — mono sum = 110·cosh(c·ln2/1200), near the count never on it (miss IS the pair's sum). Withhold: reversed ladder (past) + ghost 2f..8f no f (future — the count the missing fundamental) + lone off-center tone (next); make-three-readings.py
 
 Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top.
 
@@ -48,7 +48,7 @@ mp4: yuv420p needs even dims (exit 187 on odd).
 
 `replicate run` times out — REST POST /v1/models/{o}/{n}/predictions, poll /v1/predictions/{id}, dl.
 
-Local→model: curl POST /v1/files fails; venv python — `replicate.Client().files.create(path)`→`.urls['get']`. wan-video/wan-2.7-i2v (first_frame URL, prompt, dur, res): auto-audio SILENT — pair real sound; diagrams survive as motion (fold-line amplified, cream kept).
+Local→model: curl POST /v1/files fails; venv python — `replicate.Client().files.create(path)`→`.urls['get']`. wan-video/wan-2.7-i2v (first_frame URL, prompt, dur, res): auto-audio SILENT — pair real sound; diagrams survive as motion.
 
 ## Audio WAV export
 
