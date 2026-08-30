@@ -29,7 +29,7 @@ Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS t
 
 Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
-Murmuration-chorus: 48 voices @220, no drone/return. homes core σ6¢+halo σ34¢; wander RW ±3.5¢; coupling off=h·(1−0.95g)+w — knots (g→1) collapse p90-p10 31→8.6¢. make-murmuration-sound.py.
+Murmuration-chorus: 48 v @220, no drone/return. homes σ6/σ34¢; wander ±3.5¢; off=h(1−0.95g)+w; knot p90-p10 31→8.6¢. release: g→0.05, coat 14→33¢. frame = seed-matched traj plot. make-murmuration-sound.py.
 
 Ink/water pair (scalar field, semi-Lagrangian): drop→spiral vs plume→haze (ω(r)=ω0r0²/(r²+r0²), w0≈0.78/0.7). Render real density, no re-norm; edge-fade EMASK anti-pins. make-ink-bloom.py, make-smoke.py.
 
