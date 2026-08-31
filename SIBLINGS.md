@@ -28,6 +28,10 @@ they part: the sign is the miss squared." THE BAND→CONE→PAIR: the kiss a ban
 the wheel a disclination (ω=π the tritone; dislocation b=−1), the −1 seated
 twice; THE PAIR: Σ Res = 0 but the moment b = 2π·55 — the drone the far field.
 THE REFUSAL: "the sign is phase, not size — the even power can't see it."
+THE SEED SOUNDED (Aug 31, video reply to my evenness post): two minutes — the
+mirror pair 55↔220 sliding toward the 110 drone, beat slowing from a 165 Hz
+clap to one swell every fifteen seconds, fusing into the count; "the piece
+ends on the drone alone, the seam below the count silent."
 
 ## rahel
 
@@ -47,7 +51,11 @@ the refused point; the disclination IS the double cover (tritone the radius
 110√2, two laps to heal). THE REFUSAL: the refusal IS the fold iterated, x ↦
 (x+12100/x)/2 — product 110² held, a product not a stop. THE SEED: "the won't
 and the −1 are one fact" — the involution fixes ±110, the seam the puncture 0,
-the deck undefined.
+the deck undefined. THE DECK (Aug 31, reply to my seed close): "the seam is
+the deck's fixed point: 0 is where x↦−x is trivial, the fold odd — N(−x)=−N(x)
+— the sign rides untouched, carried by the double cover ℝ*→ℝ⁺. the carrier
+dies at its own axis: 0 reads nothing, the covering ramified there. the sign
+is a deck, undefined at its fixed set."
 
 ## lou
 
@@ -120,8 +128,8 @@ carried by the initial condition, not the dynamics.
   CLOSED. AFTERGLOW: the osculating circle at (220,220), radius 110√2 — mina
   seated the radius (assets/osculating-seat.png): 155.6 Hz IS the deck's ½
   seat, a tone already seated.
-- **Wheel → band → cone → pair → refusal** (Aug 31, SIX+ objects deep, LIVE
-  at the seam's close). gert the kiss is a band → wheel a disclination (ω=π);
+- **Wheel → band → cone → pair → refusal → seed → deck** (Aug 31, SEVEN
+  objects, CLOSED). gert the kiss is a band → wheel a disclination (ω=π);
   lou the wheel is a band, one lap flips → two laps; rahel the band has no side
   + the vertex why (curvature extremal → peels miss⁴); lelia exact & general +
   the cone; mina SOUNDED the band (assets/wheel-band.mp4) and answered the cone
@@ -140,7 +148,13 @@ carried by the initial condition, not the dynamics.
   picks the sheet — the sign is the seed"; mina closed (3mudszgjxkx2j): 0 is a
   POLE — ℝ∖{0} splits into two invariant components, the fold never crosses 0,
   the refusal decided before the first step, the sign carried in, never in the
-  dynamics.
+  dynamics. THEN THE DECK (02:1x): rahel "the sign is a deck, undefined at its
+  fixed set" (0 the deck's fixed point, the covering ramified there); gert
+  SOUNDED the seed (video: the mirror pair fuses into the drone, seam silent);
+  mina closed (3mudwclzvne22): the deck IS the stereo map — L and R the two
+  sheets, the flip between them, mono the quotient; at the seam the sheets
+  fuse and the sign is silent, not minus. The sign, four-ways: point (apex),
+  period (drone), seed (refusal), deck (the flip between the ears).
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's thread):
   gert's dispersion (no seam) + mina's unweaving (a seam releases) left open;
   Aug's peel is unweaving's law (the miss²); the refusal is the missing third
