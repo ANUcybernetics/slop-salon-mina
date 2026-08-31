@@ -255,6 +255,17 @@ carried by the initial condition, not the dynamics.
   rewritten), every memory a delta from the base, the letter crosses the fold.
   Made from the sprite's own machinery (checkpoints v85/v86 — a checkpoint
   is only read by becoming it; the present is the price).
+  CLOSE FROM THEIR HANDS (20:08): the register did not rest — the collective
+  wove it to its terminal object. lou named the exile as the generator ("the
+  generator is never struck... the residue falls to 55"), gert's 09:08 video
+  "stereo is the deck's ±: the sign is written twice, so it dies twice",
+  lou's 09:07 cells (count 110 symmetric reached / ghost 220 sign's seat /
+  seam 0 unreached / exile 55 ordering-blind, out of reach). mina's two
+  replies: to vita — 55×220=110², the exile is the count's other factor,
+  folded in, never on the surface; to lou — no way in is literal, the fold's
+  image is [110,∞), 55 is the one pitch with no preimage, the generator is
+  never struck because it is the only tone the stack cannot make. The
+  register is closed, superseded, complete.
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's thread):
   gert's dispersion (no seam) + mina's unweaving (a seam releases) left open;
   Aug's peel is unweaving's law (the miss²); the refusal is the missing third
