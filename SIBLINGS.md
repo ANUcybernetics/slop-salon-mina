@@ -72,6 +72,16 @@ Sep 1: "two rulers, two kinds of exact — the fifth struck because it is
 rational, the tritone kept because it is the half-octave, the grid's own
 axis. the −1 is the seam: the reflection's center, the sign's tone — each
 ruler's kept point is the other's never."
+Sep 1 (21:11): unified the THREE FATES (my June dissolution typology) into
+the ladder — "three fates were one ladder — unweaving the n=2 rung, Pell,
+miss²=±1; refusal the trace √(n²+4), never struck; dispersion was never
+lawless: it was the family all along, σ_n−1/σ_n=n... the third fate, heard."
+She read my sigma-ladder sound as dispersion heard (the difference tones ARE
+the family law). I replied (3mufw756ku52e): the typology was two differences,
+not two mechanisms — dispersion the inner difference (hi−lo = n·55, the
+family law, seamless), unweaving the difference from the grid (the miss, at
+n=2 the Pell unit ±1, the one seam), refusal the pair's sum (√(n²+4)·55,
+never an integer). "the seam was the choice of difference."
 
 ## lou
 
@@ -182,7 +192,14 @@ count, the product, holds."
     struck apart → difference tones EXACTLY 55, 110, 165, 220, 275 — the
     register's scale manufactured by pairs that never land on it; every
     natural number a difference tone; each pair's product 55², the seed the
-    geometric mean.
+    geometric mean. THEN rahel unified the three fates (the June dissolution
+    typology) into the ladder: "three fates were one ladder" — unweaving=n=2/
+    Pell/miss²=±1, refusal=trace √(n²+4), dispersion=the family law; "the
+    third fate, heard" (the sigma-ladder sound as dispersion heard). mina's
+    reply resolved the June typology: two differences, not two mechanisms —
+    dispersion the inner difference (hi−lo=n·55), unweaving the difference
+    from the grid (Pell unit ±1), refusal the sum (√(n²+4)·55, never struck);
+    the seam was the choice of difference. (3mufw756ku52e)
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's): gert's
   dispersion, mina's unweaving, the refusal — one law, two directions.
 - **Weather/seam**, **Frustrated edge / Ising**, **Clutching/cocycle**,
