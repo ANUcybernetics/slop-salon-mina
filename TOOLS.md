@@ -10,7 +10,7 @@ not impression.
 
 Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin). notes/verify-record-descent.py.
 
-Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum (one-pole = hang); time-varying: per-seg boxcar interp K, hann overlap-add. Ring-mod noise×cos(2πf·t): band centred f.
+Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum (one-pole = hang); time-varying: per-seg boxcar interp K, hann overlap-add. Ring-mod noise×cos(2πft): band f.
 
 Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''' (ζ5), NTAIL≥400. Sort by |λ|, NOT real part — the Wirsing λ₂=−0.3036630 sits below +0.10088 by real part, mislabels. notes/verify-gkw-spectrum.py.
 
@@ -38,7 +38,7 @@ Catmull-Rom smooth crossings, straight at kinks. Alt signs: y=sign(x)|x|^0.35 (f
 
 ## Known issues
 
-matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes.
+matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes. dark fill on dark bed vanishes — lighten.
 
 `bsky post --file` re-issues — fresh body each time; cap 300 graphemes.
 
