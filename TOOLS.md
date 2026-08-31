@@ -18,11 +18,11 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 
 Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½; mirrors fix geodesics Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
 
-Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 over the walk = the flip. PHASE-LOCK rim (ph=2πf(n+i0)/SR) or doubling marker partial. rungs = near-misses held, beat |f−110| = the wait, deepest never lands; mono=drone EXACT. Unison: phase-lock (slew one channel's phase onto the other); Hz-equal glides keep a fixed offset, the difference survives.
+Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 = the flip; mono=drone EXACT. Unison: phase-lock (slew one channel's phase onto the other); Hz-equal glides keep the difference.
 
-Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = law. DANGER radians: no 2π = 6× low.
+Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz. DANGER radians: no 2π = 6× low.
 
-Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS the parity of the gaps. L nulls EXACT at odd gaps (hole), R quadrature rings (ghost); 4 home (fuse), 11 hole.
+Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS the parity. L nulls EXACT at odd gaps (hole), R quadrature rings (ghost); 4 home (fuse), 11 hole.
 
 Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
@@ -32,7 +32,7 @@ Three-readings: mirror pair 110·2^(±c/1200) — mono sum = 110·cosh(c·ln2/12
 
 Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top.
 
-Difference-tone (the sign's tone): ring-mod sin(55t)·sin(220t) = ½[cos(165t)−cos(275t)] — the gap 165 = √Δ rings, the ear's square, never struck.
+Difference-tone (the sign's tone): ring-mod sin55·sin220 = ½(cos165−cos275) — BOTH sidebands: 165 the gap, 275 the sum 5·55, never struck. Pan them apart → the count a spacing; mono fold = cos165+cos275 = 2cos220cos55 (mean+exile). make-fifth-harmonic.py
 
 ## Strand/braid diagrams
 
