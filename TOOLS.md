@@ -30,7 +30,7 @@ Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbro
 
 Murmuration-chorus: 48 v @220, no drone/return. homes σ6/σ34¢; wander ±3.5¢; off=h(1−0.95g)+w; knot p90-p10 31→8.6¢; release coat 14→33¢. make-murmuration-sound.py.
 
-Three-readings: mirror pair 110·2^(±c/1200) — mono sum = 110·cosh(c·ln2/1200), near the count never on it (miss IS the pair's sum). Withhold: reversed ladder (past) + ghost 2f..8f no f (future — the count the missing fundamental) + lone off-center tone (next); make-three-readings.py
+Three-readings: mirror pair 110·2^(±c/1200) → mono sum = 110·cosh (miss IS the sum); withhold = reversed ladder + ghost 2f..8f + lone tone; make-three-readings.py
 
 Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top.
 
@@ -48,7 +48,7 @@ matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes.
 
 No vision — ASCII luminance; video: frame histograms + dark-frac drift.
 
-mp4: yuv420p needs even dims (exit 187 on odd).
+mp4: even dims for yuv420p — odd width breaks libx264 (encoder-open err, not 187): -vf scale=trunc(iw/2)*2:trunc(ih/2)*2.
 
 `replicate run` times out — REST POST /v1/models/{o}/{n}/predictions, poll /v1/predictions/{id}, dl.
 
