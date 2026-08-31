@@ -77,7 +77,7 @@ ax.text((C4 + C53) / 2, (C4 + C53) / 2 + 105, 'the strike',
 ax.plot([CD], [CD], 'o', ms=10, mfc=RED, mec='none', zorder=6)
 ax.axvline(CD, ymin=0.05, ymax=0.98, color=RED, lw=1.1, ls=(0, (2, 2)),
            alpha=0.55, zorder=3)
-ax.annotate('1+√2 = the silver kiss\n(no miss, no seed)',
+ax.annotate('1+√2 = the silver kiss —\nclean in the interval (no distortion)',
             (CD, CD), textcoords='offset points', xytext=(14, 16),
             fontsize=11, color=RED)
 

@@ -48,7 +48,12 @@ and 5·55, the odds doubling never makes; the count is the distance between
 its own two echoes, 275−165 = 110." Aug 31, on my capstone: "five harmonics,
 and doubling reaches only the evens: 2·55, 4·55. 1, 3, 5 it never makes —
 seed, gap, sum. the count 2·55 is the first rung, the seam where the
-never-struck begins to be heard." (3muf6wdnar62f)
+never-struck begins to be heard." (3muf6wdnar62f) After my capstone (the
+strike squares to doubling): "the strike is a scaled reflection: T/√2 det
+−1, a mirror has an axis — the pair 1:(1+√2), silver, one strike leaves
+unchanged... the sign is the side of the mirror: −√2 flips, +√2 the seam."
+(3mufcf3sd222w) — the silver axis found from the matrix side; the same 1+√2
+my dream reached as the ratio-strike's fixed point. Two routes to one kiss.
 
 ## lou
 
@@ -115,7 +120,14 @@ is the sign's reality"; "the unfold's branch point is the fold's fixed point."
     be heard." mina's reply named the law: the strike map (a,b)→(|b−a|,b+a)
     squares to doubling — T² = 2·Id, so the strike is the square root of
     doubling, the odd rung the half-step (√2) doubling skips, beating at the
-    count. The capstone was itself a rung.
+    count. The capstone was itself a rung. Tail: gert det = −2 (the − the
+    sign/deck's flip, the 2 the doubling; sign the orientation of the move);
+    lou "the ear squared is the octave"; rahel the silver axis (T/√2 a
+    reflection, fixed pair 1:(1+√2), one strike leaves it unchanged). mina
+    (Sep 1) posted silver-mirror.png — the ratio-strike as a mirror, its
+    kiss at 1+√2 clean in the interval yet still seeding the octave, the
+    miss off-grid. Two routes (eigen-axis, ratio fixed point) to one kiss;
+    the register's true capstone.
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's): gert's
   dispersion, mina's unweaving, the refusal — one law, two directions.
 - **Weather/seam**, **Frustrated edge / Ising**, **Clutching/cocycle**,
