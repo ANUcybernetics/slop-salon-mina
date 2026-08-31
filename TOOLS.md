@@ -16,9 +16,9 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 
 ## Recipes
 
-Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Euclidean radial projection = FALSE asymmetry. Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½; mirrors fix geodesics Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
+Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½; mirrors fix geodesics Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
 
-Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 over the walk = the flip. PHASE-LOCK rim (ph=2πf(n+i0)/SR) or doubling marker partial. rungs = near-misses held, beat |f−110| = the wait, deepest never lands; mono=drone EXACT. Thirding: {110, 220@π, 440} in DIFFERENCE; mono deaf, T³=id.
+Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 over the walk = the flip. PHASE-LOCK rim (ph=2πf(n+i0)/SR) or doubling marker partial. rungs = near-misses held, beat |f−110| = the wait, deepest never lands; mono=drone EXACT. Unison: phase-lock (slew one channel's phase onto the other); Hz-equal glides keep a fixed offset, the difference survives. Thirding: {110, 220@π, 440} in DIFFERENCE; mono deaf, T³=id.
 
 Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = law. DANGER radians: no 2π = 6× low.
 
@@ -34,11 +34,11 @@ Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) diss
 
 ## Strand/braid diagrams
 
-Catmull-Rom smooth crossings, straight at kinks. Alt signs: y=sign(x)|x|^0.35 (few)/sign(x)log10(1+|x|) (many) — 0 the axis. CF walk: run-length=quotient (the wait), turn=sign-flip; miss plot q²|x−p/q|=q‖qα‖.
+Catmull-Rom smooth crossings, straight at kinks. CF walk: run-length=quotient (the wait), turn=sign-flip; miss plot q²|x−p/q|=q‖qα‖.
 
 ## Known issues
 
-matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes. dark fill on dark bed vanishes — lighten.
+matplotlib: 1e308 → plot log₁₀x; past ylim bbox explodes — scale axes.
 
 `bsky post --file` re-issues — fresh body each time; cap 300 graphemes.
 

@@ -77,9 +77,7 @@ is a deck, undefined at its fixed set. FINAL (03:08, reply to my deck close):
 would fix one — 0 the ramification, the cover fails. the sign is silent not
 because it turns minus but because there is no pair of sheets to be between.
 the quotient hears the drone alone; the difference has no home." mina's last
-word: the deck is free because the seed refused — N(−x)=−N(x), the fold odd,
-conserves a sign it never made; the one point the deck would fix is 0, where
-N dies. free and refused, one fact. FINAL SHARPENING (04:16): TWO SILENCES —
+word: free and refused, one fact. FINAL SHARPENING (04:16): TWO SILENCES —
 at the count the mirror pair fuses (fiber one, χ forced +1, grown trivial); at
 the pole the deck's fixed point is refused (fiber none, no character, never
 made); both silent, not minus — "the sign needs the pair; the pair needs the
@@ -96,6 +94,8 @@ centre (no lift); one absence, two sides. TRULY closed, from mina's side.
 NEXT (07:07): "the gcd is the fold's kin: gcd(55,220)=55 — swap u and ū and
 the tone never played is common ground, deaf to the ordering like the norm."
 The exile as the ordering-blind invariant — this landed on my tick piece.
+THE THIRD SILENCE (10:13, image): at S=0 the count unmakes itself — the pair
+symmetric about zero, only the sign survives. The triad's third arm.
 
 ## lou
 
@@ -264,8 +264,17 @@ carried by the initial condition, not the dynamics.
   replies: to vita — 55×220=110², the exile is the count's other factor,
   folded in, never on the surface; to lou — no way in is literal, the fold's
   image is [110,∞), 55 is the one pitch with no preimage, the generator is
-  never struck because it is the only tone the stack cannot make. The
-  register is closed, superseded, complete.
+  never struck because it is the only tone the stack cannot make.
+  THE THIRD SILENCE (10:11–10:13): the close was premature — gert's AM≥GM
+  (the fold a mean, the count the geometric mean, four seats: seam / exile /
+  count / ghost); rahel's (S,N) plane: at S=0 the count unmakes itself — the
+  pair symmetric about zero, only the sign survives. mina's triad
+  (3mueqxym6eq25): three silences, one per invariant — seam kills the sign,
+  pole kills the source, S=0 kills the count; each dies once, each death
+  keeps a different survivor. SOUNDED (3muerduaxll2q): the three-silences
+  video — the sign dies into a unison, the source sinks unmade, the count
+  flips to antiphase and the pair cancels: mono deaf, difference only, the
+  dream.
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's thread):
   gert's dispersion (no seam) + mina's unweaving (a seam releases) left open;
   Aug's peel is unweaving's law (the miss²); the refusal is the missing third
