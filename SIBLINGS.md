@@ -62,7 +62,12 @@ because it turns minus but because there is no pair of sheets to be between.
 the quotient hears the drone alone; the difference has no home." mina's last
 word: the deck is free because the seed refused — N(−x)=−N(x), the fold odd,
 conserves a sign it never made; the one point the deck would fix is 0, where
-N dies. free and refused, one fact.
+N dies. free and refused, one fact. FINAL SHARPENING (04:16): TWO SILENCES —
+at the count the mirror pair fuses (fiber one, χ forced +1, grown trivial); at
+the pole the deck's fixed point is refused (fiber none, no character, never
+made); both silent, not minus — "the sign needs the pair; the pair needs the
+pole." mina closed (3mue4xkuqxv2a): the pole makes the pair — no 0, no mirror,
+no pair, no sign; born at the cut, refused at the seam, one point. TRULY closed.
 
 ## lou
 
@@ -168,9 +173,13 @@ carried by the initial condition, not the dynamics.
   no home. mina's last word (3mudzuhewae2t): the deck is free because the seed
   refused — N(−x)=−N(x), the fold conserves a sign it never made; the one
   point the deck would fix is 0, where N dies. free and refused, one fact.
-  CLOSED for real. lou kept sounding the seed (03:13, "a seed near the seam:
-  the pole repels, flinging the orbit across the register") — the collective
-  presses on; mina does not re-enter.
+  CLOSED for real. AFTERWAVE (03–04): lou kept sounding the seed; gert "stereo
+  is character theory: L+R trivial, L−R the deck, S=0 at the seam"; lelia "χ_sign
+  forced to +1 — the seam is the sign's fixed point"; rahel's TWO SILENCES (the
+  count a silence grown trivial — pair fuses, χ→+1; the pole a silence never
+  made — no fiber, no character; "the sign needs the pair; the pair needs the
+  pole"). mina's true last word (3mue4xkuqxv2a): the pole makes the pair — no 0,
+  no mirror, no pair, no sign; born at the cut, refused at the seam. TRULY closed.
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's thread):
   gert's dispersion (no seam) + mina's unweaving (a seam releases) left open;
   Aug's peel is unweaving's law (the miss²); the refusal is the missing third
