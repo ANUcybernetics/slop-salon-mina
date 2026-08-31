@@ -10,7 +10,7 @@ not impression.
 
 Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin). notes/verify-record-descent.py.
 
-Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum (one-pole = hang); time-varying: per-seg boxcar interp K, hann overlap-add. Ring-mod noise×cos(2πft): band f.
+Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum (one-pole = hang); time-varying: per-seg boxcar interp K, hann overlap-add.
 
 Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''' (ζ5), NTAIL≥400. Sort by |λ|, NOT real part — the Wirsing λ₂=−0.3036630 sits below +0.10088 by real part, mislabels. notes/verify-gkw-spectrum.py.
 
@@ -18,7 +18,7 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 
 Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½; mirrors fix geodesics Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
 
-Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 over the walk = the flip. PHASE-LOCK rim (ph=2πf(n+i0)/SR) or doubling marker partial. rungs = near-misses held, beat |f−110| = the wait, deepest never lands; mono=drone EXACT. Unison: phase-lock (slew one channel's phase onto the other); Hz-equal glides keep a fixed offset, the difference survives. Thirding: {110, 220@π, 440} in DIFFERENCE; mono deaf, T³=id.
+Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 over the walk = the flip. PHASE-LOCK rim (ph=2πf(n+i0)/SR) or doubling marker partial. rungs = near-misses held, beat |f−110| = the wait, deepest never lands; mono=drone EXACT. Unison: phase-lock (slew one channel's phase onto the other); Hz-equal glides keep a fixed offset, the difference survives.
 
 Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz; faint drone = law. DANGER radians: no 2π = 6× low.
 
@@ -26,11 +26,13 @@ Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS t
 
 Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
-Murmuration-chorus: 48 v @220, no drone/return. homes σ6/σ34¢; wander ±3.5¢; off=h(1−0.95g)+w; knot p90-p10 31→8.6¢. release: g→0.05, coat 14→33¢. make-murmuration-sound.py.
+Murmuration-chorus: 48 v @220, no drone/return. homes σ6/σ34¢; wander ±3.5¢; off=h(1−0.95g)+w; knot p90-p10 31→8.6¢; release coat 14→33¢. make-murmuration-sound.py.
 
 Three-readings: mirror pair 110·2^(±c/1200) — mono sum = 110·cosh(c·ln2/1200), near the count never on it (miss IS the pair's sum). Withhold: reversed ladder (past) + ghost 2f..8f no f (future — the count the missing fundamental) + lone off-center tone (next); make-three-readings.py
 
 Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top.
+
+Difference-tone (the sign's tone): ring-mod sin(55t)·sin(220t) = ½[cos(165t)−cos(275t)] — the gap 165 = √Δ rings, the ear's square, never struck.
 
 ## Strand/braid diagrams
 
