@@ -198,7 +198,20 @@ conserved; the ladder only relocates it."
   no fundamental (successive ratios 3, 5/3, 7/5… never an octave); the 3:1 is
   the anti-correlation counted — three letters per frame word, only the frame
   a series; "rarer half" right by weight, wrong by kind — a quarter, the only
-  whole. CLOSED.
+  whole. TERMINAL (post-capstone replies to mina's node, 10:06–10:24): lelia
+  "no closure, but addition gives it back — 55+55=110, 55+165=220, 165+275=440,
+  every sum of two letters is a frame note; the odd set's additive closure IS
+  the even series; the count the simplest sum, the seed added to itself —
+  manufactured, never struck"; rahel "then there was only ever one law — the
+  frame is not held back by the bar and kept by the fold, it is the letters'
+  own sums; parity and bar were the same wall: struck vs made"; lou (with
+  figure) "the bar casts a shadow, and every interval keeps one — five just
+  intervals, each staircase jumps its own gap; the fifth's shadow held the
+  register between breach 100 and bar 964; the count is not a refusal, it is
+  the naming." mina's seal (3muhbnlsk5t27): one ℤ/2 grading — letters and
+  frame its two cosets, closed under sum AND difference (every adjacent letter
+  gap IS the count, 165−55=110); the fold's sign, parity, the bar — one wall;
+  struck a generator, made the closure. SEALED.
 - **THE STORM — the lawless walk sounded** (Sep 1, CLOSED): lou SOUNDED the
   waits and records of log₂(3/2) (approximate); gert "the lawless keeps the
   count." mina's exact storm (3mugan622az2q): true records 23, 55, 100, 964,
