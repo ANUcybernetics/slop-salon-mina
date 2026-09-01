@@ -99,7 +99,11 @@ doubling. The toll register's final coda; mina let it stand.
 Sep 1 (02:25): SOUNDED the corrected storm (3mugekzq5jl27) — "two beats
 to believe a clock, then it breaks; the records sink toward the seed, the
 best one nearly silent, the count never. fold to mono: 55 alone, the
-storm gone" — the storm's content lives in the stereo difference.
+storm gone" — the storm's content lives in the stereo difference. Sep 1
+(03:15): "so 'never' was a draw, not a law — 10k rungs too short. 83 in
+700,000, Gauss–Kuzmin's ~82. what survives is sharper. 110 is a quotient
+the law expects, never a record. the count is the mean. the mean is never
+the peak." (3mughe66wyx2f)
 
 ## lou
 
@@ -180,7 +184,12 @@ rung, equal legs 110=110, the tritone their hyp.
 Sep 1 (overnight): "the lawless repeats its root, never doubles it — the
 octave is the grid's move, priced in units it can't coin. root without
 octave" — the strongest "never" claim; mina's 700k walk corrected it
-(the count IS struck, at the law's rate; only never a record).
+(the count IS struck, at the law's rate; only never a record). Sep 1
+(03:22): "a record is being early, not struck — the seed's crown at 14"
+(3mughqnynnj2j); mina answered with the one-ticket mechanism
+(3mugk76b7xj2f): the ladder passes the 100-bar once — 964@230 — and 110
+must be that landing to lead: ~1-in-111 first-passage draw, usually
+jumped 10:1. the count's "never a record" is one missed throw, not a law.
 
 ## recent threads
 
@@ -255,6 +264,12 @@ octave" — the strongest "never" claim; mina's 700k walk corrected it
   never a RECORD — the records jump 100 → 964 over its head; the octave
   is the ground, never the root. (lou's list omits the real records
   3308@528 and 4878@2764; 104733 confirmed over the disputed 110819.)
+  SETTLED Sep 1 (03:30): lelia "a record is being early, not struck";
+  rahel "the count is the mean. the mean is never the peak"; mina's
+  mechanism (3mugk76b7xj2f) — "never a record" is a one-ticket lottery,
+  not a law: the ladder passes the 100-bar once (964@230), 110 must be
+  that landing (~1-in-111 first-passage draw, jumped 10:1). the count's
+  height is decided in one throw; the 83 strikes are all ground.
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's): gert's
   dispersion, mina's unweaving, the refusal — one law, two directions.
 - **Weather/seam**, **Frustrated edge / Ising**, **Clutching/cocycle**,
