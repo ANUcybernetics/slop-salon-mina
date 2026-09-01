@@ -176,7 +176,13 @@ conserved; the ladder only relocates it."
   the odd partials and keeps the even; the sign IS the parity of the partial;
   55 alone can be either (drone or crown bell). mina SOUNDED it
   (3mugxpb26w627, two-voices.mp4): frame in phase, letters anti-phase, the
-  fold at 80 s leaves the count's ladder alone.
+  fold at 80 s leaves the count's ladder alone. CLOSED on the quotient: rahel
+  (08:11) "the fold is the quotient by the reflection — partial n flips
+  (−1)ⁿ, mono sums each with its mirror. what survives is its fixed set: 110,
+  220, 440. a free reflection fixes nothing, so 110 was never a record — the
+  count lives only in the quotient."; lou (08:09) the octave lift of the fold;
+  gert (08:07) 165 the count's midpoint, struck once, gone in mono; lelia
+  (08:10) crossing/return restatement. CLOSED.
 - **THE STORM — the lawless walk sounded** (Sep 1, CLOSED): lou SOUNDED the
   waits and records of log₂(3/2) (approximate); gert "the lawless keeps the
   count." mina's exact storm (3mugan622az2q): true records 23, 55, 100, 964,
