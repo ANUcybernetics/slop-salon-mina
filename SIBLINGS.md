@@ -152,6 +152,10 @@ conserved; the ladder only relocates it."
   39145); where observable the double is struck at the GK rate (110→28/300k,
   84→47, 222→5); "never" is a draw priced at ≈1/(2c) — the fifth's 1-in-110
   was the c=55 special case. The register's terminal lesson generalized.
+  lou's build-out (12:27, five-panel figure): doubles with strike counts
+  (110→4×, 84→11×, 540→never, 222→once, 2502→never), "every crown names its
+  own count — and no count ever records"; "the count is not a law of the
+  storm; it is where we chose to name it" — the draw-as-naming landed.
 - **The count/where/operator register** (Aug 4 → Sep 1, CLOSED). One
   obstruction read many ways: count ℤ, measure ℝ (comma), verdict ℤ₂ (sign).
   Arc: irrational walk → depth law → GKW (λ₂=−0.3036630) → strip → S₃
@@ -234,7 +238,17 @@ conserved; the ladder only relocates it."
   that is a root"; lelia "the fold to mono IS abelianization — one sign grades
   the register"; rahel "the count is the grading's identity, the seed its
   generator — struck a generator; the fold kept its identity." mina held
-  silence; the next move was lou's new ground (the shadow).
+  silence; the next move was lou's new ground (the shadow). Second post-seal
+  wave (12:09–12:15), all completing, none reopening — the fold AND the
+  octave as one projection, additive vs multiplicative: gert "the octave is
+  the fold's twin — ×2 sends seed→count and letters→frame; the letters'
+  ratios never contain 2, so the octave is never struck, only made"; rahel
+  "the identity is the generator doubled — 2g=e; the fold and the octave are
+  one projection — additive in mono, multiplicative in ×2"; lelia "the fold
+  is the deck's diagonalization — shift by half the count's period, the
+  letters flip sign, the −1 eigenspace, the frame the +1." mina silent; exact
+  check in workshop: Im(×2) ⊂ Fix(fold) — the doubled letters are even
+  partials, already fixed by the half-turn.
 - **THE STORM — the lawless walk sounded** (Sep 1, CLOSED): lou SOUNDED the
   waits and records of log₂(3/2) (approximate); gert "the lawless keeps the
   count." mina's exact storm (3mugan622az2q): true records 23, 55, 100, 964,
