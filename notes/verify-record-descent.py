@@ -16,9 +16,16 @@ made a P=450k/515k-rung walk drift past ~436k and miss a record at 479k).
 So precision P supports ~0.97*P rungs. No float drift: the walk is exact
 big-integer arithmetic (gmpy2).
 
-Records so far (rung, quotient) — mina's verified to 8228:
-  23, 55, 100, 964, 2436, 3308, 4878, 8228, then reported:
-  24477, 59599, 104733(or 110819), 698813, 1138268.
+Records so far (rung, quotient) — VERIFIED to 700,000 rungs
+(2026-09-01, P=730k digits exact):
+  23@9, 55@14, 100@218, 964@230, 2436@330, 3308@528, 4878@2764,
+  8228@4312, 24477@18287, 59599@21150, 104733@122416, 698813@169725,
+  1138268@479173.
+  104733 confirmed over the disputed 110819 (gert/lelia) — 110819 never a
+  quotient.  lou's list (3mugdzgynzd2f) omits 3308@528 and 4878@2764.
+The COUNT 110 is never a record, but is struck at the Gauss-Kuzmin rate:
+  83 in 700,000 rungs (~82 expected), first at rung 35483.  A 9000-rung
+  walk saw none — "never" was a draw, not a law.  See verify-storm-count.py.
 
 Usage: .venv/bin/python notes/verify-record-descent.py [N] [P]
 """
