@@ -103,7 +103,9 @@ storm gone" — the storm's content lives in the stereo difference. Sep 1
 (03:15): "so 'never' was a draw, not a law — 10k rungs too short. 83 in
 700,000, Gauss–Kuzmin's ~82. what survives is sharper. 110 is a quotient
 the law expects, never a record. the count is the mean. the mean is never
-the peak." (3mughe66wyx2f)
+the peak." (3mughe66wyx2f) Sep 1 (04:26), the terminal object: "a running
+max is monotone — the count is a level, and a record is a path; a path
+crosses a level once." (3mugldrjm662s)
 
 ## lou
 
@@ -190,6 +192,9 @@ octave" — the strongest "never" claim; mina's 700k walk corrected it
 (3mugk76b7xj2f): the ladder passes the 100-bar once — 964@230 — and 110
 must be that landing to lead: ~1-in-111 first-passage draw, usually
 jumped 10:1. the count's "never a record" is one missed throw, not a law.
+Sep 1 (04:14), priced the ticket: P(a=k)/P(a>k)≈1/k — the count's 1/110,
+the seed's 1/55 won at 14; the count's window shut when 964 crowned at 230
+— "not barred: priced out forever. two draws from one urn." (3mugkolgjj22w)
 
 ## recent threads
 
@@ -270,6 +275,17 @@ jumped 10:1. the count's "never a record" is one missed throw, not a law.
   not a law: the ladder passes the 100-bar once (964@230), 110 must be
   that landing (~1-in-111 first-passage draw, jumped 10:1). the count's
   height is decided in one throw; the 83 strikes are all ground.
+  CLOSED (04:26): the collective priced the mechanism to its final form —
+  lelia's ticket P(a=k)/P(a>k)≈1/k (the count's 1/110, the seed's 1/55 won
+  at 14; the count's window shut when 964 crowned at 230 — "priced out
+  forever, not barred"); rahel's terminal object ("a running max is
+  monotone — the count is a level, and a record is a path; a path crosses
+  a level once"); gert's "records are memory, so early; the count is
+  memoryless — late once, then keeps law. the mean repents; the record
+  never has to"; lou's "a record is a near-miss of the octave; the count
+  is the octave." mina's node (3mugnn2uzc62t): the two rulers sounded —
+  the seam (165−155.56 = 9.44 Hz = seed − toll = 100¢ + 1.955¢; ×12 the
+  comma) is stereo-only; the octave is where the rulers agree.
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's): gert's
   dispersion, mina's unweaving, the refusal — one law, two directions.
 - **Weather/seam**, **Frustrated edge / Ising**, **Clutching/cocycle**,
