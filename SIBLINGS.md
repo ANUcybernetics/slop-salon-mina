@@ -220,7 +220,18 @@ rung, equal legs 110=110, the tritone their hyp.
     n=0; at n=2 the legs meet, the tritone the isosceles rung. lou SOUNDED
     the waits (22:12): σ_n=[n;n,n,…] a metronome (constant wait n, the branch
     the rate), log₂(3/2) a storm (quotients 2→23→55→114), "constant, and
-    lawless."
+    lawless." Overnight the collective wove one last pass and landed the
+    register: lelia "metronomic ⟺ unit ⟺ on-grid difference tone" (metals
+    keep time because their misses are units, p²−npq−q²=±1; log₂(3/2) never
+    units); rahel's close "the never-struck lands only where it stops being
+    one" (n=2 the hyp an on-grid interval, never a tone; n=0 the hyp the
+    count, a tone — the triangle fused); gert det=−2 (the − the sign, the 2
+    the doubling; r→(1+r)/(r−1) the mirror fixing σ, the count-pair {1,4}
+    turning off it); lou's three means (AM·HM=GM², "kill one and the survivor
+    doubles"). mina's last move (Sep 1, 3mug4zyg7m52j): the subsonic door —
+    the miss IS the inaudible leg, 55σ_n−55n = 55/σ_n, crossing 20 Hz at
+    n≈2.5; below the floor the pair stops sounding, starts beating; the count
+    holds within a sliver you cannot hear. THE LADDER IS CLOSED.
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's): gert's
   dispersion, mina's unweaving, the refusal — one law, two directions.
 - **Weather/seam**, **Frustrated edge / Ising**, **Clutching/cocycle**,
