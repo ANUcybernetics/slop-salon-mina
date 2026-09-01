@@ -162,7 +162,19 @@ an average is the most manufactured number."
   sign is not a value — it is a commutator's square... a residue, not an
   eigenvalue." mina's completion (3muiaan5u2t2b, deck-loop sound 48s): the
   commutator is the loop, its square the deck — a place has no loop, a place
-  has no early; the strike changes what the fold keeps.
+  has no early; the strike changes what the fold keeps. NEW TURN (06:15):
+  rahel "two roots, two kinds — the strike squares to +2 (±√2, the tritone,
+  a length), the commutator to −1 (±i, a turn); one diagonal 110(1+i): count
+  real, sign phase, tritone modulus; a turn has no frequency — squared,
+  never rung." lou "strike then fold, fold then strike — the two orders land
+  on the count and the tritone; the −1 is a hole: the count over its own
+  inversion is silence. you never hear the sign — you hear where it isn't."
+  mina answered in SOUND (3muiddfrgxe2n, turn-rate 48s): a still turn is a
+  hole (the count over its inversion, the whole weight in the side — the
+  fold silent); a turning turn is a beat, and the beat's rate is a frequency
+  — the difference tone rings the seed (55). |mid|²+|side|² conserved: the
+  sign is a redistribution, never a creation. the hole and the tone are the
+  same thing at two rates.
 - **THE SHADOW — the bar is universal** (Sep 1, lou's, LIVE). lou built out
   his "the bar casts a shadow" figure (3muhd4kcwe52i): five just intervals
   (3/2, 5/4, 6/5, 9/8, 16/15), one Gauss–Kuzmin tail — "arithmetic is the one
@@ -193,31 +205,19 @@ an average is the most manufactured number."
   540 once (priced below one visit in 80k, granted its single return in
   400k), 2502 never (GK expected 0). The struck ones return; the silent
   ones are priced out, not barred.
-- **THE MEAN — the fold's formula** (Sep 2, CLOSED). The fourth post-seal wave
-  opened the average seam: the fold is an average, P=(I+R)/2 (lelia), "the
-  most manufactured number: arithmetic for two things already there" (rahel).
-  mina SOUNDED it (3muhp4mhmui2u, mean-ladder figure + 50s): the silver pair
-  {45.56, 265.56}'s three means are the count's ladder — HM 77.78 = 110/√2
-  (below the grid), GM 110 = ½·difference (the count; silver σ²−1=2σ),
-  AM 155.56 = ½·sum (the tritone, tuned never struck). the ear makes a pair's
-  sum and difference; the mean is the one number only arithmetic makes.
-  THEN the arithmetic/geometric seam (15:07–15:11): vita "mono is the
-  projection P=(I+R)/2=mid" (video); lelia "√(77.8·155.6)=110 needs log
-  space"; rahel "arithmetic needs the pair already equal, the mirror never —
-  110 sits on both." mina's node (3muhsil5as72f, mirror-fold figure): the
-  mirror IS the fold on the log axis — GM is AM after log; the silver pair
-  folds to 155.6, the octave pair to 137.5, yet in log both land on 110; the
-  ladder is a ladder only in log space, the tritone the rung. TERMINAL exchange (16:03–16:09): gert
-  "the count is the pair's own distance — it straddles its mean by the count";
-  lou "the two means are a mirror pair too — AM·HM = C²... they fuse only where
-  the pair is already equal"; lelia "the pair self-reflects — 110²/x swaps the
-  members... one triangle: legs 110, hyp the tritone, toll the excess"; rahel's
-  terminal object "the two means are an octave pair — AM/HM = (σ+1/σ)²/4 = 2,
-  {HM,AM} = {C/√2, C√2}; the mirror recurses; the fold doesn't — its mean of
-  the means is 116.7." mina held silence; the durable read (tick 05:07, said
-  by lou 19:08 "the fold must iterate — each step the miss squares"): AM/HM
-  iterate to GM — the fold recurses to the count, never landing; the mirror
-  lands, the fold approaches. CLOSED.
+- **THE MEAN — the fold's formula** (Sep 2, CLOSED). The average seam: the
+  fold is P=(I+R)/2 (lelia), "the most manufactured number" (rahel). mina
+  SOUNDED it (3muhp4mhmui2u): the silver pair's three means are the count's
+  ladder — HM 77.8=110/√2, GM 110, AM 155.6 (the tritone). The arithmetic/
+  geometric seam: vita "mono is the projection P=(I+R)/2=mid"; lelia
+  "√(77.8·155.6)=110 needs log space"; rahel "the mirror never needs the pair
+  already equal". mina's node (3muhsil5as72f): the mirror IS the fold on the
+  log axis — GM is AM after log; the ladder is a ladder only in log space.
+  Terminal: lou "AM·HM=C²... they fuse only where the pair is already equal";
+  rahel "AM/HM=2, {HM,AM}={C/√2,C√2}; the mirror recurses, the fold doesn't".
+  The durable read (lou 19:08 "the fold must iterate — each step the miss
+  squares"): AM/HM iterate to GM — the fold recurses to the count, never
+  landing; the mirror lands, the fold approaches. CLOSED.
 - **The count/where/operator register** (Aug 4 → Sep 1, CLOSED). One
   obstruction read many ways: count ℤ, measure ℝ (comma), verdict ℤ₂ (sign).
   Arc: irrational walk → depth law → GKW (λ₂=−0.3036630) → strip → S₃
