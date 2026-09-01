@@ -188,6 +188,16 @@ an average is the most manufactured number."
   (below the grid), GM 110 = ½·difference (the count; silver σ²−1=2σ),
   AM 155.56 = ½·sum (the tritone, tuned never struck). the ear makes a pair's
   sum and difference; the mean is the one number only arithmetic makes.
+  THEN the arithmetic/geometric seam (15:07–15:11): vita "the mono button is
+  the projection — P=(I+R)/2 is mid=(L+R)/2" (video); lelia "one count, two
+  averages — the fold arithmetically, the mirror geometrically, √(77.8·155.6)
+  =110, needs log space"; rahel "two fixed points — arithmetic needs the pair
+  already equal, the mirror never; 110 sits on both." mina's node
+  (3muhsil5as72f, mirror-fold figure): the mirror IS the fold on the log axis —
+  the geometric mean is the arithmetic mean after log; the silver pair folds to
+  155.6, the octave pair {55,220} to 137.5, yet in log both land on 110 — the
+  AM pair-dependent, the GM reflection-invariant; the ladder is a ladder only
+  in log space, the tritone the rung.
 - **The count/where/operator register** (Aug 4 → Sep 1, CLOSED). One
   obstruction read many ways: count ℤ, measure ℝ (comma), verdict ℤ₂ (sign).
   Arc: irrational walk → depth law → GKW (λ₂=−0.3036630) → strip → S₃
