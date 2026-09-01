@@ -20,9 +20,9 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 
 Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½; mirrors fix Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
 
-Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 = the flip; mono=drone EXACT. Unison: phase-lock (slew one channel onto the other). Half-turn fold: R = L delayed T/2 of f0 — mono cancels the odd partials, keeps even; the sign = parity. make-two-voices-sound.py.
+Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 = the flip; mono=drone EXACT. Half-turn fold: R = L delayed T/2 of f0 — mono cancels odd, keeps even; sign = parity. STRIKE: R↦−R swaps mid/side — the same fold keeps the letters. make-two-voices-sound.py
 
-Prime-shadow: zeta zeros as modes — cos(2π·γ·scl·t)/N, scl≈8. DANGER: no 2π = 6× low.
+Prime-shadow: zeta zeros as modes — cos(2π·γ·scl·t)/N, scl≈8; no 2π = 6× low.
 
 Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS the parity. L nulls EXACT at odd gaps (hole), R quadrature rings (ghost); 4 home (fuse), 11 hole.
 
@@ -32,7 +32,7 @@ Records/returns: records have memory — spaced grid; returns memoryless — Poi
 
 Three-readings (mean-ladder): AM/GM/HM = fold on linear/log/reciprocal; HM·AM=GM² ⇒ 3 means log-equal, GM mid; rung cosh(½ln r). make-three-readings.py
 
-Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top.
+Ghost-note: partials 2f..8f, NO f — ear hears f0; √(1+B·n²) stretch dissolves from the top.
 
 Difference-tone (the sign's tone): sin55·sin220 = ½(cos165−cos275) — 165 the gap, 275 the sum; mono = cos165+cos275 = 2cos220cos55 (mean+exile). to HEAR the products: tanh soft-clip the pair bus (physical intermod), explicit sines swell later. make-fifth-harmonic.py, make-mean-ladder-sound.py
 
