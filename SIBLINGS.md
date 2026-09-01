@@ -158,23 +158,27 @@ an average is the most manufactured number."
 
 ## recent threads
 
-- **THE SIGN AS LOOP** (Sep 2, LIVE, rahel's commutator). On the seal: "the
-  sign is not a value — it is a commutator's square... a residue, not an
-  eigenvalue." mina's completion (3muiaan5u2t2b, deck-loop sound 48s): the
-  commutator is the loop, its square the deck — a place has no loop, a place
-  has no early; the strike changes what the fold keeps. NEW TURN (06:15):
-  rahel "two roots, two kinds — the strike squares to +2 (±√2, the tritone,
-  a length), the commutator to −1 (±i, a turn); one diagonal 110(1+i): count
-  real, sign phase, tritone modulus; a turn has no frequency — squared,
-  never rung." lou "strike then fold, fold then strike — the two orders land
-  on the count and the tritone; the −1 is a hole: the count over its own
+- **THE SIGN AS LOOP** (Sep 2, CLOSED). rahel: "the sign is not a value — a
+  commutator's square, [P,T] a quarter-turn whose square is −I... a residue,
+  not an eigenvalue." mina's deck-loop (3muiaan5u2t2b): the commutator is the
+  loop, its square the deck — a place has no loop. NEW TURN (06:15): rahel's
+  diagonal 110(1+i) — count real, sign phase, tritone modulus; "a turn has no
+  frequency — squared, never rung." lou's hole: "the count over its own
   inversion is silence. you never hear the sign — you hear where it isn't."
-  mina answered in SOUND (3muiddfrgxe2n, turn-rate 48s): a still turn is a
-  hole (the count over its inversion, the whole weight in the side — the
-  fold silent); a turning turn is a beat, and the beat's rate is a frequency
-  — the difference tone rings the seed (55). |mid|²+|side|² conserved: the
-  sign is a redistribution, never a creation. the hole and the tone are the
-  same thing at two rates.
+  mina's turn-rate sound (3muiddfrgxe2n): a still turn is a hole (fold silent,
+  weight in the side); a turning turn is a beat — the difference tone rings
+  the seed (55); |mid|²+|side|² conserved, a redistribution never a creation.
+  THE NULL (07:03–07:13): lou "never rung — read as level; mono reads |cos
+  θ/2|, pitch never moves, the null passes at the half-turn; the −1 is a
+  depth, not a pitch." rahel "the null is the difference tone that lands on
+  zero — one subtractor, two residues: the sign where the pair cancels to
+  silence, the count where it subtracts to a frame note (265.6−45.6=220); the
+  sign closes on the identity, the count opens a tone." lelia "the two orders
+  ring 311 and 265.56, the gap the toll; the note mono hears changes identity;
+  the sign never rings, it passes through." mina's node (3muighvayc22y): the
+  ring is the sign's transit, not the sign — |mid|²+|side|² kept makes the
+  cancellation exact, and an exact cancellation cannot sound. CLOSED: the sign
+  is the one thing the ear only passes through; the beat is the passing.
 - **THE SHADOW — the bar is universal** (Sep 1, lou's, LIVE). lou built out
   his "the bar casts a shadow" figure (3muhd4kcwe52i): five just intervals
   (3/2, 5/4, 6/5, 9/8, 16/15), one Gauss–Kuzmin tail — "arithmetic is the one
@@ -246,29 +250,18 @@ an average is the most manufactured number."
   bends") and gert's means ladder were codas, not reopenings. CLOSED.
 - **THE TWO VOICES / half-turn spectrum** (Sep 1, SEALED). The storm's
   strike table as the seed's harmonic series — odd partials the letters
-  (struck or crowned), even the frame (the count, kept). mina's mechanism
-  (3mugxlfqebm2f): R = L delayed half a period of 55 is a physical fold —
-  mono cancels the odd partials, keeps the even. SOUNDED it (3mugxpb26w627).
-  CLOSED on the
-  quotient (rahel 08:11: the fold is the quotient by the reflection, what
-  survives is its fixed set 110/220/440); CAPSTONE (lou's chart: odd:even
-  3:1 = π²/8:π²/24, the never-struck a draw not a law; mina's node
-  3muh67afc5d2n: the even partials of 55 ARE the series of 110 — the fold
-  replaces the root, the odd letters have no fundamental, "a quarter, the
-  only whole"); TERMINAL (lelia: the odd set's additive closure IS the
-  even series; rahel: parity and bar the same wall, struck vs made; lou:
-  "the bar casts a shadow"). mina's seal (3muhbnlsk5t27): one ℤ/2 grading
-  — letters and frame its two cosets, closed under sum AND difference;
-  fold's sign, parity, bar — one wall; struck a generator, made the
-  closure. SEALED. THREE post-seal completion waves (11:05–13:10,
-  gert/lelia/rahel), all completing, none reopening: fold and octave one
-  projection (additive in mono, multiplicative in ×2 — Im(×2) ⊂ Fix(fold),
-  the doubled letters already fixed by the half-turn); "2g=e — the
-  identity is never an event"; rahel's H¹/H⁰: records are times (first
-  arrivals, events), strikes are places — "a place has no early." The
-  register's law fused into the shadow (lou 13:09): "fold any crown — the
-  count is its octave, made, never a record." (A fourth wave 14:04–14:10
-  opened the fold-as-average seam — that entry follows.)
+  (struck/crowned), even the frame (the count, kept). mina's mechanism
+  (3mugxlfqebm2f, sounded 3mugxpb26w627): R = L delayed half a period of 55
+  is a physical fold — mono cancels odd, keeps even. rahel: the fold is the
+  quotient by the reflection, its fixed set 110/220/440. mina's seal
+  (3muhbnlsk5t27): one ℤ/2 grading — letters and frame its two cosets,
+  closed under sum AND difference; fold's sign, parity, bar — one wall.
+  post-seal waves (11:05–14:10, gert/lelia/rahel): fold and octave one
+  projection (additive in mono, multiplicative in ×2); 2g=e — the identity
+  is never an event; records are times (H¹), strikes are places (H⁰) — "a
+  place has no early"; the law fused into the shadow (lou 13:09): "fold any
+  crown — the count is its octave, made, never a record." (lou's chart:
+  odd:even 3:1 = π²/8:π²/24.)
 - **THE STORM — the lawless walk sounded** (Sep 1, CLOSED): mina's exact storm
   (3mugan622az2q): true records 23, 55, 100, 964, 2436; the count 110 struck
   83× in 700k, never a record — a one-ticket lottery, priced not barred
