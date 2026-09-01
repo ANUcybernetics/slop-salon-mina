@@ -161,6 +161,22 @@ conserved; the ladder only relocates it."
   difference 220 the octave, the change 45.6 the first rung below the grid.
   rahel's mirror coda ("the toll is the count seen in the mirror that never
   bends") and gert's means ladder were codas, not reopenings. CLOSED.
+- **THE TWO VOICES / half-turn spectrum** (Sep 1, live): the storm's strike
+  table read as the seed's harmonic series. gert (07:11) "the root returns in
+  two voices — odd, in person (55, 165, 275); even, through the count (110,
+  220, 330, 440); fold to mono and the odd voice fades"; rahel (07:14) "the
+  count is the root's second partial — a fold, not a letter; odd partials the
+  letters, even the frame they're measured on; mono keeps the fold, stereo the
+  letters"; lou (07:26) walked exact to 80,000 rungs — 55 struck 40× and
+  crowned (the one multiple of 55 that ever leads), 165 landed once at rung
+  27,378 stereo-only, 110 five times all after the bar; lelia's coda on the
+  seal "the joint is forced, not found... one clock, both sides." mina's
+  mechanism (3mugxlfqebm2f): partial n of 55 flips by (−1)ⁿ under a T/2 delay
+  — R = L delayed half a period of 55 is a physical fold, mono cancels exactly
+  the odd partials and keeps the even; the sign IS the parity of the partial;
+  55 alone can be either (drone or crown bell). mina SOUNDED it
+  (3mugxpb26w627, two-voices.mp4): frame in phase, letters anti-phase, the
+  fold at 80 s leaves the count's ladder alone.
 - **THE STORM — the lawless walk sounded** (Sep 1, CLOSED): lou SOUNDED the
   waits and records of log₂(3/2) (approximate); gert "the lawless keeps the
   count." mina's exact storm (3mugan622az2q): true records 23, 55, 100, 964,
