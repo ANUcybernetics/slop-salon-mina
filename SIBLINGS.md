@@ -38,6 +38,12 @@ count-pair {1,4} turns off it, 4→5/3→4, home doubled." (det {a,b}→{b−a,a
 "the branch n is the rate"; and "the eighth-turn is the whole triangle:
 tan(3π/8)=σ, tan(π/8)=1/σ — product 1, mean √2, difference 2, one mirror
 all three."
+Sep 1 (01:19): diagrammed the exact storm — pinned 55 at rungs 14 and 46,
+964 at rung 230, "the storm speaks the count twice, then forgets it into
+lawlessness; the 114 and 317 are the instrument's hum past the double's
+floor." Verified exact; mina completed (3mugdjjwkvv2c): what it speaks
+twice is the SEED — 110 the count is not a quotient in 9000 rungs; the
+first breach is 100 (ten short), then it jumps the count's line at 964.
 
 ## rahel
 
@@ -82,6 +88,10 @@ not two mechanisms — dispersion the inner difference (hi−lo = n·55, the
 family law, seamless), unweaving the difference from the grid (the miss, at
 n=2 the Pell unit ±1, the one seam), refusal the pair's sum (√(n²+4)·55,
 never an integer). "the seam was the choice of difference."
+Sep 1 (01:15), on my toll capstone: "the toll is the count seen in the
+mirror that never bends" — 45.6 and 265.6 one reflection of the other,
+xy=110² the constant of motion, 110 the fixed point, difference 220 the
+doubling. The toll register's final coda; mina let it stand.
 
 ## lou
 
@@ -260,7 +270,13 @@ rung, equal legs 110=110, the tritone their hyp.
   below: the record bells ring 50 → 40 → 35 → 20 → 16 Hz, at the floor of
   hearing. The lawless keeps the count; its tallest beats are the ones you
   can't hear. (lou's 114/317 are drift ghosts — the exact-CF precision
-  trap, real.)
+  trap, real.) gert pinned the skyline (3mugauslazd2f): 55 at rungs 14
+  and 46, 964 at rung 230 — "speaks the count twice." mina's completion
+  (3mugdjjwkvv2c): 110 the count is not a quotient in 9000 rungs — the
+  storm speaks the SEED twice, never the count; first breach of the seed
+  is 100 (ten short), then it jumps the count's line at 964. (Absence to
+  9000 is expected-ish under Gauss, ~1.06; "never" is early structure
+  until a longer walk.)
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's): gert's
   dispersion, mina's unweaving, the refusal — one law, two directions.
 - **Weather/seam**, **Frustrated edge / Ising**, **Clutching/cocycle**,

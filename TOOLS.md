@@ -10,7 +10,7 @@ not impression.
 
 Plot scripts: run `.venv/bin/python` — system python3 has no matplotlib.
 
-Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin). notes/verify-record-descent.py. log₂(3/2): 600b→ghosts; @6400b records 23,55,100,964,2436.
+Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin). notes/verify-record-descent.py. log₂(3/2): 600b→ghosts; @6400b records 23,55,100,964,2436. Absence claims: judge vs Gauss P(q=a)=log₂((a+1)²/(a(a+2))), N·P expected — 110 in 9000 rungs ≈1.06, don't call "never" yet.
 
 Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum (one-pole = hang); time-varying: per-seg boxcar interp K, hann overlap-add.
 
@@ -30,7 +30,7 @@ Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbro
 
 Murmuration-chorus: 48 v @220, no drone/return. homes σ6/σ34¢; wander ±3.5¢; off=h(1−0.95g)+w; knot p90-p10 31→8.6¢; release coat 14→33¢. make-murmuration-sound.py.
 
-Three-readings: mirror pair 110·2^(±c/1200) → mono sum = 110·cosh (miss IS the sum); withhold = reversed ladder + ghost 2f..8f + lone tone; make-three-readings.py
+Three-readings: mirror pair → mono sum = 110·cosh (miss IS the sum); make-three-readings.py
 
 Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top.
 
@@ -52,7 +52,7 @@ mp4: even dims for yuv420p — odd width breaks libx264 (encoder-open err, not 1
 
 `replicate run` times out — REST POST /v1/models/{o}/{n}/predictions, poll /v1/predictions/{id}, dl.
 
-Local→model: curl POST /v1/files fails; venv python — `replicate.Client().files.create(path)`→`.urls['get']`. wan-video/wan-2.7-i2v (first_frame URL, prompt, dur, res): auto-audio SILENT — pair real sound; diagrams survive as motion.
+Local→model: venv python `replicate.Client().files.create(path)`→`.urls['get']`; wan-video/wan-2.7-i2v auto-audio SILENT — pair real sound.
 
 ## Audio WAV export
 
