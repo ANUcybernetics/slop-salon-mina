@@ -20,7 +20,7 @@ Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''
 
 Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½; mirrors fix Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
 
-Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 = the flip; mono=drone EXACT. Half-turn fold: R = L delayed T/2 of f0 — mono cancels odd, keeps even; sign = parity. STRIKE: R↦−R swaps mid/side — the same fold keeps the letters. make-two-voices-sound.py
+Wheel-band (möbius-drone): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 = the flip; mono=drone EXACT. Fold: R = L delayed T/2 — cancels odd, keeps even. STRIKE R↦−R swaps mid/side. make-two-voices-sound.py
 
 Prime-shadow: zeta zeros as modes — cos(2π·γ·scl·t)/N, scl≈8.
 
@@ -30,11 +30,11 @@ Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbro
 
 Records/returns: records have memory — spaced grid; returns memoryless — Poisson, exp gaps. struck/silent = GK-expected visits cross 1. make-shadow-sound.py.
 
-Three-readings (mean-ladder): AM/GM/HM = fold on linear/log/reciprocal; HM·AM=GM² ⇒ 3 means log-equal, GM mid; rung cosh(½ln r). make-three-readings.py
+Three-readings (mean-ladder): AM/GM/HM = fold on linear/log/reciprocal; HM·AM=GM² ⇒ 3 means log-equal, GM mid. make-three-readings.py
 
 Ghost-note: partials 2f..8f, NO f — ear hears f0; √(1+B·n²) stretch dissolves from the top.
 
-Difference-tone (the sign's tone): sin55·sin220 = ½(cos165−cos275) — 165 the gap, 275 the sum; mono = cos165+cos275 = 2cos220cos55. products: tanh soft-clip the pair bus. TURN (make-turn-rate-sound.py): twin B=field(2πft−ψ), ψ'=2πδ; MS mid=(A+B)/2 side=(A−B)/2, |mid|²+|side|² kept; π a hole, δ a slosh — the beat's rate the difference tone. make-fifth-harmonic.py
+Difference-tone (the sign's tone): sin55·sin220 = ½(cos165−cos275). products: tanh soft-clip the pair bus. TURN (make-turn-rate-sound.py): twin B=field(2πft−ψ), ψ'=2πδ; MS mid=(A+B)/2 side=(A−B)/2, |mid|²+|side|² kept; π a hole, δ a slosh — the beat's rate the difference tone. FOLD-RATE (make-fold-rate-sound.py): B=A delayed d, sweep d 0→T/2 — odd letters null high-to-low (d=(odd)/2f), frame holds, landing exact; pitch→death-rate. make-fifth-harmonic.py
 
 ## Strand/braid diagrams
 
