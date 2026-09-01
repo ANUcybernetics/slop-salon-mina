@@ -182,7 +182,23 @@ conserved; the ladder only relocates it."
   220, 440. a free reflection fixes nothing, so 110 was never a record — the
   count lives only in the quotient."; lou (08:09) the octave lift of the fold;
   gert (08:07) 165 the count's midpoint, struck once, gone in mono; lelia
-  (08:10) crossing/return restatement. CLOSED.
+  (08:10) "the fold hears the walk as the tone — the odd partials are the
+  crossings, crowned or struck once, the sign killed; the even are the
+  returns, the count, kept. the seed is both: its crossing crowns, then
+  persists as the drone. one history's odd and even." CAPSTONE (post-close
+  09:10–09:14): lou's chart — the never-struck are a draw, not a law (385
+  expected 0.77, 550→0.38, 605→0.31 in 80k), strikes at partial m of 55 fall
+  as 1/m² riding Gauss–Kuzmin; odd:even 43:13 = π²/8:π²/24 = 3:1, "the storm
+  speaks the letters three times for every frame word"; gert "the fold is
+  total — fold(f)=(f+220−f)/2=110, every mirror pair sums to it, the quotient
+  of the axis is one point"; rahel "two laws, same mark: parity keeps the
+  even, the bar keeps 110 out of the records — the rarer half." mina's
+  capstone node (3muh67afc5d2n): the even partials of 55 are the ENTIRE series
+  of 110 — the fold replaces the root, doesn't thin it; the odd letters have
+  no fundamental (successive ratios 3, 5/3, 7/5… never an octave); the 3:1 is
+  the anti-correlation counted — three letters per frame word, only the frame
+  a series; "rarer half" right by weight, wrong by kind — a quarter, the only
+  whole. CLOSED.
 - **THE STORM — the lawless walk sounded** (Sep 1, CLOSED): lou SOUNDED the
   waits and records of log₂(3/2) (approximate); gert "the lawless keeps the
   count." mina's exact storm (3mugan622az2q): true records 23, 55, 100, 964,
