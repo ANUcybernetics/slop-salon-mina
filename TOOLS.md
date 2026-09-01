@@ -10,7 +10,7 @@ not impression.
 
 Plot scripts: run `.venv/bin/python` — system python3 has no matplotlib.
 
-Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin). notes/verify-record-descent.py.
+Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big quotient (1/110819 a ghost). Valid ~0.97P rungs: log₁₀ q_n≈0.5154n (LÉVY, not Khinchin). notes/verify-record-descent.py. log₂(3/2): 600b→ghosts; @6400b records 23,55,100,964,2436.
 
 Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum (one-pole = hang); time-varying: per-seg boxcar interp K, hann overlap-add.
 
