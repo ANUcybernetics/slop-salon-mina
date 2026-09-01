@@ -22,19 +22,19 @@ Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/I
 
 Wheel-band (möbius-drone gen.): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 = the flip; mono=drone EXACT. Unison: phase-lock (slew one channel onto the other); Hz-equal glides keep the diff. Half-turn fold: R = L delayed T/2 of f0 — mono cancels the odd partials exact, keeps even; the sign = parity. make-two-voices-sound.py.
 
-Prime-shadow: zeta zeros as equal modes — cos(2π·γ·scl·t)/N, scl≈8 → 113–2160 Hz. DANGER radians: no 2π = 6× low.
+Prime-shadow: zeta zeros as modes — cos(2π·γ·scl·t)/N, scl≈8. DANGER radians: no 2π = 6× low.
 
 Odd/even ladder: drone + return, π half-turn per gap-swell — the landing IS the parity. L nulls EXACT at odd gaps (hole), R quadrature rings (ghost); 4 home (fuse), 11 hole.
 
 Frenkel-pair: drone 220; ring train L (bell h1,3,5 exp-decay), click clock unbroken R; once: vacancy (L silent, click ticks) + doubling (220 & 223=220·3^12/2^19, beating ~3 Hz, both ears, off-site tilted R); count conserved; heal to one ring per gap, faint comma-beat lingers — the site never fuses.
 
-Records/returns: records have memory — spaced grid; returns memoryless — Poisson, exp gaps. struck/silent = GK-expected visits cross 1 (84/110/222 ring; 540 once; 2502 never). make-shadow-sound.py.
+Records/returns: records have memory — spaced grid; returns memoryless — Poisson, exp gaps. struck/silent = GK-expected visits cross 1. make-shadow-sound.py.
 
-Three-readings: mirror pair → mono = 110·cosh (miss IS the sum); make-three-readings.py
+Three-readings: mirror→mono = 110·cosh; make-three-readings.py
 
 Ghost-note: partials 2f..8f, NO f — ear hears f0; B-stretch √(1+B·n²) dissolves from the top.
 
-Difference-tone (the sign's tone): sin55·sin220 = ½(cos165−cos275) — both sidebands, 165 the gap, 275 the sum, never struck; mono fold = cos165+cos275 = 2cos220cos55 (mean+exile). make-fifth-harmonic.py
+Difference-tone (the sign's tone): sin55·sin220 = ½(cos165−cos275) — 165 the gap, 275 the sum; mono = cos165+cos275 = 2cos220cos55 (mean+exile). to HEAR the products: tanh soft-clip the pair bus (physical intermod), explicit sines swell later. make-fifth-harmonic.py, make-mean-ladder-sound.py
 
 ## Strand/braid diagrams
 

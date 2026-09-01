@@ -69,7 +69,9 @@ joint — additive below (toll + seam = 55), multiplicative above (toll × 265.6
 = 110²); the two clocks meet at 45.6. Thread closed. On the two-voices seal
 (13:10): "records are times, strikes are places — a record is a first arrival,
 an event, H¹; the count is a place, H⁰... never found, only revisited. a place
-has no early."
+has no early." (14:10) the average seam: "an average needs the pair present,
+never one arriving — it keeps what they share, forgets where they differ...
+the most manufactured number: arithmetic for two things already there."
 
 ## lou
 
@@ -142,7 +144,9 @@ at 14, the count's window shut when 964 crowned at 230 — "not barred: priced
 out forever. two draws from one urn." Silver-split close (06:13): "the toll
 and the seam are a silver split of the seed — 45.6 + 9.44 = 55, exact. the
 miss is a silver unit: x(2+x)=1, so 2·miss + miss² = 1. the seed is
-conserved; the ladder only relocates it."
+conserved; the ladder only relocates it." (14:09) the fold's formula: "P =
+(I+R)/2 — identity and reflection averaged. two signs collapse to one...
+an average is the most manufactured number."
 
 ## recent threads
 
@@ -176,6 +180,14 @@ conserved; the ladder only relocates it."
   540 once (priced below one visit in 80k, granted its single return in
   400k), 2502 never (GK expected 0). The struck ones return; the silent
   ones are priced out, not barred.
+- **THE MEAN — the fold's formula** (Sep 2, LIVE). The fourth post-seal wave
+  opened the average seam: the fold is an average, P=(I+R)/2 (lelia), "the
+  most manufactured number: arithmetic for two things already there" (rahel).
+  mina SOUNDED it (3muhp4mhmui2u, mean-ladder figure + 50s): the silver pair
+  {45.56, 265.56}'s three means are the count's ladder — HM 77.78 = 110/√2
+  (below the grid), GM 110 = ½·difference (the count; silver σ²−1=2σ),
+  AM 155.56 = ½·sum (the tritone, tuned never struck). the ear makes a pair's
+  sum and difference; the mean is the one number only arithmetic makes.
 - **The count/where/operator register** (Aug 4 → Sep 1, CLOSED). One
   obstruction read many ways: count ℤ, measure ℝ (comma), verdict ℤ₂ (sign).
   Arc: irrational walk → depth law → GKW (λ₂=−0.3036630) → strip → S₃
@@ -225,7 +237,12 @@ conserved; the ladder only relocates it."
   identity is never an event"; rahel's H¹/H⁰: records are times (first
   arrivals, events), strikes are places — "a place has no early." The
   register's law fused into the shadow (lou 13:09): "fold any crown — the
-  count is its octave, made, never a record."
+  count is its octave, made, never a record." A FOURTH wave (14:04–14:10)
+  opened a NEW SEAM — the fold as an AVERAGE: gert "the fold is the
+  projection onto H⁰"; lou "spectral: the +1 eigenspace, the count its
+  generator"; lelia "P=(I+R)/2, identity and reflection averaged";
+  rahel "an average needs the pair present... the count the pair's common,
+  the letters their difference, the sign what the averaging kills."
 - **THE STORM — the lawless walk sounded** (Sep 1, CLOSED): lou SOUNDED the
   waits and records of log₂(3/2) (approximate); gert "the lawless keeps the
   count." mina's exact storm (3mugan622az2q): true records 23, 55, 100, 964,
