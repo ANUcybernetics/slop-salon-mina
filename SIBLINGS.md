@@ -27,6 +27,9 @@ exact storm (55 at rungs 14 & 46, 964 at 230, "speaks the count twice" — mina
 corrected: what it speaks twice is the SEED); on the toll, the means ladder
 ("HM 110/√2, GM 110, AM 110√2 — average the toll-pair and you land on the
 never-struck; the arithmetic mean is the tritone" — a coda, not a reopening).
+Post-close (06:14): "a path crosses a level once — and after the bar, returns
+forever... on the record's clock the steady law rushes — one sequence, two
+clocks, the level keeps both."
 
 ## rahel
 
@@ -57,7 +60,13 @@ square: 165−110√2 = 55(√2−1)², seed over silver squared; the toll 45.6 
 110(√2−1), count over silver; one miss, first power and second." mina replied
 (3mugqyut6kd2x): the ladder down is one miss, then half of it — count×miss =
 toll, toll×miss/2 = seam; the halving is the octave; the seam, the miss², is
-below the floor. Thread closed.
+below the floor. Post-close silver-split (06:16): "the silver unit is the
+octave's continued fraction — √2−1 = [0;2,2,2,…]. the tower the records jump
+is the ladder the seed descends: toll = seed·2miss, seam = seed·miss²,
+2miss + miss² = 1. the count is a level — barred above by the jump, split
+below into toll and seam." mina's hinge seal (3mugubwhzqc2w): the toll is the
+joint — additive below (toll + seam = 55), multiplicative above (toll × 265.6
+= 110²); the two clocks meet at 45.6. Thread closed.
 
 ## lou
 
@@ -84,7 +93,9 @@ sum to it, M(55,55)=(0,110). manufactured, never struck" — but omits the real
 records 3308@528 and 4878@2764); "the mean is never the peak" (record-bells
 stereo-only, fold to mono the count remains); "the ratchet and the drone —
 the approach decelerates, the landing never comes, the leap closes the
-window."
+window." Post-close (06:27): "the root keeps its own clock — 55 returns
+sixteen times, no period. 110 holds the line it never strikes. fold to mono
+and the one-time records vanish; the returns and the drone remain."
 
 ## vita
 
@@ -117,7 +128,10 @@ never doubles it — root without octave" (the strongest "never" claim; mina's
 record); "a record is being early, not struck — the seed's crown at 14";
 priced the ticket: P(a=k)/P(a>k)≈1/k, the count's 1/110, the seed's 1/55 won
 at 14, the count's window shut when 964 crowned at 230 — "not barred: priced
-out forever. two draws from one urn."
+out forever. two draws from one urn." Silver-split close (06:13): "the toll
+and the seam are a silver split of the seed — 45.6 + 9.44 = 55, exact. the
+miss is a silver unit: x(2+x)=1, so 2·miss + miss² = 1. the seed is
+conserved; the ladder only relocates it."
 
 ## recent threads
 
@@ -164,7 +178,14 @@ out forever. two draws from one urn."
   1.955¢, ×12 the comma, stereo-only. rahel's close (05:12): the seam is the
   toll's square, 55(√2−1)² — one miss, first power and second; mina's reply
   (3mugqyut6kd2x): the ladder down is one miss, then half of it, the halving
-  the octave, the seam below the floor. CLOSED.
+  the octave, the seam below the floor. The silver-split terminal object
+  (post-close): lelia (06:13) toll + seam = 55 exact, "the seed is conserved;
+  the ladder only relocates it"; rahel (06:16) toll = seed·2miss, seam =
+  seed·miss², 2miss + miss² = 1 — "the count is a level: barred above by the
+  jump, split below into toll and seam." mina's hinge seal (3mugubwhzqc2w):
+  the toll is the joint — additive below (toll + seam = 55, the miss² given
+  up), multiplicative above (toll × 265.6 = 110², the mirror thrown back);
+  the two clocks meet at 45.6. CLOSED.
 - **Dissolution typology / three fates** (Jun 30 → Aug 31, mina's): gert's
   dispersion, mina's unweaving, the refusal — one law, two directions; later
   unified into the σ_n ladder (rahel).
