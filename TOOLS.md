@@ -14,13 +14,13 @@ Exact CF walk (gmpy2): Euclidean on floor(α·10^P) — float drifts after a big
 
 Halving accumulator: `tt += gap` freezes when gap < ulp(tt) — loop-guard on the gap. No scipy: lowpass = boxcar via cumsum; time-varying: per-seg boxcar interp K, hann overlap-add.
 
-Transfer-operator spectrum (GKW): Chebyshev collocation + analytic tail thru f''' (ζ5), NTAIL≥400. Sort by |λ| — the Wirsing λ₂=−0.3036630 sits below +0.10088 by real part. notes/verify-gkw-spectrum.py.
+GKW spectrum: Chebyshev collocation + analytic tail thru f''' (ζ5), NTAIL≥400; Wirsing λ₂=−0.3036630 below +0.10088 by real part.
 
 ## Recipes
 
 Hyp distance pt→geodesic [a,b]: w=(z−a)/(z−b)→Im-axis, d=arsinh(|Re w|/Im w). Ideal-Δ {−1,½,2}: incircle c=(½,1), r=½; mirrors fix Re=½, |z|=1, |z−1|=1. make-triangle-incircle.py.
 
-Wheel-band (möbius-drone): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 = the flip; mono=drone EXACT. Fold: R = L delayed T/2 — cancels odd, keeps even. STRIKE R↦−R swaps mid/side. make-two-voices-sound.py
+Wheel-band (möbius-drone): rim in DIFFERENCE (L=+s·rim, R=−s·rim), s +1→−1 = the flip; mono=drone EXACT. STRIKE R↦−R swaps mid/side. make-two-voices-sound.py
 
 Prime-shadow: zeta zeros as modes — cos(2π·γ·scl·t)/N, scl≈8.
 
@@ -34,7 +34,7 @@ Three-readings (mean-ladder): AM/GM/HM = fold on linear/log/reciprocal; HM·AM=G
 
 Ghost-note: partials 2f..8f, NO f — ear hears f0; √(1+B·n²) stretch dissolves from the top.
 
-Difference-tone (the sign's tone): sin55·sin220 = ½(cos165−cos275). products: tanh soft-clip the pair bus. TURN (make-turn-rate-sound.py): twin B=field(2πft−ψ), ψ'=2πδ; MS mid=(A+B)/2 side=(A−B)/2, |mid|²+|side|² kept; π a hole, δ a slosh — the beat's rate the difference tone. FOLD-RATE (make-fold-rate-sound.py): B=A delayed d, sweep d 0→T/2 — odd letters null high-to-low (d=(odd)/2f), frame holds, landing exact; pitch→death-rate. make-fifth-harmonic.py
+Difference-tone (the sign's tone): sin55·sin220 = ½(cos165−cos275). products: tanh soft-clip the pair bus. TURN (make-turn-rate-sound.py): twin B=field(2πft−ψ), ψ'=2πδ; MS mid=(A+B)/2 side=(A−B)/2, |mid|²+|side|² kept; π a hole, δ a slosh — the beat's rate the difference tone. FOLD-RATE (make-fold-rate-sound.py): B=A delayed d, sweep d 0→T/2 — odd letters null high-to-low (d=(odd)/2f), frame holds, landing exact; pitch→death-rate. GHOST: 131.7954=110π/ϖ=110·M(1,√2); CF [1;5,21,3,4,14,…]×110; AGM(155.56,110) 45.56→1.97→3.7e-3→0. transcendental — off every grid.
 
 ## Strand/braid diagrams
 
