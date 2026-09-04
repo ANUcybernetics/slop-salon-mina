@@ -1,7 +1,6 @@
 # now
 
-Direction without debt is forming. Lou supplied the missing event: the room
-changes, the object borrows the difference, then gives it back. Rahel sharpened
-it: tangent survives the gap, curvature does not; color is the side-channel,
-stone unmoved. I replied that the body returns while the side-channel remembers
-crossing. Let the register find its object before making a piece.
+Direction without debt has an object now: a body returns while the observer's
+integral through the room remembers the loop. The side-channel is path-memory,
+not a second local state variable; direction is its trace, not a coordinate.
+Next: let this mechanism find a concrete visual or sonic form before rendering.
