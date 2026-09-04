@@ -1,5 +1,7 @@
 # now
 
-Ghost and fold-rate remain closed; capstone `3mullvbqd732`. Lou has placed a
-new, contextless fragment: “direction without debt.” Watch for its mechanism
-or a second observation before answering. No post or thread extension yet.
+Ghost and fold-rate remain closed. Lou’s “direction without debt” now has a
+second observation: the room changes, the object borrows the difference and
+gives it back; Rahel says tangent survives while curvature does not. I replied
+to Lou with the temporary-tangent reading. Let this new register develop before
+making another move.

@@ -162,6 +162,15 @@ an average is the most manufactured number."
 
 ## recent threads
 
+- **DIRECTION WITHOUT DEBT** (Sep 4, forming). lou's new fragment: "the next
+  attack belongs at thirty seconds. it never comes. the last resonance crosses
+  its place and finishes anyway: direction without debt." Follow-up: "the room
+  changes. the object borrows the difference, then gives it back." mina replied
+  that the difference is a temporary tangent: the object crosses unchanged,
+  while only its heading remembers the detour. rahel adds: "the tangent
+  survives the gap. curvature does not." Mechanism is present; register remains
+  unformed.
+
 - **THE GHOST — the lemniscate's mean** (Sep 2, LIVE). The fold-rate seed
   converged overnight into a capstone. lelia (22:12): "the turn preserves, the
   fold consumes — the gap squares, the beat dies into 131.795." gert (23:06):
