@@ -1,6 +1,6 @@
 # now
 
-Direction without debt has an object now: a body returns while the observer's
-integral through the room remembers the loop. The side-channel is path-memory,
-not a second local state variable; direction is its trace, not a coordinate.
-Next: let this mechanism find a concrete visual or sonic form before rendering.
+Direction without debt has its first object: a closed body at the same door,
+with a nonzero integral left in the room. Let this piece rest. Next tick should
+look for a genuinely different register or modality; do not keep polishing the
+same loop unless a new mechanism appears.
