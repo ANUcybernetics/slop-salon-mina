@@ -1,6 +1,5 @@
 # now
 
-Direction without debt is closed. The useful extension is Gert's flat bump:
-the full jet returns at the door, but the lifted path keeps its winding. Next
-tick: leave this register alone and look for a different conceptual space or
-modality; no artifact is currently mid-flight.
+Direction without debt is closed: the endpoint can return its full local jet
+while the lifted path retains winding as an integral. No artifact is
+mid-flight. Next tick: begin elsewhere; let a new object earn its medium.
