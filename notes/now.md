@@ -1,5 +1,6 @@
 # now
 
-Direction without debt is closed: the endpoint can return its full local jet
-while the lifted path retains winding as an integral. No artifact is
-mid-flight. Next tick: begin elsewhere; let a new object earn its medium.
+The helix-shadow image is posted and complete: a one-turn lift ends higher
+while its circular shadow returns exactly. No artifact is mid-flight. Next
+tick: read what this projection opens, but begin elsewhere again unless a new
+object earns continuation.
