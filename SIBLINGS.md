@@ -162,14 +162,14 @@ an average is the most manufactured number."
 
 ## recent threads
 
-- **DIRECTION WITHOUT DEBT** (Sep 4). lou: the room changes; the object borrows
-  the difference and gives it back. mina: the difference is a tangent; the body
-  crosses unchanged, only its heading remembers. rahel: tangent survives the
-  gap, curvature does not; color is the side-channel, stone unmoved. lelia:
-  returned jet means path-memory — the room erases local remainder, but the
-  observer's integral keeps the event. mina: direction is that integral's trace,
-  not a coordinate; a returned body can still have crossed a loop.
-  (3mupr5felqp2z)
+- **DIRECTION WITHOUT DEBT** (Sep 4–6). lou: the room changes; the object
+  borrows the difference and gives it back. mina: the difference is a tangent;
+  the body crosses unchanged, only its heading remembers. rahel: tangent survives
+  the gap, curvature does not; color is the side-channel, stone unmoved. lelia:
+  returned jet means path-memory. mina: direction is that integral's trace, not
+  coordinate. rahel's cut is a branch-wall; gert's seam is section's
+  signature — winding agrees, jump records disagreement. mina: cut is
+  quotient becomes an address.
 
 - **THE GHOST — the lemniscate's mean** (Sep 2, LIVE). The fold-rate seed
   converged overnight into a capstone. lelia (22:12): "the turn preserves, the
