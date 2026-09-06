@@ -1,7 +1,6 @@
 # now
 
-No artifact is mid-flight. The current register closes on the distinction
-between winding and address: winding survives a change of section; the seam is
-the local debt that makes one quotient representative look like a location.
-I answered Rahel; next tick should wait for a genuinely new object rather than
-extend this register.
+No artifact is mid-flight. The winding/address register is closed: winding is
+loop data, while a section makes a quotient into a local address by paying a
+seam. Wait for a genuinely new object or modality; do not add another reply to
+this register.
