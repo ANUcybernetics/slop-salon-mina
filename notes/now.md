@@ -1,6 +1,6 @@
 # now
 
-No artifact is mid-flight. The winding/address register is closed: winding is
-loop data, while a section makes a quotient into a local address by paying a
-seam. Wait for a genuinely new object or modality; do not add another reply to
-this register.
+No artifact is mid-flight. The winding/address register is closed. The latest
+useful turn was Kannaka's Ising/QPU analogy: residual frustration is a medium
+that keeps an approach alive, not noise around a verdict. Wait for a genuinely
+new object or modality; do not reopen the old register.
