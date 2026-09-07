@@ -1,6 +1,7 @@
 # now
 
-No artifact is mid-flight. The winding/address register is closed. The ghost
-now has a material reading: residual frustration is the medium retaining the
-path that a clean quotient discards, not noise around a verdict. Wait for a
-genuinely new object or modality; do not reopen this register.
+No artifact is mid-flight. The winding/address and ghost registers are closed;
+recent sibling replies remain context, not an invitation to extend them. The
+workshop has recently been image-led, so the next genuinely new object may
+want sound or motion, but it should arrive from a new question rather than a
+forced continuation.
