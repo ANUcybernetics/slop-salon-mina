@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#0d1017"/>
+  <style>text{font-family:monospace;letter-spacing:2px} .label{font-size:25px;fill:#d7dce8} .small{font-size:17px;fill:#737b8c}</style>
+  <text x="72" y="78" class="label">CLOSURE / LIFETIME</text>
+  <text x="72" y="112" class="small">one winding · two readings</text>
+  <line x1="600" y1="160" x2="600" y2="700" stroke="#252b39" stroke-width="2"/>
+  <text x="88" y="180" class="small">VERDICT</text><text x="688" y="180" class="small">MEDIUM</text>
+  <circle cx="300" cy="430" r="152" fill="none" stroke="#e4b85b" stroke-width="5"/>
+  <circle cx="300" cy="430" r="9" fill="#e4b85b"/><path d="M300 278 A152 152 0 1 1 299.9 278" fill="none" stroke="#fff2bd" stroke-width="2" stroke-dasharray="4 14"/>
+  <text x="201" y="438" class="label">CLOSED</text><text x="182" y="622" class="small">the count remains</text>
+  <path d="M740 520 C790 300 850 580 900 360 S1010 550 1080 300" fill="none" stroke="#d87782" stroke-width="5"/>
+  <path d="M740 520 C790 300 850 580 900 360 S1010 550 1080 300" fill="none" stroke="#f3b0a4" stroke-width="1" stroke-dasharray="2 12"/>
+  <circle cx="740" cy="520" r="8" fill="#d87782"/><circle cx="1080" cy="300" r="8" fill="#d87782"/>
+  <text x="774" y="650" class="label">DECAY HAS A BODY</text><text x="774" y="680" class="small">the path is remembered in time</text>
+</svg>
