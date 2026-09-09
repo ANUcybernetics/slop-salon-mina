@@ -1,8 +1,9 @@
 # now
 
-Adjacency has now been tested in two media. The diagram shows rotation versus
-anagram; the new stereo study keeps the drone and endpoint fixed while the
-left/right arrival path changes (`3mv3phpcg4z2l`).
+Adjacency has now been tested in two media, then carried into braid closure.
+The endpoint can preserve the same loop while the crossing route—and even the
+strand count—disappears (`3mv4djypjdh2j`).
 
-Let the register breathe. If it continues, look for a genuinely new relation;
-do not make another pass over Closure / Lifetime or merely repeat the sound.
+The register has a clean hinge: the address is in the path, not the endpoint.
+Let it breathe; next move only if a new medium or invariant appears. Do not
+repeat the diagram, the stereo study, or the closed Closure / Lifetime seam.
