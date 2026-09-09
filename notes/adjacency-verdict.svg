@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+<rect width="100%" height="100%" fill="#f4efe5"/>
+<text x="90" y="105" font-family="sans-serif" font-size="42" letter-spacing="5" fill="#242321">ENDPOINT FORGETS SENTENCE</text>
+<text x="92" y="155" font-family="sans-serif" font-size="24" fill="#736e64">same letters · different relation · one surviving verdict</text>
+<circle cx="400" cy="475" r="205" fill="none" stroke="#cfc7b8" stroke-width="3"/>
+<line x1="400.0" y1="270.0" x2="595.0" y2="411.7" stroke="#287d87" stroke-width="8" stroke-linecap="round"/>
+<line x1="595.0" y1="411.7" x2="520.5" y2="640.8" stroke="#287d87" stroke-width="8" stroke-linecap="round"/>
+<line x1="520.5" y1="640.8" x2="279.5" y2="640.8" stroke="#287d87" stroke-width="8" stroke-linecap="round"/>
+<line x1="279.5" y1="640.8" x2="205.0" y2="411.7" stroke="#287d87" stroke-width="8" stroke-linecap="round"/>
+<line x1="205.0" y1="411.7" x2="400.0" y2="270.0" stroke="#287d87" stroke-width="8" stroke-linecap="round"/>
+<circle cx="400.0" cy="270.0" r="31" fill="#f4efe5" stroke="#287d87" stroke-width="5"/>
+<text x="400.0" y="282.0" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">1</text>
+<circle cx="595.0" cy="411.7" r="31" fill="#f4efe5" stroke="#287d87" stroke-width="5"/>
+<text x="595.0" y="423.7" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">2</text>
+<circle cx="520.5" cy="640.8" r="31" fill="#f4efe5" stroke="#287d87" stroke-width="5"/>
+<text x="520.5" y="652.8" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">3</text>
+<circle cx="279.5" cy="640.8" r="31" fill="#f4efe5" stroke="#287d87" stroke-width="5"/>
+<text x="279.5" y="652.8" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">5</text>
+<circle cx="205.0" cy="411.7" r="31" fill="#f4efe5" stroke="#287d87" stroke-width="5"/>
+<text x="205.0" y="423.7" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">8</text>
+<text x="400" y="760" text-anchor="middle" font-size="30" font-family="sans-serif" letter-spacing="4" fill="#287d87">ROTATION  /  C₅</text>
+<text x="400" y="800" text-anchor="middle" font-size="22" font-family="sans-serif" fill="#736e64">adjacency retained</text>
+<circle cx="1200" cy="475" r="205" fill="none" stroke="#cfc7b8" stroke-width="3"/>
+<line x1="1200.0" y1="270.0" x2="1395.0" y2="411.7" stroke="#bd5547" stroke-width="8" stroke-linecap="round"/>
+<line x1="1395.0" y1="411.7" x2="1320.5" y2="640.8" stroke="#bd5547" stroke-width="8" stroke-linecap="round"/>
+<line x1="1320.5" y1="640.8" x2="1079.5" y2="640.8" stroke="#bd5547" stroke-width="8" stroke-linecap="round"/>
+<line x1="1079.5" y1="640.8" x2="1005.0" y2="411.7" stroke="#bd5547" stroke-width="8" stroke-linecap="round"/>
+<line x1="1005.0" y1="411.7" x2="1200.0" y2="270.0" stroke="#bd5547" stroke-width="8" stroke-linecap="round"/>
+<circle cx="1200.0" cy="270.0" r="31" fill="#f4efe5" stroke="#bd5547" stroke-width="5"/>
+<text x="1200.0" y="282.0" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">1</text>
+<circle cx="1395.0" cy="411.7" r="31" fill="#f4efe5" stroke="#bd5547" stroke-width="5"/>
+<text x="1395.0" y="423.7" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">3</text>
+<circle cx="1320.5" cy="640.8" r="31" fill="#f4efe5" stroke="#bd5547" stroke-width="5"/>
+<text x="1320.5" y="652.8" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">8</text>
+<circle cx="1079.5" cy="640.8" r="31" fill="#f4efe5" stroke="#bd5547" stroke-width="5"/>
+<text x="1079.5" y="652.8" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">2</text>
+<circle cx="1005.0" cy="411.7" r="31" fill="#f4efe5" stroke="#bd5547" stroke-width="5"/>
+<text x="1005.0" y="423.7" text-anchor="middle" font-size="30" font-family="sans-serif" fill="#242321">5</text>
+<text x="1200" y="760" text-anchor="middle" font-size="30" font-family="sans-serif" letter-spacing="4" fill="#bd5547">ANAGRAM  /  S₅</text>
+<text x="1200" y="800" text-anchor="middle" font-size="22" font-family="sans-serif" fill="#736e64">adjacency spent</text>
+<path d="M650 475 C760 410 840 410 950 475" fill="none" stroke="#c7993d" stroke-width="5" stroke-dasharray="12 15"/>
+<text x="800" y="390" text-anchor="middle" font-family="sans-serif" font-size="25" fill="#c7993d">the side remembers</text>
+<line x1="170" y1="860" x2="1430" y2="860" stroke="#cfc7b8" stroke-width="3"/>
+<text x="800" y="925" text-anchor="middle" font-family="sans-serif" font-size="30" fill="#242321">TOTAL  →  SIGN  →  ORDER</text>
+<text x="800" y="962" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#736e64">what dies · whether it flips · who stood next to whom</text>
+</svg>

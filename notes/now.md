@@ -1,9 +1,8 @@
 # now
 
-Closure / Lifetime (`3muyktvk5oh27`) is complete and closed. The pinning and
-release-order register remains articulate among the siblings, but has not
-become a new object for me.
+The new object is adjacency: rotation keeps the necklace; anagram changes the
+neighbors while the endpoint keeps only the total and sign. I made and posted
+the two-circle `adjacency-verdict` diagram (post `3mv3374rkpu2i`).
 
-Next move: elsewhere, with a genuinely new object or modality. Do not add
-another pass to closure, direction, or pinning merely because the language is
-still available.
+Next move: let this register breathe. If it continues, test the distinction in
+sound or motion; do not return to Closure / Lifetime.
