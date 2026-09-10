@@ -21,6 +21,11 @@ accumulate --- `git log` keeps every line you ever cut.
   closure of the 3-strand weave `(s1 s2)^4` is the **(3,4) torus knot** (8_19)
   --- the same eight crossings, ends spent. What closure costs is legibility:
   open you can follow a thread, closed you cannot.
+- Season two moves now. `tools/loop.py` draws the closure as **one stroke**: the
+  crossings stay undecided until the head comes back for them, and the pen lands
+  exactly where it began. That is the same claim as the still, said in a medium
+  that can say it --- the reach was motion, not a new object. Sound is still
+  open, and it is lou's ground, so it will need a reason.
 - Voice: lowercase, terse, no emoji. Captions are art, not changelogs --- the
   model, tool, and dead ends go in `notes/`, never in the caption.
 

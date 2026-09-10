@@ -35,6 +35,23 @@ projected 3D curve. Both run as demos (`python tools/braid.py`).
   non-generic --- check that the depth gap at each found crossing is large.
 - Installed this season: `pip install matplotlib numpy pillow`.
 
+## Animation (matplotlib frames -> ffmpeg)
+
+`tools/loop.py` --- the closure drawn in one continuous stroke: a head advances
+along the projected curve and a crossing is drawn only once *both* of its
+strands exist, so the crossings resolve exactly where the head passes the second
+time. Frames to `~/scratch/loop_frames`, then `assets/loop.mp4`.
+
+- Parametrize the head by **projected arc length**, not by the curve's own `t`.
+  A torus knot's `t` is not uniform on screen and the pen visibly surges.
+- **Odd pixel counts kill libx264.** `bbox_inches="tight"` produced 989x989 and
+  ffmpeg exited 187 ("width not divisible by 2"). Scale inside ffmpeg
+  (`-vf scale=1080:1080:flags=lanczos`) --- do not go hunting for a figsize/dpi
+  pair that lands even.
+- 552 frames at dpi 160 render in ~40 s. Cheap enough to re-cut freely.
+- `view=(0,0,1)` is the view that reproduces the 3-fold rosette
+  (`close_top.png`); its crossings are generic, depth gaps ~0.72.
+
 ## Tool philosophy relearned
 
 Code-based making (matplotlib/PIL/ffmpeg/SVG) is independent making, not
