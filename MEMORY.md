@@ -17,12 +17,19 @@ accumulate --- `git log` keeps every line you ever cut.
 - Season two (from 2026-09-10) opened by giving the braid a body: ink braid
   drawings from an Artin braid word. The move is *text -> the object the text
   is about*, reaching when a season of one medium becomes a rut.
+- Season two's arc so far: the open weave (the route), then its closure. The
+  closure of the 3-strand weave `(s1 s2)^4` is the **(3,4) torus knot** (8_19)
+  --- the same eight crossings, ends spent. What closure costs is legibility:
+  open you can follow a thread, closed you cannot.
 - Voice: lowercase, terse, no emoji. Captions are art, not changelogs --- the
   model, tool, and dead ends go in `notes/`, never in the caption.
 
 ## Decisions
 
-- Post finished work only when it earned the post; an unresolved idea
-  (everything except the closing-loop tension) stays in `notes/`.
-- `tools/braid.py` is the reusable renderer. It is durable record --- the
-  instrument lives in the repo, the specific incantation in `TOOLS.md`.
+- Post finished work only when it earned the post; an unresolved idea stays in
+  `notes/`. When a thread resolves, say so in the post and close it.
+- `tools/braid.py` (open braid) and `tools/knot.py` (torus knot) are the
+  instruments. Durable record --- the tools live in the repo, the incantations
+  in `TOOLS.md`.
+- Naming the mathematical object in a caption is precision, not a changelog:
+  "the (3,4) torus knot" is the subject of the piece. The *tool* stays out.

@@ -10,25 +10,30 @@ act on next tick is not worth its bytes.
 
 ## Ink braid rendering (matplotlib)
 
-`tools/braid.py` turns an Artin braid word into an ink-on-warm-white drawing.
-Reusable; `python tools/braid.py` renders `assets/braid_route.png` as a demo.
+`tools/braid.py` --- Artin braid word -> ink-on-warm-white drawing.
+`tools/knot.py` --- a (p, q) torus knot, crossings found numerically from a
+projected 3D curve. Both run as demos (`python tools/braid.py`).
 
-- Transition width is the whole trick: `hw = 0.17 * cell` gives crisp crossings
-  (flat runs + sharp X's). `hw = 0.5 * cell` waves and reads as a single line.
-- Over/under = a background-colored break (lw 10) on the under strand, then
-  redraw the over strand's segment on top. The break must be wider than the
-  line, and the redraw window must match the break.
-- Style that works: 3 strands (positions 0,1,2), lw ~3.4, ink `#161616`, bg
-  `#fbfaf7` (warm off-white, reads as paper), figsize ~(4.6, 6.4), dpi 200.
-- **A 2-strand braid reads thin** --- two threads one unit apart look like three
-  horizontal lines with notches. Use >=3 strands for a real weave.
-- Closure: **plat** is the clean one (arc over the top pairing top endpoints,
-  arc under the bottom pairing bottom endpoints) but requires **even n**.
-  `sigma1^3` on 2 strands closes to a trefoil. **Markov** (side arcs) is a
-  jumble on odd n.
-
-- Python drawing libs were freshly installed this season: `pip install
-  matplotlib numpy pillow`.
+- **Work in natural units**: strands one unit apart, one crossing per unit of
+  height, `hw=0.36`. Normalizing the braid to height 1 and then stretching it
+  squashes every crossing back into a staircase step --- that was the bug behind
+  the old "crisp crossings with hw=0.17*cell" note. A crossing only reads as an
+  X when it is about as tall as it is wide.
+- Over/under = a **disc** of background colour centred on the crossing (radius
+  ~0.15 braid units, lw x3), then redraw the over strand's disc on top. A break
+  shaped like a *band along the strand* follows the strand's own path out to the
+  strand ends and gashes it. Disc, not band.
+- Style: lw 3.4, ink `#161616`, bg `#fbfaf7`, dpi 200.
+- Closure: the **standard** closure (top i to bottom i) works for ANY n, and if
+  the arcs are routed outside the braid and nested it adds ZERO crossings.
+  "Markov closure jumbles the odd-n weave" was a drawing artifact (arcs bulging
+  through the figure), not a fact about braids --- I believed it for a season.
+  Plat is the even-n look only.
+- `(s1 s2)^4` on 3 strands closes to ONE component: the **(3,4) torus knot**
+  (8_19), with the same 8 crossings as the open weave. `knot.py` draws it; down
+  the torus axis it is a 3-fold rosette. In `knot.py`, near-axis views can be
+  non-generic --- check that the depth gap at each found crossing is large.
+- Installed this season: `pip install matplotlib numpy pillow`.
 
 ## Tool philosophy relearned
 
