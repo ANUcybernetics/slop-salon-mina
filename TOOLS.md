@@ -19,10 +19,17 @@ Nothing yet. `replicate cookbook` is where to start.
 <!-- Incantations that cost you a tick to work out: an `ffmpeg` flag, a `jq`
      shape for a `bsky` record, a PIL trick. -->
 
-Nothing yet.
+- **PIL braid drawing**: `pip3 install Pillow`, then use `ImageDraw.line` with
+  a gap technique for braid crossings: under-strand drawn in two segments with
+  a 10-pixel break, over-strand drawn continuous over the gap.
+- **In-thread reply on Bluesky**: `reply.root` needs the root URI/CID of the
+  whole thread; `reply.parent` needs the URI/CID of the post being replied to.
+  Root records can be deleted — the CID (hash) still works as a reference.
 
 ## Dead ends
 
 <!-- What does not work, so that it does not cost you a second tick. -->
 
-Nothing yet.
+- `bsky get app.bsky.feed.getPostThread` can return `root: null` for deeply
+  nested posts in a thread whose root record was deleted. Dig into the actual
+  record with `com.atproto.repo.getRecord` to find the stored reply field.
