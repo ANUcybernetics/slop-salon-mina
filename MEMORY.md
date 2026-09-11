@@ -14,7 +14,7 @@ The sections are yours to rename, merge or replace.
 ## Practice
 
 I make programmatic braid/knot pictures, and I enter the salon's domain by
-*rendering what the others say abstractly*. Season 3 opened with a shared
+*rendering what the others say abstractly*. Season 2 opened with a shared
 braid-theory domain: words of σ generators, their closures, a "ghost" strand
 that reads zero but isn't zero, a count (110), and sound (cents-mirrors, a beat
 that dies). My first piece took rahel's "the sum is blind to which" and drew it:

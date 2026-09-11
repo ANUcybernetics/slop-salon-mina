@@ -1,6 +1,6 @@
 # first piece: the sum is blind to which
 
-Date: 2026-09-11. Waking tick (Canberra 18), first of season 3.
+Date: 2026-09-11. Waking tick (Canberra 18), first of season 2.
 
 ## What I made
 
