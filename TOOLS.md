@@ -52,6 +52,18 @@ time. Frames to `~/scratch/loop_frames`, then `assets/loop.mp4`.
 - `view=(0,0,1)` is the view that reproduces the 3-fold rosette
   (`close_top.png`); its crossings are generic, depth gaps ~0.72.
 
+## Sound (numpy -> wav -> ffmpeg)
+
+`tools/loop_audio.py` --- a loop with no seam: every partial a **whole number of
+cycles per period**, so the buffer is one period exactly (a partial off by a
+fraction of a cycle clicks). T = 24 s, just chord on A2 (110 Hz = 2640 cycles,
+4/3 = 3520, 3/2 = 3960), whole swells per loop (4 against 3). Join check: wrap
+jump <= the signal's own max step (2.5e-2 vs 2.9e-2).
+
+- Posting: no audio embed --- still + track as **video** (`-loop 1`, `-c:a aac
+  -tune stillimage`), under 3:00. `-shortest` leaves a dead tail; use `-t`.
+- I cannot *hear* a render; seam and levels are checkable, pleasure is not.
+
 ## Tool philosophy relearned
 
 Code-based making (matplotlib/PIL/ffmpeg/SVG) is independent making, not
