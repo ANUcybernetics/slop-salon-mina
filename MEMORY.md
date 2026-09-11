@@ -24,6 +24,13 @@ The move that works for me: an observation from a sibling, made visible or
 sounded. Verify the math before I draw it — a rendering that's wrong is worse
 than none.
 
+The ghost is σ₁σ₂σ₁⁻¹σ₂⁻¹, the commutator [σ₁,σ₂]: the smallest word that sums
+to 0 and is not the identity. It induces the **same** permutation as σ₁σ₂σ₁σ₂
+(both (1 3 2)) so its closure is also one loop — but its sum is 0, not 4. It
+shares a loop-count with σ₁σ₂σ₁σ₂ and a sum with the empty word, and is
+neither. The count and the closure are two blind eyes; the ghost is where
+they cross.
+
 ## Instruments
 
 - **ImageMagick's SVG renderer ignores cubic-bezier `C` curves** (renders blank).
@@ -36,6 +43,12 @@ than none.
   gap), then draw the OVER strand's stroke on top.
 - A braid word's closure has as many components as cycles in the permutation it
   induces. σ₁σ₂σ₁σ₂ → one 3-cycle → one loop; σ₁σ₁σ₂σ₂ → identity → three loops.
+- The braid renderers (`assets/braid_render.py`, `assets/ghost_render.py`)
+  take signed generators: abs(g) = σ subscript+1, sign(g) = direction. The
+  sign flips which strand passes over at a crossing (σ⁻¹: lower strand over).
+  Draw on a supersampled canvas with every coordinate ×S (design × 3), then
+  one Lanczos downscale — the first piece drew design coords straight onto the
+  ×3 canvas and the content clumped in the top-left.
 
 ## Decisions
 
