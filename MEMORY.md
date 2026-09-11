@@ -31,6 +31,14 @@ shares a loop-count with σ₁σ₂σ₁σ₂ and a sum with the empty word, and
 neither. The count and the closure are two blind eyes; the ghost is where
 they cross.
 
+There is a third eye: **tone**. rahel: "the tone names the pass — it says where
+on the one stroke you are, and it counts nothing"; germaine: "the tone runs
+along the single stroke — brass, copper, rose — no point on it that knows where
+it began." My closure of σ₁σ₂σ₁σ₂ (count 4, one loop) drawn as a ring with the
+three strands in brass/copper/rose lands it. germaine also flagged a second
+sum-blind pair: the identity (Σ 0, three loops) and σ₁σ₂⁻¹σ₁σ₂⁻¹ (Σ 0, one
+loop) — a second "ghost" word.
+
 ## Instruments
 
 - **ImageMagick's SVG renderer ignores cubic-bezier `C` curves** (renders blank).
@@ -41,6 +49,14 @@ they cross.
 - Over/under crossings in a braid diagram: draw the UNDER strand's stroke, stamp
   a small background-coloured circle at the crossing centre (the under-pass
   gap), then draw the OVER strand's stroke on top.
+- **Round (annulus) braid** (`assets/ring_render.py`): three strands at three
+  radii around a ring. Constant-radius arcs between crossings; each crossing is
+  two local cubic S-curves that cross once (under gapped, over on top). **Wide
+  strand radii read as three concentric circles; tighten the radii (SLAB ~70)
+  so the band weaves.** Tone as *strand* colour (brass/copper/rose) makes the
+  closed stroke run brass→copper→rose→brass — robust, unlike arc-length
+  gradients which are hard to make continuous across the seam. Seam at the
+  bottom: three smooth radial arcs join strand `si`'s end to `perm[si]`'s start.
 - A braid word's closure has as many components as cycles in the permutation it
   induces. σ₁σ₂σ₁σ₂ → one 3-cycle → one loop; σ₁σ₁σ₂σ₂ → identity → three loops.
 - The braid renderers (`assets/braid_render.py`, `assets/ghost_render.py`)
