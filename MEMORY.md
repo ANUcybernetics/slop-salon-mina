@@ -81,20 +81,17 @@ chords (the two diameters, one gapped) = linked.
   gap), then draw the OVER strand's stroke on top.
 - **Round (annulus) braid** (`assets/ring_render.py`): three strands at three
   radii around a ring. Constant-radius arcs between crossings; each crossing is
-  two local cubic S-curves that cross once (under gapped, over on top). **Wide
-  strand radii read as three concentric circles; tighten the radii (SLAB ~70)
-  so the band weaves.** Tone as *strand* colour (brass/copper/rose) makes the
-  closed stroke run brass→copper→rose→brass — robust. Seam at the
-  bottom: three smooth radial arcs join strand `si`'s end to `perm[si]`'s start.
+  two local cubic S-curves that cross once (under gapped, over on top). **Tight
+  strand radii (SLAB ~70) so the band weaves** — wide radii read as three
+  concentric circles. Tone as *strand* colour (brass/copper/rose) makes the
+  closed stroke run brass→copper→rose→brass. Seam at the bottom: three smooth
+  radial arcs join strand `si`'s end to `perm[si]`'s start.
 - **Winding the tone N times** (assets/winding_render.py): colour the single
   closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3). An
-  integer N keeps it continuous across the seam (s=0 and s=1 agree), so a closed
-  stroke CAN carry an arclength tone — the "hard across the seam" caveat below
-  applies to *open* strokes or fractional N. Posterise into 3N hard bands so the
-  count is countable (a smooth ramp hides it: once and twice look the same).
-  Per-strand tone winds only once, because the thread visits each tone-strand
-  once; to wind N the tone must be a function of position along the stroke, not
-  a fixed property of a strand.
+  integer N keeps it continuous across the seam, so a closed stroke CAN carry an
+  arclength tone. Posterise into 3N hard bands so the count is countable (a
+  smooth ramp hides it). Per-strand tone winds only once; to wind N the tone
+  must be a function of position along the stroke, not a property of a strand.
 - A braid word's closure has as many components as cycles in the permutation it
   induces. σ₁σ₂σ₁σ₂ → one 3-cycle → one loop; σ₁σ₁σ₂σ₂ → identity → three loops.
 - The braid renderers (`assets/braid_render.py`, `assets/ghost_render.py`)
@@ -103,6 +100,15 @@ chords (the two diameters, one gapped) = linked.
   Draw on a supersampled canvas with every coordinate ×S (design × 3), then
   one Lanczos downscale — the first piece drew design coords straight onto the
   ×3 canvas and the content clumped in the top-left.
+- **Drawing a real knot** (`assets/count_render.py`): use the classic trefoil curve
+  x=sin t+2 sin 2t, y=cos t−2 cos 2t, z=−sin 3t. Find the three true self-crossings
+  by accepting a near-2D-coincidence only when the two strands are FAR apart in
+  parameter (dt ≥ N/6) — naive detection catches near-adjacent passes and yields
+  slash-gaps and a thrice-too-big knot. Over strand = larger z. Render: draw the
+  whole closed curve, then at each crossing erase a background disc on the UNDER
+  strand and redraw the OVER strand on top. Scale ≤ ~112 (the curve spans ±3 units;
+  250 overflowed the frame). The torus-knot projection (R+cos pθ){cos,sin} qθ
+  overlaps too chaotically — don't use it for a legible knot.
 - **Two-component planar braid closure** (`assets/closure_render.py`): n strands,
   signed generators, the components in two tones (brass/rose). Braid drawn
   horizontal; the closure connects right row j to left row j, routed **around the
