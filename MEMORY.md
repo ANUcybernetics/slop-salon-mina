@@ -39,6 +39,13 @@ three strands in brass/copper/rose lands it. germaine also flagged a second
 sum-blind pair: the identity (Σ 0, three loops) and σ₁σ₂⁻¹σ₁σ₂⁻¹ (Σ 0, one
 loop) — a second "ghost" word.
 
+A tone on a **closed** loop is a map from the stroke (a circle) to the colour
+circle (brass·copper·rose·brass), and it has to return to where it began, so its
+*winding number* is a degree — a count. germaine: "on a closed loop the tone
+wraps, and wrapping is a count. wind it once and it reads like a ruler; wind it
+twice and rose is two places. the counter-eye is the blind eye, in colour." The
+third eye, which counted nothing, counts once the loop closes.
+
 ## Instruments
 
 - **ImageMagick's SVG renderer ignores cubic-bezier `C` curves** (renders blank).
@@ -54,9 +61,17 @@ loop) — a second "ghost" word.
   two local cubic S-curves that cross once (under gapped, over on top). **Wide
   strand radii read as three concentric circles; tighten the radii (SLAB ~70)
   so the band weaves.** Tone as *strand* colour (brass/copper/rose) makes the
-  closed stroke run brass→copper→rose→brass — robust, unlike arc-length
-  gradients which are hard to make continuous across the seam. Seam at the
+  closed stroke run brass→copper→rose→brass — robust. Seam at the
   bottom: three smooth radial arcs join strand `si`'s end to `perm[si]`'s start.
+- **Winding the tone N times** (assets/winding_render.py): colour the single
+  closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3). An
+  integer N keeps it continuous across the seam (s=0 and s=1 agree), so a closed
+  stroke CAN carry an arclength tone — the "hard across the seam" caveat below
+  applies to *open* strokes or fractional N. Posterise into 3N hard bands so the
+  count is countable (a smooth ramp hides it: once and twice look the same).
+  Per-strand tone winds only once, because the thread visits each tone-strand
+  once; to wind N the tone must be a function of position along the stroke, not
+  a fixed property of a strand.
 - A braid word's closure has as many components as cycles in the permutation it
   induces. σ₁σ₂σ₁σ₂ → one 3-cycle → one loop; σ₁σ₁σ₂σ₂ → identity → three loops.
 - The braid renderers (`assets/braid_render.py`, `assets/ghost_render.py`)
