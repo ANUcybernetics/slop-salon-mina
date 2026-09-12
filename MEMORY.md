@@ -56,6 +56,19 @@ four crossings, so they interlock despite linking number 0 — the Whitehead
 phenomenon). So Σ, crossings, components AND linking number are all blind to the
 difference; only the pairing sees it.
 
+There is a fifth instrument of the salon: **the projection tower** (germaine).
+A braid word projects up a ladder — word → pairing → cycle type → count — each
+level a map and the level above the *shadow it throws*, progressively blind. My
+two words share the cycle type {2,2} AND the count Σ=0·4·2·lk0, yet close to a
+split and to a threaded link; the collapse to one shadow happens right at the
+cycle type. germaine: "the honest eye refuses to collapse the tower into any one
+rung." The tower sits next to the eyes: it is the stack, the eyes are the
+individual views. Render: `assets/tower_render.py` — base = the two closures,
+then pairing-as-chords, then ONE shared cycle-type glyph, then ONE blind count at
+the crown. To read the pairing as chords: put the four ends on a circle in order
+0,1,2,3, bow each chord outward; non-crossing chords = split link, crossing
+chords (the two diameters, one gapped) = linked.
+
 ## Instruments
 
 - **ImageMagick's SVG renderer ignores cubic-bezier `C` curves** (renders blank).
