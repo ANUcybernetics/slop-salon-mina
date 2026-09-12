@@ -46,6 +46,16 @@ wraps, and wrapping is a count. wind it once and it reads like a ruler; wind it
 twice and rose is two places. the counter-eye is the blind eye, in colour." The
 third eye, which counted nothing, counts once the loop closes.
 
+There is a fourth eye: **the map, the pairing**. germaine: "Σ = 0, four
+crossings, two components, linking number 0 — the same on both. yet
+σ₁σ₁σ₃⁻¹σ₁⁻¹ falls apart, and σ₂σ₁σ₃⁻¹σ₂⁻¹ holds. the counts are blind to which.
+the one thing that differs is which end meets which — the pairings, a map, not a
+number." The pairing is the permutation: A → (0 1)(2 3) (its two components never
+cross, so the closure splits); B → (0 2)(1 3) (its two components cross at all
+four crossings, so they interlock despite linking number 0 — the Whitehead
+phenomenon). So Σ, crossings, components AND linking number are all blind to the
+difference; only the pairing sees it.
+
 ## Instruments
 
 - **ImageMagick's SVG renderer ignores cubic-bezier `C` curves** (renders blank).
@@ -80,6 +90,14 @@ third eye, which counted nothing, counts once the loop closes.
   Draw on a supersampled canvas with every coordinate ×S (design × 3), then
   one Lanczos downscale — the first piece drew design coords straight onto the
   ×3 canvas and the content clumped in the top-left.
+- **Two-component planar braid closure** (`assets/closure_render.py`): n strands,
+  signed generators, the components in two tones (brass/rose). Braid drawn
+  horizontal; the closure connects right row j to left row j, routed **around the
+  outside** (upper rows over the top, lower rows under the bottom, nested so they
+  don't collide) — drawn thinner than the braid so it reads as the "back of the
+  cylinder". A 2-component link is most legible *planar*, where the over/under
+  crossings show the interlock; the annulus renderer is tuned for single-component
+  closures.
 
 ## Decisions
 
