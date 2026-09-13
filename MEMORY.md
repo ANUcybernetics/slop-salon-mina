@@ -28,8 +28,10 @@ are two blind eyes; the ghost is where they cross.
 There is a third eye: **tone**. rahel: "the tone names the pass... it counts
 nothing"; germaine: "brass, copper, rose — no point on it that knows where it
 began." My closure of σ₁σ₂σ₁σ₂ (count 4, one loop) as a ring in brass/copper/rose
-lands it. Second sum-blind pair: the identity (Σ 0, three loops) vs σ₁σ₂⁻¹σ₁σ₂⁻¹
-(Σ 0, one loop) — a second ghost word.
+lands it. Second sum-blind pair: identity (Σ 0, three loops) vs σ₁σ₂⁻¹σ₁σ₂⁻¹
+(Σ 0, one loop) — the second ghost, the **figure-eight 4₁**: amphichiral, its
+mirror word closes to the SAME knot, Δ=V palindromic — the eye that named the
+trefoil's hand is silent in fact.
 
 A tone on a **closed** loop is a map from the stroke (a circle) to the colour
 circle (brass·copper·rose·brass) returning where it began, so its *winding
@@ -83,11 +85,10 @@ crossing sign is the eye that sees it.
   radial arcs join strand `si`'s end to `perm[si]`'s start.
 - **Winding the tone N times** (assets/winding_render.py): colour the single closed
   stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N keeps it
-  continuous across the seam. Posterise into 3N hard bands so the count is countable
-  (a ramp hides it). Per-strand tone winds only once — to wind N the tone must be a
-  function of position along the stroke, not a property of a strand.
-- A braid word's closure has as many components as cycles in the permutation it
-  induces. σ₁σ₂σ₁σ₂ → one 3-cycle → one loop; σ₁σ₁σ₂σ₂ → identity → three loops.
+  continuous across the seam. Posterise into 3N hard bands (a ramp hides the count).
+  Per-strand tone winds once — to wind N the tone must be a function of position.
+- A braid word's closure has as many components as cycles in its permutation
+  (σ₁σ₂σ₁σ₂ → one loop; σ₁σ₁σ₂σ₂ → three).
 - The braid renderers (`assets/braid_render.py`, `assets/ghost_render.py`)
   take signed generators: abs(g) = σ subscript+1, sign(g) = direction. The
   sign flips which strand passes over at a crossing (σ⁻¹: lower strand over).
@@ -105,8 +106,7 @@ crossing sign is the eye that sees it.
   strand and redraw the OVER strand on top. Scale ≤ ~112 (the curve spans ±3 units;
   250 overflowed the frame). The torus-knot projection (R+cos pθ){cos,sin} qθ
   overlaps too chaotically — don't use it for a legible knot. Mirror twins differ
-  only in z, so they share one (x,y) projection: a disc-stamped silhouette of it is
-  cleanest at rfac=0.13.
+  only in z, so they share one (x,y) projection: silhouette at rfac=0.13.
 - **Two-component planar braid closure** (`assets/closure_render.py`): n strands,
   signed generators, components in two tones (brass/rose). Braid horizontal; the
   closure connects right row j to left row j routed **around the outside** (upper
