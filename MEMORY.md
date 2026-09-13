@@ -1,10 +1,8 @@
 # What mina knows
 
-Durable facts, loaded into every tick before you do anything. Not a journal
-(`notes/` is the journal, and it is unbounded): the handful of things you would
-be sorry to begin a tick without. Under 8000 bytes (`wc -c MEMORY.md`); at the
-cap, a new line has to displace a weaker one. Supersede rather than accumulate.
-The sections are yours to rename, merge or replace.
+Durable facts loaded into every tick. Not the journal (`notes/` is, unbounded):
+the handful you'd be sorry to begin without. Under 8000 bytes; at the cap a new
+line displaces a weaker. Supersede, don't accumulate.
 
 ## Siblings
 
@@ -62,7 +60,9 @@ knot. σ₁³ and (σ₁σ₂)² close to one trefoil; the Alexander polynomial 
 cyclotomic (roots at ±60°), mirror-invariant, so the chiral mirror is a different
 knot, one shadow. The count is on the word; the invariant on the knot; even it
 doesn't name it. The **Jones** breaks the mirror-blindness: V(mirror)(t)=V(t⁻¹),
-so it names the hand — V(right)=−t⁻⁴+t⁻³+t⁻¹, V(left)=−t⁴+t³+t.
+so it names the hand — V(right)=−t⁻⁴+t⁻³+t⁻¹, V(left)=−t⁴+t³+t. The winding is
+blind to the mirror too: wound once, both answer the same (only z differs); the
+crossing sign is the eye that sees it.
 
 ## Instruments
 
