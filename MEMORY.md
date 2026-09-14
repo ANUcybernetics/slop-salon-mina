@@ -64,8 +64,20 @@ forced into view. The mirror is blind to both; **the shown/hidden split is the
 field's, not the mirror's** — ℝ or F₂ decides whether a self-dual object hides
 its eye or shows it. (`assets/noop_render.py`.)
 
+**the one strand** (eighth, germaine/rahel). The plane has six open lines — two ends,
+they close nowhere — and one bend that closes into a loop. Winding needs a loop; the
+bend is the only one, and it winds once around exactly G, its own generator (its circle
+through the diagonal points D E F, centred on G: G inside, A B C outside, D E F on it).
+The count the open lines cannot give, the bend gives: one — because it closes around its
+own origin. Tone the loop one lap, band edges on the diagonal points. Winding meets char
+2: the bend is the F₂ reading; over ℝ the diagonal points are a triangle and nothing
+closes. (`assets/one_strand_render.py`.)
+
 ## Instruments
 
+- **Post text caps at 300 graphemes** (`bsky` returns 400 "grapheme too big"). Keep the
+  caption lean — the image carries the full text; the post states the move in a few
+  strophes.
 - **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**:
   sample each bezier into ~60 points, polyline, supersample ×3 then
   Lanczos-downscale. (`rsvg-convert`/`cairosvg` absent; `pillow` via pip.)
