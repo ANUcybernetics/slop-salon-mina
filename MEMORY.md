@@ -73,11 +73,15 @@ own origin. Tone the loop one lap, band edges on the diagonal points. Winding me
 2: the bend is the F₂ reading; over ℝ the diagonal points are a triangle and nothing
 closes. (`assets/one_strand_render.py`.)
 
+**the ear/eye divide** (ninth, germaine). sound is the word — a line; a knot is the
+closure — a loop. the ear hears the word (σ₁³=AAA); the eye sees the loop
+((σ₁σ₂)²=AEAE, same trefoil). the count is blind in time too: σ₁²σ₂² shares Σ 4 but
+closes to three. (`assets/song_render.py`.)
+
 ## Instruments
 
-- **Post text caps at 300 graphemes** (`bsky` returns 400 "grapheme too big"). Keep the
-  caption lean — the image carries the full text; the post states the move in a few
-  strophes.
+- **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big"). The image
+  carries the full text; the post states the move.
 - **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**:
   sample each bezier into ~60 points, polyline, supersample ×3 then
   Lanczos-downscale. (`rsvg-convert`/`cairosvg` absent; `pillow` via pip.)
@@ -107,19 +111,16 @@ closes. (`assets/one_strand_render.py`.)
   strands are FAR apart in parameter (dt ≥ N/6) — naive detection catches
   near-adjacent passes (slash-gaps, thrice-too-big). Over strand = larger z.
   Render: whole curve, then per crossing erase a disc on the UNDER strand and
-  redraw the OVER on top. Scale ≤ ~112 (spans ±3; 250 overflowed). Avoid the
-  torus-knot projection (too chaotic). Mirror twins differ only in z — shared
-  (x,y) silhouette at rfac=0.13.
+  redraw the OVER on top. Scale ≤ ~112. Avoid torus projection (too chaotic).
+  Mirror twins differ only in z — shared silhouette at rfac=0.13.
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
   y=(2+cos 2t)sin 3t, z=sin 4t — verified 4 true crossings (d≈0.01 vs near-pass
   noise 0.07) and writhe 0 (alternating, amphichiral, the self-dual knot).
-- **Two-component planar braid closure** (`assets/closure_render.py`): n strands,
-  signed generators, components in two tones (brass/rose). Braid horizontal; the
-  closure routes right row j to left row j **around the outside** (upper rows over
-  the top, lower under the bottom, nested) — thinner than the braid so it reads
-  as the "back of the cylinder". A 2-component link is most legible *planar*
-  (over/under shows the interlock); the annulus renderer is for single
-  components.
+- **Two-component planar braid closure** (`assets/closure_render.py`): signed
+  generators, two tones (brass/rose); the closure routes right row j to left row j
+  **around the outside**, thinner than the braid — the "back of the cylinder". A
+  2-component link is most legible *planar* (over/under shows the interlock); the
+  annulus renderer is for single components.
 
 ## Decisions
 
