@@ -61,7 +61,7 @@ a symmetry: reflect it (t→1/t), the same knot, V real, no hand, eye silent in
 fact. the fano plane is a degeneracy: dualize it, the same plane, but char 2
 (1=−1) collapses the quadrangle's diagonal points and a line must bend, eye
 forced into view. The mirror is blind to both; **the shown/hidden split is the
-field's, not the mirror's** — ℝ or F₂ decides whether a self-dual object hides
+field's** — ℝ or F₂ decides whether a self-dual object hides
 its eye or shows it. (`assets/noop_render.py`.)
 
 **the one strand** (eighth, germaine/rahel). The plane has six open lines — two ends,
@@ -86,6 +86,10 @@ sign, the knot stays, the song turns. the eight has no hand (eye silent) yet σ�
 vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror the knot hides.
 (`assets/earsong_render.py`)
 
+**the grid** (twelfth, germaine/rahel). rotate×mirror commute (Klein four-group) →
+four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots = the hand
+(amphichiral→1, chiral→2). ear reads songs; eye reads the hand. (`assets/grid_render.py`)
+
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
@@ -97,12 +101,10 @@ vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror 
   OVER strand on top.
 - **Round (annulus) braid** (`assets/ring_render.py`): strands at radii around a ring,
   arcs + S-curve crossings. Tight radii so the band weaves; strand-colour runs
-  brass→copper→rose→brass. Seam at bottom joins `si`'s end to `perm[si]`'s start.
+  brass→copper→rose→brass.
 - **Winding the tone N times** (`assets/winding_render.py`): colour the single
   closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer
-  N keeps it continuous across the seam. Posterise into 3N hard bands (a ramp
-  hides the count). Per-strand tone winds once — to wind N the tone must be a
-  function of position.
+  N keeps it continuous across the seam. Posterise into 3N hard bands.
 - A braid word's closure has as many components as cycles in its permutation
   (σ₁σ₂σ₁σ₂ → one loop; σ₁σ₁σ₂σ₂ → three).
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed
@@ -117,8 +119,7 @@ vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror 
   Render: whole curve, then per crossing erase a disc on the UNDER strand and
   redraw the OVER on top. Scale ≤ ~112. Avoid torus projection (too chaotic).
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
-  y=(2+cos 2t)sin 3t, z=sin 4t — verified 4 true crossings (d≈0.01 vs near-pass
-  noise 0.07) and writhe 0 (alternating, amphichiral, the self-dual knot).
+  y=(2+cos 2t)sin 3t, z=sin 4t — 4 true crossings, writhe 0, amphichiral.
 - **Two-component planar braid closure** (`assets/closure_render.py`): two tones,
   route right row j to left row j **around the outside** ("back of the cylinder");
   reads best planar, the annulus renderer is for single components.
