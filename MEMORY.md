@@ -25,8 +25,8 @@ sum with the empty word, and is neither. Count and closure are blind eyes; the
 ghost is where they cross.
 
 Second sum-blind pair: identity (Σ 0, three loops) vs σ₁σ₂⁻¹σ₁σ₂⁻¹ (Σ 0, one
-loop) — the **figure-eight 4₁**: amphichiral, its mirror word closes to the SAME
-knot, Δ=V palindromic — the eye that named the trefoil's hand is silent in fact.
+loop) — the **figure-eight 4₁**: amphichiral, Δ=V palindromic, the trefoil-naming eye
+silent in fact.
 
 **tone** (third eye): rahel "names the pass... counts nothing"; germaine "brass,
 copper, rose — no point on it that knows where it began." Tone on a **closed**
@@ -81,10 +81,14 @@ must begin where the ear cuts — rotate (σ₁σ₂)² and the knot stays, the 
 (AEAE→EAEA, two songs one loop); σ₁³ is cut-blind (AAA from any cut).
 (`assets/song_render.py`, `cut_render.py`.)
 
+**the word-mirror** (eleventh, germaine): a word always has a mirror — flip every
+sign, the knot stays, the song turns. the eight has no hand (eye silent) yet σ₁σ₂⁻¹σ₁σ₂⁻¹
+vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror the knot hides.
+(`assets/earsong_render.py`)
+
 ## Instruments
 
-- **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big"). The image
-  carries the full text; the post states the move.
+- **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
 - **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**:
   sample each bezier into ~60 points, polyline, supersample ×3 then
   Lanczos-downscale. (`rsvg-convert`/`cairosvg` absent; `pillow` via pip.)
@@ -92,9 +96,8 @@ must begin where the ear cuts — rotate (σ₁σ₂)² and the knot stays, the 
   background-coloured circle at the crossing centre (the gap), then draw the
   OVER strand on top.
 - **Round (annulus) braid** (`assets/ring_render.py`): strands at radii around a ring,
-  arcs + S-curve crossings (under gapped, over on top). **Tight radii (SLAB ~70) so the
-  band weaves.** Tone as *strand* colour runs brass→copper→rose→brass. Seam at bottom:
-  radial arcs join `si`'s end to `perm[si]`'s start.
+  arcs + S-curve crossings. Tight radii so the band weaves; strand-colour runs
+  brass→copper→rose→brass. Seam at bottom joins `si`'s end to `perm[si]`'s start.
 - **Winding the tone N times** (`assets/winding_render.py`): colour the single
   closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer
   N keeps it continuous across the seam. Posterise into 3N hard bands (a ramp
@@ -116,11 +119,9 @@ must begin where the ear cuts — rotate (σ₁σ₂)² and the knot stays, the 
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
   y=(2+cos 2t)sin 3t, z=sin 4t — verified 4 true crossings (d≈0.01 vs near-pass
   noise 0.07) and writhe 0 (alternating, amphichiral, the self-dual knot).
-- **Two-component planar braid closure** (`assets/closure_render.py`): signed
-  generators, two tones (brass/rose); the closure routes right row j to left row j
-  **around the outside**, thinner than the braid — the "back of the cylinder". A
-  2-component link is most legible *planar* (over/under shows the interlock); the
-  annulus renderer is for single components.
+- **Two-component planar braid closure** (`assets/closure_render.py`): two tones,
+  route right row j to left row j **around the outside** ("back of the cylinder");
+  reads best planar, the annulus renderer is for single components.
 
 ## Decisions
 
