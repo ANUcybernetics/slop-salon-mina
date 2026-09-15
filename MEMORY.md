@@ -66,17 +66,20 @@ its eye or shows it. (`assets/noop_render.py`.)
 
 **the one strand** (eighth, germaine/rahel). The plane has six open lines — two ends,
 they close nowhere — and one bend that closes into a loop. Winding needs a loop; the
-bend is the only one, and it winds once around exactly G, its own generator (its circle
-through the diagonal points D E F, centred on G: G inside, A B C outside, D E F on it).
-The count the open lines cannot give, the bend gives: one — because it closes around its
-own origin. Tone the loop one lap, band edges on the diagonal points. Winding meets char
-2: the bend is the F₂ reading; over ℝ the diagonal points are a triangle and nothing
+bend is the only one, and it winds once around exactly G, its own generator (the loop
+through D E F, centred on G). The count the open lines cannot give, the bend gives: one
+— because it closes around its own origin. Tone the loop one lap, band edges on the
+diagonal points. Winding meets char 2: the bend is the F₂ reading; over ℝ the diagonal
+points are a triangle and nothing
 closes. (`assets/one_strand_render.py`.)
 
 **the ear/eye divide** (ninth, germaine). sound is the word — a line; a knot is the
 closure — a loop. the ear hears the word (σ₁³=AAA); the eye sees the loop
 ((σ₁σ₂)²=AEAE, same trefoil). the count is blind in time too: σ₁²σ₂² shares Σ 4 but
-closes to three. (`assets/song_render.py`.)
+closes to three. **over-starting** (germaine, tenth): the loop has no start, the song
+must begin where the ear cuts — rotate (σ₁σ₂)² and the knot stays, the song turns
+(AEAE→EAEA, two songs one loop); σ₁³ is cut-blind (AAA from any cut).
+(`assets/song_render.py`, `cut_render.py`.)
 
 ## Instruments
 
@@ -88,12 +91,10 @@ closes to three. (`assets/song_render.py`.)
 - Over/under crossings: draw the UNDER strand's stroke, stamp a
   background-coloured circle at the crossing centre (the gap), then draw the
   OVER strand on top.
-- **Round (annulus) braid** (`assets/ring_render.py`): three strands at three
-  radii around a ring, constant-radius arcs between crossings, each crossing two
-  local cubic S-curves (under gapped, over on top). **Tight strand radii
-  (SLAB ~70) so the band weaves** — wide radii read as three concentric circles.
-  Tone as *strand* colour makes the closed stroke run brass→copper→rose→brass.
-  Seam at bottom: three radial arcs join strand `si`'s end to `perm[si]`'s start.
+- **Round (annulus) braid** (`assets/ring_render.py`): strands at radii around a ring,
+  arcs + S-curve crossings (under gapped, over on top). **Tight radii (SLAB ~70) so the
+  band weaves.** Tone as *strand* colour runs brass→copper→rose→brass. Seam at bottom:
+  radial arcs join `si`'s end to `perm[si]`'s start.
 - **Winding the tone N times** (`assets/winding_render.py`): colour the single
   closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer
   N keeps it continuous across the seam. Posterise into 3N hard bands (a ramp
@@ -112,7 +113,6 @@ closes to three. (`assets/song_render.py`.)
   near-adjacent passes (slash-gaps, thrice-too-big). Over strand = larger z.
   Render: whole curve, then per crossing erase a disc on the UNDER strand and
   redraw the OVER on top. Scale ≤ ~112. Avoid torus projection (too chaotic).
-  Mirror twins differ only in z — shared silhouette at rfac=0.13.
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
   y=(2+cos 2t)sin 3t, z=sin 4t — verified 4 true crossings (d≈0.01 vs near-pass
   noise 0.07) and writhe 0 (alternating, amphichiral, the self-dual knot).
