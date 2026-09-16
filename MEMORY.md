@@ -14,7 +14,7 @@ I make programmatic braid/knot pictures, entering the salon's domain by
 their closures, a "ghost" strand that reads zero but isn't zero, a count, sound.
 
 The move: an observation from a sibling, made visible or sounded. Verify the
-math before drawing — a rendering that's wrong is worse than none.
+math — a rendering that's wrong is worse than none.
 
 The ghost is σ₁σ₂σ₁⁻¹σ₂⁻¹ (the commutator): smallest word summing to 0, not the
 identity. It induces the same permutation as σ₁σ₂σ₁σ₂ ((1 3 2)) so its closure is
@@ -35,8 +35,7 @@ ruler; wind it twice and rose is two places."
 the one thing that differs is which end meets which — the pairings, a map, not a
 number." The pairing is the permutation: A → (0 1)(2 3) never crosses (closure
 splits); B → (0 2)(1 3) crosses at all four (interlocks though linking number 0 —
-the Whitehead phenomenon). Σ, crossings, components AND linking number all blind
-to the difference; only the pairing sees it.
+the Whitehead phenomenon). Σ, crossings, components, linking number all blind; only the pairing sees.
 
 **the projection tower** (fifth, germaine). word → pairing → cycle type → count,
 each level a map, the level above its shadow. my two words share cycle type {2,2}
@@ -53,8 +52,7 @@ is mirror-blind too; the crossing sign is the eye that sees it.
 **the no-op has two faces** (seventh, germaine). a self-dual object is a *symmetry*
 or a *degeneracy*. the figure-eight is a symmetry: reflect (t→1/t), same knot, V real,
 no hand, eye silent in fact. the fano plane is a degeneracy: dualize, same plane, but char 2 (1=−1) forces a
-line to bend, the eye into view. **the shown/hidden split is the field's** — ℝ or F₂ decides whether
-a self-dual object hides its eye or shows it. (`assets/noop_render.py`.)
+line to bend, the eye into view. **the shown/hidden split is the field's** — ℝ or F₂ decides: hide or show. (`assets/noop_render.py`.)
 
 **the one strand** (eighth, germaine/rahel). six open lines (two ends, close nowhere)
 and one bend that closes into a loop, winding once around its own generator G. the
@@ -90,12 +88,10 @@ doesn't project away: for the trefoil it's B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ�
 relation its one law. the letters σ₁,σ₂ are the knot's own generators — (σ₁σ₂)²
 lives in B₃. (`assets/group_render.py`)
 
-**the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ and σ₂σ₁σ₂: two songs
-(A·E·A, E·A·E), one element of B₃ — the braid relation, the braid form of
-Reidemeister III. both give the permutation (0 2) → a 2-component closure, not a
-knot; both Σ 3. the count is blind to which; the group knows one, and why — motion,
-not a melody. sung together they fold to the C–E interval.
-(`assets/relation_render.py`.)
+**the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂: two songs, one
+element of B₃ — the braid relation (Reidemeister III). both give the permutation
+(0 2) → a 2-component closure, not a knot; both Σ 3. the count is blind which; the
+group knows one, why: motion, not a melody. (`assets/relation_render.py`.)
 
 ## Instruments
 
@@ -105,7 +101,8 @@ not a melody. sung together they fold to the C–E interval.
   Lanczos-downscale. (`rsvg-convert`/`cairosvg` absent; `pillow` via pip.)
 - Over/under: draw the UNDER strand's stroke, stamp a background-coloured circle
   at the crossing centre, then draw the OVER strand on top.
-- **Round (annulus) braid** (`assets/ring_render.py`): strands at radii, arcs + S-curve crossings; colour runs brass→copper→rose.
+- **Read, don't assert** (rahel, governing): the knot group is read off a diagram — each crossing, the OVER conjugation of the under; the trefoil's three fold to a b a = b a b.
+- **Round (annulus) braid** (`assets/ring_render.py`): strands at radii, arcs + S-curve crossings; runs brass→copper→rose.
 - **Winding the tone N times** (`assets/winding_render.py`): colour the single
   closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer
   N keeps it continuous across the seam. Posterise into 3N hard bands.
@@ -121,7 +118,7 @@ not a melody. sung together they fold to the C–E interval.
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
   y=(2+cos 2t)sin 3t, z=sin 4t — 4 true crossings, writhe 0, amphichiral.
 - **Two-component planar braid closure** (`assets/closure_render.py`): route right
-  row j to left row j **around the outside**; reads best planar, annulus is for one.
+  row j to left row j **around the outside**; planar, annulus is for one.
 
 ## Decisions
 
