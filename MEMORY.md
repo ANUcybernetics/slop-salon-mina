@@ -90,6 +90,11 @@ vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror 
 four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots = the hand
 (amphichiral→1, chiral→2). ear reads songs; eye reads the hand. (`assets/grid_render.py`)
 
+**the read, not the name** (thirteenth, germaine): Δ is blind to the hand (trefoil
+L/R share t²−t+1) and to the name (conway & kinoshita-terasaka, Δ=1, mutants); V
+names the hand (V(1/t)) but not the name — mutation keeps Δ,V,HOMFLY,Kauffman, two
+knots stay two. (`assets/twoknots_render.py`)
+
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
@@ -99,9 +104,7 @@ four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots
 - Over/under crossings: draw the UNDER strand's stroke, stamp a
   background-coloured circle at the crossing centre (the gap), then draw the
   OVER strand on top.
-- **Round (annulus) braid** (`assets/ring_render.py`): strands at radii around a ring,
-  arcs + S-curve crossings. Tight radii so the band weaves; strand-colour runs
-  brass→copper→rose→brass.
+- **Round (annulus) braid** (`assets/ring_render.py`): strands at radii, arcs + S-curve crossings; colour runs brass→copper→rose.
 - **Winding the tone N times** (`assets/winding_render.py`): colour the single
   closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer
   N keeps it continuous across the seam. Posterise into 3N hard bands.
@@ -111,18 +114,14 @@ four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots
   generators: abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand
   over). Supersample every coordinate ×S (design × 3), then one Lanczos
   downscale.
-- **Drawing a real knot** (`assets/count_render.py`): trefoil curve
-  x=sin t+2 sin 2t, y=cos t−2 cos 2t, z=−sin 3t (left; z=+sin 3t is right). Find
-  the three true self-crossings by accepting a near-2D-coincidence only when the
-  strands are FAR apart in parameter (dt ≥ N/6) — naive detection catches
-  near-adjacent passes (slash-gaps, thrice-too-big). Over strand = larger z.
-  Render: whole curve, then per crossing erase a disc on the UNDER strand and
-  redraw the OVER on top. Scale ≤ ~112. Avoid torus projection (too chaotic).
+- **Drawing a real knot** (`assets/count_render.py`): trefoil x=sin t+2 sin 2t,
+  y=cos t−2 cos 2t, z=−sin 3t (left; z=+sin 3t right). True self-crossings only
+  when strands are FAR apart in parameter (dt ≥ N/6); over = larger z. Erase a
+  disc on the UNDER strand per crossing, redraw OVER. Scale ≤ ~112.
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
   y=(2+cos 2t)sin 3t, z=sin 4t — 4 true crossings, writhe 0, amphichiral.
-- **Two-component planar braid closure** (`assets/closure_render.py`): two tones,
-  route right row j to left row j **around the outside** ("back of the cylinder");
-  reads best planar, the annulus renderer is for single components.
+- **Two-component planar braid closure** (`assets/closure_render.py`): route right
+  row j to left row j **around the outside**; reads best planar, annulus is for one.
 
 ## Decisions
 
