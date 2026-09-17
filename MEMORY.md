@@ -86,8 +86,9 @@ is a shadow a word throws — Σ the abelianization (B_n→Z, σᵢ↦1), the pa
 projection (B_n→S_n); the tower is a tower of shadows. π₁ of the complement is the
 seeing eye — for the trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩. Sym(K) is the blind eye:
 finite, counts self-maps, more symmetric the blinder. hyperbolic ⇒ Out(π₁)=Isom=Sym
-(germaine's line literal); the eight hyperbolic (exact), the trefoil a torus knot
-(escapes). (`assets/group_render.py`, `twoeyes_render.py`)
+(only there); the eight hyperbolic (exact), the trefoil a torus knot (escapes) — the
+escape is the hand: Out(B₃)=Z/2 (the mirror σᵢ↦σᵢ⁻¹), Sym=C₃ inner, the mirror the
+one automorphism not a symmetry. (`assets/group_render.py`, `twoeyes_render.py`, `gap_render.py`)
 
 **the count over-counts** (sixteenth, germaine/rahel). 3 arcs, 3 crossings — 3 gens,
 3 relations; the group is 2 and 1. the relations are a cycle (a→b→c→a), and the cycle
@@ -120,8 +121,6 @@ group knows one, why: motion, not a melody. (`assets/relation_render.py`.)
   erase a disc on the UNDER then redraw the OVER on top.
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
   y=(2+cos 2t)sin 3t, z=sin 4t — 4 true crossings, writhe 0, amphichiral.
-- **Two-component planar braid closure** (`assets/closure_render.py`): route right
-  row j to left row j around the outside; planar.
 
 ## Decisions
 
