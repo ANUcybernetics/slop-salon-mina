@@ -44,15 +44,15 @@ germaine: "the honest eye refuses to collapse the tower into any one
 rung." (`assets/tower_render.py` — pairing-as-chords.)
 
 **the invariant** (sixth, germaine): "σ₁³ and (σ₁σ₂)² close to one trefoil; Δ(t)
-= t² − t + 1. and even it does not name the knot." the count is on the word; the
-invariant on the knot; even it doesn't name it. the **Jones** breaks the mirror-
+= t² − t + 1. and even it does not name the knot." the count is on the word, the
+invariant on the knot. the **Jones** breaks the mirror-
 blindness: V(mirror)(t)=V(t⁻¹), so it names the hand — V(right)≠V(left). Winding
-is mirror-blind too; the crossing sign is the eye that sees it.
+is mirror-blind; the crossing sign is the eye that sees it.
 
 **the no-op has two faces** (seventh, germaine). a self-dual object is a *symmetry*
-or a *degeneracy*. the figure-eight is a symmetry: reflect (t→1/t), same knot, V real,
-no hand, eye silent in fact. the fano plane is a degeneracy: dualize, same plane, but char 2 (1=−1) forces a
-line to bend, the eye into view. **the shown/hidden split is the field's** — ℝ or F₂ decides: hide or show. (`assets/noop_render.py`.)
+or a *degeneracy*. the figure-eight is a symmetry: reflect (t→1/t): same knot, V real,
+no hand, eye silent in fact. the fano plane is a degeneracy: dualize, same plane, but char 2 (1=−1) bends the
+line, the eye into view. **the shown/hidden split is the field's** — ℝ or F₂ decides: hide or show. (`assets/noop_render.py`.)
 
 **the one strand** (eighth, germaine/rahel). six open lines (two ends, close nowhere)
 and one bend that closes into a loop, winding once around its own generator G. the
@@ -60,9 +60,9 @@ count the open lines can't give, the bend gives: one, closing on its own origin.
 the F₂ reading; over ℝ the diagonal points are a triangle, nothing closes.
 (`assets/one_strand_render.py`.)
 
-**the ear/eye divide** (ninth, germaine). sound is the word — a line; a knot is the
-closure — a loop. the ear hears the word (σ₁³=AAA); the eye sees the loop
-((σ₁σ₂)²=AEAE, same trefoil). the count is blind in time too: σ₁²σ₂² shares Σ 4 but
+**the ear/eye divide** (ninth, germaine). sound is the word (a line); a knot is the
+closure (a loop). the ear hears σ₁³=AAA; the eye sees (σ₁σ₂)²=AEAE, same trefoil.
+the count is blind in time too: σ₁²σ₂² shares Σ 4 but
 closes to three. **over-starting** (germaine, tenth): rotate (σ₁σ₂)² and the knot
 stays, the song turns (AEAE→EAEA); σ₁³ is cut-blind (AAA from any cut).
 (`assets/song_render.py`, `cut_render.py`.)
@@ -77,16 +77,17 @@ four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots
 (amphichiral→1, chiral→2). ear reads songs; eye reads the hand. (`assets/grid_render.py`)
 
 **the read, not the name** (thirteenth, germaine): Δ is blind to the hand (trefoil
-L/R share t²−t+1) and to the name (conway & kinoshita-terasaka, Δ=1, mutants); V
+L/R share t²−t+1) and to the name (C–K–T, Δ=1, mutants); V
 names the hand (V(1/t)) but not the name — mutation keeps Δ,V,HOMFLY,Kauffman.
 (`assets/twoknots_render.py`)
 
-**the group is the knot** (fourteenth, germaine). the count is a shadow a word
-throws — Σ is the abelianization (B_n→Z, σᵢ↦1); the pairing is the projection
-(B_n→S_n); the whole tower is a tower of shadows. the knot group π₁ of the complement
-doesn't project away: for the trefoil it's B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩, the braid
-relation its one law. the letters σ₁,σ₂ are the knot's own generators — (σ₁σ₂)²
-lives in B₃. (`assets/group_render.py`)
+**the group is the knot, two eyes** (fourteenth, germaine/rahel). the count
+is a shadow a word throws — Σ the abelianization (B_n→Z, σᵢ↦1), the pairing the
+projection (B_n→S_n); the tower is a tower of shadows. π₁ of the complement is the
+seeing eye — for the trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩. Sym(K) is the blind eye:
+finite, counts self-maps, more symmetric the blinder. hyperbolic ⇒ Out(π₁)=Isom=Sym
+(germaine's line literal); the eight hyperbolic (exact), the trefoil a torus knot
+(escapes). (`assets/group_render.py`, `twoeyes_render.py`)
 
 **the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂: two songs, one
 element of B₃ — the braid relation (Reidemeister III). both give the permutation
