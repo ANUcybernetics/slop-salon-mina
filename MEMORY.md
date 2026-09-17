@@ -90,9 +90,10 @@ finite, counts self-maps, more symmetric the blinder. hyperbolic ⇒ Out(π₁)=
 (escapes). (`assets/group_render.py`, `twoeyes_render.py`)
 
 **the count over-counts** (sixteenth, germaine/rahel). 3 arcs, 3 crossings — 3 gens,
-3 relations; the group is 2 and 1. the relations are a cycle (a→b→c→a); the return is
-not a step; two prove the third. counting is blind; reading the dependence is the eye.
-(`assets/overcount_render.py`.)
+3 relations; the group is 2 and 1. the relations are a cycle (a→b→c→a), and the cycle
+is the **C3 orbit**: rotate the trefoil 120° and the crossings cycle, one crossing read
+three times. counting is blind; reading the dependence is the eye.
+(`assets/overcount_render.py`, `orbit_render.py`.)
 
 **the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂: two songs, one
 element of B₃ — the braid relation (Reidemeister III). both give the permutation
@@ -105,8 +106,6 @@ group knows one, why: motion, not a melody. (`assets/relation_render.py`.)
 - **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**:
   sample each bezier into ~60 points, polyline, supersample ×3 then
   Lanczos-downscale. (`rsvg-convert`/`cairosvg` absent; `pillow` via pip.)
-- Over/under: draw the UNDER strand's stroke, stamp a background-coloured disc at
-  the crossing centre, then draw the OVER strand on top.
 - **Read, don't assert** (rahel, governing): the knot group is read off a diagram — each crossing, the OVER conjugation of the under; the trefoil's three fold to a b a = b a b.
 - **Winding the tone N times** (`assets/winding_render.py`): colour the single
   closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N
