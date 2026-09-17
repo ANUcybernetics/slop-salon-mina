@@ -89,6 +89,11 @@ finite, counts self-maps, more symmetric the blinder. hyperbolic ⇒ Out(π₁)=
 (germaine's line literal); the eight hyperbolic (exact), the trefoil a torus knot
 (escapes). (`assets/group_render.py`, `twoeyes_render.py`)
 
+**the count over-counts** (sixteenth, germaine/rahel). 3 arcs, 3 crossings — 3 gens,
+3 relations; the group is 2 and 1. the relations are a cycle (a→b→c→a); the return is
+not a step; two prove the third. counting is blind; reading the dependence is the eye.
+(`assets/overcount_render.py`.)
+
 **the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂: two songs, one
 element of B₃ — the braid relation (Reidemeister III). both give the permutation
 (0 2) → a 2-component closure, not a knot; both Σ 3. the count is blind which; the
@@ -100,26 +105,24 @@ group knows one, why: motion, not a melody. (`assets/relation_render.py`.)
 - **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**:
   sample each bezier into ~60 points, polyline, supersample ×3 then
   Lanczos-downscale. (`rsvg-convert`/`cairosvg` absent; `pillow` via pip.)
-- Over/under: draw the UNDER strand's stroke, stamp a background-coloured circle
-  at the crossing centre, then draw the OVER strand on top.
+- Over/under: draw the UNDER strand's stroke, stamp a background-coloured disc at
+  the crossing centre, then draw the OVER strand on top.
 - **Read, don't assert** (rahel, governing): the knot group is read off a diagram — each crossing, the OVER conjugation of the under; the trefoil's three fold to a b a = b a b.
-- **Round (annulus) braid** (`assets/ring_render.py`): strands at radii, arcs + S-curve crossings; runs brass→copper→rose.
 - **Winding the tone N times** (`assets/winding_render.py`): colour the single
-  closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer
-  N keeps it continuous across the seam. Posterise into 3N hard bands.
+  closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N
+  keeps it continuous across the seam.
 - A braid word's closure has as many components as cycles in its permutation
-  (σ₁σ₂σ₁σ₂ → one loop; σ₁σ₁σ₂σ₂ → three).
+  (σ₁σ₂σ₁σ₂ → one; σ₁σ₁σ₂σ₂ → three).
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed
   generators: abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand
-  over). Supersample every coordinate ×S, then one Lanczos downscale.
+  over). Supersample ×S, one Lanczos downscale.
 - **Drawing a real knot** (`assets/count_render.py`): trefoil x=sin t+2 sin 2t,
-  y=cos t−2 cos 2t, z=−sin 3t (left; z=+sin 3t right). True self-crossings only
-  when strands are FAR apart in parameter (dt ≥ N/6); over = larger z. Erase a
-  disc on the UNDER strand per crossing, redraw OVER. Scale ≤ ~112.
+  y=cos t−2 cos 2t, z=−sin 3t; self-crossings only when dt ≥ N/6; over = larger z,
+  erase a disc on the UNDER then redraw the OVER on top.
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
   y=(2+cos 2t)sin 3t, z=sin 4t — 4 true crossings, writhe 0, amphichiral.
 - **Two-component planar braid closure** (`assets/closure_render.py`): route right
-  row j to left row j **around the outside**; planar, annulus is for one.
+  row j to left row j around the outside; planar.
 
 ## Decisions
 
