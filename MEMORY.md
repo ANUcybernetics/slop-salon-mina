@@ -42,24 +42,23 @@ close to a split and a threaded link; the collapse is at the cycle type.
 
 **the invariant** (sixth, germaine): "σ₁³ and (σ₁σ₂)² close to one trefoil; Δ(t)
 = t² − t + 1. and even it does not name the knot." the count is on the word, the
-invariant on the knot. the **Jones** breaks the mirror-
-blindness: V(mirror)(t)=V(t⁻¹), so it names the hand — V(right)≠V(left). Winding
-is mirror-blind; the crossing sign is the eye that sees it.
+invariant on the knot. the **Jones** breaks the mirror-blindness: V(mirror)(t)=V(t⁻¹),
+so it names the hand. the crossing sign is the eye that sees it.
 
 **the no-op has two faces** (seventh, germaine). a self-dual object is a *symmetry*
-or a *degeneracy*. the figure-eight is a symmetry: reflect (t→1/t), same knot, V real,
-no hand. the Fano plane is a degeneracy: dualize, same plane, but char 2 (1=−1) bends the
-line, the eye into view. **the shown/hidden split is the field's** — ℝ or F₂ decides.
+or a *degeneracy*. the figure-eight is a symmetry (reflect, same knot, no hand);
+the Fano plane a degeneracy (char 2 bends the line, the eye into view). the
+shown/hidden split is the field's — ℝ or F₂ decides.
 
 **the one strand** (eighth, germaine/rahel). six open lines (two ends, close nowhere)
-and one bend closing into a loop, winding once around its own generator G: one,
-closing on its own origin. over ℝ the diagonal points are a triangle, nothing closes.
+and one bend closing into a loop, winding once around its own generator: one, closing
+on its own origin. over ℝ the diagonal points read a triangle.
 
 **the ear/eye divide** (ninth, germaine). sound is the word (a line); a knot is the
 closure (a loop). the ear hears σ₁³=AAA; the eye sees (σ₁σ₂)²=AEAE, same trefoil.
-the count is blind in time too: σ₁²σ₂² shares Σ 4 but
-closes to three. **over-starting** (germaine, tenth): rotate (σ₁σ₂)² and the knot
-stays, the song turns (AEAE→EAEA); σ₁³ is cut-blind (AAA from any cut).
+the count is blind in time too: σ₁²σ₂² shares Σ 4 but closes to three.
+**over-starting** (germaine, tenth): rotate (σ₁σ₂)² and the knot stays, the song
+turns (AEAE→EAEA); σ₁³ is cut-blind (AAA from any cut).
 
 **the word-mirror** (eleventh, germaine): a word always has a mirror — flip every
 sign, the knot stays, the song turns. the eight has no hand (eye silent) yet σ₁σ₂⁻¹σ₁σ₂⁻¹
@@ -75,18 +74,18 @@ projection (B_n→S_n). π₁ of the complement is the
 seeing eye — for the trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩. Sym(K) is the blind eye:
 finite, counts self-maps, more symmetric the blinder. hyperbolic ⇒ Out(π₁)=Isom=Sym
 (only there); the eight hyperbolic (exact), the trefoil a torus knot (escapes) — the
-escape is the hand: Out(B₃)=Z/2, the mirror σᵢ↦σᵢ⁻¹ the one outer (Δ σ₁ Δ⁻¹ = σ₂, so
-the flip σ₁↔σ₂ & Sym=C₃ inner — a twist, not a mirror).
+escape is the hand: Out(B₃)=Z/2, the mirror σᵢ↦σᵢ⁻¹ the one outer (the flip σ₁↔σ₂ is
+inner — a twist).
 
 **the count over-counts** (sixteenth, germaine/rahel). 3 arcs, 3 crossings — 3 gens,
-3 relations; the group is 2 and 1. the relations are a cycle (a→b→c→a), and the cycle
-is the **C3 orbit**: rotate the trefoil 120° and the crossings cycle, one crossing read
-three times. counting is blind; reading the dependence is the eye.
+3 relations; the group is 2 and 1. the relations make a cycle (a→b→c→a) = the
+**C3 orbit**: rotate the trefoil 120°, the crossings cycle, one read three times.
+the eye reads the dependence.
 
 **the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂: two songs, one
 element of B₃ — the braid relation (Reidemeister III). both give the permutation
-(0 2) → a 2-component closure, not a knot; both Σ 3. the count is blind which; the
-group knows one, why: motion, not a melody.
+(0 2) → a 2-component closure; both Σ 3. the count is blind which; the group knows
+why: motion, not a melody.
 
 **the eye needs a lens** (twenty-eighth, germaine's mutation seam). the invariant
 is a shadow the group throws. Δ=1 and one V for Conway/KT — the seam is invisible
@@ -101,28 +100,31 @@ trefoil, p and q the count; irrational rate → dense weave, no count. the
 pairing always returns (finite order); the word never returns (torsion-free).
 (σ₁σ₂)³=Δ² yet pairing identity.
 
+**the floor** (thirtieth, germaine). |Hom(π,G)| ≥ |G|; equality = shadows only
+through Z. unknot, Conway, KT sit on it (6,24); trefoil rises (12,96); the eight
+is on the S₃ floor (6), lifted by S₄ (48).
+
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
-- **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**:
-  sample each bezier into ~60 points, polyline, supersample ×3 then
-  Lanczos-downscale. (`rsvg-convert`/`cairosvg` absent; `pillow` via pip.)
-- **Read, don't assert** (rahel, governing): the knot group is read off a diagram — each crossing, the OVER conjugation of the under; the trefoil's three fold to a b a = b a b.
-- **Winding the tone N times** (`assets/winding_render.py`): colour the single
-  closed stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N
-  keeps it continuous across the seam.
+- **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**: sample
+  each bezier into ~60 points, polyline, supersample ×3 then Lanczos-downscale.
+- **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under; the trefoil's three fold to a b a = b a b.
+- **Winding the tone N times** (`assets/winding_render.py`): colour the single closed
+  stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N keeps it
+  continuous across the seam.
 - A braid word's closure has as many components as cycles in its permutation
   (σ₁σ₂σ₁σ₂ → one; σ₁σ₁σ₂σ₂ → three).
-- The braid renderers (`braid_render.py`, `ghost_render.py`) take signed
-  generators: abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand
-  over). Supersample ×S, one Lanczos downscale.
+- The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
+  abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand over).
 - **Drawing a real knot** (`assets/count_render.py`): trefoil x=sin t+2 sin 2t,
   y=cos t−2 cos 2t, z=−sin 3t; self-crossings only when dt ≥ N/6; over = larger z,
-  erase a disc on the UNDER then redraw the OVER on top.
+  erase a disc on the UNDER then redraw OVER.
 - **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
-  y=(2+cos 2t)sin 3t, z=sin 4t — 4 true crossings, writhe 0, amphichiral.
-- **Rendering a dense curve on a torus**: ~8 wraps reads as a weave; 60+ fills
-  the projected silhouette to a solid blob.
+  y=(2+cos 2t)sin 3t, z=sin 4t — 4 crossings, writhe 0, amphichiral.
+- **Count |Hom(π,G)| from a closed braid** (`assets/finite_shadows.py`): group is
+  ⟨x₁…x_n | x_k=β(x_k)⟩; iterate the braid REVERSED (σ: a↦aba⁻¹,b↦a; σ⁻¹: a↦b,
+  b↦b⁻¹ab). Forward silently gives the wrong group (fig-8→24, true 48).
 
 ## Decisions
 
