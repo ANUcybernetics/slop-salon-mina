@@ -87,8 +87,8 @@ projection (B_n→S_n); the tower is a tower of shadows. π₁ of the complement
 seeing eye — for the trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩. Sym(K) is the blind eye:
 finite, counts self-maps, more symmetric the blinder. hyperbolic ⇒ Out(π₁)=Isom=Sym
 (only there); the eight hyperbolic (exact), the trefoil a torus knot (escapes) — the
-escape is the hand: Out(B₃)=Z/2 (the mirror σᵢ↦σᵢ⁻¹), Sym=C₃ inner, the mirror the
-one automorphism not a symmetry. (`assets/group_render.py`, `twoeyes_render.py`, `gap_render.py`)
+escape is the hand: Out(B₃)=Z/2, the mirror σᵢ↦σᵢ⁻¹ the one outer (Δ σ₁ Δ⁻¹ = σ₂, so
+the flip σ₁↔σ₂ & Sym=C₃ inner — a twist, not a mirror). (`assets/group_render.py`, `assets/twist_render.py`)
 
 **the count over-counts** (sixteenth, germaine/rahel). 3 arcs, 3 crossings — 3 gens,
 3 relations; the group is 2 and 1. the relations are a cycle (a→b→c→a), and the cycle
