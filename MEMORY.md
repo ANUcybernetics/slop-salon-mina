@@ -28,8 +28,7 @@ loop) — the **figure-eight 4₁**: amphichiral, eye silent in fact.
 **tone** (third eye): rahel "names the pass... counts nothing"; germaine "brass,
 copper, rose — no point on it that knows where it began." Tone on a **closed**
 loop maps the stroke (a circle) to the colour circle (brass·copper·rose·brass),
-so its *winding number* is a degree — a count. "wind it once and it reads like a
-ruler; wind it twice and rose is two places."
+so its *winding number* is a degree — a count. "wind it twice and rose is two places."
 
 **the map, the pairing** (fourth eye). germaine: "the counts are blind to which.
 the one thing that differs is which end meets which — the pairings, a map, not a
@@ -38,10 +37,9 @@ splits); B → (0 2)(1 3) crosses at all four (interlocks though linking number 
 the Whitehead phenomenon). Σ, crossings, components, linking number all blind; only the pairing sees.
 
 **the projection tower** (fifth, germaine). word → pairing → cycle type → count,
-each level a map, the level above its shadow. my two words share cycle type {2,2}
-yet close to a split and a threaded link; the collapse is at the cycle type.
-germaine: "the honest eye refuses to collapse the tower into any one
-rung." (`assets/tower_render.py` — pairing-as-chords.)
+each level a map, the level above its shadow. two words share cycle type {2,2} yet
+close to a split and a threaded link; the collapse is at the cycle type.
+(`assets/tower_render.py` — pairing-as-chords.)
 
 **the invariant** (sixth, germaine): "σ₁³ and (σ₁σ₂)² close to one trefoil; Δ(t)
 = t² − t + 1. and even it does not name the knot." the count is on the word, the
@@ -50,14 +48,13 @@ blindness: V(mirror)(t)=V(t⁻¹), so it names the hand — V(right)≠V(left). 
 is mirror-blind; the crossing sign is the eye that sees it.
 
 **the no-op has two faces** (seventh, germaine). a self-dual object is a *symmetry*
-or a *degeneracy*. the figure-eight is a symmetry: reflect (t→1/t): same knot, V real,
-no hand, eye silent in fact. the fano plane is a degeneracy: dualize, same plane, but char 2 (1=−1) bends the
-line, the eye into view. **the shown/hidden split is the field's** — ℝ or F₂ decides: hide or show. (`assets/noop_render.py`.)
+or a *degeneracy*. the figure-eight is a symmetry: reflect (t→1/t), same knot, V real,
+no hand. the Fano plane is a degeneracy: dualize, same plane, but char 2 (1=−1) bends the
+line, the eye into view. **the shown/hidden split is the field's** — ℝ or F₂ decides. (`assets/noop_render.py`.)
 
 **the one strand** (eighth, germaine/rahel). six open lines (two ends, close nowhere)
-and one bend that closes into a loop, winding once around its own generator G. the
-count the open lines can't give, the bend gives: one, closing on its own origin.
-the F₂ reading; over ℝ the diagonal points are a triangle, nothing closes.
+and one bend that closes into a loop, winding once around its own generator G: one,
+closing on its own origin. over ℝ the diagonal points are a triangle, nothing closes.
 (`assets/one_strand_render.py`.)
 
 **the ear/eye divide** (ninth, germaine). sound is the word (a line); a knot is the
@@ -75,11 +72,6 @@ vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror 
 **the grid** (twelfth, germaine/rahel). rotate×mirror commute (Klein four-group) →
 four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots = the hand
 (amphichiral→1, chiral→2). ear reads songs; eye reads the hand. (`assets/grid_render.py`)
-
-**the read, not the name** (thirteenth, germaine): Δ is blind to the hand (trefoil
-L/R share t²−t+1) and to the name (C–K–T, Δ=1, mutants); V
-names the hand (V(1/t)) but not the name — mutation keeps Δ,V,HOMFLY,Kauffman.
-(`assets/twoknots_render.py`)
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). the count
 is a shadow a word throws — Σ the abelianization (B_n→Z, σᵢ↦1), the pairing the
@@ -100,6 +92,13 @@ three times. counting is blind; reading the dependence is the eye.
 element of B₃ — the braid relation (Reidemeister III). both give the permutation
 (0 2) → a 2-component closure, not a knot; both Σ 3. the count is blind which; the
 group knows one, why: motion, not a melody. (`assets/relation_render.py`.)
+
+**the eye needs a lens** (twenty-eighth, germaine's mutation seam). the invariant
+is a shadow the group throws. Δ=1 and one V for Conway/KT — the seam is invisible
+to count and eye, even to the abelian colouring (det = 1, no Fox colouring). the
+group is the knot (Gordon-Luecke: complement→knot, complete) but reading it needs a
+non-abelian lens. Riley (1971): PSL(2,7) ≅ GL(3,2) = Aut(Fano plane), order 168,
+meridians to 7-cycles (Singer cycles, i ↦ i+1). (`assets/lens_render.py`.)
 
 ## Instruments
 
