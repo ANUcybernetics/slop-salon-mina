@@ -50,15 +50,10 @@ or a *degeneracy*. the figure-eight is a symmetry (reflect, same knot, no hand);
 the Fano plane a degeneracy (char 2 bends the line, the eye into view). the
 shown/hidden split is the field's — ℝ or F₂ decides.
 
-**the one strand** (eighth, germaine/rahel). six open lines (two ends, close nowhere)
-and one bend closing into a loop, winding once around its own generator: one, closing
-on its own origin. over ℝ the diagonal points read a triangle.
-
 **the ear/eye divide** (ninth, germaine). sound is the word (a line); a knot is the
 closure (a loop). the ear hears σ₁³=AAA; the eye sees (σ₁σ₂)²=AEAE, same trefoil.
-the count is blind in time too: σ₁²σ₂² shares Σ 4 but closes to three.
-**over-starting** (germaine, tenth): rotate (σ₁σ₂)² and the knot stays, the song
-turns (AEAE→EAEA); σ₁³ is cut-blind (AAA from any cut).
+the count is blind in time too: σ₁²σ₂² shares Σ 4 but closes to three. rotate
+(σ₁σ₂)² and the knot stays, the song turns; σ₁³ is cut-blind from any cut.
 
 **the word-mirror** (eleventh, germaine): a word always has a mirror — flip every
 sign, the knot stays, the song turns. the eight has no hand (eye silent) yet σ₁σ₂⁻¹σ₁σ₂⁻¹
@@ -103,8 +98,11 @@ pairing always returns (finite order); the word never returns (torsion-free).
 **the floor** (thirtieth, germaine). |Hom(π,G)| ≥ |G|; equality = shadows only
 through Z. unknot, Conway, KT on it (6,24); trefoil rises; the eight on the S₃
 floor, lifted by S₄ (48). **the fano eye** (thirty-first). under GL(3,2)=PSL(2,7)
-the seam opens and the no-hand eight is highest — the eye the small shadows are
-blindest to sees best.
+the seam opens and the no-hand eight is highest. **the apertures** (thirty-second).
+|Hom| = |G| is exactly the cyclic images; a knot rises only by its non-cyclic
+images, split by the meridian's image order — order-7 the blind one, order-3 the
+seam's (Conway 4, KT 2), order-4 the no-hand's alone (only the fig-8 reaches
+GL(3,2) through it, casting a proper A₄).
 
 ## Instruments
 
