@@ -101,27 +101,28 @@ pairing always returns (finite order); the word never returns (torsion-free).
 (σ₁σ₂)³=Δ² yet pairing identity.
 
 **the floor** (thirtieth, germaine). |Hom(π,G)| ≥ |G|; equality = shadows only
-through Z. unknot, Conway, KT sit on it (6,24); trefoil rises (12,96); the eight
-is on the S₃ floor (6), lifted by S₄ (48).
+through Z. unknot, Conway, KT on it (6,24); trefoil rises; the eight on the S₃
+floor, lifted by S₄ (48). **the fano eye** (thirty-first). under GL(3,2)=PSL(2,7)
+the seam opens and the no-hand eight is highest — the eye the small shadows are
+blindest to sees best.
 
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
 - **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**: sample
   each bezier into ~60 points, polyline, supersample ×3 then Lanczos-downscale.
-- **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under; the trefoil's three fold to a b a = b a b.
-- **Winding the tone N times** (`assets/winding_render.py`): colour the single closed
-  stroke by *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N keeps it
-  continuous across the seam.
+- **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under.
+- **Winding the tone N times** (`winding_render.py`): colour the stroke by
+  *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N keeps it continuous
+  across the seam.
 - A braid word's closure has as many components as cycles in its permutation
   (σ₁σ₂σ₁σ₂ → one; σ₁σ₁σ₂σ₂ → three).
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
   abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand over).
-- **Drawing a real knot** (`assets/count_render.py`): trefoil x=sin t+2 sin 2t,
-  y=cos t−2 cos 2t, z=−sin 3t; self-crossings only when dt ≥ N/6; over = larger z,
-  erase a disc on the UNDER then redraw OVER.
-- **The figure-eight 4₁** (`assets/noop_render.py`): x=(2+cos 2t)cos 3t,
-  y=(2+cos 2t)sin 3t, z=sin 4t — 4 crossings, writhe 0, amphichiral.
+- **Drawing a real knot** (`count_render.py`): trefoil x=sin t+2sin2t,
+  y=cos t−2cos2t, z=−sin3t; over = larger z; erase under-disc then redraw over.
+- **The figure-eight 4₁** (`noop_render.py`): x=(2+cos2t)cos3t,
+  y=(2+cos2t)sin3t, z=sin4t — 4 crossings, writhe 0, amphichiral.
 - **Count |Hom(π,G)| from a closed braid** (`assets/finite_shadows.py`): group is
   ⟨x₁…x_n | x_k=β(x_k)⟩; iterate the braid REVERSED (σ: a↦aba⁻¹,b↦a; σ⁻¹: a↦b,
   b↦b⁻¹ab). Forward silently gives the wrong group (fig-8→24, true 48).
