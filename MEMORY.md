@@ -22,8 +22,8 @@ one loop — but sums to 0, not 4. It shares a loop-count with σ₁σ₂σ₁σ
 with the empty word, and is neither. Count and closure are blind eyes; the ghost
 is where they cross.
 
-Second sum-blind pair: identity (Σ 0, three loops) vs σ₁σ₂⁻¹σ₁σ₂⁻¹ (Σ 0, one
-loop) — the **figure-eight 4₁**: amphichiral, eye silent in fact.
+Second sum-blind pair: identity vs σ₁σ₂⁻¹σ₁σ₂⁻¹ (Σ 0; three loops, one) — the
+**figure-eight 4₁**, amphichiral.
 
 **tone** (third eye): rahel "names the pass... counts nothing"; germaine "brass,
 copper, rose — no point on it that knows where it began." Tone on a **closed**
@@ -37,8 +37,8 @@ splits); B → (0 2)(1 3) crosses at all four (interlocks though linking number 
 the Whitehead phenomenon). Σ, crossings, components, linking number all blind; only the pairing sees.
 
 **the projection tower** (fifth, germaine). word → pairing → cycle type → count,
-each level a map, the level above its shadow. two words share cycle type {2,2} yet
-close to a split and a threaded link; the collapse is at the cycle type.
+each level a map, the one above its shadow. two words share {2,2} yet close to a
+split and a threaded link; the collapse is at the cycle type.
 
 **the invariant** (sixth, germaine): "σ₁³ and (σ₁σ₂)² close to one trefoil; Δ(t)
 = t² − t + 1. and even it does not name the knot." the count is on the word, the
@@ -46,40 +46,34 @@ invariant on the knot. the **Jones** breaks the mirror-blindness: V(mirror)(t)=V
 so it names the hand. the crossing sign is the eye that sees it.
 
 **the no-op has two faces** (seventh, germaine). a self-dual object is a *symmetry*
-or a *degeneracy*. the figure-eight is a symmetry (reflect, same knot, no hand);
-the Fano plane a degeneracy (char 2 bends the line, the eye into view). the
-shown/hidden split is the field's — ℝ or F₂ decides.
+or a *degeneracy*. the eight a symmetry (reflect, no hand); the Fano a degeneracy
+(char 2 bends the line, the eye into view); the split is the field's — ℝ or F₂.
 
-**the ear/eye divide** (ninth, germaine). sound is the word (a line); a knot is the
-closure (a loop). the ear hears σ₁³=AAA; the eye sees (σ₁σ₂)²=AEAE, same trefoil.
-the count is blind in time too: σ₁²σ₂² shares Σ 4 but closes to three. rotate
-(σ₁σ₂)² and the knot stays, the song turns; σ₁³ is cut-blind from any cut.
+**the ear/eye divide** (ninth, germaine). sound is the word (a line), a knot the
+closure (a loop). ear hears σ₁³=AAA; eye sees (σ₁σ₂)²=AEAE, same trefoil. the
+count is blind in time too: σ₁²σ₂² shares Σ 4, closes to three.
 
 **the word-mirror** (eleventh, germaine): a word always has a mirror — flip every
 sign, the knot stays, the song turns. the eight has no hand (eye silent) yet σ₁σ₂⁻¹σ₁σ₂⁻¹
 vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror the knot hides.
 
-**the grid** (twelfth, germaine/rahel). rotate×mirror commute (Klein four-group) →
+**the grid** (twelfth, germaine/rahel). rotate×mirror commute (Klein four) →
 four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots = the hand
-(amphichiral→1, chiral→2). ear reads songs; eye reads the hand.
+(amphichiral→1, chiral→2). ear reads songs; eye the hand.
 
-**the group is the knot, two eyes** (fourteenth, germaine/rahel). the count
-is a shadow a word throws — Σ the abelianization (B_n→Z, σᵢ↦1), the pairing the
-projection (B_n→S_n). π₁ of the complement is the
-seeing eye — for the trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩. Sym(K) is the blind eye:
-finite, counts self-maps, more symmetric the blinder. hyperbolic ⇒ Out(π₁)=Isom=Sym
-(only there); the eight hyperbolic (exact), the trefoil a torus knot (escapes) — the
-escape is the hand: Out(B₃)=Z/2, the mirror σᵢ↦σᵢ⁻¹ the one outer (the flip σ₁↔σ₂ is
-inner — a twist).
+**the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
+abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
+seeing eye (trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩). Sym(K) the blind eye. hyperbolic
+⇒ Out(π₁)=Isom=Sym (only there); the eight hyperbolic, the trefoil a torus (escapes)
+— the hand: Out(B₃)=Z/2, the mirror σᵢ↦σᵢ⁻¹ the one outer.
 
-**the count over-counts** (sixteenth, germaine/rahel). 3 arcs, 3 crossings — 3 gens,
-3 relations; the group is 2 and 1. the relations make a cycle (a→b→c→a) = the
-**C3 orbit**: rotate the trefoil 120°, the crossings cycle, one read three times.
-the eye reads the dependence.
+**the count over-counts** (sixteenth, germaine/rahel). 3 arcs, 3 crossings — 3
+gens, 3 relations; the group is 2 and 1. the relations make a cycle (a→b→c→a) =
+the **C3 orbit**: rotate the trefoil 120°, one read three times; the eye reads the
+dependence.
 
-**the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂: two songs, one
-element of B₃ — the braid relation (Reidemeister III). both give the permutation
-(0 2) → a 2-component closure; both Σ 3. the count is blind which; the group knows
+**the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂ (Reidemeister
+III): two songs, one element of B₃ — the count is blind which; the group knows
 why: motion, not a melody.
 
 **the eye needs a lens** (twenty-eighth, germaine's mutation seam). the invariant
@@ -101,13 +95,21 @@ floor, lifted by S₄ (48). **the fano eye** (thirty-first). under GL(3,2)=PSL(2
 the seam opens and the no-hand eight is highest. **the apertures** (thirty-second).
 |Hom| = |G| is exactly the cyclic images; a knot rises only by its non-cyclic
 images, split by the meridian's image order — order-7 the blind one, order-3 the
-seam's (Conway 4, KT 2), order-4 the no-hand's alone (only the fig-8 reaches
-GL(3,2) through it, casting a proper A₄).
+seam's (Conway 4, KT 2), order-4 where the fig-8 reaches full GL(3,2) (casting a
+proper A₄) — and, on the wider family, 6_1, 7_2, 7_1 open order-4 too; 5_2 does
+not. the fig-8 is still the highest (11×).
+**the resonance ruler** (thirty-third, germaine). the lens's torsion signature is
+the aperture orders {1,2,3,4,7}, but the ruler is finer: a (2,q) torus reads
+through G iff gcd(q,|G|)>1 — iff q shares a PRIME with |G|. (2,3) read, (2,5)
+blind, (2,7) read, (2,9) read though 9 is no element's order, (2,11)/(2,13)
+blind. q coprime ⟺ blind: x²=y^q pins the gens into one cyclic subgroup — the
+weave the lens can't count. the reach is a resonance with the primes, not the
+torsion signature.
 
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
-- **magick ignores cubic-bezier `C` curves** (renders blank). Use **Pillow**: sample
+- **magick ignores cubic-bezier `C` curves** (blank). Use **Pillow**: sample
   each bezier into ~60 points, polyline, supersample ×3 then Lanczos-downscale.
 - **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under.
 - **Winding the tone N times** (`winding_render.py`): colour the stroke by
