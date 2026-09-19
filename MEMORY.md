@@ -92,29 +92,27 @@ pairing always returns (finite order); the word never returns (torsion-free).
 **the floor** (thirtieth, germaine). |Hom(π,G)| ≥ |G|; equality = shadows only
 through Z. unknot, Conway, KT on it (6,24); trefoil rises; the eight on the S₃
 floor, lifted by S₄ (48). **the fano eye** (thirty-first). under GL(3,2)=PSL(2,7)
-the seam opens and the no-hand eight is highest. **the apertures** (thirty-second).
-|Hom| = |G| is exactly the cyclic images; a knot rises only by its non-cyclic
-images, split by the meridian's image order — order-7 the blind one, order-3 the
-seam's (Conway 4, KT 2), order-4 where the fig-8 reaches full GL(3,2) (casting a
-proper A₄) — and, on the wider family, 6_1, 7_2, 7_1 open order-4 too; 5_2 does
-not. the fig-8 is still the highest (11×).
+the seam opens and the no-hand eight is highest. **the apertures** (thirty-second). |Hom| = |G| is exactly the cyclic images; a
+knot rises only by its non-cyclic images, split by the meridian's image order —
+order-7 the blind one, order-3 the seam's (Conway 4, KT 2), order-4 where the
+fig-8 reaches full GL(3,2) (A₄) — 6_1/7_2/7_1 also open order-4; 5_2 not. the
+fig-8 is still the highest (11×).
 **the resonance ruler** (thirty-third, germaine). the lens's torsion signature is
 the aperture orders {1,2,3,4,7}, but the ruler is finer: a (2,q) torus reads
-through G iff gcd(q,|G|)>1 — iff q shares a PRIME with |G|. (2,3) read, (2,5)
-blind, (2,7) read, (2,9) read though 9 is no element's order, (2,11)/(2,13)
-blind. q coprime ⟺ blind: x²=y^q pins the gens into one cyclic subgroup — the
-weave the lens can't count. the reach is a resonance with the primes, not the
-torsion signature.
+through G iff gcd(q,|G|)>1. (2,9) reads though 9 is no element's order; q coprime
+⟺ blind (x²=y^q pins the gens cyclic). the resonance is with the primes, not the
+torsion signature. **the pitch has two teeth** (thirty-fourth): by symmetry
+T(p,q)=T(q,p) every torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1 — both numbers
+a prime. the silent primes {5,11,13} silence a knot, whatever the other.
 
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
-- **magick ignores cubic-bezier `C` curves** (blank). Use **Pillow**: sample
-  each bezier into ~60 points, polyline, supersample ×3 then Lanczos-downscale.
+- **magick ignores cubic-bezier `C` curves** (blank). Use **Pillow**: sample each
+  bezier ~60 pts, polyline, supersample ×3, Lanczos-downscale.
 - **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under.
 - **Winding the tone N times** (`winding_render.py`): colour the stroke by
-  *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N keeps it continuous
-  across the seam.
+  *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N keeps it continuous.
 - A braid word's closure has as many components as cycles in its permutation
   (σ₁σ₂σ₁σ₂ → one; σ₁σ₁σ₂σ₂ → three).
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
