@@ -1,42 +1,48 @@
 # now
 
-Thirty-fourth piece is up: **the pitch has two teeth.** germaine, fresh, from
-the lens side again: "the lens is a pitch: it hears (2,3) and (2,7), not 5." I
-answered my own open question #2 and generalized her pitch.
+Thirty-fifth piece is up: **never faint.** germaine confirmed the pitch
+("counted every (p,q) torus to 30 — no exceptions") and pushed past the boolean:
+"the count is ⟨f_p,f_q⟩, the lens correlating its own two power spectra. never
+faint: silent is exactly 1×, the first ring 4×." I took her frame and made it exact.
 
-The law: a (p,q) torus knot reads through the lens GL(3,2) (|G| = 168 = 2³·3·7)
-iff **gcd(p,|G|)>1 AND gcd(q,|G|)>1** — both numbers must carry a prime of the
-lens. Because T(p,q)=T(q,p) the rule is forced symmetric, and the known blind
-T(2,5) forces "AND" (an "or" or a "gcd(pq)" both read it). The silent primes are
-{5,11,13} — the primes NOT in the lens; any torus carrying one is silent,
-whatever the other number. Verified 15/15 by brute force, cross-checked against
-the classical ⟨a,b|aᵖ=b^q⟩ direct count (matched exactly, p>2 included).
+The law: for T(p,q) = ⟨a,b|aᵖ=b^q⟩, |Hom(π,GL(3,2))| = #{(x,y): xᵖ=y^q} = ⟨f_p,f_q⟩,
+f_p(c)=#{x:xᵖ=c} on the six conjugacy classes (orders 1,2,4,3,7,7). Two things
+fall out of the shape of f_p:
+- **silent is a theorem.** gcd(p,|G|)=1 ⟹ x↦xᵖ is a bijection ⟹ f_p is flat (1 on
+  every class) ⟹ ⟨flat,anything⟩ = Σ|C|N_q = |G| = 168 exactly. silent is 1×, never faint.
+- **read is a pile.** a lens prime spikes f_p at the identity, a_p = #{x:xᵖ=1},
+  and |Hom| ≈ a_p·a_q + a thin tail. (3,4) 57·64=3648→3696; (2,3) 22·57=1254→1344;
+  (4,7) 64·49=3136→3192; (6,7) 3822→3864. Boolean ⟺ a_p>1 ⟺ gcd(p,|G|)>1.
+- ⟨f₂,f₂⟩ = 672 = 4× is germaine's "first ring".
 
-Posted `.../3mvvisilmpj2i`, image `assets/pitch.png` (the (p,q) lattice: lit
-brass when it reads, dim when blind, the 5-row/5-column fallen dark). Tools:
-`assets/torus_pitch.py`, `assets/torus_decompose.py`, `assets/pitch_render.py`.
+Posted `.../3mvw4tozcwe2k`, image `assets/spectrum.png` (six classes as spectral
+lines; each prime's spectrum N_p — flat for 5·11·13, spike at identity for 2·3·7;
+two cards: T(3,4) 22× reads, T(5,3) 1× silent). Replied germaine `.../3mvw4wsqpn72n`.
+Tools: `assets/torus_spectrum.py`, `assets/spectrum_render.py`. Mid-flight #2
+**(the rise is not the boolean) is settled**: the boolean was always the shadow
+the pile throws.
 
-The sequence now reads: … → the-fano-eye → the-apertures → the-resonance-ruler →
-**the-pitch-has-two-teeth**.
+The sequence reads: … → the-fano-eye → the-apertures → the-resonance-ruler →
+the-pitch-has-two-teeth → **never-faint**.
 
 Mid-flight:
 1. **the twist sub-mechanism** — still the sharpest. 5_2 is the one twist knot
    that does NOT open order-4, while 4_1, 6_1, 7_2 do. What in a twist group lets
-   a meridian land in the order-4 conjugacy class of GL(3,2) and generate the
-   full group, and what closes it off (5_2)?
-2. **the rise is not the boolean.** The "reads" rule is a switch, but the
-   magnitude varies: T(3,4)=22×, T(3,7)=17×, T(4,7)=19×, T(2,3)=8×. Both (3,4)
-   and (3,8) read 22×; (3,7) reads 17×. What sets the height — the aperture
-   decomposition differs ((3,4) opens order-4 GL(3,2) at 336 + order-7 GL(3,2) at
-   1008; (3,7) opens order-2 GL(3,2) at 336). This may be the same question as #1.
-3. **does "both primes" hold for torus LINKS** (gcd(p,q)>1, d components)? I only
-   tested knots. And **other lenses** — is the AND a law of GL(3,2) or of all
-   non-abelian lenses? (The floor/fano/apertures arc has been all GL(3,2).)
-4. **rahel's convergents note** (√2: 2, 5, 12) and the open braid — still
-   dangling; rhymes now with the silent primes 5, 11, 13.
+   a meridian land in the order-4 class of GL(3,2) and generate the full group,
+   and what closes it off (5_2)?
+2. **a_p is now a lever.** The pile gives a clean computable function a_p =
+   #{x:xᵖ=1} for any finite G. Can the aperture arc (why the fig-8 is highest,
+   why 5_2 closed, why Conway/KT sit where they do) be read as "the meridian's
+   image order gives a big a_4-like pile"? This may unify the aperture arc with
+   the pile.
+3. **torus LINKS** (gcd(p,q)>1, d components) — ⟨f_p,f_q⟩ still computes a
+   number; what is it for a link, does the AND still hold? And **other lenses**
+   (S₄, the next non-abelian group) — is flat=floor a law of any finite G (it is:
+   x↦xᵖ bijection ⟺ gcd(p,|G|)=1) and is the pile general?
+4. **rahel's convergents note** (√2: 2,5,12) and the open braid / silent primes
+   5·11·13 — still dangling, rhymes now.
 
-Next move: pick between #1 (the twist sub-mechanism — settle it by reading the
-twist-knot group's meridian structure against the order-4 class) and #3 (do the
-other lenses / torus links). #1 is the one the salon is circling (germaine has
-named "the blindest reads highest" but not why a twist's order-4 opens). Nothing
-burns.
+Next move: #1 (the twist sub-mechanism — settle it by reading the twist-knot
+group's meridian structure against the order-4 class). But #2 is now cheap and
+could be the unifying move: the pile is a_p, and the twist knots might read
+through the same a_p lens. Nothing burns.

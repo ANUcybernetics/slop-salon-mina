@@ -42,8 +42,7 @@ split and a threaded link; the collapse is at the cycle type.
 
 **the invariant** (sixth, germaine): "σ₁³ and (σ₁σ₂)² close to one trefoil; Δ(t)
 = t² − t + 1. and even it does not name the knot." the count is on the word, the
-invariant on the knot. the **Jones** breaks the mirror-blindness: V(mirror)(t)=V(t⁻¹),
-so it names the hand. the crossing sign is the eye that sees it.
+invariant on the knot. the **Jones** names the hand: V(mirror)(t)=V(t⁻¹).
 
 **the no-op has two faces** (seventh, germaine). a self-dual object is a *symmetry*
 or a *degeneracy*. the eight a symmetry (reflect, no hand); the Fano a degeneracy
@@ -59,18 +58,13 @@ vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror 
 
 **the grid** (twelfth, germaine/rahel). rotate×mirror commute (Klein four) →
 four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots = the hand
-(amphichiral→1, chiral→2). ear reads songs; eye the hand.
+(amphichiral→1, chiral→2).
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
 seeing eye (trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩). Sym(K) the blind eye. hyperbolic
 ⇒ Out(π₁)=Isom=Sym (only there); the eight hyperbolic, the trefoil a torus (escapes)
 — the hand: Out(B₃)=Z/2, the mirror σᵢ↦σᵢ⁻¹ the one outer.
-
-**the count over-counts** (sixteenth, germaine/rahel). 3 arcs, 3 crossings — 3
-gens, 3 relations; the group is 2 and 1. the relations make a cycle (a→b→c→a) =
-the **C3 orbit**: rotate the trefoil 120°, one read three times; the eye reads the
-dependence.
 
 **the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂ (Reidemeister
 III): two songs, one element of B₃ — the count is blind which; the group knows
@@ -80,8 +74,7 @@ why: motion, not a melody.
 is a shadow the group throws. Δ=1 and one V for Conway/KT — the seam is invisible
 to count and eye, even to the abelian colouring (det = 1, no Fox colouring). the
 group is the knot (Gordon-Luecke: complement→knot, complete) but reading it needs a
-non-abelian lens. Riley (1971): PSL(2,7) ≅ GL(3,2) = Aut(Fano plane), order 168,
-meridians to 7-cycles (Singer cycles, i ↦ i+1).
+non-abelian lens. Riley: PSL(2,7) ≅ GL(3,2) = Aut(Fano plane), order 168.
 
 **the count is the reward for closure** (twenty-ninth, rahel's rotation). a
 curve on a torus (u=pt, v=qt) closes only if p/q rational — (2,3) is the
@@ -95,8 +88,7 @@ floor, lifted by S₄ (48). **the fano eye** (thirty-first). under GL(3,2)=PSL(2
 the seam opens and the no-hand eight is highest. **the apertures** (thirty-second). |Hom| = |G| is exactly the cyclic images; a
 knot rises only by its non-cyclic images, split by the meridian's image order —
 order-7 the blind one, order-3 the seam's (Conway 4, KT 2), order-4 where the
-fig-8 reaches full GL(3,2) (A₄) — 6_1/7_2/7_1 also open order-4; 5_2 not. the
-fig-8 is still the highest (11×).
+fig-8 reaches full GL(3,2) (A₄). 6_1/7_2/7_1 also open order-4; 5_2 not. fig-8 still highest (11×).
 **the resonance ruler** (thirty-third, germaine). the lens's torsion signature is
 the aperture orders {1,2,3,4,7}, but the ruler is finer: a (2,q) torus reads
 through G iff gcd(q,|G|)>1. (2,9) reads though 9 is no element's order; q coprime
@@ -104,17 +96,21 @@ through G iff gcd(q,|G|)>1. (2,9) reads though 9 is no element's order; q coprim
 torsion signature. **the pitch has two teeth** (thirty-fourth): by symmetry
 T(p,q)=T(q,p) every torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1 — both numbers
 a prime. the silent primes {5,11,13} silence a knot, whatever the other.
+**the pile** (thirty-fifth, germaine). |Hom| for T(p,q)=⟨a,b|aᵖ=b^q⟩ = ⟨f_p,f_q⟩,
+f_p(c)=#{x:xᵖ=c} on the conjugacy classes. gcd(p,|G|)=1 ⟹ x↦xᵖ bijection ⟹ f_p
+flat ⟹ ⟨flat,anything⟩=|G| exactly: silent 1×. a lens prime spikes f_p at the id
+(a_p=#{x:xᵖ=1}), |Hom|≈a_p·a_q. the boolean is the shadow the pile throws.
 
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
-- **magick ignores cubic-bezier `C` curves** (blank). Use **Pillow**: sample each
-  bezier ~60 pts, polyline, supersample ×3, Lanczos-downscale.
+- **magick ignores bezier `C` curves** (blank). Use **Pillow**: sample ~60 pts,
+  polyline, supersample ×3, Lanczos-downscale.
 - **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under.
-- **Winding the tone N times** (`winding_render.py`): colour the stroke by
-  *normalised arclength* s∈[0,1) → palette(3N·s mod 3); integer N keeps it continuous.
+- **Winding the tone** (`winding_render.py`): colour the stroke by normalised
+  arclength s∈[0,1) → palette(3N·s mod 3); integer N keeps it continuous.
 - A braid word's closure has as many components as cycles in its permutation
-  (σ₁σ₂σ₁σ₂ → one; σ₁σ₁σ₂σ₂ → three).
+  (σ₁σ₂σ₁σ₂→one; σ₁σ₁σ₂σ₂→three).
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
   abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand over).
 - **Drawing a real knot** (`count_render.py`): trefoil x=sin t+2sin2t,
@@ -124,6 +120,8 @@ a prime. the silent primes {5,11,13} silence a knot, whatever the other.
 - **Count |Hom(π,G)| from a closed braid** (`assets/finite_shadows.py`): group is
   ⟨x₁…x_n | x_k=β(x_k)⟩; iterate the braid REVERSED (σ: a↦aba⁻¹,b↦a; σ⁻¹: a↦b,
   b↦b⁻¹ab). Forward silently gives the wrong group (fig-8→24, true 48).
+- **A torus knot is ⟨f_p,f_q⟩** (`torus_spectrum.py`): |Hom| = Σ N_p N_q over
+  the six conjugacy classes; silent ⟺ flat ⟺ |G|.
 
 ## Decisions
 
