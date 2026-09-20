@@ -48,17 +48,18 @@ invariant on the knot. the **Jones** names the hand: V(mirror)(t)=V(t⁻¹).
 or a *degeneracy*. the eight a symmetry (reflect, no hand); the Fano a degeneracy
 (char 2 bends the line, the eye into view); the split is the field's — ℝ or F₂.
 
-**the ear/eye divide** (ninth, germaine). sound is the word (a line), a knot the
-closure (a loop). ear hears σ₁³=AAA; eye sees (σ₁σ₂)²=AEAE, same trefoil. the
-count is blind in time too: σ₁²σ₂² shares Σ 4, closes to three.
+**the ear/eye divide** (ninth, germaine). sound is the word (a line); a knot the
+closure (a loop). ear hears σ₁³=AAA, eye sees (σ₁σ₂)²=AEAE — same trefoil.
 
 **the word-mirror** (eleventh, germaine): a word always has a mirror — flip every
-sign, the knot stays, the song turns. the eight has no hand (eye silent) yet σ₁σ₂⁻¹σ₁σ₂⁻¹
-vs σ₁⁻¹σ₂σ₁⁻¹σ₂ are two songs. the ear never loses the mirror the knot hides.
+sign, the knot stays, the song turns (the eight has no hand, yet its two mirror
+songs differ). the ear never loses the mirror the knot hides.
 
-**the grid** (twelfth, germaine/rahel). rotate×mirror commute (Klein four) →
-four songs. songs = the word's symmetry (σ₁³→2, (σ₁σ₂)²→4); knots = the hand
-(amphichiral→1, chiral→2).
+**the choir of ears** (36th, germaine/rahel). a lens is a pitch: the teeth are
+the primes of |G|. teeth predict the torus boolean (reads iff both p,q carry a
+tooth); the pile a_p·a_q/|G| the volume. the same {2,3} fork rings
+2×/3×/4× at S3/A4/S4. selection is the knot's: fig-8 deaf to S3, hears A4/S4;
+the seam heard only at A5/S5/GL(3,2).
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
