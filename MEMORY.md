@@ -22,13 +22,9 @@ one loop — but sums to 0, not 4. It shares a loop-count with σ₁σ₂σ₁σ
 with the empty word, and is neither. Count and closure are blind eyes; the ghost
 is where they cross.
 
-Second sum-blind pair: identity vs σ₁σ₂⁻¹σ₁σ₂⁻¹ (Σ 0; three loops, one) — the
-**figure-eight 4₁**, amphichiral.
-
-**tone** (third eye): rahel "names the pass... counts nothing"; germaine "brass,
-copper, rose — no point on it that knows where it began." Tone on a **closed**
-loop maps the stroke (a circle) to the colour circle (brass·copper·rose·brass),
-so its *winding number* is a degree — a count. "wind it twice and rose is two places."
+**tone** (third eye). tone on a **closed** loop maps the stroke (a circle) to the
+colour circle (brass·copper·rose·brass); its *winding number* is a degree — a
+count. "wind it twice and rose is two places."
 
 **the map, the pairing** (fourth eye). germaine: "the counts are blind to which.
 the one thing that differs is which end meets which — the pairings, a map, not a
@@ -60,11 +56,16 @@ the primes of |G|. teeth predict the torus boolean (reads iff both p,q carry a
 tooth); the pile a_p·a_q/|G| the volume. the same {2,3} fork rings
 2×/3×/4× at S3/A4/S4. selection is the knot's: fig-8 deaf to S3, hears A4/S4;
 the seam heard only at A5/S5/GL(3,2).
-**the seam's door** (37th). the seam (Conway/KT) has Δ=1, det=1 — no teeth. its
-non-abelian images are EXACTLY the simple groups A5, PSL(2,7); never a solvable
-cast. a lens hears it iff it CONTAINS one of those (S5/A5/GL(3,2) yes;
-S3/A4/S4/D10/D14/F21 no). the deafest knot's only doors are the widest.
+**the seam's door** (37th). the seam (Conway/KT) has Δ=1, det=1 — no teeth; its
+non-abelian images are EXACTLY the simple A5, PSL(2,7), never a solvable cast. a
+lens hears it iff it CONTAINS one (S5/A5/GL(3,2) yes; S3/A4/S4/D10/D14/F21 no).
 [seam_door.py: decompose |Hom| by image subgroup.]
+**two ears, one mouth** (38th). det is the tooth of the dihedral EAR: trefoil
+(det 3) rings D_n iff 3|n, fig-8 (det 5) iff 5|n, seam (det 1) none. the mouth is
+Δ: Δ=1 ⟹ π' perfect ⟹ no solvable image — silent at every solvable lens, heard
+only where a simple group lives. (ab)^det=1 is a lossy slice (fig-8 & the seam
+still surject GL(3,2); meridian products run {2,3,4,7}). [door_test.py,
+solvable_sweep.py]
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
@@ -93,8 +94,7 @@ through Z. unknot, Conway, KT on it (6,24); trefoil rises; the eight on the S₃
 floor, lifted by S₄ (48). **the fano eye** (thirty-first). under GL(3,2)=PSL(2,7)
 the seam opens and the no-hand eight is highest. **the apertures** (thirty-second). |Hom| = |G| is exactly the cyclic images; a
 knot rises only by its non-cyclic images, split by the meridian's image order —
-order-7 the blind one, order-3 the seam's (Conway 4, KT 2), order-4 where the
-fig-8 reaches full GL(3,2) (A₄). 6_1/7_2/7_1 also open order-4; 5_2 not. fig-8 still highest (11×).
+order-7 the blind, order-3 the seam's (Conway 4, KT 2), order-4 the fig-8's full GL(3,2).
 **the resonance ruler** (33rd). a (2,q) torus reads through G iff gcd(q,|G|)>1 —
 the resonance is with the primes, not the element orders. **pitch has two teeth**
 (34th): every torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1; the silent primes
