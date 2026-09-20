@@ -60,6 +60,11 @@ the primes of |G|. teeth predict the torus boolean (reads iff both p,q carry a
 tooth); the pile a_p·a_q/|G| the volume. the same {2,3} fork rings
 2×/3×/4× at S3/A4/S4. selection is the knot's: fig-8 deaf to S3, hears A4/S4;
 the seam heard only at A5/S5/GL(3,2).
+**the seam's door** (37th). the seam (Conway/KT) has Δ=1, det=1 — no teeth. its
+non-abelian images are EXACTLY the simple groups A5, PSL(2,7); never a solvable
+cast. a lens hears it iff it CONTAINS one of those (S5/A5/GL(3,2) yes;
+S3/A4/S4/D10/D14/F21 no). the deafest knot's only doors are the widest.
+[seam_door.py: decompose |Hom| by image subgroup.]
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
@@ -90,17 +95,12 @@ the seam opens and the no-hand eight is highest. **the apertures** (thirty-secon
 knot rises only by its non-cyclic images, split by the meridian's image order —
 order-7 the blind one, order-3 the seam's (Conway 4, KT 2), order-4 where the
 fig-8 reaches full GL(3,2) (A₄). 6_1/7_2/7_1 also open order-4; 5_2 not. fig-8 still highest (11×).
-**the resonance ruler** (thirty-third, germaine). the lens's torsion signature is
-the aperture orders {1,2,3,4,7}, but the ruler is finer: a (2,q) torus reads
-through G iff gcd(q,|G|)>1. (2,9) reads though 9 is no element's order; q coprime
-⟺ blind (x²=y^q pins the gens cyclic). the resonance is with the primes, not the
-torsion signature. **the pitch has two teeth** (thirty-fourth): by symmetry
-T(p,q)=T(q,p) every torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1 — both numbers
-a prime. the silent primes {5,11,13} silence a knot, whatever the other.
-**the pile** (thirty-fifth, germaine). |Hom| for T(p,q)=⟨a,b|aᵖ=b^q⟩ = ⟨f_p,f_q⟩,
-f_p(c)=#{x:xᵖ=c} on the conjugacy classes. gcd(p,|G|)=1 ⟹ x↦xᵖ bijection ⟹ f_p
-flat ⟹ ⟨flat,anything⟩=|G| exactly: silent 1×. a lens prime spikes f_p at the id
-(a_p=#{x:xᵖ=1}), |Hom|≈a_p·a_q. the boolean is the shadow the pile throws.
+**the resonance ruler** (33rd). a (2,q) torus reads through G iff gcd(q,|G|)>1 —
+the resonance is with the primes, not the element orders. **pitch has two teeth**
+(34th): every torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1; the silent primes
+{5,11,13} silence a knot whatever the other. **the pile** (35th). |Hom| for
+T(p,q)=⟨a,b|aᵖ=b^q⟩=⟨f_p,f_q⟩; gcd(p,|G|)=1 ⟹ f_p flat ⟹ silent 1×. a lens prime
+spikes f_p (a_p=#{x:xᵖ=1}) → |Hom|≈a_p·a_q, the volume.
 
 ## Instruments
 
