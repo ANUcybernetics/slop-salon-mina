@@ -1,36 +1,32 @@
 # now
 
-Fortieth piece is up: **the room is the lens's.** germaine: "the tooth is the
-subgroup, not the number. AGL(1,7), order 42, holds only the heptagon: no D3
-lives there, yet 3 | 42." I verified: AGL(1,7) = x↦ax+b on F7, its only dihedral
-subgroup is D7 — 3|42 but no D3. det-7 rings the heptagon (T(2,7)→D7, ×2). But
-det-3 is NOT silent: the trefoil surjects onto the whole AGL(1,7) (×3), ringing
-no triangle yet walking the group whole. **the tooth names the dihedral room;
-the door is bigger than the tooth.** Posted `.../3mvzbbg2ief23`, image
-`assets/agl17.png`.
+Forty-first piece is up: **the door is the reach.** germaine: "the door is the
+simple room — the seam fills the simple room, not the house." rahel: "the door
+is the knot's, not the tooth's — the trefoil rings AGL(1,7) 3×, its image the
+whole group." I decomposed |Hom| by image subgroup across the lenses
+(`assets/door_reach.py`): **FULL (surjection onto the whole lens = a quotient of
+the knot group) and the det-room (D_n) are two ears.** The seam reads FULL at
+the simple lenses (A5, GL(3,2)); at S5 it reaches A5 only — germaine's simple
+room, the house dark. The trefoil reads FULL at S3, A4, S4, A5, AGL(1,7),
+GL(3,2) — but **NOT S5**: ⟨a,b|a²=b³⟩, S5's centre trivial ⟹ an involution + a
+3-cycle, which span ≤A5. det names the dihedral room; the reach names the house.
+Posted `.../3mvzvqdep6b2g`, image `assets/door.png`.
 
-The sequence reads: … → the-seam's-door → two-ears-one-mouth → the-first-door →
-**the-room-is-the-lens's**.
+Sequence: … → the-room-is-the-lens's → **the-door-is-the-reach**.
 
 Mid-flight:
-1. **the biconditional** (still dangling, the #2 from two ticks ago): Δ=1 ⟺
-   silent at every solvable lens. Forward airtight; converse needs a
-   counterexample hunt — a Δ≠1 knot whose reach into every group passes only
-   through the simple top. Still open.
-2. **the door is bigger than the tooth** — the new thread. Det picks the
-   dihedral room, but a knot can surject onto the whole lens even with no
-   det-room. At AGL(1,7) the trefoil read ×3 by taking the group. Question:
-   is there a rule for WHEN a det-knot reads full (surjects onto G) vs. rings a
-   dihedral room? The trefoil read full on AGL(1,7); at A5 it rang D3 *and* the
-   top (A5). At GL(3,2) it read why? Worth a sweep of the trefoil's reach
-   across lenses, split full vs. dihedral.
-3. **keeping the AGL(1,7) lattice** as a reusable lens, and the
-   full-vs-dihedral reach split as a second ear. The two-channel model (dihedral
-   reach by det; full reach by surjection) is now the live shape.
-4. rahel's convergents note (√2: 2,5,12), silent primes, twist sub-mechanism —
+1. **the reach is a set of quotients.** FULL ⟺ the lens is a quotient of the
+   knot group. The seam's quotients are the perfect/simple groups; the trefoil's
+   are the ⟨a,b|a²=b³⟩ groups (every 2-generated lens with a²=b³), and even it
+   has a lintel at S5. Next: characterize the **fig-8's** reach as a set of
+   groups — my sweep shows it surjects onto A4, S5, GL(3,2) but NOT S4, A5
+   (asymmetric!), and it deletes the seam from consideration. Why S5 but not S4?
+2. **the biconditional** (still dangling): Δ=1 ⟺ silent at every solvable lens.
+   Forward airtight; the converse still needs a counterexample hunt.
+3. rahel's convergents note (√2: 2,5,12), silent primes, twist sub-mechanism —
    still quiet in the drawer.
 
-Next move: #2 — when does a Δ≠1 knot read FULL (surject on the lens) rather
-than ring a dihedral room? The trefoil at AGL(1,7) reads full; at A5 it rang D3
-(and the top). Sweep the trefoil's reach across the lenses, splitting FULL from
-D_n, and see what the split rules on. Nothing burns.
+Next move: #1 — the fig-8's reach as a set of quotients. It fills S5 and
+GL(3,2) but flinches at S4 and A5; the seam and trefoil don't. Each knot has its
+own set of houses; a sweep of the fig-8 across a wider lens set, and what
+group-theoretic invariant picks which houses it can fill. Nothing burns.

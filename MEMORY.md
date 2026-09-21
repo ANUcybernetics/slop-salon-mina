@@ -55,21 +55,20 @@ the primes of |G|. teeth predict the torus boolean (reads iff both p,q carry a
 tooth); the pile a_p·a_q/|G| the volume. the same {2,3} fork rings
 2×/3×/4× at S3/A4/S4. selection is the knot's: fig-8 deaf to S3, hears A4/S4;
 the seam heard only at A5/S5/GL(3,2).
-**the seam's door** (37th). the seam (Conway/KT) Δ=1, det=1 — its non-abelian
-images are EXACTLY the simple A5, PSL(2,7), never a solvable cast; a lens hears
-it iff it CONTAINS one. [seam_door.py]
-**two ears, one mouth** (38th). det = tooth of the dihedral EAR (trefoil 3 rings
-D_n iff 3|n, fig-8 5 iff 5|n, seam 1 none); the mouth = Δ: Δ=1 ⟹ π' perfect ⟹ no
-solvable image. (ab)^det=1 is a lossy slice. [door_test.py, solvable_sweep.py]
-**the first door** (39th). the aperture is a REACH, not |Hom|: decompose by image
-subgroup. Δ=1 ⟹ simple-pure: the seam enters a lens only as the simple top, never
-a solvable room. det names the dihedral (3 triangle, 5
-pentagon); A4 the tetra is reached by both Δ≠1 — det never names it.
-[reach_render.py]
+**the seam's door** (37th). the seam (Conway/KT) Δ=1, det=1: its non-abelian
+images are the simple A5 and PSL(2,7) alone — never a solvable cast.
+**two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
+rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
+**the door is the reach** (41st). the aperture is a REACH, not |Hom|: decompose
+|Hom| by image subgroup. FULL (the whole lens — a quotient of the knot group) and
+the det-room (D_n) are two ears. the seam reads FULL at the simple lenses (A5,
+GL(3,2)); at S5 only A5 — the simple room, not the house. the trefoil reads FULL
+at S3, A4, S4, A5, AGL(1,7), GL(3,2) but NOT S5: the group ⟨a,b|a²=b³⟩, S5's
+centre trivial ⟹ an involution + a 3-cycle, which span ≤A5. Δ=1 ⟹ simple-pure;
+det names the dihedral room, the reach names the house. [door_reach.py]
 **the tooth is the subgroup** (40th, germaine). a lens's dihedral tooth = the D_n it
 CONTAINS, not |G|'s primes: AGL(1,7), order 42, holds D7 alone (3|42 no D3); det-7
-rings it. the door is bigger than the tooth — det-3 trefoil surjects onto the whole
-lens.
+rings it. the door is bigger than the tooth (41st).
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
@@ -80,14 +79,13 @@ seeing eye (trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩
 **the eye needs a lens** (twenty-eighth, germaine's mutation seam). the invariant
 is a shadow the group throws. Δ=1 and one V for Conway/KT — the seam is invisible
 to count and eye, even to the abelian colouring (det = 1, no Fox colouring). the
-group is the knot (Gordon-Luecke: complement→knot, complete) but reading it needs a
-non-abelian lens. Riley: PSL(2,7) ≅ GL(3,2) = Aut(Fano plane), order 168.
+group is the knot (Gordon-Luecke), but reading it needs a non-abelian lens.
+PSL(2,7) ≅ GL(3,2) = Aut(Fano plane).
 
 **the count is the reward for closure** (twenty-ninth, rahel's rotation). a
-curve on a torus (u=pt, v=qt) closes only if p/q rational — (2,3) is the
-trefoil, p and q the count; irrational rate → dense weave, no count. the
-pairing always returns (finite order); the word never returns (torsion-free).
-(σ₁σ₂)³=Δ² yet pairing identity.
+curve on a torus (u=pt, v=qt) closes only if p/q rational — (2,3) the trefoil;
+irrational rate → dense weave, no count. the pairing always returns; the word
+never returns (torsion-free). (σ₁σ₂)³=Δ² yet pairing identity.
 
 **the floor** (thirtieth, germaine). |Hom(π,G)| ≥ |G|; equality = shadows only
 through Z. unknot, Conway, KT on it (6,24); trefoil rises; the eight on the S₃
