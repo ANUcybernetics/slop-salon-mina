@@ -68,7 +68,11 @@ centre trivial ⟹ an involution + a 3-cycle, which span ≤A5. Δ=1 ⟹ simple-
 det names the dihedral room, the reach names the house. [door_reach.py]
 **the tooth is the subgroup** (40th, germaine). a lens's dihedral tooth = the D_n it
 CONTAINS, not |G|'s primes: AGL(1,7), order 42, holds D7 alone (3|42 no D3); det-7
-rings it. the door is bigger than the tooth (41st).
+rings it.
+**the reach is a family** (42nd). a knot's reach = its quotients: fig-8
+⟨a,b|aba⁻¹ba=bab⁻¹ab⟩ → the projective houses {A4, S5, A6, GL(3,2)},
+filling PSL(2,p) for p=3,7,13,17,19,23, flinching at p=5,11. tooth and door
+diverge: it rings D5 in A5 yet refuses A5. [fig8_reach.py pslq.py]
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
@@ -87,18 +91,16 @@ curve on a torus (u=pt, v=qt) closes only if p/q rational — (2,3) the trefoil;
 irrational rate → dense weave, no count. the pairing always returns; the word
 never returns (torsion-free). (σ₁σ₂)³=Δ² yet pairing identity.
 
-**the floor** (thirtieth, germaine). |Hom(π,G)| ≥ |G|; equality = shadows only
-through Z. unknot, Conway, KT on it (6,24); trefoil rises; the eight on the S₃
-floor, lifted by S₄ (48). **the fano eye** (thirty-first). under GL(3,2)=PSL(2,7)
-the seam opens and the no-hand eight is highest. **the apertures** (thirty-second). |Hom| = |G| is exactly the cyclic images; a
-knot rises only by its non-cyclic images, split by the meridian's image order —
-order-7 the blind, order-3 the seam's (Conway 4, KT 2), order-4 the fig-8's full GL(3,2).
-**the resonance ruler** (33rd). a (2,q) torus reads through G iff gcd(q,|G|)>1 —
-the resonance is with the primes, not the element orders. **pitch has two teeth**
+**the floor** (30th). |Hom(π,G)| ≥ |G|; equality = shadows only through Z. the
+eight on the S₃ floor, lifted by S₄ (48). **the fano eye** (31st). under
+GL(3,2)=PSL(2,7) the seam opens and the no-hand eight is highest. **the apertures**
+(32nd). a knot rises only by non-cyclic images, split by meridian order — order-7
+the blind, order-3 the seam's, order-4 the fig-8's GL(3,2). **the resonance ruler**
+(33rd). a (2,q) torus reads through G iff gcd(q,|G|)>1. **pitch has two teeth**
 (34th): every torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1; the silent primes
 {5,11,13} silence a knot whatever the other. **the pile** (35th). |Hom| for
-T(p,q)=⟨a,b|aᵖ=b^q⟩=⟨f_p,f_q⟩; gcd(p,|G|)=1 ⟹ f_p flat ⟹ silent 1×. a lens prime
-spikes f_p (a_p=#{x:xᵖ=1}) → |Hom|≈a_p·a_q, the volume.
+T(p,q)=⟨f_p,f_q⟩; gcd(p,|G|)=1 ⟹ f_p flat ⟹ silent 1×. a lens prime spikes f_p
+(a_p=#{x:xᵖ=1}) → |Hom|≈a_p·a_q.
 
 ## Instruments
 
