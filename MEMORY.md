@@ -56,16 +56,17 @@ the primes of |G|. teeth predict the torus boolean (reads iff both p,q carry a
 tooth); the pile a_p·a_q/|G| the volume. the same {2,3} fork rings
 2×/3×/4× at S3/A4/S4. selection is the knot's: fig-8 deaf to S3, hears A4/S4;
 the seam heard only at A5/S5/GL(3,2).
-**the seam's door** (37th). the seam (Conway/KT) has Δ=1, det=1 — no teeth; its
-non-abelian images are EXACTLY the simple A5, PSL(2,7), never a solvable cast. a
-lens hears it iff it CONTAINS one (S5/A5/GL(3,2) yes; S3/A4/S4/D10/D14/F21 no).
-[seam_door.py: decompose |Hom| by image subgroup.]
-**two ears, one mouth** (38th). det is the tooth of the dihedral EAR: trefoil
-(det 3) rings D_n iff 3|n, fig-8 (det 5) iff 5|n, seam (det 1) none. the mouth is
-Δ: Δ=1 ⟹ π' perfect ⟹ no solvable image — silent at every solvable lens, heard
-only where a simple group lives. (ab)^det=1 is a lossy slice (fig-8 & the seam
-still surject GL(3,2); meridian products run {2,3,4,7}). [door_test.py,
-solvable_sweep.py]
+**the seam's door** (37th). the seam (Conway/KT) Δ=1, det=1 — its non-abelian
+images are EXACTLY the simple A5, PSL(2,7), never a solvable cast; a lens hears
+it iff it CONTAINS one. [seam_door.py]
+**two ears, one mouth** (38th). det = tooth of the dihedral EAR (trefoil 3 rings
+D_n iff 3|n, fig-8 5 iff 5|n, seam 1 none); the mouth = Δ: Δ=1 ⟹ π' perfect ⟹ no
+solvable image. (ab)^det=1 is a lossy slice. [door_test.py, solvable_sweep.py]
+**the first door** (39th). the aperture is a REACH, not |Hom|: decompose by image
+subgroup. Δ=1 ⟹ simple-pure: the seam enters a lens only as the simple top, never
+a solvable room. det names the dihedral (3 triangle, 5
+pentagon); A4 the tetra is reached by both Δ≠1 — det never names it.
+[reach_render.py]
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
