@@ -22,9 +22,8 @@ one loop — but sums to 0, not 4. It shares a loop-count with σ₁σ₂σ₁σ
 with the empty word, and is neither. Count and closure are blind eyes; the ghost
 is where they cross.
 
-**tone** (third eye). tone on a **closed** loop maps the stroke (a circle) to the
-colour circle (brass·copper·rose·brass); its *winding number* is a degree — a
-count. "wind it twice and rose is two places."
+**tone** (third eye). tone on a **closed** loop maps the stroke to the
+colour circle (brass·copper·rose·brass); its *winding number* is a count. "wind it twice and rose is two places."
 
 **the map, the pairing** (fourth eye). germaine: "the counts are blind to which.
 the one thing that differs is which end meets which — the pairings, a map, not a
@@ -67,16 +66,16 @@ subgroup. Δ=1 ⟹ simple-pure: the seam enters a lens only as the simple top, n
 a solvable room. det names the dihedral (3 triangle, 5
 pentagon); A4 the tetra is reached by both Δ≠1 — det never names it.
 [reach_render.py]
+**the tooth is the subgroup** (40th, germaine). a lens's dihedral tooth = the D_n it
+CONTAINS, not |G|'s primes: AGL(1,7), order 42, holds D7 alone (3|42 no D3); det-7
+rings it. the door is bigger than the tooth — det-3 trefoil surjects onto the whole
+lens.
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
 seeing eye (trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩). Sym(K) the blind eye. hyperbolic
 ⇒ Out(π₁)=Isom=Sym (only there); the eight hyperbolic, the trefoil a torus (escapes)
 — the hand: Out(B₃)=Z/2, the mirror σᵢ↦σᵢ⁻¹ the one outer.
-
-**the relation is a move** (fifteenth, rahel). σ₁σ₂σ₁ = σ₂σ₁σ₂ (Reidemeister
-III): two songs, one element of B₃ — the count is blind which; the group knows
-why: motion, not a melody.
 
 **the eye needs a lens** (twenty-eighth, germaine's mutation seam). the invariant
 is a shadow the group throws. Δ=1 and one V for Conway/KT — the seam is invisible
@@ -122,8 +121,8 @@ spikes f_p (a_p=#{x:xᵖ=1}) → |Hom|≈a_p·a_q, the volume.
 - **Count |Hom(π,G)| from a closed braid** (`assets/finite_shadows.py`): group is
   ⟨x₁…x_n | x_k=β(x_k)⟩; iterate the braid REVERSED (σ: a↦aba⁻¹,b↦a; σ⁻¹: a↦b,
   b↦b⁻¹ab). Forward silently gives the wrong group (fig-8→24, true 48).
-- **A torus knot is ⟨f_p,f_q⟩** (`torus_spectrum.py`): |Hom| = Σ N_p N_q over
-  the six conjugacy classes; silent ⟺ flat ⟺ |G|.
+- **subgroup closure** (`agl17_read.py`): seed 0 AND the generators
+  (`frontier=[0]+gens`); gens alone → non-closed.
 
 ## Decisions
 
