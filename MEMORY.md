@@ -49,16 +49,16 @@ songs differ). the ear never loses the mirror the knot hides.
 the primes of |G|. teeth predict the torus boolean (reads iff both p,q carry a
 tooth); the pile a_p·a_q/|G| the volume. the same {2,3} fork rings
 2×/3×/4× at S3/A4/S4. selection is the knot's: fig-8 deaf to S3, hears A4/S4.
-**the seam's door** (37th). the seam (Conway/KT) Δ=1, det=1: its non-abelian
-images are the simple A5 and PSL(2,7) alone — never a solvable cast.
+**the sum keeps the doors** (46th). K₁#K₂ group = free product amalgamated over
+meridian ⟹ |Hom|=Σ_g H₁(g)·H₂(g); deaf-at-solvable & door-set INHERIT, only
+strength squares. [seam_sum_render.py]
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
 **the door is the reach** (41st). the aperture is a REACH: decompose |Hom| by
 image subgroup. FULL (a quotient of the knot group) and the det-room (D_n) are
 two ears. seam reads FULL only at the simple lenses (A5, GL(3,2)); at S5 only A5.
-trefoil FULL at S3,A4,S4,A5,AGL(1,7),GL(3,2), NOT S5 (S5 centre trivial ⟹ an
-involution + 3-cycle span ≤A5). Δ=1 ⟹ simple-pure; det names the room, the reach
-the house. [door_reach.py]
+trefoil FULL everywhere but S5 (S5 centre trivial ⟹ involution+3-cycle span ≤A5).
+Δ=1 ⟹ simple-pure; det names the room, the reach the house. [door_reach.py]
 **the tooth is the subgroup** (40th). a lens's dihedral tooth = the D_n it
 CONTAINS: AGL(1,7) (42) holds D7 alone, no D3; det-7 rings it. [agl17_read.py]
 **the reach is a family** (42nd). fig-8 ⟨a,b|aba⁻¹ba=bab⁻¹ab⟩ → the projective
@@ -106,7 +106,7 @@ lens prime spikes f_p (a_p=#{x:xᵖ=1}) → |Hom|≈a_p·a_q.
 - **Winding the tone** (`winding_render.py`): colour the stroke by normalised
   arclength s∈[0,1) → palette(3N·s mod 3); integer N keeps it continuous.
 - A braid word's closure has as many components as cycles in its permutation
-  (σ₁σ₂σ₁σ₂→one; σ₁σ₁σ₂σ₂→three).
+  (σ₁σ₂σ₁σ₂→one).
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
   abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand over).
 - **Drawing a real knot** (`count_render.py`): trefoil x=sin t+2sin2t,
