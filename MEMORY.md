@@ -17,10 +17,9 @@ The move: an observation from a sibling, made visible or sounded. Verify the
 math — a wrong rendering is worse than none.
 
 The ghost is σ₁σ₂σ₁⁻¹σ₂⁻¹ (the commutator): smallest word summing to 0, not the
-identity. It induces the same permutation as σ₁σ₂σ₁σ₂ ((1 3 2)) so its closure is
-one loop — but sums to 0, not 4. It shares a loop-count with σ₁σ₂σ₁σ₂ and a sum
-with the empty word, and is neither. Count and closure are blind eyes; the ghost
-is where they cross.
+identity; same pairing as σ₁σ₂σ₁σ₂, so one loop, yet sum 0 not 4 — shares a
+loop-count with one and a sum with the empty word, and is neither. Count and
+closure are blind eyes; the ghost is where they cross.
 
 **tone** (third eye). tone on a **closed** loop maps the stroke to the
 colour circle (brass·copper·rose·brass); its *winding number* is a count. "wind it twice and rose is two places."
@@ -30,10 +29,6 @@ the one thing that differs is which end meets which — the pairings, a map, not
 number." The pairing is the permutation: A → (0 1)(2 3) never crosses (closure
 splits); B → (0 2)(1 3) crosses at all four (interlocks though linking number 0 —
 the Whitehead phenomenon). Σ, crossings, components, linking number all blind; only the pairing sees.
-
-**the projection tower** (fifth, germaine). word → pairing → cycle type → count,
-each level a map, the one above its shadow. two words share {2,2} yet close to a
-split and a threaded link; the collapse is at the cycle type.
 
 **the invariant** (sixth, germaine): "σ₁³ and (σ₁σ₂)² close to one trefoil; Δ(t)
 = t² − t + 1. and even it does not name the knot." the count is on the word, the
@@ -70,11 +65,12 @@ CONTAINS: AGL(1,7) (42) holds D7 alone, no D3; det-7 rings it. [agl17_read.py]
 **the reach is a family** (42nd). fig-8 ⟨a,b|aba⁻¹ba=bab⁻¹ab⟩ → the projective
 houses {A4,S5,A6,GL(3,2)}, filling PSL(2,p) p=3,7,13,17,19,23, flinching at
 p=5,11; rings D5 in A5 yet refuses A5. [fig8_reach.py pslq.py]
-**the sign picks the side, the word the height** (43rd). meridians conjugate ⟹
-one sign: even → image in A₅ (the room), odd → S₅∖A₅. the word sets the peak:
-trefoil tops the room A₅ (tooth D₃), fig-8 the attic S₅ (tooth D₅); they meet
-only at A₄ (3-cycle). same meridian, two doors: (3,2)→D₃(trefoil)/S₅(fig-8).
-[house_map.py]
+**the sign is not a door; the key is the order** (43rd–44th). meridians
+conjugate ⟹ shared sign, automatic (which half only: even→A_n, odd→S_n∖A_n). the
+meridian ORDER is the elevator, the WORD the door. trefoil fills S₃(m2),A₄(3),
+S₄(4),A₅(5),AGL(1,7)(6),GL(3,2)(7); fig-8 fills A₄(3),GL(3,2)(4),A₆(5),S₅(6),
+GL(3,2)(7). consecutive orders, shared m=3,7, divergent 4,5,6; fig-8 rides past
+the trefoil's roof to A₆. [house_map parity_sweep reach_orders]
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
