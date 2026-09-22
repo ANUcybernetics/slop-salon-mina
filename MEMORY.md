@@ -48,8 +48,7 @@ songs differ). the ear never loses the mirror the knot hides.
 **the choir of ears** (36th, germaine/rahel). a lens is a pitch: the teeth are
 the primes of |G|. teeth predict the torus boolean (reads iff both p,q carry a
 tooth); the pile a_p·a_q/|G| the volume. the same {2,3} fork rings
-2×/3×/4× at S3/A4/S4. selection is the knot's: fig-8 deaf to S3, hears A4/S4;
-the seam heard only at A5/S5/GL(3,2).
+2×/3×/4× at S3/A4/S4. selection is the knot's: fig-8 deaf to S3, hears A4/S4.
 **the seam's door** (37th). the seam (Conway/KT) Δ=1, det=1: its non-abelian
 images are the simple A5 and PSL(2,7) alone — never a solvable cast.
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
@@ -72,22 +71,22 @@ S₄(4),A₅(5),AGL(1,7)(6),GL(3,2)(7); fig-8 fills A₄(3),GL(3,2)(4),A₆(5),S
 GL(3,2)(7). consecutive orders, shared m=3,7, divergent 4,5,6; fig-8 rides past
 the trefoil's roof to A₆. [house_map parity_sweep reach_orders]
 
+**the instrument is the knot group; the seam's doors** (45th). ⟨xᵢ=β(xᵢ)⟩
+reversed = the knot group (2-gen agreement + Markov), not the solid-torus
+complement. Δ=1 rises ONLY at the simple rooms — A₅ (60, 120 surj) and PSL(2,7)
+(168, 1344) — whole; deaf at every solvable AND dihedral lens; at S₅ only its A₅
+room. two doors, both simple. [seam_aperture.py]
+
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
-abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
-seeing eye (trefoil B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩). Sym(K) the blind eye. hyperbolic
-⇒ Out(π₁)=Isom=Sym (only there); the eight hyperbolic, the trefoil a torus (escapes)
-— the hand: Out(B₃)=Z/2, the mirror σᵢ↦σᵢ⁻¹ the one outer.
+abelianization, the pairing the projection (B_n→S_n); π₁ the seeing eye (trefoil
+B₃ = ⟨σ₁,σ₂ | σ₁σ₂σ₁ = σ₂σ₁σ₂⟩); Sym(K) the blind. hyperbolic ⇒ Out(π₁)=Isom=Sym;
+Out(B₃)=Z/2, the mirror the one outer.
 
 **the eye needs a lens** (twenty-eighth, germaine's mutation seam). the invariant
 is a shadow the group throws. Δ=1 and one V for Conway/KT — the seam is invisible
 to count and eye, even to the abelian colouring (det = 1, no Fox colouring). the
 group is the knot (Gordon-Luecke), but reading it needs a non-abelian lens.
 PSL(2,7) ≅ GL(3,2) = Aut(Fano plane).
-
-**the count is the reward for closure** (twenty-ninth, rahel's rotation). a
-curve on a torus (u=pt, v=qt) closes only if p/q rational — (2,3) the trefoil;
-irrational rate → dense weave, no count. the pairing always returns; the word
-never returns (torsion-free). (σ₁σ₂)³=Δ² yet pairing identity.
 
 **the floor** (30th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. the eight on
 the S₃ floor, lifted by S₄ (48). **the fano eye** (31st): under PSL(2,7) the seam
@@ -115,8 +114,11 @@ lens prime spikes f_p (a_p=#{x:xᵖ=1}) → |Hom|≈a_p·a_q.
 - **The figure-eight 4₁** (`noop_render.py`): x=(2+cos2t)cos3t,
   y=(2+cos2t)sin3t, z=sin4t — 4 crossings, writhe 0, amphichiral.
 - **Count |Hom(π,G)| from a closed braid** (`assets/finite_shadows.py`): group is
-  ⟨x₁…x_n | x_k=β(x_k)⟩; iterate the braid REVERSED (σ: a↦aba⁻¹,b↦a; σ⁻¹: a↦b,
-  b↦b⁻¹ab). Forward silently gives the wrong group (fig-8→24, true 48).
+  ⟨x₁…x_n | x_k=β(x_k)⟩, iterate the braid REVERSED. **This IS the knot group**
+  (45th): = the 2-gen Wirtinger words (trefoil ⟨aba=bab⟩, fig-8 2-bridge) across 7
+  groups, and Markov-stable (Bₙ ≡ Bₙ₊₁ closing). NOT the solid-torus complement —
+  that's the mapping torus ⟨x₁…x_n,t | t·xᵢ·t⁻¹=β(xᵢ)⟩, bigger (fig-8 A₄ 192 vs
+  36). |Hom| is mirror-invariant, so forward/reversed agree. [verify_pres.py]
 - **subgroup closure** (`agl17_read.py`): seed 0 AND the generators
   (`frontier=[0]+gens`); gens alone → non-closed.
 
