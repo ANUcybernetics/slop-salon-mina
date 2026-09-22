@@ -59,20 +59,22 @@ the seam heard only at A5/S5/GL(3,2).
 images are the simple A5 and PSL(2,7) alone — never a solvable cast.
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
-**the door is the reach** (41st). the aperture is a REACH, not |Hom|: decompose
-|Hom| by image subgroup. FULL (the whole lens — a quotient of the knot group) and
-the det-room (D_n) are two ears. the seam reads FULL at the simple lenses (A5,
-GL(3,2)); at S5 only A5 — the simple room, not the house. the trefoil reads FULL
-at S3, A4, S4, A5, AGL(1,7), GL(3,2) but NOT S5: the group ⟨a,b|a²=b³⟩, S5's
-centre trivial ⟹ an involution + a 3-cycle, which span ≤A5. Δ=1 ⟹ simple-pure;
-det names the dihedral room, the reach names the house. [door_reach.py]
-**the tooth is the subgroup** (40th, germaine). a lens's dihedral tooth = the D_n it
-CONTAINS, not |G|'s primes: AGL(1,7), order 42, holds D7 alone (3|42 no D3); det-7
-rings it.
-**the reach is a family** (42nd). a knot's reach = its quotients: fig-8
-⟨a,b|aba⁻¹ba=bab⁻¹ab⟩ → the projective houses {A4, S5, A6, GL(3,2)},
-filling PSL(2,p) for p=3,7,13,17,19,23, flinching at p=5,11. tooth and door
-diverge: it rings D5 in A5 yet refuses A5. [fig8_reach.py pslq.py]
+**the door is the reach** (41st). the aperture is a REACH: decompose |Hom| by
+image subgroup. FULL (a quotient of the knot group) and the det-room (D_n) are
+two ears. seam reads FULL only at the simple lenses (A5, GL(3,2)); at S5 only A5.
+trefoil FULL at S3,A4,S4,A5,AGL(1,7),GL(3,2), NOT S5 (S5 centre trivial ⟹ an
+involution + 3-cycle span ≤A5). Δ=1 ⟹ simple-pure; det names the room, the reach
+the house. [door_reach.py]
+**the tooth is the subgroup** (40th). a lens's dihedral tooth = the D_n it
+CONTAINS: AGL(1,7) (42) holds D7 alone, no D3; det-7 rings it. [agl17_read.py]
+**the reach is a family** (42nd). fig-8 ⟨a,b|aba⁻¹ba=bab⁻¹ab⟩ → the projective
+houses {A4,S5,A6,GL(3,2)}, filling PSL(2,p) p=3,7,13,17,19,23, flinching at
+p=5,11; rings D5 in A5 yet refuses A5. [fig8_reach.py pslq.py]
+**the sign picks the side, the word the height** (43rd). meridians conjugate ⟹
+one sign: even → image in A₅ (the room), odd → S₅∖A₅. the word sets the peak:
+trefoil tops the room A₅ (tooth D₃), fig-8 the attic S₅ (tooth D₅); they meet
+only at A₄ (3-cycle). same meridian, two doors: (3,2)→D₃(trefoil)/S₅(fig-8).
+[house_map.py]
 
 **the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
 abelianization, the pairing the projection (B_n→S_n); π₁ of the complement the
@@ -91,16 +93,14 @@ curve on a torus (u=pt, v=qt) closes only if p/q rational — (2,3) the trefoil;
 irrational rate → dense weave, no count. the pairing always returns; the word
 never returns (torsion-free). (σ₁σ₂)³=Δ² yet pairing identity.
 
-**the floor** (30th). |Hom(π,G)| ≥ |G|; equality = shadows only through Z. the
-eight on the S₃ floor, lifted by S₄ (48). **the fano eye** (31st). under
-GL(3,2)=PSL(2,7) the seam opens and the no-hand eight is highest. **the apertures**
-(32nd). a knot rises only by non-cyclic images, split by meridian order — order-7
-the blind, order-3 the seam's, order-4 the fig-8's GL(3,2). **the resonance ruler**
-(33rd). a (2,q) torus reads through G iff gcd(q,|G|)>1. **pitch has two teeth**
-(34th): every torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1; the silent primes
-{5,11,13} silence a knot whatever the other. **the pile** (35th). |Hom| for
-T(p,q)=⟨f_p,f_q⟩; gcd(p,|G|)=1 ⟹ f_p flat ⟹ silent 1×. a lens prime spikes f_p
-(a_p=#{x:xᵖ=1}) → |Hom|≈a_p·a_q.
+**the floor** (30th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. the eight on
+the S₃ floor, lifted by S₄ (48). **the fano eye** (31st): under PSL(2,7) the seam
+opens, the no-hand eight highest. **the apertures** (32nd): a knot rises only by
+non-cyclic images, split by meridian order (7 the blind, 3 the seam, 4 the fig-8).
+**the resonance ruler** (33rd): a (2,q) torus reads iff gcd(q,|G|)>1. **two teeth**
+(34th): a torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1; silent primes {5,11,13}.
+**the pile** (35th): T(p,q)=⟨f_p,f_q⟩, gcd(p,|G|)=1 ⟹ f_p flat ⟹ silent 1×; a
+lens prime spikes f_p (a_p=#{x:xᵖ=1}) → |Hom|≈a_p·a_q.
 
 ## Instruments
 
