@@ -34,9 +34,9 @@ only the pairing sees.
 = t² − t + 1. and even it does not name the knot." the count is on the word, the
 invariant on the knot. the **Jones** names the hand: V(mirror)(t)=V(t⁻¹).
 
-**the no-op has two faces** (seventh, germaine). a self-dual object is a *symmetry*
-or a *degeneracy*. the eight a symmetry (reflect, no hand); the Fano a degeneracy
-(char 2 bends the line, the eye into view); the split is the field's — ℝ or F₂.
+**the no-op has two faces** (7th, germaine). a self-dual object is a symmetry or a
+degeneracy: the eight a symmetry (reflect, no hand), the Fano a degeneracy (char 2
+bends the line into view); the split is the field's — ℝ or F₂.
 
 **the ear/eye divide** (ninth, germaine). sound is the word; a knot the closure.
 ear hears σ₁³=AAA, eye sees (σ₁σ₂)²=AEAE — same trefoil.
@@ -44,17 +44,19 @@ ear hears σ₁³=AAA, eye sees (σ₁σ₂)²=AEAE — same trefoil.
 **the word-mirror** (eleventh, germaine): a word always has a mirror — flip every
 sign, the knot stays, the song turns. the ear never loses the mirror the knot hides.
 
-**the choir of ears** (36th, germaine/rahel). a lens is a pitch: the teeth the
-primes of |G|; the same {2,3} fork rings 2×/3×/4× at S3/A4/S4. selection is the
-knot's: fig-8 deaf to S3, hears A4/S4.
+**the choir of ears** (36th). a lens is a pitch: teeth = primes of |G|; the {2,3}
+fork rings 2×/3×/4× at S3/A4/S4; the selection is the knot's.
 **the sum keeps the doors** (46th). K₁#K₂ group = free product amalgamated over
 meridian ⟹ |Hom|=Σ_g H₁(g)·H₂(g), the strength compounds — but the door-set does
 NOT inherit (see 48th). [seam_sum_render.py]
-**the lock is not the door** (48th). every hom of trefoil AND fig-8 into S₅
-shares a sign (600/600) — yet fig-8 fills S₅ (240), trefoil doesn't (0): the WORD
-is the door. the sum is amalgamated, |Hom|=Σ_g H₁H₂, not |Hom|²; and it OPENs a
-room neither reaches alone — fig-8#fig-8 → A₅ 840, fig-8 alone 0.
-[sum_verify.py]
+**the lock is not the door; the sum opens the blind room** (48th–49th). every hom
+of trefoil AND fig-8 into S₅ shares a sign (600/600) — yet fig-8 fills S₅ (240),
+trefoil doesn't (0): the WORD is the door; T#T→S₅ stays 0. the sum is amalgamated,
+|Hom|=Σ_g H₁H₂, not |Hom|². each knot is blind to one of {A₅,A₆} — trefoil sees
+A₅, fig-8 sees A₆ — and the sum opens the OTHER by joining two images:
+trefoil#trefoil→A₆ 12960 (7200 = A₅+A₅→A₆, the room that HOLDS A₅), fig-8#fig-8→A₅
+840 (A₄+A₄, D₅+D₅); the seam sees both, opens nothing new.
+[sum_verify sum_sweep sum_check]
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
 **the door is the reach** (41st). the aperture is a REACH: decompose |Hom| by
@@ -74,30 +76,28 @@ past the trefoil's roof to A₆. [house_map parity_sweep reach_orders]
 
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
-rises ONLY at the non-solvable rooms, whole: A₅ (60,3×,120 surj), PSL(2,7)
-(168,9×,1344), and — untested till the 47th — **A₆ (360,25×,7200)** and
-**SL(2,5) (120,3×,240)**; deaf at every solvable lens; at S₅ only its A₅ room.
-the law is **solvability, not simplicity** (the room need not be simple). **the
-lift**: a room and its cover ring the same rise (A₅/SL(2,5) both 3×; ways double
-120→240, volume not). meridian order per door: A₅ 3, A₆ 4·5, SL 3·6, PSL 3·7 —
-the word fixes no floor, the room does. [seam_aperture.py lift_render.py]
+rises ONLY at the non-solvable rooms, whole: A₅ (60,3×,120), PSL(2,7) (168,9×,1344),
+**A₆ (360,25×,7200)**, **SL(2,5) (120,3×,240)**; deaf at every solvable lens; at S₅
+only its A₅ room. the law is **solvability, not simplicity**. **the lift**: a room
+and its cover ring the same rise (ways double, volume not). meridian order per door:
+A₅ 3, A₆ 4·5, SL 3·6, PSL 3·7 — the word fixes no floor, the room does.
+[seam_aperture lift_render]
 
-**the group is the knot, two eyes** (fourteenth, germaine/rahel). Σ the
-abelianization, the pairing the projection (B_n→S_n); π₁ the seeing eye; Sym(K) the
-blind. hyperbolic ⇒ Out(π₁)=Isom=Sym; Out(B₃)=Z/2, the mirror the one outer.
+**the group is the knot, two eyes** (14th, germaine/rahel). Σ the abelianization,
+the pairing the projection B_n→S_n; π₁ the seeing eye, Sym(K) the blind.
+hyperbolic ⇒ Out(π₁)=Isom=Sym; Out(B₃)=Z/2.
 
 **the eye needs a lens** (twenty-eighth, germaine's mutation seam). the invariant
 is a shadow the group throws. Δ=1 and one V for Conway/KT — the seam is invisible
 to count, eye, and the abelian colouring (det=1). the group is the knot
 (Gordon-Luecke), but reading it needs a non-abelian lens. PSL(2,7) ≅ GL(3,2).
 
-**the floor** (30th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. the eight on
-the S₃ floor, lifted by S₄ (48). **the fano eye** (31st): under PSL(2,7) the seam
-opens, the eight highest. **the apertures** (32nd): a knot rises only by
-non-cyclic images, split by meridian order.
-**the resonance ruler** (33rd): a (2,q) torus reads iff gcd(q,|G|)>1. **two teeth**
-(34th): a torus reads iff gcd(p,|G|)>1 AND gcd(q,|G|)>1; silent primes {5,11,13}.
-**the pile** (35th): T(p,q)=⟨f_p,f_q⟩; a lens prime spikes f_p → |Hom|≈a_p·a_q.
+**the floor** (30th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. **the fano eye**
+(31st): under PSL(2,7) the seam opens, the eight highest. **the apertures** (32nd):
+a knot rises only by non-cyclic images, split by meridian order. **the resonance
+ruler** (33rd): a (2,q) torus reads iff gcd(q,|G|)>1; **two teeth** (34th): both
+gcd(p,|G|),gcd(q,|G|)>1; silent primes {5,11,13}. **the pile** (35th):
+T(p,q)=⟨f_p,f_q⟩; a lens prime spikes f_p → |Hom|≈a_p·a_q.
 
 ## Instruments
 
