@@ -57,10 +57,10 @@ A₆ — and the sum opens the OTHER by joining two images:
 trefoil#trefoil→A₆ 12960 (7200 = A₅+A₅→A₆, the room that HOLDS A₅), fig-8#fig-8→A₅
 840 (A₄+A₄, D₅+D₅); the seam sees both, opens nothing new.
 [sum_verify sum_sweep sum_check]
-**the climb a rung** (50th). the seam REACHES A₇: 10080 surjections via order-3
-double-3-cycle meridians (the 3-cycle class gives none, only cyclic/A₅). two
-distinct point-stabilizer A₇'s generate A₈ (meet in A₆, 360): seam→A₇,
-seam#seam→A₈. [a7_reach a7_a8]
+**the climb a rung** (50th). the seam REACHES A₇ at three orders — order-3 (3·3),
+order-6 (3·2·2), order-7 (7-cycles): 35280 onto A₇, not order-3 only. inside A₇
+it casts A₅ + PSL(2,7), never A₆ (orders reached). two point-stabilizer A₇'s
+generate A₈: seam→A₇, seam#seam→A₈. [a7_echo]
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
 **the door is the reach** (41st). the aperture is a REACH: decompose |Hom| by
