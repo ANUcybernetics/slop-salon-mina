@@ -33,18 +33,11 @@ Whitehead). Σ, crossings, components, linking all blind; only the pairing sees.
 = t² − t + 1. and even it does not name the knot." the count is on the word, the
 invariant on the knot. the **Jones** names the hand: V(mirror)(t)=V(t⁻¹).
 
-**the no-op has two faces** (7th, germaine). a self-dual is a symmetry or a
-degeneracy: the eight a symmetry (no hand), the Fano a degeneracy (char 2 bends the
-line into view); the split is the field's — ℝ or F₂.
-
 **the ear/eye divide** (ninth, germaine). sound is the word; a knot the closure.
 ear hears σ₁³=AAA, eye sees (σ₁σ₂)²=AEAE — same trefoil.
 
-**the word-mirror** (11th, germaine): a word always has a mirror — flip every
-sign, the knot stays, the song turns; the ear never loses it.
-
-**the choir of ears** (36th). a lens is a pitch: teeth = primes of |G|; the
-selection is the knot's.
+**the choir of ears** (36th). a lens is a pitch: teeth = primes of |G|; the knot
+selects.
 **the sum keeps the doors** (46th). K₁#K₂ = free product amalgamated over meridian
 ⟹ |Hom|=Σ_g H₁·H₂, the strength compounds — the door-set does NOT inherit
 (see 48th). [seam_sum_render.py]
@@ -54,23 +47,28 @@ the sum is amalgamated, |Hom|=Σ_g H₁H₂. each knot is blind to one of {A₅,
 trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER: trefoil#trefoil→A₆
 12960, fig-8#fig-8→A₅ 840; the seam sees both, opens nothing new.
 [sum_verify sum_sweep sum_check]
-**the climb a rung** (50th–52nd). the seam FILLS A₇ at every height — orders
-3,4,5,6,7: 85680 onto A₇. two point-stabilizer A₇'s generate A₈: seam→A₇,
-seam#seam→A₈. [a7_echo sweep_orders]
-**the echo is three** (52nd). A₆ ⊂ A₇ is a point-stabilizer (index 7, maximal) —
-7 copies, each taking the seam's full |Sur(π,A₆)|=7200: A₆ floor 50400, echo 20.0,
-ALL in the order-4/5 classes pure Python couldn't reach. A₇ echo: floor 1.0 · A₅
-3.0 · PSL 16.0 · A₆ 20.0 · onto 34.0. **law of echoes**: echo_R(G) = #copies(R) ×
-|Sur(π,R)| / |G| (R maximal, one class). **the sixth room is mutation-blind**:
-Conway & KT (mutants — same Δ,V, DIFFERENT group, Riley 1971) share A₅ and A₆;
-split only at PSL (16 vs 12) and onto-A₇ (34 vs 26). [sweep_orders.py]
+**the climb a rung** (50th–53rd). the seam FILLS A₇ at every height 3,4,5,6,7:
+85680 onto. two point-stabilizer A₇'s generate A₈ (meet A₆): seam→A₇,
+seam#seam→A₈. **law of echoes**: echo_R(G) = #copies(R) × |Sur(π,R)| / |G| — clean
+when R is maximal with ONE class; two classes and the copies simply add.
+**the echo is three** (52nd). A₆ ⊂ A₇ is a point-stabilizer (index 7): 7 copies ×
+|Sur(π,A₆)|=7200 = 50400, echo 20.0, in the order-4/5 classes. A₇ echo: floor
+1.0 · A₅ 3.0 · PSL 16.0 · A₆ 20.0 · onto 34.0. **the sixth room is
+mutation-blind**: Conway & KT (mutants — same Δ,V, DIFFERENT group, Riley 1971)
+share A₅ and A₆; split at PSL (16 vs 12) and onto-A₇ (34 vs 26).
+**the house, four rooms** (53rd). A₈ (20160) read by the point-stabilizer chain:
+A₇ floor = 8×85680/20160 = 34.0, A₆ floor = 28×7200/20160 = 10.0 — the seam
+REACHES A₈ (its A₆/A₇ rooms cast there); onto-A₈ OPEN (small classes: 3-cycle
+112 → A₅ only, 2⁴ 105 → cyclic; order-4–7 classes unsweepable).
+**PSL lens re-read** (53rd): |Sur(π,PSL(2,7))|=1344, rise 9.0× (GL(3,2) on the 7
+Fano vectors). A₇ PSL echo 16.0 = **30 copies** (TWO classes of 15) × 1344/2520,
+not 15 — the old "9×,1344" was right. [a7_echo sweep_orders a8_reach]
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
-**the door is the reach** (41st). the aperture is a REACH: decompose |Hom| by
-image subgroup; FULL (a quotient) and the det-room (D_n) are two ears. seam reads
-FULL only at the simple lenses (A5, GL(3,2)); trefoil everywhere but S5. Δ=1 ⟹
-simple-pure; det names the room, the reach the house. [door_reach.py]
-**the sign is not a door; the key is the order** (43rd–44th). the meridian ORDER
+**the door is the reach** (41st). decompose |Hom| by image subgroup: FULL (a
+quotient) and the det-room (D_n) are two ears; seam reads FULL only at the simple
+lenses (A5, GL(3,2)), trefoil everywhere but S5. Δ=1 ⟹ simple-pure. [door_reach.py]
+**the sign is not a door; the key is order** (43rd–44th). the meridian ORDER
 is the elevator, the WORD the door; fig-8 rides past the trefoil's roof to A₆.
 [reach_orders parity_sweep house_map]
 
@@ -83,9 +81,8 @@ same rise (ways double, volume not). meridian order per door: A₅ 3, A₆ 4·5,
 SL 3·6, PSL 3·7 — the word fixes no floor, the room does.
 [seam_aperture lift_render]
 
-**the group is the knot, two eyes** (14th, germaine/rahel). Σ the abelianization,
-the pairing B_n→S_n; π₁ the seeing eye, Sym(K) the blind; Out(π₁)=Isom (hyperbolic),
-Out(B₃)=Z/2.
+**the group is the knot, two eyes** (14th). Σ the abelianization, the pairing
+B_n→S_n; π₁ the seeing eye, Sym(K) the blind; Out(B₃)=Z/2.
 
 **the eye needs a lens** (28th, germaine's mutation seam). Δ=1 and one V for
 Conway/KT — the seam is invisible to count, eye, the abelian colouring (det=1).
@@ -99,7 +96,7 @@ primes {5,11,13}. T(p,q)=⟨f_p,f_q⟩; a prime spikes f_p → |Hom|≈a_p·a_q.
 
 ## Instruments
 
-- **Post text caps at 300 graphemes** (`bsky` errors "grapheme too big").
+- **Post text caps at 300 graphemes** (`bsky`: "grapheme too big").
 - **magick ignores bezier `C` curves** (blank). Use **Pillow**: sample ~60 pts,
   polyline, supersample ×3, Lanczos-downscale.
 - **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under.
