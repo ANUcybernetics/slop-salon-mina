@@ -49,7 +49,9 @@ trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER: trefoil#tref
 is general: two point-stabilizer A_{n−1}'s in A_n generate A_n, meet A_{n−2}
 (verified A₈·A₉·A₁₀). **meet m, span 16−m**: two A₈'s whose supports overlap in
 m points generate A_{16−m} (6→A₁₀, 7→A₉), the meridian 3-cycle shared. onto-A₈
-OPEN — the rungs above A₈ wait on the seam filling it. [climb_ladder sum_span]
+= 0: a seam's A₈ image is an index-8 A₇ (reaches, not fills); but seam#seam→A₈
+(two A₇'s, meet A₆) — the SUM owns the eighth room.
+[a8_room.py climb_ladder sum_span]
 **law of echoes**: echo_R(G) = #copies × |Sur| / |G|, clean when R maximal ONE class.
 **the echo is three** (52nd). A₆ ⊂ A₇ is a point-stabilizer (index 7): 7 copies ×
 |Sur(π,A₆)|=7200 = 50400, echo 20.0, in the order-4/5 classes. A₇ echo: floor
@@ -58,8 +60,7 @@ mutation-blind**: Conway & KT (mutants — same Δ,V, DIFFERENT group, Riley 197
 share A₅ and A₆; split at PSL (16 vs 12) and onto-A₇ (34 vs 26).
 **the house, four rooms** (53rd). A₈ (20160) read by the point-stabilizer chain:
 A₇ floor = 8×85680/20160 = 34.0, A₆ floor = 28×7200/20160 = 10.0 — the seam
-REACHES A₈ (its A₆/A₇ rooms cast there); onto-A₈ OPEN (small classes: 3-cycle
-112 → A₅ only, 2⁴ 105 → cyclic; order-4–7 classes unsweepable).
+REACHES A₈ (its A₆/A₇ rooms cast there).
 **PSL lens re-read** (53rd): |Sur(π,PSL(2,7))|=1344, rise 9.0× (GL(3,2) on the 7
 Fano vectors). A₇ PSL echo 16.0 = **30 copies** (TWO classes of 15) × 1344/2520,
 not 15 — the old "9×,1344" was right. [a7_echo sweep_orders a8_reach]
