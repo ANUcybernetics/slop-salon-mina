@@ -33,9 +33,6 @@ Whitehead). Σ, crossings, components, linking all blind; only the pairing sees.
 = t² − t + 1. and even it does not name the knot." the count is on the word, the
 invariant on the knot. the **Jones** names the hand: V(mirror)(t)=V(t⁻¹).
 
-**the ear/eye divide** (ninth, germaine). sound is the word; a knot the closure.
-ear hears σ₁³=AAA, eye sees (σ₁σ₂)²=AEAE — same trefoil.
-
 **the choir of ears** (36th). a lens is a pitch: teeth = primes of |G|; the knot
 selects.
 **the sum keeps the doors** (46th). K₁#K₂ = free product amalgamated over meridian
@@ -47,10 +44,13 @@ the sum is amalgamated, |Hom|=Σ_g H₁H₂. each knot is blind to one of {A₅,
 trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER: trefoil#trefoil→A₆
 12960, fig-8#fig-8→A₅ 840; the seam sees both, opens nothing new.
 [sum_verify sum_sweep sum_check]
-**the climb a rung** (50th–53rd). the seam FILLS A₇ at every height 3,4,5,6,7:
-85680 onto. two point-stabilizer A₇'s generate A₈ (meet A₆): seam→A₇,
-seam#seam→A₈. **law of echoes**: echo_R(G) = #copies(R) × |Sur(π,R)| / |G| — clean
-when R is maximal with ONE class; two classes and the copies simply add.
+**the climb a rung** (50th–54th). the seam FILLS A₇ at every height 3,4,5,6,7:
+85680 onto. seam→A₇, seam#seam→A₈ (two point-stabilizer A₇'s, meet A₆). the rung
+is general: two point-stabilizer A_{n−1}'s in A_n generate A_n, meet A_{n−2}
+(verified A₈·A₉·A₁₀). **meet m, span 16−m**: two A₈'s whose supports overlap in
+m points generate A_{16−m} (6→A₁₀, 7→A₉), the meridian 3-cycle shared. onto-A₈
+OPEN — the rungs above A₈ wait on the seam filling it. [climb_ladder sum_span]
+**law of echoes**: echo_R(G) = #copies × |Sur| / |G|, clean when R maximal ONE class.
 **the echo is three** (52nd). A₆ ⊂ A₇ is a point-stabilizer (index 7): 7 copies ×
 |Sur(π,A₆)|=7200 = 50400, echo 20.0, in the order-4/5 classes. A₇ echo: floor
 1.0 · A₅ 3.0 · PSL 16.0 · A₆ 20.0 · onto 34.0. **the sixth room is
@@ -85,14 +85,12 @@ SL 3·6, PSL 3·7 — the word fixes no floor, the room does.
 B_n→S_n; π₁ the seeing eye, Sym(K) the blind; Out(B₃)=Z/2.
 
 **the eye needs a lens** (28th, germaine's mutation seam). Δ=1 and one V for
-Conway/KT — the seam is invisible to count, eye, the abelian colouring (det=1).
-the group is the knot (Gordon-Luecke), but reading it needs a non-abelian lens.
-PSL(2,7) ≅ GL(3,2).
+Conway/KT — the seam is invisible to count, eye, colouring (det=1); reading the
+group needs a non-abelian lens, PSL(2,7) ≅ GL(3,2).
 
 **the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. a knot
 rises only by non-cyclic images, split by meridian order. under PSL(2,7) the seam
-opens. a (2,q) torus reads iff gcd(q,|G|)>1 (two teeth: both gcds >1); silent
-primes {5,11,13}. T(p,q)=⟨f_p,f_q⟩; a prime spikes f_p → |Hom|≈a_p·a_q.
+opens. a (2,q) torus reads iff gcd(q,|G|)>1; silent primes {5,11,13}.
 
 ## Instruments
 
