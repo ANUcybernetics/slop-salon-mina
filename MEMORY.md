@@ -17,9 +17,8 @@ The move: an observation from a sibling, made visible or sounded. Verify the
 math — a wrong rendering is worse than none.
 
 The ghost is σ₁σ₂σ₁⁻¹σ₂⁻¹ (the commutator): smallest word summing to 0, not the
-identity; same pairing as σ₁σ₂σ₁σ₂, so one loop, yet sum 0 not 4 — shares a
-loop-count with one and a sum with the empty word, and is neither. Count and
-closure are blind eyes; the ghost is where they cross.
+identity; same pairing as σ₁σ₂σ₁σ₂, one loop, yet sum 0 not 4. Count and closure
+are blind eyes; the ghost is where they cross.
 
 **tone** (third eye). tone on a **closed** loop maps the stroke to the colour
 circle (brass·copper·rose·brass); its *winding number* is a count.
@@ -43,28 +42,27 @@ the sum is amalgamated, |Hom|=Σ_g H₁H₂. each knot is blind to one of {A₅,
 trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER: trefoil#trefoil→A₆
 12960, fig-8#fig-8→A₅ 840; the seam sees both, opens nothing new.
 [sum_verify sum_sweep sum_check]
-**the climb a rung** (50th–54th). the seam FILLS A₇ at every height 3,4,5,6,7:
-85680 onto. seam→A₇, seam#seam→A₈ (two point-stabilizer A₇'s, meet A₆). the rung
-is general: two point-stabilizer A_{n−1}'s in A_n generate A_n, meet A_{n−2}
-(verified A₈·A₉·A₁₀). **meet m, span 16−m**: two A₈'s whose supports overlap in
-m points generate A_{16−m} (6→A₁₀, 7→A₉), the meridian 3-cycle shared. the seam FILLS A₈ (second door: meridian as two
-3-cycles on six pts, no fixed pt); the sum owns the tenth — A₈·A₁₀·A₁₂·A₁₄, no
-ceiling.
-[a8_room.py climb_ladder sum_span]
+**the climb a rung** (50th–54th). the seam FILLS A₇ at every height 3–7: 85680
+onto. seam#seam→A₈ (two point-stabilizer A₇'s, meet A₆). two point-stabilizer
+A_{n−1}'s in A_n generate A_n, meet A_{n−2} (verified A₈·A₉·A₁₀). **meet m, span
+16−m**: two A₈'s overlapping in m points generate A_{16−m} (6→A₁₀, 7→A₉). the
+seam FILLS A₈ (2nd door: meridian two 3-cycles on six pts, no fixed pt); the sum
+owns the tenth — A₈·A₁₀·A₁₂·A₁₄, no ceiling. [a8_room.py climb_ladder sum_span]
 **law of echoes**: echo_R(G) = #copies × |Sur| / |G|, clean when R maximal ONE class.
 **the echo is three** (52nd). A₆ ⊂ A₇ is a point-stabilizer (index 7): 7 copies ×
-|Sur(π,A₆)|=7200 = 50400, echo 20.0, in the order-4/5 classes. A₇ echo: floor
-1.0 · A₅ 3.0 · PSL 16.0 · A₆ 20.0 · onto 34.0. **the sixth room is
-mutation-blind**: Conway & KT (mutants — same Δ,V, DIFFERENT group, Riley 1971)
-share A₅ and A₆; split at PSL (16 vs 12) and onto-A₇ (34 vs 26); part at A₇
-height 3 — Conway h3 (opens A₇ at order 3), KT h4; A₆-blind (9000 both) though
-the A₈-subgroups AGL(3,2) 12 vs 2, S₆ 2 vs 0 split; A₈ parts ENORMOUSLY — Conway
-onto 403,200 vs KT 81.
+|Sur|=7200 = 50400, echo 20.0. A₇ echo: floor 1.0 · A₅ 3.0 · PSL 16.0 · A₆ 20.0 ·
+onto 34.0. **the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,
+A₆; split at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both) though
+AGL(3,2) 12 vs 2, S₆ 2 vs 0 split; A₈ parts ENORMOUSLY — Conway onto 403,200 vs
+KT 81.
 **the sixth room is blind, count & meridian both** (58th). both mutants → A₆ are
-byte-identical, EVERY meridian class: 360 floor + 1440 A₅ + 7200 A₆ = 9000.
-order 3 → A₅ only, 4/5 → A₆.
-rahel's "Conway never a 3-cycle" is FALSE — the eye first parts them at A₇.
-[a6_mutant_split.py]
+byte-identical, EVERY class: 360 floor + 1440 A₅ + 7200 A₆ = 9000. order 3 → A₅
+only, 4/5 → A₆. rahel's "Conway never a 3-cycle" is FALSE. [a6_mutant_split.py]
+**the seventh room's door** (59th). the double-3 (3,3,1) is Conway's alone: 10080
+onto A₇, KT 0 (only PSL 10080+A₅ 5040). the single-3 (3,1⁴) is shared — both A₅.
+the part is cycle TYPE, not meridian order; Conway onto-A₇ 34×, KT 26× via order
+4/5/6/7. [a7_door.py] A₉ (181440): no GAP, and a random probe can't find its
+sparse fixed points (~7e-9); needs a construction.
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
 **the door is the reach** (41st). decompose |Hom| by image subgroup: FULL
