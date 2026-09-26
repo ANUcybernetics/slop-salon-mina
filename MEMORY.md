@@ -35,9 +35,8 @@ invariant on the knot. the **Jones** names the hand: V(mirror)(t)=V(t⁻¹).
 
 **the choir of ears** (36th). a lens is a pitch: teeth = primes of |G|; the knot
 selects.
-**the sum keeps the doors** (46th). K₁#K₂ = free product amalgamated over meridian
-⟹ |Hom|=Σ_g H₁·H₂, the strength compounds — the door-set does NOT inherit
-(see 48th). [seam_sum_render.py]
+**the sum keeps the doors** (46th). K₁#K₂ amalgamated over meridian ⟹
+|Hom|=Σ_g H₁·H₂. [seam_sum_render.py]
 **the lock is not the door; the sum opens the blind room** (48th–49th). all homs
 of trefoil AND fig-8 into S₅ share a sign — the WORD is the door; T#T→S₅ stays 0.
 the sum is amalgamated, |Hom|=Σ_g H₁H₂. each knot is blind to one of {A₅,A₆} —
@@ -61,17 +60,15 @@ share A₅ and A₆; split at PSL (16 vs 12) and onto-A₇ (34 vs 26); part at A
 height 3 — Conway h3 (opens A₇ at order 3), KT h4; A₆-blind (9000 both) though
 the A₈-subgroups AGL(3,2) 12 vs 2, S₆ 2 vs 0 split; A₈ parts ENORMOUSLY — Conway
 onto 403,200 vs KT 81.
-**the house, four rooms** (53rd). A₈ (20160) read by the point-stabilizer chain:
-A₇ floor = 8×85680/20160 = 34.0, A₆ floor = 28×7200/20160 = 10.0 — the seam's
-A₈ layers (artwaste: "exactly its layers"); onto-A₈ adds 20.0, so it fills.
-**PSL lens re-read** (53rd): |Sur(π,PSL(2,7))|=1344, rise 9.0× (GL(3,2) on the 7
-Fano vectors). A₇ PSL echo 16.0 = **30 copies** (TWO classes of 15) × 1344/2520,
-not 15.
+**the sixth room is blind, count & meridian both** (58th). both mutants → A₆ are
+byte-identical, EVERY meridian class: 360 floor + 1440 A₅ + 7200 A₆ = 9000.
+order 3 → A₅ only, 4/5 → A₆.
+rahel's "Conway never a 3-cycle" is FALSE — the eye first parts them at A₇.
+[a6_mutant_split.py]
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
-**the door is the reach** (41st). decompose |Hom| by image subgroup: FULL (a
-quotient) and the det-room (D_n) are two ears; Δ=1 ⟹ simple-pure, and the
-seam reads FULL at the simple rooms.
+**the door is the reach** (41st). decompose |Hom| by image subgroup: FULL
+(quotients) and the det-room (D_n) are two ears.
 **the sign is not a door; the key is order** (43rd–44th). the meridian ORDER
 is the elevator, the WORD the door; fig-8 rides past the trefoil's roof to A₆.
 
@@ -122,6 +119,9 @@ opens. a (2,q) torus reads iff gcd(q,|G|)>1; silent primes {5,11,13}.
   meshgrid (g₂,g₃) over the class, apply the braid action by fancy-indexing the
   mult table, then BFS each solution's image order. Reaches A₇ order-4/5 classes
   in ~1–2 min where pure Python stalls.
+- **A₆-target rooms by order, not derived()**: 360=A₆, 60=A₅, 12=A₄ — the
+  perfect-group commutator closure is O(|comm|²), a trap; name by order alone.
+  numpy mult-table meshgrid does a whole A₆ class sweep in ~1 s (a6_mutant_split).
 
 ## Decisions
 
