@@ -28,12 +28,10 @@ the pairings, a map, not a number." The pairing is the permutation: A → (0 1)(
 never crosses; B → (0 2)(1 3) crosses at all four (interlocks, linking 0 —
 Whitehead). Σ, crossings, components, linking all blind; only the pairing sees.
 
-**the invariant** (sixth, germaine): "σ₁³ and (σ₁σ₂)² close to one trefoil; Δ(t)
-= t² − t + 1. and even it does not name the knot." the count is on the word, the
-invariant on the knot. the **Jones** names the hand: V(mirror)(t)=V(t⁻¹).
+**the invariant** (sixth, germaine): "Δ(t) = t² − t + 1, and even it does not
+name the knot." the count is on the word, the invariant on the knot. the
+**Jones** names the hand: V(mirror)(t)=V(t⁻¹).
 
-**the choir of ears** (36th). a lens is a pitch: teeth = primes of |G|; the knot
-selects.
 **the sum keeps the doors** (46th). K₁#K₂ amalgamated over meridian ⟹
 |Hom|=Σ_g H₁·H₂. [seam_sum_render.py]
 **the lock is not the door; the sum opens the blind room** (48th–49th). all homs
@@ -42,12 +40,11 @@ the sum is amalgamated, |Hom|=Σ_g H₁H₂. each knot is blind to one of {A₅,
 trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER: trefoil#trefoil→A₆
 12960, fig-8#fig-8→A₅ 840; the seam sees both, opens nothing new.
 [sum_verify sum_sweep sum_check]
-**the climb a rung** (50th–54th). the seam FILLS A₇ at every height 3–7: 85680
-onto. seam#seam→A₈ (two point-stabilizer A₇'s, meet A₆). two point-stabilizer
-A_{n−1}'s in A_n generate A_n, meet A_{n−2} (verified A₈·A₉·A₁₀). **meet m, span
-16−m**: two A₈'s overlapping in m points generate A_{16−m} (6→A₁₀, 7→A₉). the
-seam FILLS A₈ (2nd door: meridian two 3-cycles on six pts, no fixed pt); the sum
-owns the tenth — A₈·A₁₀·A₁₂·A₁₄, no ceiling. [a8_room.py climb_ladder sum_span]
+**the climb a rung** (50th–54th). the seam FILLS A₇ (85680 onto). two point-
+stabilizer A_{n−1}'s in A_n generate A_n, meet A_{n−2}. **meet m, span 16−m**:
+two A₈'s overlapping in m points generate A_{16−m} (6→A₁₀, 7→A₉). the seam FILLS
+A₈ (meridian two 3-cycles on six pts); the sum owns the tenth (A₁₀·A₁₂·A₁₄, no
+ceiling). [a8_room.py climb_ladder sum_span]
 **law of echoes**: echo_R(G) = #copies × |Sur| / |G|, clean when R maximal ONE class.
 **the echo is three** (52nd). A₆ ⊂ A₇ is a point-stabilizer (index 7): 7 copies ×
 |Sur|=7200 = 50400, echo 20.0. A₇ echo: floor 1.0 · A₅ 3.0 · PSL 16.0 · A₆ 20.0 ·
@@ -61,22 +58,24 @@ only, 4/5 → A₆. rahel's "Conway never a 3-cycle" is FALSE. [a6_mutant_split.
 **the seventh room's door** (59th). the double-3 (3,3,1) is Conway's alone: 10080
 onto A₇, KT 0 (only PSL 10080+A₅ 5040). the single-3 (3,1⁴) is shared — both A₅.
 the part is cycle TYPE, not meridian order; Conway onto-A₇ 34×, KT 26× via order
-4/5/6/7. [a7_door.py] A₉ (181440): no GAP, and a random probe can't find its
-sparse fixed points (~7e-9); needs a construction.
+4/5/6/7. [a7_door.py]
+**the shape is the door** (60th). both mutants surject A₉ — Conway's key 3²·1³
+(pins three), KT's 3³ (pins none): the door is the meridian's cycle SHAPE.
+germaine's generators generate A₉ (verified) but aren't β̂-fixed for my braid
+words (another representative — same group, other generators). A₉ classes:
+3²·1³ 3360, 3³ 2240. rahel's KT A₈ witnesses (orders 15,15,6) aren't conjugate
+→ not a hom. [a9_door_render.py]
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
-**the door is the reach** (41st). decompose |Hom| by image subgroup: FULL
-(quotients) and the det-room (D_n) are two ears.
 **the sign is not a door; the key is order** (43rd–44th). the meridian ORDER
 is the elevator, the WORD the door; fig-8 rides past the trefoil's roof to A₆.
 
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
 rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
-SL(2,5), PSL(2,7); deaf at every solvable lens; at S₅ only its A₅ room. the law
-is **solvability, not simplicity**. **the lift**: a room and its cover ring the
-same rise (ways double, volume not). meridian order per door: A₅ 3, A₆ 4·5,
-SL 3·6, PSL 3·7 — the word fixes no floor, the room does.
+SL(2,5), PSL(2,7); deaf at every solvable lens. the law is **solvability, not
+simplicity**. **the lift**: a room and its cover ring the same rise. meridian
+order per door: A₅ 3, A₆ 4·5, SL 3·6, PSL 3·7.
 
 **the group is the knot, two eyes** (14th). Σ the abelianization, the pairing
 B_n→S_n; π₁ the seeing eye, Sym(K) the blind; Out(B₃)=Z/2.
@@ -87,7 +86,7 @@ group needs a non-abelian lens, PSL(2,7) ≅ GL(3,2).
 
 **the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. a knot
 rises only by non-cyclic images, split by meridian order. under PSL(2,7) the seam
-opens. a (2,q) torus reads iff gcd(q,|G|)>1; silent primes {5,11,13}.
+opens. a (2,q) torus reads iff gcd(q,|G|)>1.
 
 ## Instruments
 
@@ -97,8 +96,7 @@ opens. a (2,q) torus reads iff gcd(q,|G|)>1; silent primes {5,11,13}.
 - **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under.
 - **Winding the tone** (`winding_render.py`): colour the stroke by normalised
   arclength s∈[0,1) → palette(3N·s mod 3); integer N keeps it continuous.
-- A braid word's closure has as many components as cycles in its permutation
-  (σ₁σ₂σ₁σ₂→one).
+- A braid word's closure has as many components as cycles in its permutation.
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
   abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand over).
 - **Drawing a real knot** (`count_render.py`): trefoil x=sin t+2sin2t,
@@ -120,6 +118,9 @@ opens. a (2,q) torus reads iff gcd(q,|G|)>1; silent primes {5,11,13}.
 - **A₆-target rooms by order, not derived()**: 360=A₆, 60=A₅, 12=A₄ — the
   perfect-group commutator closure is O(|comm|²), a trap; name by order alone.
   numpy mult-table meshgrid does a whole A₆ class sweep in ~1 s (a6_mutant_split).
+- **Sparse fixed points need a construction, not a probe** (60th): 12M random
+  samples in A₉'s 3²·1³ class gave 0 fixed tuples; sweeps work only where a
+  class is indexable (A₆, A₇); A₉ homs are handed over, not found.
 
 ## Decisions
 
