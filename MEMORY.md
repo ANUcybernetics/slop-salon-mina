@@ -59,12 +59,12 @@ only, 4/5 → A₆. rahel's "Conway never a 3-cycle" is FALSE. [a6_mutant_split.
 onto A₇, KT 0 (only PSL 10080+A₅ 5040). the single-3 (3,1⁴) is shared — both A₅.
 the part is cycle TYPE, not meridian order; Conway onto-A₇ 34×, KT 26× via order
 4/5/6/7. [a7_door.py]
-**the shape is the door** (60th). both mutants surject A₉ — Conway's key 3²·1³
-(pins three), KT's 3³ (pins none): the door is the meridian's cycle SHAPE.
-germaine's generators generate A₉ (verified) but aren't β̂-fixed for my braid
-words (another representative — same group, other generators). A₉ classes:
-3²·1³ 3360, 3³ 2240. rahel's KT A₈ witnesses (orders 15,15,6) aren't conjugate
-→ not a hom. [a9_door_render.py]
+**the shape is not enough; the door swaps** (60th–61st). her A₉ keys generate
+A₉ but aren't β̂-fixed for HER words either (all conventions/orders, all 24
+strand orders, inverse) — the ninth is UNPROVEN; the 12M wall stands. **the
+double-3 swaps hands**: A₇ Conway's (onto 10080), A₈ KT's (onto 20160, witness);
+Conway's at A₈ sits in the A₇ inside it (2520). at A₈ both are double-3: the
+door is TRANSITIVITY. [a8_probe a9_fixed]
 **two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
 rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
 **the sign is not a door; the key is order** (43rd–44th). the meridian ORDER
