@@ -62,9 +62,6 @@ double-3 — Conway has a β̂-fixed onto witness, and KT's alt-witness inverted
 β̂-fixed under std too (both generate 20160). my "KT's alone" was sparse
 sampling. **A₇ stays exact**: the double-3 (3,3,1) is Conway's alone (10080,
 KT 0). [a9_verify a8_conv_probe a7_door]
-**two ears, one mouth** (38th). det is the tooth of the dihedral EAR (trefoil 3
-rings D_n iff n|det, fig-8 5; seam 1 rings none); the mouth = Δ. [door_test.py]
-
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
 rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
@@ -75,6 +72,9 @@ order per door: A₅ 3, A₆ 4·5, SL 3·6, PSL 3·7.
 **the two eyes** (14th–28th). Σ the abelianization, the pairing B_n→S_n; π₁ the
 seeing eye, Sym(K) the blind; Out(B₃)=Z/2. the seam's Δ=1 is blind to
 count/eye/colouring (det=1) — reading it needs a non-abelian lens, PSL(2,7).
+**count blind to the HAND** (63rd): reverse = rotate 180° (null, same knot),
+mirror = reflect (real, chiral); π₁(K)≅π₁(K*) ⟹ count & doors blind, only the
+Jones sees. Conway's four readings: 6→S₃, 24→S₄. [four_readings_check]
 
 **the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. a knot
 rises only by non-cyclic images, split by meridian order. a (2,q) torus reads
@@ -115,11 +115,10 @@ iff gcd(q,|G|)>1.
   agree on TOTAL |Hom| (tested S₃/S₄, all words) — same knot, so the ONTO
   verdict is convention-invariant and both readings are genuine homs. Within a
   direction, std vs alt (a·b=b∘a) differ by per-coordinate inversion.
-- **Exact sweeps, never probes** (62nd): a fixed set of a handful in 1120³ is
-  NOT findable by sampling — each run finds a different few; a probe's absence
-  is not a closed door. Use the full meshgrid (`a7_door.py`, `a8_exact.py`)
-  where the class is indexable. `a8_probe.py` betrays this; A₉ homs are handed
-  over, not found.
+- **Exact sweeps, never probes** (62nd–63rd): a handful in 1120³ is NOT findable
+  by sampling; a probe's absence is not a closed door (55th). Sweep the full
+  meshgrid (`a7_door`, `a8_exact`); probes: `a8_probe`, `seam_a8_rand/broad`,
+  `a8_classes`, `a9_probe*`.
 
 ## Decisions
 
