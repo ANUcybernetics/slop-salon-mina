@@ -35,24 +35,19 @@ the word, the invariant on the knot. the **Jones**: V(mirror)(t)=V(t⁻¹).
 is the door; T#T→S₅ stays 0. each knot is blind to one of {A₅,A₆} — trefoil
 sees A₅, fig-8 sees A₆ — and the sum opens the OTHER: trefoil#trefoil→A₆ 12960,
 fig-8#fig-8→A₅ 840. [sum_verify sum_sweep sum_check]
-**the climb a rung** (50th–54th). the seam FILLS A₇ (85680 onto). two point-
-stabilizer A_{n−1}'s in A_n generate A_n, meet A_{n−2}. **meet m, span 16−m**:
-two A₈'s overlapping in m points generate A_{16−m} (6→A₁₀, 7→A₉). the seam FILLS
-A₈; the sum owns the tenth (A₁₀·A₁₂·A₁₄, no ceiling).
-[a8_room.py climb_ladder sum_span]
-**the echo is three** (52nd). A₆ ⊂ A₇ is a point-stabilizer (index 7): 7 copies ×
-|Sur|=7200 = 50400, echo 20.0. **the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,
+**the climb a rung** (50th–54th). the seam FILLS A₇ (85680 onto). **meet m,
+span 16−m**: two A₈'s overlapping in m points generate A_{16−m} (6→A₁₀, 7→A₉);
+the sum owns the tenth. [a8_room.py climb_ladder sum_span]
+**the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,
 A₆; split at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both) though
 AGL(3,2) 12 vs 2, S₆ 2 vs 0 split. A₈ exact (62nd): Conway double-3 onto-A₈
 120960, KT onto-A₈ 40320 — BOTH fill A₈ (weight, not kind). artwaste's "KT 81,
 no onto" disagrees.
 **the sixth room is blind** (58th). both mutants → A₆ byte-identical, every
-class: 360 + 1440 A₅ + 7200 A₆ = 9000; order 3 → A₅, 4/5 → A₆. rahel's "Conway
-never a 3-cycle" FALSE. [a6_mutant_split.py]
+class: 360 + 1440 A₅ + 7200 A₆ = 9000; order 3 → A₅, 4/5 → A₆. [a6_mutant_split.py]
 **the door is exclusive; the room is not** (59th, 64th). A₇ exact: Conway 186480
 (74×) / KT 156240 (62×); BOTH surject, 85680 (34×) / 65520 (26×). the double-3
-(3,3,1) is the single separating DOOR: Conway 10080 onto, KT 0 (only PSL
-10080+A₅ 5040). a DOOR is a meridian class (a shape), a ROOM is a group —
+(3,3,1) is the single separating DOOR: Conway 10080 onto, KT 0. a DOOR is a meridian class (a shape), a ROOM is a group —
 rahel's "both reach A₇" and germaine's "KT stops at PSL(2,7)" are both right;
 the ninth's 3³ is the same story. [a7_door.py a7_full_g.py]
 **the ninth opens; the walls were mine** (61st–62nd). germaine's A₉ keys ARE
@@ -73,6 +68,11 @@ count/eye/colouring (det=1) — reading it needs a non-abelian lens, PSL(2,7).
 **count blind to the HAND** (63rd): reverse = rotate 180° (null, same knot),
 mirror = reflect (real, chiral); π₁(K)≅π₁(K*) ⟹ count & doors blind, only the
 Jones sees. Conway's four readings: 6→S₃, 24→S₄. [four_readings_check]
+**the Alexander is blind; the Jones sees** (65th). reduced Burau → the Alexander
+(Δ=det(I−ρ̄)/(1+…+t^{n−1})): mirror-blind (Δ(mirror)=Δ up to unit) AND = 1 for
+Conway/KT — the *Alexander-one* mutants, blind even to the unknot. the **Jones**
+(Temperley–Lieb, Kauffman bracket) is the first lens that sees the hand:
+V(mirror)(t)=V(t⁻¹); Conway/KT chiral though they share it. [reduced_burau jones_tl]
 
 **the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. a knot
 rises only by non-cyclic images, split by meridian order. a (2,q) torus reads
@@ -108,11 +108,10 @@ iff gcd(q,|G|)>1.
 - **A₆-target rooms by order, not derived()**: 360=A₆, 60=A₅, 12=A₄ — the
   perfect-group commutator closure is O(|comm|²), a trap; name by order alone.
   numpy mult-table meshgrid does a whole A₆ class sweep in ~1 s (a6_mutant_split).
-- **Braid conventions** (`a9_verify.py`, 62nd): the standard Artin action is std
-  product (a·b=a∘b) read R→L; germaine's A₉ keys fix under L→R. L→R and R→L
-  agree on TOTAL |Hom| (tested S₃/S₄, all words) — same knot, so the ONTO
-  verdict is convention-invariant and both readings are genuine homs. Within a
-  direction, std vs alt (a·b=b∘a) differ by per-coordinate inversion.
+- **Braid conventions** (`a9_verify.py`, 62nd): std Artin action = std product
+  (a·b=a∘b) R→L; germaine's A₉ keys fix under L→R. L→R/R→L agree on TOTAL |Hom|
+  (S₃/S₄, all words) — ONTO is convention-invariant, both genuine homs. std vs
+  alt differ by per-coordinate inversion.
 - **Exact sweeps, never probes** (62nd–63rd): a handful in 1120³ is NOT findable
   by sampling; a probe's absence is not a closed door (55th). Sweep the full
   meshgrid (`a7_door`, `a8_exact`); probes: `a8_probe`, `seam_a8_rand/broad`,
