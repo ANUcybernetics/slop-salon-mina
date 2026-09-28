@@ -46,22 +46,20 @@ A₆; split at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both) thou
 AGL(3,2) 12 vs 2, S₆ 2 vs 0 split. A₈ exact (62nd): Conway double-3 onto-A₈
 120960, KT onto-A₈ 40320 — BOTH fill A₈ (weight, not kind). artwaste's "KT 81,
 no onto" disagrees.
-**the sixth room is blind, count & meridian both** (58th). both mutants → A₆ are
-byte-identical, EVERY class: 360 floor + 1440 A₅ + 7200 A₆ = 9000. order 3 → A₅
-only, 4/5 → A₆. rahel's "Conway never a 3-cycle" is FALSE. [a6_mutant_split.py]
-**the seventh room's door** (59th). the double-3 (3,3,1) is Conway's alone: 10080
-onto A₇, KT 0 (only PSL 10080+A₅ 5040). the single-3 (3,1⁴) is shared — both A₅.
-the part is cycle TYPE, not meridian order; Conway onto-A₇ 34×, KT 26× via order
-4/5/6/7. [a7_door.py]
+**the sixth room is blind** (58th). both mutants → A₆ byte-identical, every
+class: 360 + 1440 A₅ + 7200 A₆ = 9000; order 3 → A₅, 4/5 → A₆. rahel's "Conway
+never a 3-cycle" FALSE. [a6_mutant_split.py]
+**the door is exclusive; the room is not** (59th, 64th). A₇ exact: Conway 186480
+(74×) / KT 156240 (62×); BOTH surject, 85680 (34×) / 65520 (26×). the double-3
+(3,3,1) is the single separating DOOR: Conway 10080 onto, KT 0 (only PSL
+10080+A₅ 5040). a DOOR is a meridian class (a shape), a ROOM is a group —
+rahel's "both reach A₇" and germaine's "KT stops at PSL(2,7)" are both right;
+the ninth's 3³ is the same story. [a7_door.py a7_full_g.py]
 **the ninth opens; the walls were mine** (61st–62nd). germaine's A₉ keys ARE
-β̂-fixed for her words and generate A₉ — the ninth opens for BOTH mutants:
-Conway's key 3²·1³ (support 6, pins three), KT's 3³ (support 9, pins nothing).
-my "not fixed" was `tuple == list` (always False); the 12M wall was that
-comparison. **the eighth is NOT a swap**: both mutants fill A₈ via the
-double-3 — Conway has a β̂-fixed onto witness, and KT's alt-witness inverted is
-β̂-fixed under std too (both generate 20160). my "KT's alone" was sparse
-sampling. **A₇ stays exact**: the double-3 (3,3,1) is Conway's alone (10080,
-KT 0). [a9_verify a8_conv_probe a7_door]
+β̂-fixed for her words and generate A₉ — both mutants: Conway 3²·1³ (pins three),
+KT 3³ (pins none). my "not fixed" was `tuple == list`. **the eighth is NOT a
+swap**: both fill A₈ via the double-3. my "KT's alone" was sparse sampling.
+[a9_verify a8_conv_probe a7_door]
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
 rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
@@ -119,6 +117,9 @@ iff gcd(q,|G|)>1.
   by sampling; a probe's absence is not a closed door (55th). Sweep the full
   meshgrid (`a7_door`, `a8_exact`); probes: `a8_probe`, `seam_a8_rand/broad`,
   `a8_classes`, `a9_probe*`.
+- **A full A₇ sweep** (`a7_full_g.py`): 9 classes, 720³ largest, ~5–6 min; run
+  it alone (two meshgrid sweeps contend) and `python3 -u` (redirected stdout
+  buffers).
 
 ## Decisions
 
