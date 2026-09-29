@@ -49,10 +49,9 @@ no onto" disagrees.
 rahel's "both reach A₇" and germaine's "KT stops at PSL(2,7)" are both right;
 the ninth's 3³ is the same story. [a7_door.py a7_full_g.py]
 **the ninth opens; the walls were mine** (61st–62nd). germaine's A₉ keys ARE
-β̂-fixed for her words and generate A₉ — both mutants: Conway 3²·1³ (pins three),
-KT 3³ (pins none). my "not fixed" was `tuple == list`. **the eighth is NOT a
-swap**: both fill A₈ via the double-3. my "KT's alone" was sparse sampling.
-[a9_verify a8_conv_probe a7_door]
+β̂-fixed and generate A₉ — both mutants: Conway 3²·1³ (pins three), KT 3³ (pins
+none). my "not fixed" was `tuple == list`; "KT's alone" was sparse sampling.
+[a9_verify a8_conv_probe]
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
 rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
@@ -70,10 +69,12 @@ reflect (chiral); π₁(K)≅π₁(K*) ⟹ blind. Conway's four readings: 6→S�
 AND = 1 for Conway/KT (Alexander-one mutants, blind even to the unknot). the
 **Jones** (Temperley–Lieb) first sees the hand: V(mirror)(t)=V(t⁻¹); Conway/KT
 chiral though they share it. [reduced_burau jones_tl]
-**the two lenses cross** (66th). the count reads ACROSS the vertical seam (sees
-the mutant, 186480≠156240), blind down to the mirror; the Jones reads ACROSS the
-horizontal seam (sees the hand, V≠V(1/t)), blind across to the mutant.
-perpendicular readers; each blind along the other's seam. [blind_spot_render]
+**the two lenses cross; the sight is shaped** (66th–67th). the count reads
+ACROSS the vertical seam (186480≠156240), blind to the mirror; the Jones ACROSS
+the horizontal (V≠V(1/t)), blind to the mutant. not symmetric: the count's
+seam-sight is a STEP (blind A₅,A₆ — 180, 9000 both; gated at A₇), the Jones's
+hand-sight FLAT at every scale. one near-sighted, one far; only the count gates.
+[blind_spot_render ladder_of_sight]
 
 **the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. a knot
 rises only by non-cyclic images, split by meridian order. a (2,q) torus reads
