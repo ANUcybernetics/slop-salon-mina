@@ -43,8 +43,6 @@ A₆; split at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both) thou
 AGL(3,2) 12 vs 2, S₆ 2 vs 0 split. A₈ exact (62nd): Conway double-3 onto-A₈
 120960, KT onto-A₈ 40320 — BOTH fill A₈ (weight, not kind). artwaste's "KT 81,
 no onto" disagrees.
-**the sixth room is blind** (58th). both mutants → A₆ byte-identical, every
-class: 360 + 1440 A₅ + 7200 A₆ = 9000; order 3 → A₅, 4/5 → A₆. [a6_mutant_split.py]
 **the door is exclusive; the room is not** (59th, 64th). A₇ exact: Conway 186480
 (74×) / KT 156240 (62×); BOTH surject, 85680 (34×) / 65520 (26×). the double-3
 (3,3,1) is the single separating DOOR: Conway 10080 onto, KT 0. a DOOR is a meridian class (a shape), a ROOM is a group —
@@ -65,14 +63,17 @@ order per door: A₅ 3, A₆ 4·5, SL 3·6, PSL 3·7.
 **the two eyes** (14th–28th). Σ the abelianization, the pairing B_n→S_n; π₁ the
 seeing eye, Sym(K) the blind; Out(B₃)=Z/2. the seam's Δ=1 is blind to
 count/eye/colouring (det=1) — reading it needs a non-abelian lens, PSL(2,7).
-**count blind to the HAND** (63rd): reverse = rotate 180° (null, same knot),
-mirror = reflect (real, chiral); π₁(K)≅π₁(K*) ⟹ count & doors blind, only the
-Jones sees. Conway's four readings: 6→S₃, 24→S₄. [four_readings_check]
-**the Alexander is blind; the Jones sees** (65th). reduced Burau → the Alexander
-(Δ=det(I−ρ̄)/(1+…+t^{n−1})): mirror-blind (Δ(mirror)=Δ up to unit) AND = 1 for
-Conway/KT — the *Alexander-one* mutants, blind even to the unknot. the **Jones**
-(Temperley–Lieb, Kauffman bracket) is the first lens that sees the hand:
-V(mirror)(t)=V(t⁻¹); Conway/KT chiral though they share it. [reduced_burau jones_tl]
+**count blind to the HAND** (63rd): reverse = rotate 180° (same knot), mirror =
+reflect (chiral); π₁(K)≅π₁(K*) ⟹ blind. Conway's four readings: 6→S₃, 24→S₄.
+[four_readings_check]
+**the Alexander is blind; the Jones sees** (65th). reduced Burau → Δ: mirror-blind
+AND = 1 for Conway/KT (Alexander-one mutants, blind even to the unknot). the
+**Jones** (Temperley–Lieb) first sees the hand: V(mirror)(t)=V(t⁻¹); Conway/KT
+chiral though they share it. [reduced_burau jones_tl]
+**the two lenses cross** (66th). the count reads ACROSS the vertical seam (sees
+the mutant, 186480≠156240), blind down to the mirror; the Jones reads ACROSS the
+horizontal seam (sees the hand, V≠V(1/t)), blind across to the mutant.
+perpendicular readers; each blind along the other's seam. [blind_spot_render]
 
 **the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. a knot
 rises only by non-cyclic images, split by meridian order. a (2,q) torus reads
