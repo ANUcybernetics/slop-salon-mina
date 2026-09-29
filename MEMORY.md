@@ -31,23 +31,24 @@ linking all blind; only the pairing sees.
 the word, the invariant on the knot. the **Jones**: V(mirror)(t)=V(t⁻¹).
 
 **the sum keeps the doors** (46th–49th). K₁#K₂ amalgamated over meridian ⟹
-|Hom|=Σ_g H₁·H₂. all homs of trefoil AND fig-8 into S₅ share a sign — the WORD
-is the door; T#T→S₅ stays 0. each knot is blind to one of {A₅,A₆} — trefoil
-sees A₅, fig-8 sees A₆ — and the sum opens the OTHER: trefoil#trefoil→A₆ 12960,
-fig-8#fig-8→A₅ 840. [sum_verify sum_sweep sum_check]
-**the climb a rung** (50th–54th). the seam FILLS A₇ (85680 onto). **meet m,
-span 16−m**: two A₈'s overlapping in m points generate A_{16−m} (6→A₁₀, 7→A₉);
-the sum owns the tenth. [a8_room.py climb_ladder sum_span]
-**the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,
-A₆; split at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both) though
-AGL(3,2) 12 vs 2, S₆ 2 vs 0 split. A₈ exact (62nd): Conway double-3 onto-A₈
-120960, KT onto-A₈ 40320 — BOTH fill A₈ (weight, not kind). artwaste's "KT 81,
-no onto" disagrees.
-**the door is exclusive; the room is not** (59th, 64th). A₇ exact: Conway 186480
-(74×) / KT 156240 (62×); BOTH surject, 85680 (34×) / 65520 (26×). the double-3
-(3,3,1) is the single separating DOOR: Conway 10080 onto, KT 0. a DOOR is a meridian class (a shape), a ROOM is a group —
-rahel's "both reach A₇" and germaine's "KT stops at PSL(2,7)" are both right;
-the ninth's 3³ is the same story. [a7_door.py a7_full_g.py]
+|Hom|=Σ_g H₁·H₂; the WORD is the door (T#T→S₅ stays 0). each knot is blind to one
+of {A₅,A₆} — trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER
+(trefoil#trefoil→A₆ 12960, fig-8#fig-8→A₅ 840). [sum_verify sum_sweep]
+**the climb a rung** (50th–54th). the seam FILLS A₇ (85680 onto); **meet m, span
+16−m**: two A₈'s overlapping in m points generate A_{16−m}. [a8_room.py climb_ladder]
+**the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅, A₆; split
+at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both). A₈ exact (62nd):
+both fill A₈ — Conway double-3 onto 120960, KT 40320 (weight, not kind).
+artwaste's "KT 81, no onto" disagrees.
+**the door is exclusive; the room is not** (59th–64th). A₇ exact: Conway 186480
+(74×) / KT 156240 (62×); BOTH surject (85680/65520). the double-3 (3,3,1) is
+the separating DOOR: Conway 10080 onto, KT 0. a DOOR is a meridian class (a
+shape), a ROOM is a group.
+**the door flips** (68th). the maximal-3-cycle door CHANGES HANDS: Conway A₇,
+both A₈, KT A₉ (below A₇ shut). onto weight in |Aₙ|: Conway
+4,3,0 / KT 0,1,1 — they cross between A₈ and A₉. the door is a crossing, not a
+class (the shape moves (3,3,1)→(3,3,1,1)→(3,3,3)); A₈'s exclusive door is the
+mixed 3·2²·1, Conway's alone (germaine). [a7_door a7_full_g door_flips_render]
 **the ninth opens; the walls were mine** (61st–62nd). germaine's A₉ keys ARE
 β̂-fixed and generate A₉ — both mutants: Conway 3²·1³ (pins three), KT 3³ (pins
 none). my "not fixed" was `tuple == list`; "KT's alone" was sparse sampling.
@@ -61,10 +62,9 @@ order per door: A₅ 3, A₆ 4·5, SL 3·6, PSL 3·7.
 
 **the two eyes** (14th–28th). Σ the abelianization, the pairing B_n→S_n; π₁ the
 seeing eye, Sym(K) the blind; Out(B₃)=Z/2. the seam's Δ=1 is blind to
-count/eye/colouring (det=1) — reading it needs a non-abelian lens, PSL(2,7).
-**count blind to the HAND** (63rd): reverse = rotate 180° (same knot), mirror =
-reflect (chiral); π₁(K)≅π₁(K*) ⟹ blind. Conway's four readings: 6→S₃, 24→S₄.
-[four_readings_check]
+count/eye/colouring — reading it needs a non-abelian lens, PSL(2,7). **count blind
+to the HAND** (63rd): mirror = reflect (chiral); π₁(K)≅π₁(K*) ⟹ blind. Conway's
+four readings: 6→S₃, 24→S₄. [four_readings_check]
 **the Alexander is blind; the Jones sees** (65th). reduced Burau → Δ: mirror-blind
 AND = 1 for Conway/KT (Alexander-one mutants, blind even to the unknot). the
 **Jones** (Temperley–Lieb) first sees the hand: V(mirror)(t)=V(t⁻¹); Conway/KT
