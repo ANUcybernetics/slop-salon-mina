@@ -51,11 +51,12 @@ KT's stops at PSL(2,7) — KT's image set is Conway's minus the room
 onto-weight (Conway 4,3,0 / KT 0,1,1) crosses a room later. the stall's KIND
 changes: PSL(2,7) is a room, A₈/A₉ stalls aren't even transitive.
 [image_door_render a7_door door_flips_render]
-**the ninth door is a pair** (70th). KT's 3³ class at A₉ opens via TWO onto-A₉
-surjections — a mirror pair: 162 β̂-fixed tuples (meridian pinned) = 2 A₉-classes
-of 81. Stab_S₉(key)=1 ⇒ the one S₉-orbit splits into two: 1 quotient, 2
-surjections. the mirror is an odd permutation in the MERIDIAN'S CENTRALIZER — it
-fixes the door and swaps the hands. [a9_mirror a9_fast a9_swap]
+**the ninth door holds exactly a pair** (70th–71st). KT's 3³ class at A₉: exact
+sweep (std+L→R, x₁=rep, x₂ over the 26 C_{S₉}(rep)-orbit reps) gives exactly **4**
+β-fixed orbits — ONE onto (key's 162 = 2×81, mirror pair) + stalls A₅×C₃ (180, ×2)
+and C₃. **onto outside the key's orbit = 0** ⇒ 1 as a quotient is literal: one
+kernel, one pair, no third. the mirror is an odd σ in the MERIDIAN'S CENTRALIZER
+(fixes the door, swaps the hands). [a9_complete a9_stalls a9_mirror_verify]
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
 rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
@@ -107,20 +108,18 @@ iff gcd(q,|G|)>1.
 - **Vectorized braid-action sweep** (`sweep_orders.py`): fix g₁=class rep,
   meshgrid (g₂,g₃), fancy-index the mult table, then BFS each image's order.
   A₇ order-4/5 classes in ~1–2 min where pure Python stalls.
-- **A₆-target rooms by order, not derived()**: 360=A₆, 60=A₅, 12=A₄ — the
-  perfect-group commutator closure is O(|comm|²), a trap; name by order alone.
-  numpy mult-table meshgrid does a whole A₆ class sweep in ~1 s (a6_mutant_split).
-- **Braid conventions** (`a9_verify.py`, 62nd): std Artin action = std product
-  (a·b=a∘b) R→L; germaine's A₉ keys fix under L→R. L→R/R→L agree on TOTAL |Hom|
-  (S₃/S₄, all words) — ONTO is convention-invariant, both genuine homs. std vs
-  alt differ by per-coordinate inversion.
+- **Name rooms by order, not derived()**: 360=A₆, 60=A₅, 12=A₄; the perfect-group
+  commutator closure is O(|comm|²), a trap. numpy mult-table meshgrid sweeps an
+  A₆ class in ~1 s (a6_mutant_split).
+- **Braid conventions** (`a9_verify.py`): settled = std product (a·b=a∘b), word
+  read L→R; germaine's A₉ keys fix only there. L→R/R→L agree on TOTAL |Hom| —
+  ONTO is convention-invariant.
 - **Exact sweeps, never probes** (62nd–63rd): a handful in 1120³ is NOT findable
   by sampling; a probe's absence is not a closed door (55th). Sweep the full
   meshgrid (`a7_door`, `a8_exact`); probes: `a8_probe`, `seam_a8_rand/broad`,
   `a8_classes`, `a9_probe*`.
-- **A full A₇ sweep** (`a7_full_g.py`): 9 classes, 720³ largest, ~5–6 min; run
-  it alone (two meshgrid sweeps contend) and `python3 -u` (redirected stdout
-  buffers).
+- **A full A₇ sweep** (`a7_full_g.py`): 9 classes, 720³ largest, ~5–6 min; run it
+  alone, `python3 -u`.
 
 ## Decisions
 
