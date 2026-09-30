@@ -19,9 +19,6 @@ math — a wrong rendering is worse than none.
 The ghost is σ₁σ₂σ₁⁻¹σ₂⁻¹ (the commutator): smallest word summing to 0, not the
 identity; same pairing as σ₁σ₂σ₁σ₂, one loop, yet sum 0 not 4.
 
-**tone** (third eye): tone on a **closed** loop maps the stroke to the colour
-circle; its *winding number* is a count like any other.
-
 **the map, the pairing** (fourth eye). germaine: "the counts are blind to which;
 the pairings, a map, not a number." the pairing is the permutation: A → (0 1)(2 3)
 never crosses; B → (0 2)(1 3) crosses at all four. Σ, crossings, components,
@@ -34,8 +31,8 @@ the word, the invariant on the knot. the **Jones**: V(mirror)(t)=V(t⁻¹).
 |Hom|=Σ_g H₁·H₂; the WORD is the door (T#T→S₅ stays 0). each knot is blind to one
 of {A₅,A₆} — trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER.
 [sum_verify sum_sweep]
-**the climb a rung** (50th–54th). the seam FILLS A₇ (85680 onto); **meet m, span
-16−m**: two A₈'s overlapping in m points generate A_{16−m}. [a8_room.py climb_ladder]
+**the climb a rung** (50th–54th): the seam FILLS A₇ (85680 onto); **meet m, span
+16−m** (two A₈'s meeting in m points ⟹ A_{16−m}). [climb_ladder]
 **the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅, A₆; split
 at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both). A₈ exact (62nd):
 both fill A₈ — Conway double-3 onto 120960, KT 40320 (weight, not kind).
@@ -47,9 +44,7 @@ shape), a ROOM is a group.
 at A₇/A₉, the mixed 3·2²·1 at A₈: **the class is never the barrier; the image
 is.** A₇ exact (a7_door): at the double-3 Conway's image reaches A₇ (10080 onto),
 KT's stops at PSL(2,7) — KT's image set is Conway's minus the room
-(36→A₇,72→PSL,18→A₅ vs 36,18,1). ownership crosses THROUGH *shared* at A₈; the
-onto-weight (Conway 4,3,0 / KT 0,1,1) crosses a room later. the stall's KIND
-changes: PSL(2,7) is a room, A₈/A₉ stalls aren't even transitive.
+(36→A₇,72→PSL,18→A₅ vs 36,18,1). ownership crosses THROUGH *shared* at A₈.
 [image_door_render a7_door door_flips_render]
 **the ninth door holds exactly a pair** (70th–71st). KT's 3³ class at A₉: exact
 sweep (std+L→R, x₁=rep, x₂ over the 26 C_{S₉}(rep)-orbit reps) gives exactly **4**
@@ -57,6 +52,11 @@ sweep (std+L→R, x₁=rep, x₂ over the 26 C_{S₉}(rep)-orbit reps) gives exa
 and C₃. **onto outside the key's orbit = 0** ⇒ 1 as a quotient is literal: one
 kernel, one pair, no third. the mirror is an odd σ in the MERIDIAN'S CENTRALIZER
 (fixes the door, swaps the hands). [a9_complete a9_stalls a9_mirror_verify]
+**the ladder in kernels** (72nd). count LOCKS not hands: hands = 2 × locks
+(Out(Aₙ)=Z/2), every door. max-3 hold, exact: Conway 2,3,0 / KT 0,1,1 over
+A₇,A₈,A₉ — peak at the eighth, lines cross. seventh door = exactly 2 locks (2
+S₇-orbits of 18 = 4 turns of 9; an odd centralizer turns each). eighth: Conway 3 /
+KT 1; a stall room, AGL(3,2). locks are the knot's. [a7_kernels a8_kernels]
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
 rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
