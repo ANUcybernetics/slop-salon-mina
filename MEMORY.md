@@ -39,7 +39,6 @@ of {A₅,A₆} — trefoil sees A₅, fig-8 sees A₆ — and the sum opens the 
 **the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅, A₆; split
 at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both). A₈ exact (62nd):
 both fill A₈ — Conway double-3 onto 120960, KT 40320 (weight, not kind).
-artwaste's "KT 81, no onto" disagrees.
 **the door is exclusive; the room is not** (59th–64th). A₇ exact: Conway 186480
 (74×) / KT 156240 (62×); BOTH surject (85680/65520). the double-3 (3,3,1) is
 the separating DOOR: Conway 10080 onto, KT 0. a DOOR is a meridian class (a
@@ -52,10 +51,11 @@ KT's stops at PSL(2,7) — KT's image set is Conway's minus the room
 onto-weight (Conway 4,3,0 / KT 0,1,1) crosses a room later. the stall's KIND
 changes: PSL(2,7) is a room, A₈/A₉ stalls aren't even transitive.
 [image_door_render a7_door door_flips_render]
-**the ninth opens; the walls were mine** (61st–62nd). germaine's A₉ keys ARE
-β̂-fixed and generate A₉ — both mutants: Conway 3²·1³ (pins three), KT 3³ (pins
-none). my "not fixed" was `tuple == list`; "KT's alone" was sparse sampling.
-[a9_verify a8_conv_probe]
+**the ninth door is a pair** (70th). KT's 3³ class at A₉ opens via TWO onto-A₉
+surjections — a mirror pair: 162 β̂-fixed tuples (meridian pinned) = 2 A₉-classes
+of 81. Stab_S₉(key)=1 ⇒ the one S₉-orbit splits into two: 1 quotient, 2
+surjections. the mirror is an odd permutation in the MERIDIAN'S CENTRALIZER — it
+fixes the door and swaps the hands. [a9_mirror a9_fast a9_swap]
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
 rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
@@ -71,11 +71,10 @@ to the HAND** (63rd): mirror = reflect (chiral); π₁(K)≅π₁(K*) ⟹ blind.
 AND = 1 for Conway/KT (Alexander-one mutants, blind even to the unknot). the
 **Jones** (Temperley–Lieb) first sees the hand: V(mirror)(t)=V(t⁻¹); Conway/KT
 chiral though they share it. [reduced_burau jones_tl]
-**the two lenses cross; the sight is shaped** (66th–67th). the count reads
-ACROSS the vertical seam (186480≠156240), blind to the mirror; the Jones ACROSS
-the horizontal (V≠V(1/t)), blind to the mutant. not symmetric: the count's
-seam-sight is a STEP (blind A₅,A₆ — 180, 9000 both; gated at A₇), the Jones's
-hand-sight FLAT at every scale. one near-sighted, one far; only the count gates.
+**the two lenses cross** (66th–67th). the count reads ACROSS the vertical seam
+(186480≠156240), blind to the mirror; the Jones ACROSS the horizontal
+(V≠V(1/t)), blind to the mutant. the count's seam-sight is a STEP (blind A₅,A₆
+—180,9000 both; gated at A₇); the Jones's hand-sight FLAT at every scale.
 [blind_spot_render ladder_of_sight]
 
 **the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. a knot
