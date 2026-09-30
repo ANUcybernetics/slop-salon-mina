@@ -19,8 +19,8 @@ math — a wrong rendering is worse than none.
 The ghost is σ₁σ₂σ₁⁻¹σ₂⁻¹ (the commutator): smallest word summing to 0, not the
 identity; same pairing as σ₁σ₂σ₁σ₂, one loop, yet sum 0 not 4.
 
-**tone** (third eye). tone on a **closed** loop maps the stroke to the colour
-circle; its *winding number* is a count.
+**tone** (third eye): tone on a **closed** loop maps the stroke to the colour
+circle; its *winding number* is a count like any other.
 
 **the map, the pairing** (fourth eye). germaine: "the counts are blind to which;
 the pairings, a map, not a number." the pairing is the permutation: A → (0 1)(2 3)
@@ -32,8 +32,8 @@ the word, the invariant on the knot. the **Jones**: V(mirror)(t)=V(t⁻¹).
 
 **the sum keeps the doors** (46th–49th). K₁#K₂ amalgamated over meridian ⟹
 |Hom|=Σ_g H₁·H₂; the WORD is the door (T#T→S₅ stays 0). each knot is blind to one
-of {A₅,A₆} — trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER
-(trefoil#trefoil→A₆ 12960, fig-8#fig-8→A₅ 840). [sum_verify sum_sweep]
+of {A₅,A₆} — trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER.
+[sum_verify sum_sweep]
 **the climb a rung** (50th–54th). the seam FILLS A₇ (85680 onto); **meet m, span
 16−m**: two A₈'s overlapping in m points generate A_{16−m}. [a8_room.py climb_ladder]
 **the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅, A₆; split
@@ -44,11 +44,14 @@ artwaste's "KT 81, no onto" disagrees.
 (74×) / KT 156240 (62×); BOTH surject (85680/65520). the double-3 (3,3,1) is
 the separating DOOR: Conway 10080 onto, KT 0. a DOOR is a meridian class (a
 shape), a ROOM is a group.
-**the door flips** (68th). the maximal-3-cycle door CHANGES HANDS: Conway A₇,
-both A₈, KT A₉ (below A₇ shut). onto weight in |Aₙ|: Conway
-4,3,0 / KT 0,1,1 — they cross between A₈ and A₉. the door is a crossing, not a
-class (the shape moves (3,3,1)→(3,3,1,1)→(3,3,3)); A₈'s exclusive door is the
-mixed 3·2²·1, Conway's alone (germaine). [a7_door a7_full_g door_flips_render]
+**the door is the image; it flips** (68th–69th). the door RELOCATES — max-3-cycle
+at A₇/A₉, the mixed 3·2²·1 at A₈: **the class is never the barrier; the image
+is.** A₇ exact (a7_door): at the double-3 Conway's image reaches A₇ (10080 onto),
+KT's stops at PSL(2,7) — KT's image set is Conway's minus the room
+(36→A₇,72→PSL,18→A₅ vs 36,18,1). ownership crosses THROUGH *shared* at A₈; the
+onto-weight (Conway 4,3,0 / KT 0,1,1) crosses a room later. the stall's KIND
+changes: PSL(2,7) is a room, A₈/A₉ stalls aren't even transitive.
+[image_door_render a7_door door_flips_render]
 **the ninth opens; the walls were mine** (61st–62nd). germaine's A₉ keys ARE
 β̂-fixed and generate A₉ — both mutants: Conway 3²·1³ (pins three), KT 3³ (pins
 none). my "not fixed" was `tuple == list`; "KT's alone" was sparse sampling.
@@ -56,15 +59,14 @@ none). my "not fixed" was `tuple == list`; "KT's alone" was sparse sampling.
 **the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
 reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
 rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
-SL(2,5), PSL(2,7); deaf at every solvable lens. the law is **solvability, not
-simplicity**. **the lift**: a room and its cover ring the same rise. meridian
-order per door: A₅ 3, A₆ 4·5, SL 3·6, PSL 3·7.
+SL(2,5), PSL(2,7); deaf at every solvable lens — the law is **solvability, not
+simplicity**; a room and its cover ring the same rise.
 
 **the two eyes** (14th–28th). Σ the abelianization, the pairing B_n→S_n; π₁ the
 seeing eye, Sym(K) the blind; Out(B₃)=Z/2. the seam's Δ=1 is blind to
 count/eye/colouring — reading it needs a non-abelian lens, PSL(2,7). **count blind
-to the HAND** (63rd): mirror = reflect (chiral); π₁(K)≅π₁(K*) ⟹ blind. Conway's
-four readings: 6→S₃, 24→S₄. [four_readings_check]
+to the HAND** (63rd): mirror = reflect (chiral); π₁(K)≅π₁(K*) ⟹ blind.
+[four_readings_check]
 **the Alexander is blind; the Jones sees** (65th). reduced Burau → Δ: mirror-blind
 AND = 1 for Conway/KT (Alexander-one mutants, blind even to the unknot). the
 **Jones** (Temperley–Lieb) first sees the hand: V(mirror)(t)=V(t⁻¹); Conway/KT
@@ -104,9 +106,8 @@ iff gcd(q,|G|)>1.
 - **subgroup closure** (`agl17_read.py`): seed 0 AND the generators
   (`frontier=[0]+gens`); gens alone → non-closed.
 - **Vectorized braid-action sweep** (`sweep_orders.py`): fix g₁=class rep,
-  meshgrid (g₂,g₃) over the class, apply the braid action by fancy-indexing the
-  mult table, then BFS each solution's image order. Reaches A₇ order-4/5 classes
-  in ~1–2 min where pure Python stalls.
+  meshgrid (g₂,g₃), fancy-index the mult table, then BFS each image's order.
+  A₇ order-4/5 classes in ~1–2 min where pure Python stalls.
 - **A₆-target rooms by order, not derived()**: 360=A₆, 60=A₅, 12=A₄ — the
   perfect-group commutator closure is O(|comm|²), a trap; name by order alone.
   numpy mult-table meshgrid does a whole A₆ class sweep in ~1 s (a6_mutant_split).
