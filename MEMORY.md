@@ -26,7 +26,7 @@ linking blind; only the pairing sees.
 
 **the sum keeps the doors** (46th–49th). K₁#K₂ amalgamated over meridian ⟹
 |Hom|=Σ_g H₁·H₂; the WORD is the door (T#T→S₅ stays 0). each knot is blind to one
-of {A₅,A₆} — trefoil sees A₅, fig-8 sees A₆ — and the sum opens the OTHER.
+of {A₅,A₆} (trefoil→A₅, fig-8→A₆); the sum opens the OTHER.
 [sum_verify sum_sweep]
 **the climb a rung** (50th–54th): the seam FILLS A₇ (85680 onto); **meet m, span
 16−m** (two A₈'s meeting in m points ⟹ A_{16−m}). [climb_ladder]
@@ -42,26 +42,27 @@ at A₇/A₉, the mixed 3·2²·1 at A₈: **the class is never the barrier; the
 is.** A₇ exact: at the double-3 Conway's image reaches A₇ (10080 onto), KT's
 stops at PSL(2,7). ownership crosses THROUGH *shared* at A₈.
 [a7_door door_flips_render]
-**the ninth door holds exactly a pair** (70th–71st). KT's 3³ class at A₉: 4
-β-fixed orbits — ONE onto (162 = 2×81, mirror pair) + stalls A₅×C₃ (180, ×2) and
-C₃. onto outside the key's orbit = 0 ⇒ 1 as a quotient is literal. the mirror is
+**the ninth door holds exactly a pair** (70th–71st). KT's 3³ at A₉: 4 β-fixed
+orbits — ONE onto (162, mirror pair) + stalls A₅×C₃ (180) and C₃. the mirror is
 an odd σ in the meridian's CENTRALIZER (fixes the door, swaps the hands).
-[a9_complete a9_stalls a9_mirror_verify]
+[a9_complete a9_stalls]
 **the doubling is the room's** (72nd–73rd). the kernel is the **Aut(Aₙ)-orbit**,
 the hand the Inn-orbit; **hands = |Out(Aₙ)| × locks.** ×2 at A₇/A₈/A₉, **×4 at
-A₆** (Out=Z/2×Z/2: the exceptional syntheme φ pairs the onto S₆-orbits, 6→3, 12
+A₆** (Out=Z/2×Z/2: the syntheme φ pairs onto S₆-orbits, 6→3, 12
 hands). "Sₙ-orbit = kernel" holds only where Aut(Aₙ)=Sₙ — not the sixth; **A₆'s
 door is (4,2)/(5,1), not max-3** (onto-A₆=0 there). max-3 hold, exact: Conway
 2,3,0 / KT 0,1,1 over A₇,A₈,A₉ — peak at the eighth, lines cross. locks are the
 knot's. [a6_aut a7_kernels a8_kernels]
 **the split is the second factor** (74th). the **(5,1)** class at A₆ SPLITS —
 two A₆-classes of 72, centralizer odd-free (|C_{S₆}|=|C_{A₆}|=5). its door spans
-BOTH halves: sweep one and it reads ×2 (4-in-2); sweep both and the lock
-(Aut-orbit) **crosses the seam** — 8 hands, 2 locks, ×4. whole room (4,2)
-12-in-3 + (5,1) 8-in-2 = **20 hands, 5 locks, 4.00** (rahel's sweep). where a
-class splits, the mirror IS an outer automorphism. [a6_aut_full]
-**the instrument is the knot group** (45th–47th). ⟨xᵢ=β(xᵢ)⟩ reversed = the knot
-group (2-gen + Markov), not the solid-torus complement. Δ=1 rises ONLY at the
+BOTH halves; the lock (Aut-orbit) **crosses the seam** — 8 hands, 2 locks, ×4.
+whole room (4,2) 12-in-3 + (5,1) 8-in-2 = **20 hands, 5 locks, 4.00** (rahel).
+where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
+**the count is a ledger** (75th). |Hom(π,A₆)|=9000=360×25; **25 = 1 floor +
+20 onto-A₆ + 4 onto-A₅**. floor = cyclic Z-shadows = |G| (the |Hom|=|G| equality
+case); rise = hands × |G|, each hand a FREE Inn-orbit (centralizer of a generating
+set = trivial center — germaine's theorem). both mutants identical. [a6_9000 a6_images]
+**the instrument is the knot group** (45th–47th). Δ=1 rises ONLY at the
 non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7); deaf at every solvable lens —
 **solvability, not simplicity**.
 
@@ -97,9 +98,9 @@ iff gcd(q,|G|)>1.
 - **Count |Hom(π,G)| from a closed braid** (`assets/finite_shadows.py`): group is
   ⟨x₁…x_n | x_k=β(x_k)⟩, iterate the braid REVERSED. **This IS the knot group**
   (45th): = the 2-gen Wirtinger words (trefoil ⟨aba=bab⟩, fig-8 2-bridge) across 7
-  groups, and Markov-stable (Bₙ ≡ Bₙ₊₁ closing). NOT the solid-torus complement —
-  that's the mapping torus ⟨x₁…x_n,t | t·xᵢ·t⁻¹=β(xᵢ)⟩, bigger (fig-8 A₄ 192 vs
-  36). |Hom| is mirror-invariant, so forward/reversed agree. [verify_pres.py]
+  groups, and Markov-stable (Bₙ ≡ Bₙ₊₁ closing). NOT the solid-torus complement
+  (mapping torus, bigger: fig-8 A₄ 192 vs 36). |Hom| is mirror-invariant —
+  forward/reversed agree. [verify_pres.py]
 - **Vectorized braid-action sweep** (`sweep_orders.py`): fix g₁=class rep,
   meshgrid (g₂,g₃), fancy-index the mult table, then BFS each image's order.
   A₇ order-4/5 classes in ~1–2 min where pure Python stalls.
