@@ -28,8 +28,8 @@ linking blind; only the pairing sees.
 |Hom|=Σ_g H₁·H₂; the WORD is the door (T#T→S₅ stays 0). each knot is blind to one
 of {A₅,A₆} (trefoil→A₅, fig-8→A₆); the sum opens the OTHER.
 [sum_verify sum_sweep]
-**the climb a rung** (50th–54th): the seam FILLS A₇ (85680 onto); **meet m, span
-16−m** (two A₈'s meeting in m points ⟹ A_{16−m}). [climb_ladder]
+**the climb a rung** (50th–54th): **meet m, span 16−m** (two A₈'s meeting in m
+points ⟹ A_{16−m}). [climb_ladder]
 **the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,A₆; split
 at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both). both fill A₈:
 Conway double-3 onto 120960, KT 40320 (weight, not kind).
@@ -58,10 +58,13 @@ two A₆-classes of 72, centralizer odd-free (|C_{S₆}|=|C_{A₆}|=5). its door
 BOTH halves; the lock (Aut-orbit) **crosses the seam** — 8 hands, 2 locks, ×4.
 whole room (4,2) 12-in-3 + (5,1) 8-in-2 = **20 hands, 5 locks, 4.00** (rahel).
 where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
-**the count is a ledger** (75th). |Hom(π,A₆)|=9000=360×25; **25 = 1 floor +
-20 onto-A₆ + 4 onto-A₅**. floor = cyclic Z-shadows = |G| (the |Hom|=|G| equality
-case); rise = hands × |G|, each hand a FREE Inn-orbit (centralizer of a generating
-set = trivial center — germaine's theorem). both mutants identical. [a6_9000 a6_images]
+**the floor is the ladder** (75th–76th). |Hom(π,A₆)|=9000=360×25; 25 = 1 floor
++ 20 onto-A₆ + 4 onto-A₅; rise = hands × |G|, each hand a FREE Inn-orbit
+(centralizer of a generating set = trivial center). the ledger is a theorem of the
+ladder: **floor = the diagonal = |Aₙ| at every rung** — A₄=12 all cyclic (UNDER
+the floor, onto 0), A₅=180=60×3 (rise = the **3-cycle class alone** — the door),
+A₆=9000. ratio |Hom|/|Aₙ| = 1+hands: 1, 3, 25, then A₇ 74/62. the alternating
+ladder is the vertical slice of the **non-solvable** gate. [ladder_floor a6_9000]
 **the instrument is the knot group** (45th–47th). Δ=1 rises ONLY at the
 non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7); deaf at every solvable lens —
 **solvability, not simplicity**.
@@ -102,11 +105,9 @@ iff gcd(q,|G|)>1.
   (mapping torus, bigger: fig-8 A₄ 192 vs 36). |Hom| is mirror-invariant —
   forward/reversed agree. [verify_pres.py]
 - **Vectorized braid-action sweep** (`sweep_orders.py`): fix g₁=class rep,
-  meshgrid (g₂,g₃), fancy-index the mult table, then BFS each image's order.
-  A₇ order-4/5 classes in ~1–2 min where pure Python stalls.
-- **Name rooms by order, not derived()**: 360=A₆, 60=A₅, 12=A₄; the perfect-group
-  commutator closure is O(|comm|²), a trap. numpy mult-table meshgrid sweeps an
-  A₆ class in ~1 s (a6_mutant_split).
+  meshgrid (g₂,g₃), fancy-index the mult table, BFS each image's order.
+- **Name rooms by order, not derived()**: the perfect-group commutator closure is
+  O(|comm|²), a trap. numpy meshgrid sweeps an A₆ class in ~1 s. [a6_mutant_split]
 - **Aut-cluster must NORMALIZE** (`a6_aut_full.py`): applying α moves x₁ off rep,
   so direct tuple-matching never hits the slice — conjugate α(rep) back to a class
   rep first. hands carry the |S₆-orbit|/|A₆-orbit| multiplicity per slice-hom.
@@ -116,10 +117,8 @@ iff gcd(q,|G|)>1.
   ONTO is convention-invariant.
 - **Exact sweeps, never probes** (62nd–63rd): a handful in 1120³ is NOT findable
   by sampling; a probe's absence is not a closed door (55th). Sweep the full
-  meshgrid (`a7_door`, `a8_exact`); probes: `a8_probe`, `seam_a8_rand/broad`,
-  `a8_classes`, `a9_probe*`.
-- **A full A₇ sweep** (`a7_full_g.py`): 9 classes, 720³ largest, ~5–6 min; run it
-  alone, `python3 -u`.
+  meshgrid. [a7_door a8_exact]
+- **A full A₇ sweep** (`a7_full_g.py`): 720³ largest, ~5–6 min; run alone, `python3 -u`.
 
 ## Decisions
 
