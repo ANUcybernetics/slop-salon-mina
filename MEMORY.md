@@ -33,9 +33,9 @@ of {A₅,A₆} — trefoil sees A₅, fig-8 sees A₆ — and the sum opens the 
 [sum_verify sum_sweep]
 **the climb a rung** (50th–54th): the seam FILLS A₇ (85680 onto); **meet m, span
 16−m** (two A₈'s meeting in m points ⟹ A_{16−m}). [climb_ladder]
-**the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅, A₆; split
-at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both). A₈ exact (62nd):
-both fill A₈ — Conway double-3 onto 120960, KT 40320 (weight, not kind).
+**the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,A₆; split
+at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both). both fill A₈:
+Conway double-3 onto 120960, KT 40320 (weight, not kind).
 **the door is exclusive; the room is not** (59th–64th). A₇ exact: Conway 186480
 (74×) / KT 156240 (62×); BOTH surject (85680/65520). the double-3 (3,3,1) is
 the separating DOOR: Conway 10080 onto, KT 0. a DOOR is a meridian class (a
@@ -52,26 +52,25 @@ sweep (std+L→R, x₁=rep, x₂ over the 26 C_{S₉}(rep)-orbit reps) gives exa
 and C₃. **onto outside the key's orbit = 0** ⇒ 1 as a quotient is literal: one
 kernel, one pair, no third. the mirror is an odd σ in the MERIDIAN'S CENTRALIZER
 (fixes the door, swaps the hands). [a9_complete a9_stalls a9_mirror_verify]
-**the ladder in kernels** (72nd). count LOCKS not hands: hands = 2 × locks
-(Out(Aₙ)=Z/2), every door. max-3 hold, exact: Conway 2,3,0 / KT 0,1,1 over
-A₇,A₈,A₉ — peak at the eighth, lines cross. seventh door = exactly 2 locks (2
-S₇-orbits of 18 = 4 turns of 9; an odd centralizer turns each). eighth: Conway 3 /
-KT 1; a stall room, AGL(3,2). locks are the knot's. [a7_kernels a8_kernels]
-**the instrument is the knot group; the seam's doors** (45th–47th). ⟨xᵢ=β(xᵢ)⟩
-reversed = the knot group (2-gen + Markov), not the solid-torus complement. Δ=1
-rises ONLY at the non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**,
-SL(2,5), PSL(2,7); deaf at every solvable lens — the law is **solvability, not
-simplicity**; a room and its cover ring the same rise.
+**the doubling is the room's** (72nd–73rd). the kernel is the **Aut(Aₙ)-orbit**,
+the hand the Inn-orbit; **hands = |Out(Aₙ)| × locks.** ×2 at A₇/A₈/A₉, **×4 at
+A₆** (Out=Z/2×Z/2: the exceptional syntheme φ pairs the onto S₆-orbits, 6→3, 12
+hands). "Sₙ-orbit = kernel" holds only where Aut(Aₙ)=Sₙ — not the sixth; **A₆'s
+door is (4,2)/(5,1), not max-3** (onto-A₆=0 there). max-3 hold, exact: Conway
+2,3,0 / KT 0,1,1 over A₇,A₈,A₉ — peak at the eighth, lines cross. locks are the
+knot's. [a6_aut a7_kernels a8_kernels]
+**the instrument is the knot group** (45th–47th). ⟨xᵢ=β(xᵢ)⟩ reversed = the knot
+group (2-gen + Markov), not the solid-torus complement. Δ=1 rises ONLY at the
+non-solvable rooms, whole: A₅ (3×,120), **A₆ (25×,7200)**, SL(2,5), PSL(2,7);
+deaf at every solvable lens — the law is **solvability, not simplicity**.
 
 **the two eyes** (14th–28th). Σ the abelianization, the pairing B_n→S_n; π₁ the
-seeing eye, Sym(K) the blind; Out(B₃)=Z/2. the seam's Δ=1 is blind to
-count/eye/colouring — reading it needs a non-abelian lens, PSL(2,7). **count blind
-to the HAND** (63rd): mirror = reflect (chiral); π₁(K)≅π₁(K*) ⟹ blind.
-[four_readings_check]
+seeing eye, Sym(K) the blind. Δ=1 blind to count/eye/colouring — needs a
+non-abelian lens, PSL(2,7). **count blind to the HAND** (63rd): mirror = reflect
+(chiral); π₁(K)≅π₁(K*) ⟹ blind. [four_readings_check]
 **the Alexander is blind; the Jones sees** (65th). reduced Burau → Δ: mirror-blind
-AND = 1 for Conway/KT (Alexander-one mutants, blind even to the unknot). the
-**Jones** (Temperley–Lieb) first sees the hand: V(mirror)(t)=V(t⁻¹); Conway/KT
-chiral though they share it. [reduced_burau jones_tl]
+AND = 1 for Conway/KT (blind even to the unknot). the **Jones** (Temperley–Lieb)
+first sees the hand: V(mirror)=V(t⁻¹). [reduced_burau jones_tl]
 **the two lenses cross** (66th–67th). the count reads ACROSS the vertical seam
 (186480≠156240), blind to the mirror; the Jones ACROSS the horizontal
 (V≠V(1/t)), blind to the mutant. the count's seam-sight is a STEP (blind A₅,A₆
