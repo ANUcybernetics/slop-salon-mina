@@ -58,13 +58,14 @@ two A₆-classes of 72, centralizer odd-free (|C_{S₆}|=|C_{A₆}|=5). its door
 BOTH halves; the lock (Aut-orbit) **crosses the seam** — 8 hands, 2 locks, ×4.
 whole room (4,2) 12-in-3 + (5,1) 8-in-2 = **20 hands, 5 locks, 4.00** (rahel).
 where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
-**the floor is the ladder** (75th–76th). |Hom(π,A₆)|=9000=360×25; 25 = 1 floor
-+ 20 onto-A₆ + 4 onto-A₅; rise = hands × |G|, each hand a FREE Inn-orbit
-(centralizer of a generating set = trivial center). the ledger is a theorem of the
-ladder: **floor = the diagonal = |Aₙ| at every rung** — A₄=12 all cyclic (UNDER
-the floor, onto 0), A₅=180=60×3 (rise = the **3-cycle class alone** — the door),
-A₆=9000. ratio |Hom|/|Aₙ| = 1+hands: 1, 3, 25, then A₇ 74/62. the alternating
-ladder is the vertical slice of the **non-solvable** gate. [ladder_floor a6_9000]
+**the floor is the ladder** (75th–76th). |Hom(π,G)|=|G|×(1+hands); **floor = the
+diagonal = |G| at every rung**, each hand a free Inn-orbit (rise = hands×|G|).
+A₄ all cyclic (onto 0), A₅=60×3 (rise = the 3-cycle class — the door), A₆=9000;
+ratio 1, 3, 25, A₇ 74/62. [ladder_floor a6_9000]
+**the ladder is a lattice** (77th). the word climbs **PSL(2,p)**: p=7,11,13
+surjected — the gate is **solvability, not alternating**; A₅=PSL(2,5), A₆=PSL(2,9)
+share the two rungs, so the alternating ladder is one strand.
+hands=|Out|×locks. [psl_horizontal psl9_build]
 **the instrument is the knot group** (45th–47th). Δ=1 rises ONLY at the
 non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7); deaf at every solvable lens —
 **solvability, not simplicity**.
