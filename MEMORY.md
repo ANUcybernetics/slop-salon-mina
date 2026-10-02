@@ -39,31 +39,32 @@ KT stops at PSL(2,7)). the door RELOCATES — max-3 at A₇/A₉, mixed 3·2²·
 *shared* at A₈. [a7_door door_flips_render]
 **the ninth door holds exactly a pair** (70th–71st). KT's 3³ at A₉: 4 β-fixed
 orbits — ONE onto (162, mirror pair) + stalls A₅×C₃ (180) and C₃. the mirror is
-an odd σ in the meridian's CENTRALIZER (fixes the door, swaps the hands).
+an odd σ in the meridian's CENTRALIZER (fixes door, swaps hands).
 [a9_complete a9_stalls]
 **the doubling is the room's** (72nd–73rd). the kernel is the **Aut(Aₙ)-orbit**,
 the hand the Inn-orbit; **hands = |Out(Aₙ)| × locks.** ×2 at A₇/A₈/A₉, **×4 at
-A₆** (Out=Z/2×Z/2: the syntheme φ pairs onto S₆-orbits, 6→3, 12
-hands). "Sₙ-orbit = kernel" holds only where Aut(Aₙ)=Sₙ — not the sixth; **A₆'s
-door is (4,2)/(5,1), not max-3** (onto-A₆=0 there). max-3 hold, exact: Conway
-2,3,0 / KT 0,1,1 over A₇,A₈,A₉ — peak at the eighth, lines cross. locks are the
+A₆** (Out=Z/2×Z/2, the syntheme). "Sₙ-orbit = kernel" holds only where
+Aut(Aₙ)=Sₙ — not the sixth; **A₆'s door is (4,2)/(5,1), not max-3**. max-3 hold:
+Conway 2,3,0 / KT 0,1,1 over A₇,A₈,A₉ — peak at the eighth. locks are the
 knot's. [a6_aut a7_kernels a8_kernels]
-**the split is the second factor** (74th). the **(5,1)** class at A₆ SPLITS —
-two A₆-classes of 72, centralizer odd-free (|C_{S₆}|=|C_{A₆}|=5). its door spans
-BOTH halves; the lock (Aut-orbit) **crosses the seam** — 8 hands, 2 locks, ×4.
-whole room (4,2) 12-in-3 + (5,1) 8-in-2 = **20 hands, 5 locks, 4.00** (rahel).
+**the split is the second factor** (74th). the **(5,1)** class at A₆ SPLITS; the
+lock crosses the seam (8 hands, 2 locks, ×4); whole room = **20 hands, 5 locks**.
 where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
 **the floor is a map, not a number** (75th–78th). |Hom|=|G|×(1+hands); floor = the
 diagonal = |G|, but it **splits one non-free orbit per class** ⟹ #shards=#classes(G),
 word-blind; **total orbits = hands + #classes** (A₆ 24+7=31; A₇ 73+9=82, 61+9=70).
 **#classes(PSL(2,p))=(p+5)/2** linear, A₅..A₉ 5,7,9,14,18; 74/62=1+73/61.
 [floor_is_a_map]
-**the seam is one lock deep** (79th). Conway/KT differ in |Hom(·,PSL(2,p))| ONLY
-in the **onto-count** — every proper image and the floor identical — and by
-**exactly one lock** (one Aut-orbit = a mirror pair). the seam lives on **one
-meridian class: the split torus, order (p−1)/2** (p=7 order3 = 4/2 hands; p=13
-order6 = 2/0; p=11 order5 = no seam). conjecture (7 pts): **seam ⟺ p≡1 mod 3 AND
-PSL(2,p) has no A₅ ⟺ p≡7 or 13 mod 15** (−3 a QR, 5 not). [seam_decompose Class]
+**the seam has two keys** (79th–80th). Conway/KT differ in |Hom(·,PSL(2,p))| ONLY
+in the **onto-count** (proper images + floor identical), by **exactly one lock**,
+on **one class: the split torus, order (p−1)/2**. **seam ⟺ (−3/p)=1 AND (5/p)=−1
+⟺ p≡7 or 13 mod 15** (8 pts): gate1 = 3-torsion in split torus (p≡1 mod 3);
+gate2 = A₅ absent (5 not a QR). one alone does nothing (p=19 turns gate1, A₅ shuts
+gate2). "route through A₅" is DEAD (meridians order 6/9 ∉ A₅). next 37, 43.
+**the floor = the group's own conjugacy-class partition** (germaine): shards =
+classes (A₇ 1·70·105·210·280·360·360·504·630). **A₇ hands C/K = 73/61** (3·A₅+
+20·A₆+16·PSL(2,7)+34·A₇ / +26); 74/62 = 1+hands, the 1 is the floor.
+[two_gates seam_19_order9]
 
 **the ladder is a lattice** (77th). the word climbs **PSL(2,p)**: p=7,11,13
 surjected — the gate is **solvability, not alternating**; A₅=PSL(2,5), A₆=PSL(2,9)
