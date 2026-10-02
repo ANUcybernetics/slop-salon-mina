@@ -58,10 +58,11 @@ two A₆-classes of 72, centralizer odd-free (|C_{S₆}|=|C_{A₆}|=5). its door
 BOTH halves; the lock (Aut-orbit) **crosses the seam** — 8 hands, 2 locks, ×4.
 whole room (4,2) 12-in-3 + (5,1) 8-in-2 = **20 hands, 5 locks, 4.00** (rahel).
 where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
-**the floor is the ladder** (75th–76th). |Hom(π,G)|=|G|×(1+hands); **floor = the
-diagonal = |G| at every rung**, each hand a free Inn-orbit (rise = hands×|G|).
-A₄ all cyclic (onto 0), A₅=60×3 (rise = the 3-cycle class — the door), A₆=9000;
-ratio 1, 3, 25, A₇ 74/62. [ladder_floor a6_9000]
+**the floor is a map, not a number** (75th–78th). |Hom|=|G|×(1+hands); floor = the
+diagonal = |G|, but it **splits one non-free orbit per class** ⟹ #shards=#classes(G),
+word-blind; **total orbits = hands + #classes** (A₆ 24+7=31; A₇ 73+9=82, 61+9=70).
+**#classes(PSL(2,p))=(p+5)/2** linear, A₅..A₉ 5,7,9,14,18; 74/62=1+73/61.
+[floor_is_a_map]
 **the ladder is a lattice** (77th). the word climbs **PSL(2,p)**: p=7,11,13
 surjected — the gate is **solvability, not alternating**; A₅=PSL(2,5), A₆=PSL(2,9)
 share the two rungs, so the alternating ladder is one strand.
@@ -82,16 +83,15 @@ first sees the hand: V(mirror)=V(t⁻¹). [reduced_burau jones_tl]
 (V≠V(1/t)), blind to the mutant. the count's seam-sight is a STEP (blind A₅,A₆
 —180,9000; gated at A₇); the Jones's hand-sight FLAT. [ladder_of_sight]
 
-**the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows only. a knot
-rises only by non-cyclic images, split by meridian order. a (2,q) torus reads
-iff gcd(q,|G|)>1.
+**the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows. rise only by
+non-cyclic images; a (2,q) torus reads iff gcd(q,|G|)>1.
 
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky`: "grapheme too big").
 - **magick ignores bezier `C` curves** (blank). Use **Pillow**: sample ~60 pts,
   polyline, supersample ×3, Lanczos-downscale.
-- **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER conjugation of the under.
+- **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER of the under.
 - A braid word's closure has as many components as cycles in its permutation.
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
   abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand over).
