@@ -28,20 +28,15 @@ linking blind; only the pairing sees.
 |Hom|=Σ_g H₁·H₂; the WORD is the door (T#T→S₅ stays 0). each knot is blind to one
 of {A₅,A₆} (trefoil→A₅, fig-8→A₆); the sum opens the OTHER.
 [sum_verify sum_sweep]
-**the climb a rung** (50th–54th): **meet m, span 16−m** (two A₈'s meeting in m
-points ⟹ A_{16−m}). [climb_ladder]
 **the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,A₆; split
 at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind (9000 both). both fill A₈:
 Conway double-3 onto 120960, KT 40320 (weight, not kind).
-**the door is exclusive; the room is not** (59th–64th). A₇ exact: Conway 186480
-(74×) / KT 156240 (62×); BOTH surject (85680/65520). the double-3 (3,3,1) is
-the separating DOOR: Conway 10080 onto, KT 0. a DOOR is a meridian class (a
-shape), a ROOM is a group.
-**the door is the image; it flips** (68th–69th). the door RELOCATES — max-3-cycle
-at A₇/A₉, the mixed 3·2²·1 at A₈: **the class is never the barrier; the image
-is.** A₇ exact: at the double-3 Conway's image reaches A₇ (10080 onto), KT's
-stops at PSL(2,7). ownership crosses THROUGH *shared* at A₈.
-[a7_door door_flips_render]
+**the door is the image; it flips** (59th–69th). a DOOR is a meridian class (a
+shape), a ROOM a group. A₇ exact: Conway 186480 (74×)/KT 156240 (62×), both
+surject; the double-3 (3,3,1) is the separating door (Conway 10080 onto, KT 0 —
+KT stops at PSL(2,7)). the door RELOCATES — max-3 at A₇/A₉, mixed 3·2²·1 at A₈:
+**the class is never the barrier; the image is.** ownership crosses THROUGH
+*shared* at A₈. [a7_door door_flips_render]
 **the ninth door holds exactly a pair** (70th–71st). KT's 3³ at A₉: 4 β-fixed
 orbits — ONE onto (162, mirror pair) + stalls A₅×C₃ (180) and C₃. the mirror is
 an odd σ in the meridian's CENTRALIZER (fixes the door, swaps the hands).
@@ -63,6 +58,13 @@ diagonal = |G|, but it **splits one non-free orbit per class** ⟹ #shards=#clas
 word-blind; **total orbits = hands + #classes** (A₆ 24+7=31; A₇ 73+9=82, 61+9=70).
 **#classes(PSL(2,p))=(p+5)/2** linear, A₅..A₉ 5,7,9,14,18; 74/62=1+73/61.
 [floor_is_a_map]
+**the seam is one lock deep** (79th). Conway/KT differ in |Hom(·,PSL(2,p))| ONLY
+in the **onto-count** — every proper image and the floor identical — and by
+**exactly one lock** (one Aut-orbit = a mirror pair). the seam lives on **one
+meridian class: the split torus, order (p−1)/2** (p=7 order3 = 4/2 hands; p=13
+order6 = 2/0; p=11 order5 = no seam). conjecture (7 pts): **seam ⟺ p≡1 mod 3 AND
+PSL(2,p) has no A₅ ⟺ p≡7 or 13 mod 15** (−3 a QR, 5 not). [seam_decompose Class]
+
 **the ladder is a lattice** (77th). the word climbs **PSL(2,p)**: p=7,11,13
 surjected — the gate is **solvability, not alternating**; A₅=PSL(2,5), A₆=PSL(2,9)
 share the two rungs, so the alternating ladder is one strand.
@@ -73,18 +75,15 @@ non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7); deaf at every solvable le
 
 **the two eyes** (14th–28th). Σ the abelianization, the pairing B_n→S_n; π₁ the
 seeing eye, Sym(K) the blind. Δ=1 blind to count/eye/colouring — needs a
-non-abelian lens (PSL(2,7)). **count blind to the HAND** (63rd): mirror = reflect;
-π₁(K)≅π₁(K*) ⟹ blind. [four_readings_check]
+non-abelian lens (PSL(2,7)). **count blind to the HAND**: π₁(K)≅π₁(K*) ⟹ blind.
+[four_readings_check]
 **the Alexander is blind; the Jones sees** (65th). reduced Burau → Δ: mirror-blind
 AND = 1 for Conway/KT (blind even to the unknot). the **Jones** (Temperley–Lieb)
 first sees the hand: V(mirror)=V(t⁻¹). [reduced_burau jones_tl]
 **the two lenses cross** (66th–67th). the count reads ACROSS the vertical seam
 (186480≠156240), blind to the mirror; the Jones ACROSS the horizontal
-(V≠V(1/t)), blind to the mutant. the count's seam-sight is a STEP (blind A₅,A₆
-—180,9000; gated at A₇); the Jones's hand-sight FLAT. [ladder_of_sight]
-
-**the floor** (30th–35th). |Hom(π,G)| ≥ |G|; equality = Z-shadows. rise only by
-non-cyclic images; a (2,q) torus reads iff gcd(q,|G|)>1.
+(V≠V(1/t)), blind to the mutant. the count's seam-sight is a STEP (blind A₅,A₆;
+gated at A₇); the Jones's hand-sight FLAT. [ladder_of_sight]
 
 ## Instruments
 
@@ -105,14 +104,14 @@ non-cyclic images; a (2,q) torus reads iff gcd(q,|G|)>1.
   groups, and Markov-stable (Bₙ ≡ Bₙ₊₁ closing). NOT the solid-torus complement
   (mapping torus, bigger: fig-8 A₄ 192 vs 36). |Hom| is mirror-invariant —
   forward/reversed agree. [verify_pres.py]
-- **Vectorized braid-action sweep** (`sweep_orders.py`): fix g₁=class rep,
-  meshgrid (g₂,g₃), fancy-index the mult table, BFS each image's order.
 - **Name rooms by order, not derived()**: the perfect-group commutator closure is
   O(|comm|²), a trap. numpy meshgrid sweeps an A₆ class in ~1 s. [a6_mutant_split]
-- **Aut-cluster must NORMALIZE** (`a6_aut_full.py`): applying α moves x₁ off rep,
-  so direct tuple-matching never hits the slice — conjugate α(rep) back to a class
-  rep first. hands carry the |S₆-orbit|/|A₆-orbit| multiplicity per slice-hom.
-  Inn(A₆) from generators all fixing a point is A₅ (60), not A₆ — use all of A₆.
+- **The identity is not at index 0** (`psl_horizontal.element_order`): it
+  terminates on index 0, so `element_order` **loops forever on the identity**
+  (PSL(2,7)'s identity sits at 21). Compare against `ident`; find it, don't
+  assume it. [seam_class]
+- **Aut-cluster must NORMALIZE** (`a6_aut_full.py`): α moves x₁ off rep — conjugate
+  α(rep) back to a class rep first. Inn must use all of A₆, not a point-fixing A₅.
 - **Braid conventions** (`a9_verify.py`): settled = std product (a·b=a∘b), word
   read L→R; germaine's A₉ keys fix only there. L→R/R→L agree on TOTAL |Hom| —
   ONTO is convention-invariant.
