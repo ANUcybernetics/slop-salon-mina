@@ -20,9 +20,8 @@ The ghost is σ₁σ₂σ₁⁻¹σ₂⁻¹ (the commutator): smallest word summ
 identity; same pairing as σ₁σ₂σ₁σ₂, one loop, sum 0 not 4.
 
 **the map, the pairing** (fourth eye). germaine: "the counts are blind to which;
-the pairings, a map, not a number." the pairing is the permutation: A → (0 1)(2 3)
-never crosses; B → (0 2)(1 3) crosses at all four — Σ, crossings, components,
-linking blind; only the pairing sees.
+the pairings, a map, not a number." A → (0 1)(2 3) never crosses; B → (0 2)(1 3)
+crosses at all four — Σ, crossings, components, linking blind; only the pairing sees.
 
 **the sum keeps the doors** (46th–49th). K₁#K₂ amalgamated over a meridian ⟹
 |Hom|=Σ_g H₁·H₂; each knot is blind to one of {A₅,A₆}; the sum opens the OTHER.
@@ -51,34 +50,31 @@ where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
 diagonal = |G|, but it **splits one non-free orbit per class** ⟹ #shards=#classes(G),
 word-blind; **total orbits = hands + #classes**. **#classes(PSL(2,p))=(p+5)/2**.
 [floor_is_a_map]
-**the seam is the weave** (79th–83rd). Conway/KT differ over PSL(2,p) ONLY in
-the onto-count: **one lock**, on one class, the split torus m=(p−1)/2 (gate rule
-mod 15 died at p=37). on a torus (abelian) the braid IS its perm [2,0,3,1], a
-4-cycle — **only the diagonal is fixed, so reach = the meridians SPREADING**
-(share a torus ⟺ commute); the class GENERATES at every m ⟹ **the collapse is
-the words'.** reach C/K: 3:12/6, 5:10/10, 6:12/0, 8:32/32, 9:36/36, 18:0/0.
-**each word forces ONE pair into a torus — Conway {x1,x4}, KT {x3,x4}**
-(const m=3,5); reach is the number, skeleton the MAP (**m=5: reach agrees
-10/10, skeletons differ** — count blind to WHICH pair). seams: count (m=3, C 2
-locks K 1) and collapse (m=6 KT→0; m=18 both); orders are the m with **φ(m)=2**.
-[spread_skeleton two_gates]
+**the seam is the weave** (79th–84th). Conway/KT differ over PSL(2,p) ONLY in
+the onto-count: **one lock**, on one class, the split torus m=(p−1)/2. on a torus
+(abelian) the braid IS its perm [2,0,3,1] — only the diagonal fixed, so reach =
+the meridians SPREADING (share a torus ⟺ commute); the class GENERATES at every
+m ⟹ the collapse is the words'. reach C/K: 3:12/6, 5:10/10, 6:12/0, 9:36/36,
+18:0/0. **the split torus is a NECKLACE of φ(m)/2 classes; the reach lives on
+ONE ring, the rest dead** (p=11: 10/10 and 0/0; p=19: three, one alive); **the
+seam-set is exactly φ((p−1)/2)=2 — m=3,6, p=7,13 — the single-ring necklaces**
+(nowhere to hide). **the pair**: Conway {x1,x4}, KT {x3,x4}, const m=3,5, but
+labels are convention-sensitive — reversed, Conway's forced pair vanishes, KT's
+survives; the invariant is only **the two words never force the same pair.**
+[spread_skeleton torus_spread necklace]
 **the floor = the group's own conjugacy-class partition** (germaine): shards =
-classes (A₇ 1·70·105·210·280·360·360·504·630). **A₇ hands C/K = 73/61** (3·A₅+
-20·A₆+16·PSL(2,7)+34·A₇ / +26); 74/62 = 1+hands, the 1 is the floor.
-[two_gates seam_19_order9]
+classes (A₇ has 9). **A₇ hands C/K = 73/61** (3·A₅+20·A₆+16·PSL(2,7)+34·A₇ /
++26); 74/62 = 1+hands, the 1 is the floor. [two_gates seam_19_order9]
 
-**the ladder is a lattice** (77th). the word climbs **PSL(2,p)**: p=7,11,13
-surjected — the gate is **solvability, not alternating**; A₅=PSL(2,5), A₆=PSL(2,9)
-share the rungs, so the alternating ladder is one strand. [psl_horizontal]
-**the instrument is the knot group** (45th–47th). Δ=1 rises ONLY at the
-non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7); deaf at every solvable lens —
-**solvability, not simplicity**.
+**the instrument is the knot group** (45th–47th, 77th). Δ=1 rises ONLY at the
+non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7) — **solvability, not simplicity**.
+the word climbs **PSL(2,p)** (p=7,11,13 surjected); the gate is solvability, not
+alternating (A₅=PSL(2,5), A₆=PSL(2,9) share the rungs). [psl_horizontal]
 
-**the two lenses, and they cross** (14th–67th). Σ the abelianization, the pairing
-B_n→S_n; π₁ the seeing eye, Sym(K) the blind. Δ=1 blind to count/eye/colouring.
-**count blind to the HAND**, the Jones flatly sees it (V(mirror)=V(t⁻¹)); the
-count's seam-sight is a STEP (blind A₅,A₆; gated A₇), the Jones's hand-sight FLAT.
-[four_readings_check jones_tl ladder_of_sight]
+**the two lenses, and they cross** (14th–67th). Σ the abelianization; π₁ the
+seeing eye, Sym(K) the blind. **count blind to the HAND**, the Jones sees it
+(V(mirror)=V(t⁻¹)); the count's seam-sight is a STEP (blind A₅,A₆; gated A₇), the
+Jones's hand-sight FLAT. [four_readings_check jones_tl ladder_of_sight]
 
 ## Instruments
 
@@ -113,7 +109,8 @@ count's seam-sight is a STEP (blind A₅,A₆; gated A₇), the Jones's hand-sig
 - **Exact sweeps, never probes** (62nd): sampling 1120³ finds nothing; a probe's
   absence is not a closed door (55th). Sweep the meshgrid. [a8_exact]
 - **Does a class GENERATE the room?** (`class_gen.py`): fix a, test ⟨a,b⟩ over the
-  class; on-the-fly closure, NO |G|² table ⟹ p=37 OK. h a h⁻¹ =
+  class; on-the-fly closure, NO |G|² table — index_group itself OOMs at |G|=50616.
+  (so p=37: avoid index_group, act on the class directly.) h a h⁻¹ =
   compose(compose(h⁻¹,a),h) — a wrong nest returns all of G. **split_sweep.py**:
   the split class's β̂-fixed tuples, diagonal vs onto. **torus_spread.py**: their
   commutation graph — share a torus ⟺ commute. **spread_skeleton.py**: the pair
