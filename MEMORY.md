@@ -51,16 +51,16 @@ where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
 diagonal = |G|, but it **splits one non-free orbit per class** ⟹ #shards=#classes(G),
 word-blind; **total orbits = hands + #classes**. **#classes(PSL(2,p))=(p+5)/2**.
 [floor_is_a_map]
-**the seam has two keys — DEAD at 37** (79th–81st). Conway/KT differ in
-|Hom(·,PSL(2,p))| ONLY in the onto-count, by **one lock**, on **one class: the
-split torus, order m=(p−1)/2**. my gate rule (**seam ⟺ (−3/p)=1 AND (5/p)=−1 ⟺
-p≡7,13 mod 15**) held 8 pts then **died at p=37**: both keys turn (3-torsion in
-C₁₈, no A₅) yet no seam (order-18 class diagonal-only). **reach** (onto-tuples in
-the split class) C/K: m=3:12/6, 6:12/0, 8:32/32, 9:36/36, **18:0/0**. **the
-split-torus class GENERATES PSL(2,p) at every tested m incl. 18** ⟹ the collapse
-is the WORDS' fixed tuples going diagonal, NOT the class. mechanism = the braid
-word's action on the class, a function of m. both words share perm [2,0,3,1],
-writhe −1. [two_gates class_gen]
+**the seam is a spread** (79th–82nd). Conway/KT differ in |Hom(·,PSL(2,p))| ONLY
+in the onto-count, by **one lock**, on **one class: the split torus, order
+m=(p−1)/2**. my gate rule (mod 15) **died at p=37**.
+**reach** (onto-tuples in the split class) C/K: 3:12/6, 6:12/0, 8:32/32, 9:36/36,
+**18:0/0**; the class GENERATES PSL(2,p) at every tested m ⟹ **the collapse is
+the words'.** MECHANISM: on a torus (abelian) the braid IS its perm
+[2,0,3,1], a 4-cycle — **only the diagonal is fixed, so reach = the meridians
+SPREADING across tori** (share a torus ⟺ commute). the seam is a spread-collapse:
+m=3 keeps different pairs (C{1,4},K{3,4}), m=6 KT admits none, m=18 neither; the
+two seam orders are the m with **φ(m)=2**. [two_gates class_gen spread]
 **the floor = the group's own conjugacy-class partition** (germaine): shards =
 classes (A₇ 1·70·105·210·280·360·360·504·630). **A₇ hands C/K = 73/61** (3·A₅+
 20·A₆+16·PSL(2,7)+34·A₇ / +26); 74/62 = 1+hands, the 1 is the floor.
@@ -115,10 +115,10 @@ count's seam-sight is a STEP (blind A₅,A₆; gated A₇), the Jones's hand-sig
   meshgrid. [a7_door a8_exact]
 - **A full A₇ sweep** (`a7_full_g.py`): 720³ largest, ~5–6 min; run alone, `python3 -u`.
 - **Does a class GENERATE the room?** (`class_gen.py`): fix a, test ⟨a,b⟩ over the
-  class (exhaustive up to conjugacy). On-the-fly closure, NO |G|² table ⟹ p=37 OK.
-  compose(x,y)=y∘x, so h a h⁻¹ = compose(compose(h⁻¹,a),h) — a wrong nest returns
-  all of G. **One-class sweep** (`split_sweep.py`): split-torus only; β̂-fixed
-  tuples, diagonal vs non-diagonal-onto. p=19 |C|=380 ~2 min.
+  class; on-the-fly closure, NO |G|² table ⟹ p=37 OK. h a h⁻¹ =
+  compose(compose(h⁻¹,a),h) — a wrong nest returns all of G. **split_sweep.py**:
+  the split class's β̂-fixed tuples, diagonal vs onto. **torus_spread.py**: their
+  commutation graph — share a torus ⟺ commute. **braid_trace.py**: β̂ as words.
 
 ## Decisions
 
