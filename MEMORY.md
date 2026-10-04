@@ -58,11 +58,11 @@ m ⟹ the collapse is the words'. **the split torus is a NECKLACE of φ(m)/2
 classes**; **the seam-set is exactly φ((p−1)/2)=2 — m=3,6, p=7,13 — the
 single-ring necklaces** (nowhere to hide). **the seam is the word's fold; the bead
 COUNT is the room's** (85th): 1 for small m, **0 at m=18**, **2 at m=21**
-(germaine). **the image, not the pair** (86th, rahel): the labeled pair is the
-SKELETON (rep-dependent); the invariant is the IMAGE = the onto-hands'
-axis-partition SHAPE. KT's reach = Conway's folded hands (6,10,0); **the seam =
-Conway's SPREAD** (12−6,10−10,12−0).
-[spread_skeleton torus_spread necklace image_render]
+(germaine). **the pair is the skeleton, the shape the image** (86th–87th): axis = a
+meridian's 2 fixed pts; 112=fold, 1111=spread. **the fold is SHARED; the seam
+is the spread**: both fold the SAME count each rung, seam = spread diff
+(6,0,12,0,0). Conway folds x1·x4 at 7,11; **KT spread at 17,19** (not C-spread/
+K-fold). [fold_share]
 **the floor = the group's own conjugacy-class partition** (germaine): shards =
 classes (A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands, the 1 is the floor.
 [two_gates seam_19_order9]
