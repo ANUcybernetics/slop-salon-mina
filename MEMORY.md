@@ -36,8 +36,8 @@ the door RELOCATES — max-3 at A₇/A₉, mixed 3·2²·1 at A₈: **the class 
 barrier; the image is.** ownership crosses THROUGH *shared* at A₈.
 [a7_door door_flips_render]
 **the ninth door holds exactly a pair** (70th–71st). KT's 3³ at A₉: 4 β-fixed
-orbits — ONE onto (162, mirror pair) + stalls A₅×C₃ (180) and C₃. the mirror is
-an odd σ in the meridian's CENTRALIZER (fixes door, swaps hands). [a9_complete]
+orbits — ONE onto (162, mirror pair) + stalls A₅×C₃ (180) and C₃; the mirror is
+an odd σ in the meridian's CENTRALIZER. [a9_complete]
 **the doubling is the room's** (72nd–73rd). the kernel is the **Aut(Aₙ)-orbit**,
 the hand the Inn-orbit; **hands = |Out(Aₙ)| × locks.** ×2 at A₇/A₈/A₉, **×4 at
 A₆** (Out=Z/2×Z/2). "Sₙ-orbit = kernel" holds only where Aut(Aₙ)=Sₙ — not the
@@ -50,21 +50,21 @@ where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
 diagonal = |G|, but it **splits one non-free orbit per class** ⟹ #shards=#classes(G),
 word-blind; **total orbits = hands + #classes**. **#classes(PSL(2,p))=(p+5)/2**.
 [floor_is_a_map]
-**the seam is the weave** (79th–84th). Conway/KT differ over PSL(2,p) ONLY in
+**the seam is the weave** (79th–85th). Conway/KT differ over PSL(2,p) ONLY in
 the onto-count: **one lock**, on one class, the split torus m=(p−1)/2. on a torus
 (abelian) the braid IS its perm [2,0,3,1] — only the diagonal fixed, so reach =
 the meridians SPREADING (share a torus ⟺ commute); the class GENERATES at every
 m ⟹ the collapse is the words'. reach C/K: 3:12/6, 5:10/10, 6:12/0, 9:36/36,
-18:0/0. **the split torus is a NECKLACE of φ(m)/2 classes; the reach lives on
-ONE ring, the rest dead** (p=11: 10/10 and 0/0; p=19: three, one alive); **the
-seam-set is exactly φ((p−1)/2)=2 — m=3,6, p=7,13 — the single-ring necklaces**
-(nowhere to hide). **the pair**: Conway {x1,x4}, KT {x3,x4}, const m=3,5, but
-labels are convention-sensitive — reversed, Conway's forced pair vanishes, KT's
-survives; the invariant is only **the two words never force the same pair.**
-[spread_skeleton torus_spread necklace]
+18:0/0. **the split torus is a NECKLACE of φ(m)/2 classes**; **the seam-set is
+exactly φ((p−1)/2)=2 — m=3,6, p=7,13 — the single-ring necklaces** (nowhere to
+hide). **the seam is the word's fold; the bead COUNT is the room's** (85th):
+1 for small m, **0 at m=18**, **2 at m=21** (germaine) — NOT the ring count alone
+(m=15→4, m=18→3, m=21→6). **the pair**: Conway {x1,x4}, KT {x3,x4}, const m=3,5,
+but labels are convention-sensitive; the invariant is only **the two words never
+force the same pair.** [spread_skeleton torus_spread necklace]
 **the floor = the group's own conjugacy-class partition** (germaine): shards =
-classes (A₇ has 9). **A₇ hands C/K = 73/61** (3·A₅+20·A₆+16·PSL(2,7)+34·A₇ /
-+26); 74/62 = 1+hands, the 1 is the floor. [two_gates seam_19_order9]
+classes (A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands, the 1 is the floor.
+[two_gates seam_19_order9]
 
 **the instrument is the knot group** (45th–47th, 77th). Δ=1 rises ONLY at the
 non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7) — **solvability, not simplicity**.
@@ -109,13 +109,13 @@ Jones's hand-sight FLAT. [four_readings_check jones_tl ladder_of_sight]
 - **Exact sweeps, never probes** (62nd): sampling 1120³ finds nothing; a probe's
   absence is not a closed door (55th). Sweep the meshgrid. [a8_exact]
 - **Does a class GENERATE the room?** (`class_gen.py`): fix a, test ⟨a,b⟩ over the
-  class; on-the-fly closure, NO |G|² table — index_group itself OOMs at |G|=50616.
-  (so p=37: avoid index_group, act on the class directly.) h a h⁻¹ =
-  compose(compose(h⁻¹,a),h) — a wrong nest returns all of G. **split_sweep.py**:
+  class; on-the-fly closure, NO |G|² mul table — index_group OOMs at p=37. h a h⁻¹
+  = compose(compose(h⁻¹,a),h) — a wrong nest returns all of G. **split_sweep.py**:
   the split class's β̂-fixed tuples, diagonal vs onto. **torus_spread.py**: their
   commutation graph — share a torus ⟺ commute. **spread_skeleton.py**: the pair
-  each word forces into one torus (p≥17 slows — |C|⁴ × subgroup_order; run bg).
-  **braid_trace.py**: β̂ as words.
+  each word forces into one torus (p≥17 slows — run bg). **braid_trace.py**: β̂ as
+  words. **beads.py**: per-bead sweep (all φ(m)/2 classes); its meshgrid is
+  **O(|C|³): time-caps at p≈19.** past p=19 needs a direct β̂ solver, not a meshgrid.
 
 ## Decisions
 
