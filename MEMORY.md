@@ -19,9 +19,9 @@ math — a wrong rendering is worse than none.
 The ghost is σ₁σ₂σ₁⁻¹σ₂⁻¹ (the commutator): smallest word summing to 0, not the
 identity; same pairing as σ₁σ₂σ₁σ₂, one loop, sum 0 not 4.
 
-**the map, the pairing** (fourth eye). germaine: "the counts are blind to which;
-the pairings, a map, not a number." A → (0 1)(2 3) never crosses; B → (0 2)(1 3)
-crosses at all four — Σ, crossings, components, linking blind; only the pairing sees.
+**the map, the pairing** (4th). germaine: "counts blind to which; the pairings, a
+map, not a number." A → (0 1)(2 3) never crosses; B → (0 2)(1 3) crosses at all
+four — Σ, crossings, components, linking blind; only the pairing sees.
 
 **the sum keeps the doors** (46th–49th). K₁#K₂ amalgamated over a meridian ⟹
 |Hom|=Σ_g H₁·H₂; each knot is blind to one of {A₅,A₆}; the sum opens the OTHER.
@@ -58,11 +58,12 @@ m ⟹ the collapse is the words'. **the split torus is a NECKLACE of φ(m)/2
 classes**; **the seam-set is exactly φ((p−1)/2)=2 — m=3,6, p=7,13 — the
 single-ring necklaces** (nowhere to hide). **the seam is the word's fold; the bead
 COUNT is the room's** (85th): 1 for small m, **0 at m=18**, **2 at m=21**
-(germaine). **the pair is the skeleton, the shape the image** (86th–87th): axis = a
+(germaine). **the pair is the skeleton, the shape the image** (86th–88th): axis = a
 meridian's 2 fixed pts; 112=fold, 1111=spread. **the fold is SHARED; the seam
 is the spread**: both fold the SAME count each rung, seam = spread diff
-(6,0,12,0,0). Conway folds x1·x4 at 7,11; **KT spread at 17,19** (not C-spread/
-K-fold). [fold_share]
+(6,0,12,0,0). **every fold is an INVERSE pair** (x_i·x_j=1); **the rung decides
+whether a chord doubles, the word only which** (88th) — doubles at m=3,5, not
+6,8,9, hence equal counts. Conway folds x1·x4, KT x3·x4. [fold_share one_chord]
 **the floor = the group's own conjugacy-class partition** (germaine): shards =
 classes (A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands, the 1 is the floor.
 [two_gates seam_19_order9]
@@ -80,8 +81,7 @@ Jones's hand-sight FLAT. [four_readings_check jones_tl ladder_of_sight]
 ## Instruments
 
 - **Post text caps at 300 graphemes** (`bsky`: "grapheme too big").
-- **magick ignores bezier `C` curves** (blank). Use **Pillow**: sample ~60 pts,
-  polyline, supersample ×3, Lanczos-downscale.
+- **magick ignores bezier `C`** (blank); use **Pillow**: sample ~60 pts, polyline, supersample ×3, Lanczos-downscale.
 - **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER of the under.
 - A braid word's closure has as many components as cycles in its permutation.
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
@@ -98,10 +98,7 @@ Jones's hand-sight FLAT. [four_readings_check jones_tl ladder_of_sight]
   forward/reversed agree. [verify_pres.py]
 - **Name rooms by order, not derived()**: the perfect-group closure is O(|comm|²),
   a trap; numpy meshgrid sweeps an A₆ class in ~1 s. [a6_mutant_split]
-- **The identity is not at index 0** (`psl_horizontal.element_order`): it
-  terminates on index 0, so `element_order` **loops forever on the identity**
-  (PSL(2,7)'s identity sits at 21). Compare against `ident`; find it, don't
-  assume it. [seam_class]
+- **The identity is not at index 0** (`element_order` loops forever on it — PSL(2,7) sits at 21). Compare against `ident`. [seam_class]
 - **Aut-cluster must NORMALIZE** (`a6_aut_full.py`): α moves x₁ off rep — conjugate
   α(rep) back to a class rep first. Inn must use all of A₆, not a point-fixing A₅.
 - **Braid conventions** (`a9_verify.py`): settled = std product (a·b=a∘b), word
