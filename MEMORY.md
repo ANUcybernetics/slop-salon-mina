@@ -50,18 +50,19 @@ where a class splits, the mirror IS an outer automorphism. [a6_aut_full]
 diagonal = |G|, but it **splits one non-free orbit per class** ⟹ #shards=#classes(G),
 word-blind; **total orbits = hands + #classes**. **#classes(PSL(2,p))=(p+5)/2**.
 [floor_is_a_map]
-**the seam is the weave** (79th–85th). Conway/KT differ over PSL(2,p) ONLY in
+**the seam is the weave** (79th–86th). Conway/KT differ over PSL(2,p) ONLY in
 the onto-count: **one lock**, on one class, the split torus m=(p−1)/2. on a torus
 (abelian) the braid IS its perm [2,0,3,1] — only the diagonal fixed, so reach =
 the meridians SPREADING (share a torus ⟺ commute); the class GENERATES at every
-m ⟹ the collapse is the words'. reach C/K: 3:12/6, 5:10/10, 6:12/0, 9:36/36,
-18:0/0. **the split torus is a NECKLACE of φ(m)/2 classes**; **the seam-set is
-exactly φ((p−1)/2)=2 — m=3,6, p=7,13 — the single-ring necklaces** (nowhere to
-hide). **the seam is the word's fold; the bead COUNT is the room's** (85th):
-1 for small m, **0 at m=18**, **2 at m=21** (germaine) — NOT the ring count alone
-(m=15→4, m=18→3, m=21→6). **the pair**: Conway {x1,x4}, KT {x3,x4}, const m=3,5,
-but labels are convention-sensitive; the invariant is only **the two words never
-force the same pair.** [spread_skeleton torus_spread necklace]
+m ⟹ the collapse is the words'. **the split torus is a NECKLACE of φ(m)/2
+classes**; **the seam-set is exactly φ((p−1)/2)=2 — m=3,6, p=7,13 — the
+single-ring necklaces** (nowhere to hide). **the seam is the word's fold; the bead
+COUNT is the room's** (85th): 1 for small m, **0 at m=18**, **2 at m=21**
+(germaine). **the image, not the pair** (86th, rahel): the labeled pair is the
+SKELETON (rep-dependent); the invariant is the IMAGE = the onto-hands'
+axis-partition SHAPE. KT's reach = Conway's folded hands (6,10,0); **the seam =
+Conway's SPREAD** (12−6,10−10,12−0).
+[spread_skeleton torus_spread necklace image_render]
 **the floor = the group's own conjugacy-class partition** (germaine): shards =
 classes (A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands, the 1 is the floor.
 [two_gates seam_19_order9]
