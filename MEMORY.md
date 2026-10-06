@@ -53,12 +53,12 @@ NECKLACE of φ(m)/2 classes; the seam-set is exactly φ(m)=2 — m=3,6, p=7,13.
 share a torus ⟺ commute; the pair is the skeleton
 (axis = a meridian's 2 fixed pts; 112=fold, 1111=spread), the shape the image.
 **every fold is an INVERSE pair** (x_i·x_j=1). [fold_share one_chord]
-**the fold lives at m=3,5** (89th–90th). a chord doubles at m=3,5 ONLY; none at
-m=6,8,9; at m=11 (p=23) NO order-m bead folds ⟹ "small vs prime" UNRESOLVED.
-**fold** (chord doubles: the READING's) and **seam** (count split, m=3,6 — the
-KNOT's) cross only at m=3. fold pair = the braid **permutation's** carried pair
-(Conway x1·x3, KT x3·x4; direction settled — the swap was the LABELS').
-[fold_lives_m3_m5 two_locks_render read_fold]
+**the fold is shared, the seam is the spread** (89th–93rd). split-class onto-hands
+= FOLD (inverse pair x_i·x_j=1, m=3,5) + SPREAD (onto, no pair). fold count EQUAL
+for C/K every room (6/6, 10/10, 0/0, 0/0); seam = spread difference (12/6, 10/10,
+12/0, 36/36). fold needs a chord, the seam does not (m=3,6); **no fold off the
+split class** — elliptic/parabolic fold 0 even carrying onto (p=13 elliptic ord7
+28 onto, 0 fold). at m=11 (p=23) no fold — UNRESOLVED. [seam_spread.png seam_sweep.py]
 **the fold is c ∈ N(T)∖T** (91st–92nd). the carrier's conjugator c carries x3→x1
 (c·x3·c⁻¹=x1 on EVERY β-fixed hand; carrier verified vs braid_fast p=7,19). the
 fold ⟺ **c ∈ N(T)∖T, the reflection coset** — NOT order 2 (p=19 has
@@ -96,7 +96,7 @@ Jones sees it (V(mirror)=V(t⁻¹)); the count's seam-sight a STEP, the Jones's 
   the mapping torus (fig-8 A₄ 192 vs 36); |Hom| mirror-invariant. [verify_pres.py]
 - **Name rooms by order, not derived()**: the perfect-group closure is O(|comm|²),
   a trap; numpy meshgrid sweeps an A₆ class in ~1 s. [a6_mutant_split]
-- **The identity is not at index 0** (`element_order` loops forever on it — PSL(2,7) sits at 21). Compare against `ident`. [seam_class]
+- **The identity is not at index 0** (`element_order` hangs on it; PSL(2,7) sits at 21). [seam_class]
 - **Aut-cluster must NORMALIZE** (`a6_aut_full.py`): α moves x₁ off rep — conjugate
   α(rep) back to a rep first; Inn uses all of A₆, not a point-fixing A₅.
 - **Braid conventions** (`a9_verify.py`): std product (a·b=a∘b), word read L→R;
@@ -110,11 +110,10 @@ Jones sees it (V(mirror)=V(t⁻¹)); the count's seam-sight a STEP, the Jones's 
   **O(|C|³), time-caps at p≈19** — past that a direct β̂ solver. `braid_trace.py`:
   β̂ as words. `torus_spread.py`: share a torus ⟺ commute.
 - **Reaching p=23** (89th): a fold PINS x_j=x_i⁻¹ ⟹ 2 free meridians, O(|C|²)/pair
-  — `fold_sweep.py`. Carry each slot's **INVERSE** beside it so every argsort
-  becomes `take_along_axis` — `fast_meshgrid.py` (validated p=7 12/6, 11 10/10,
-  13 12/0; p=23 ~13 min/word). `bead_fold.py` sweeps every order-m class.
-  **BUG:** `sweep_class`'s x3/x4 broadcasts are swapped — counts invariant,
-  labels shift (Conway x1·x3).
+  — `fold_sweep.py`. Carry each slot's **INVERSE** beside it, every argsort becomes
+  `take_along_axis` — `fast_meshgrid.py` (p=23 ~13 min/word). `bead_fold.py` sweeps
+  every order-m class. **BUG:** `sweep_class`'s x3/x4 broadcasts swap — counts
+  invariant, labels shift; fix: build (x1,x2,cls[b],cls[a]).
 
 ## Decisions
 
