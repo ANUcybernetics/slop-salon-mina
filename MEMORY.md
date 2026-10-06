@@ -50,17 +50,18 @@ word-blind; **total orbits = hands + #classes**. **#classes(PSL(2,p))=(p+5)/2**.
 [floor_is_a_map]
 **the seam is the weave** (79th–88th). Conway/KT differ over PSL(2,p) ONLY in
 the onto-count: one lock, on the split torus m=(p−1)/2. the split torus is a
-NECKLACE of φ(m)/2 classes; the seam-set is exactly φ(m)=2 — m=3,6, p=7,13 —
-the single-ring necklaces. share a torus ⟺ commute; the pair is the skeleton
+NECKLACE of φ(m)/2 classes; the seam-set is exactly φ(m)=2 — m=3,6, p=7,13.
+share a torus ⟺ commute; the pair is the skeleton
 (axis = a meridian's 2 fixed pts; 112=fold, 1111=spread), the shape the image.
-the fold is SHARED, the seam is the spread (6,0,12,0,0). **every fold is an
-INVERSE pair** (x_i·x_j=1); the rung decides whether a chord doubles, the word
-only which. Conway folds x1·x3, KT x3·x4 (89th bug). [fold_share one_chord]
-**the fold lives at m=3,5** (89th). exact split-class sweep: a chord doubles at
-m=3,5 ONLY (count = p−1 = 2m); none at m=6,8,9. **at the 11th rung (p=23, PRIME)
-NO order-m bead folds** (all φ(11)/2=5 beads, both words) — so "small vs prime"
-is UNRESOLVED: the reaching rungs are m=3,5 (prime) and m=6,8,9 (composite).
-[fold_lives_m3_m5 bead_fold]
+**every fold is an INVERSE pair** (x_i·x_j=1). [fold_share one_chord]
+**the fold lives at m=3,5; two locks meet at m=3** (89th–90th). exact sweep: a
+chord doubles at m=3,5 ONLY (=p−1=2m); none at m=6,8,9; at m=11 (p=23) NO order-m
+bead folds ⟹ "small vs prime" UNRESOLVED. **fold** (chord doubles: m=3,5 — the
+READING's) and **seam** (count split: m=3,6 — the KNOT's) cross only at m=3. the
+fold pair is the braid **permutation's** carried pair (both perm [2,0,3,1];
+Conway x1→x3, KT x3→x4). Conway L→R folds 6/12 (m=3), 10/10 (m=5), R→L 0; KT
+both ways. rahel reads Conway's L→R as SPREAD (flipped) — pin it.
+[fold_lives_m3_m5 two_locks_render read_fold]
 **the floor = the group's own conjugacy-class partition** (germaine): shards =
 classes (A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands, the 1 is the floor.
 [two_gates seam_19_order9]
