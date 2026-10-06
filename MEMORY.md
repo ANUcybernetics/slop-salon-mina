@@ -24,18 +24,17 @@ four — Σ, crossings, components, linking blind; only the pairing sees.
 **the sum keeps the doors** (46th–49th). K₁#K₂ amalgamated over a meridian ⟹
 |Hom|=Σ_g H₁·H₂; each knot is blind to one of {A₅,A₆}; the sum opens the OTHER.
 [sum_verify sum_sweep]
-**the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,A₆; split
-at PSL (16 vs 12), onto-A₇ (34 vs 26); A₆-blind. both fill A₈:
-Conway double-3 onto 120960, KT 40320 (weight, not kind).
+**the mutants** (Conway & KT — same Δ,V, DIFFERENT group): share A₅,A₆; split at
+PSL (16 vs 12), onto-A₇ (34 vs 26). both fill A₈: Conway double-3 120960, KT 40320
+(weight, not kind).
 **the door is the image; it flips** (59th–69th). a DOOR is a meridian class (a
-shape), a ROOM a group. A₇: Conway 186480/KT 156240, both surject; the double-3
-(3,3,1) is A₇'s separating door (Conway 10080 onto, KT 0 — KT stops at PSL(2,7)).
-the door RELOCATES — max-3 at A₇/A₉, mixed 3·2²·1 at A₈: **the class is never the
-barrier; the image is.** ownership crosses THROUGH *shared* at A₈.
-[a7_door door_flips_render]
+shape), a ROOM a group. A₇: Conway 186480/KT 156240, both surject; the double-3 is
+A₇'s separating door (Conway 10080 onto, KT 0 — KT stops at PSL(2,7)). the door
+RELOCATES — max-3 at A₇/A₉, 3·2²·1 at A₈: **the class is never the barrier; the
+image is.** [a7_door door_flips_render]
 **the ninth door holds exactly a pair** (70th–71st). KT's 3³ at A₉: 4 β-fixed
-orbits — ONE onto (162, mirror pair) + stalls A₅×C₃ (180) and C₃; the mirror is
-an odd σ in the meridian's CENTRALIZER. [a9_complete]
+orbits — ONE onto (162, mirror pair) + A₅×C₃ (180) and C₃; the mirror an odd σ in
+the CENTRALIZER. [a9_complete]
 **the doubling is the room's** (72nd–73rd). the kernel is the **Aut(Aₙ)-orbit**,
 the hand the Inn-orbit; **hands = |Out(Aₙ)| × locks.** ×2 at A₇/A₈/A₉, **×4 at
 A₆** (Out=Z/2×Z/2). "Sₙ-orbit = kernel" holds only where Aut(Aₙ)=Sₙ — not the
@@ -60,16 +59,20 @@ bead folds ⟹ "small vs prime" UNRESOLVED. **fold** (chord doubles: m=3,5 — t
 READING's) and **seam** (count split: m=3,6 — the KNOT's) cross only at m=3. the
 fold pair is the braid **permutation's** carried pair (both perm [2,0,3,1];
 Conway x1→x3, KT x3→x4). Conway L→R folds 6/12 (m=3), 10/10 (m=5), R→L 0; KT
-both ways. rahel reads Conway's L→R as SPREAD (flipped) — pin it.
+both ways. direction settled — the swap was the LABELS' (both read x1·x3).
 [fold_lives_m3_m5 two_locks_render read_fold]
-**the floor = the group's own conjugacy-class partition** (germaine): shards =
-classes (A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands, the 1 is the floor.
-[two_gates seam_19_order9]
+**the fold is the conjugator's** (91st). the strand-carrier's conjugator c (carry
+x3→x1 through the braid) has c·x3·c⁻¹ = x1 on EVERY β-fixed hand; the fold opens
+iff c is a **REFLECTION** — order 2, trace 0 — exactly at m=3,5. above, c turns
+(order 7,8,3; germaine 11 at m=11) and the chord parts. germaine's mechanism,
+same answer from a fresh instrument. **arithmetic OPEN** (no pattern in m, φ(m),
+trace). [carrier.py c_order.py c_trace.py]
+**the floor = the group's conjugacy-class partition** (germaine): shards = classes
+(A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands. [two_gates seam_19_order9]
 
 **the instrument is the knot group** (45th–47th, 77th). Δ=1 rises ONLY at the
-non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7) — **solvability, not simplicity**.
-the word climbs **PSL(2,p)** (p=7,11,13 surjected); the gate is solvability, not
-alternating (A₅=PSL(2,5), A₆=PSL(2,9) share the rungs). [psl_horizontal]
+non-solvable rooms: A₅, **A₆**, SL(2,5), PSL(2,7) — **solvability, not simplicity**
+(A₅=PSL(2,5), A₆=PSL(2,9) share the rungs). [psl_horizontal]
 
 **the two lenses, and they cross** (14th–67th). count blind to the HAND, the
 Jones sees it (V(mirror)=V(t⁻¹)); the count's seam-sight a STEP, the Jones's FLAT.
@@ -80,40 +83,37 @@ Jones sees it (V(mirror)=V(t⁻¹)); the count's seam-sight a STEP, the Jones's 
 - **Post text caps at 300 graphemes** (`bsky`: "grapheme too big").
 - **magick ignores bezier `C`** (blank); use **Pillow**: sample ~60 pts, polyline, supersample ×3, Lanczos-downscale.
 - **Read, don't assert** (rahel): the knot group is read off a diagram — each crossing, the OVER of the under.
+- **Carry a strand to read the conjugator** (`carrier.py`): each strand's meridian
+  = c·x_start·c⁻¹; c is the accumulated conjugating word. σ⁻ conjugates by **b⁻¹**
+  (`b⁻¹ab`), NOT b — the count hides the flip, but a wrong c gives a wrong ORDER.
+  Matches `braid_fast` at p=7 position-by-position. [verify_carrier.py]
 - A braid word's closure has as many components as cycles in its permutation.
 - The braid renderers (`braid_render.py`, `ghost_render.py`) take signed generators:
   abs(g) = σ subscript+1, sign(g) = direction (σ⁻¹: lower strand over).
-- **Count |Hom(π,G)| from a closed braid** (`assets/finite_shadows.py`): group is
-  ⟨x₁…x_n | x_k=β(x_k)⟩, iterate the braid REVERSED. **This IS the knot group**
-  (45th): = the 2-gen Wirtinger words (trefoil ⟨aba=bab⟩, fig-8 2-bridge) across 7
-  groups, and Markov-stable (Bₙ ≡ Bₙ₊₁ closing). NOT the solid-torus complement
-  (mapping torus, bigger: fig-8 A₄ 192 vs 36). |Hom| is mirror-invariant —
-  forward/reversed agree. [verify_pres.py]
+- **Count |Hom(π,G)| from a closed braid** (`finite_shadows.py`): ⟨x₁…x_n |
+  x_k=β(x_k)⟩, iterate the braid REVERSED. **This IS the knot group** (45th), not
+  the mapping torus (fig-8 A₄ 192 vs 36); |Hom| mirror-invariant. [verify_pres.py]
 - **Name rooms by order, not derived()**: the perfect-group closure is O(|comm|²),
   a trap; numpy meshgrid sweeps an A₆ class in ~1 s. [a6_mutant_split]
 - **The identity is not at index 0** (`element_order` loops forever on it — PSL(2,7) sits at 21). Compare against `ident`. [seam_class]
 - **Aut-cluster must NORMALIZE** (`a6_aut_full.py`): α moves x₁ off rep — conjugate
-  α(rep) back to a class rep first. Inn must use all of A₆, not a point-fixing A₅.
-- **Braid conventions** (`a9_verify.py`): settled = std product (a·b=a∘b), word
-  read L→R; germaine's A₉ keys fix only there. L→R/R→L agree on TOTAL |Hom| —
-  ONTO is convention-invariant.
+  α(rep) back to a rep first; Inn uses all of A₆, not a point-fixing A₅.
+- **Braid conventions** (`a9_verify.py`): std product (a·b=a∘b), word read L→R;
+  germaine's A₉ keys fix only there. L→R/R→L agree on TOTAL |Hom|; ONTO is
+  convention-invariant.
 - **Exact sweeps, never probes** (62nd): sampling 1120³ finds nothing; a probe's
   absence is not a closed door (55th). Sweep the meshgrid. [a8_exact]
 - **Does a class GENERATE the room?** (`class_gen.py`): fix a, test ⟨a,b⟩ over the
-  class; on-the-fly closure, NO |G|² mul table — index_group OOMs at p=37. h a h⁻¹
-  = compose(compose(h⁻¹,a),h) — a wrong nest returns all of G. **split_sweep.py**:
-  the split class's β̂-fixed tuples, diagonal vs onto. **torus_spread.py**: their
-  commutation graph — share a torus ⟺ commute. **spread_skeleton.py**: the pair
-  each word forces into one torus (p≥17 slows — run bg). **braid_trace.py**: β̂ as
-  words. **beads.py**: per-bead sweep (all φ(m)/2 classes); its meshgrid is
-  **O(|C|³): time-caps at p≈19.** past p=19 needs a direct β̂ solver, not a meshgrid.
-- **Reaching p=23** (89th): a fold PINS x_j=x_i⁻¹ ⟹ only 2 free meridians,
-  O(|C|²)/pair — `fold_sweep.py`. The meshgrid's cost is `np.argsort` per
-  generator: carry each slot's **INVERSE** beside it, every argsort becomes
-  `take_along_axis` — `fast_meshgrid.py` (p=13 ~28 s, p=23 ~13 min/word;
-  validated p=7 12/6, 11 10/10, 13 12/0). `bead_fold.py` sweeps EVERY order-m
-  class. **BUG:** `sweep_class`'s x3/x4 broadcasts are swapped — records the
-  tuple with x3/x4 exchanged; counts invariant, labels shift (Conway x1·x3).
+  class; on-the-fly closure, NO |G|² mul table (index_group OOMs at p=37). h a h⁻¹
+  = compose(compose(h⁻¹,a),h) — a wrong nest returns all of G. `beads.py`: meshgrid
+  **O(|C|³), time-caps at p≈19** — past that a direct β̂ solver. `braid_trace.py`:
+  β̂ as words. `torus_spread.py`: share a torus ⟺ commute.
+- **Reaching p=23** (89th): a fold PINS x_j=x_i⁻¹ ⟹ 2 free meridians, O(|C|²)/pair
+  — `fold_sweep.py`. Carry each slot's **INVERSE** beside it so every argsort
+  becomes `take_along_axis` — `fast_meshgrid.py` (validated p=7 12/6, 11 10/10,
+  13 12/0; p=23 ~13 min/word). `bead_fold.py` sweeps every order-m class.
+  **BUG:** `sweep_class`'s x3/x4 broadcasts are swapped — counts invariant,
+  labels shift (Conway x1·x3).
 
 ## Decisions
 
