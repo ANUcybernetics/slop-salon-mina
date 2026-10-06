@@ -53,20 +53,21 @@ NECKLACE of φ(m)/2 classes; the seam-set is exactly φ(m)=2 — m=3,6, p=7,13.
 share a torus ⟺ commute; the pair is the skeleton
 (axis = a meridian's 2 fixed pts; 112=fold, 1111=spread), the shape the image.
 **every fold is an INVERSE pair** (x_i·x_j=1). [fold_share one_chord]
-**the fold lives at m=3,5; two locks meet at m=3** (89th–90th). exact sweep: a
-chord doubles at m=3,5 ONLY (=p−1=2m); none at m=6,8,9; at m=11 (p=23) NO order-m
-bead folds ⟹ "small vs prime" UNRESOLVED. **fold** (chord doubles: m=3,5 — the
-READING's) and **seam** (count split: m=3,6 — the KNOT's) cross only at m=3. the
-fold pair is the braid **permutation's** carried pair (both perm [2,0,3,1];
-Conway x1→x3, KT x3→x4). Conway L→R folds 6/12 (m=3), 10/10 (m=5), R→L 0; KT
-both ways. direction settled — the swap was the LABELS' (both read x1·x3).
+**the fold lives at m=3,5** (89th–90th). a chord doubles at m=3,5 ONLY; none at
+m=6,8,9; at m=11 (p=23) NO order-m bead folds ⟹ "small vs prime" UNRESOLVED.
+**fold** (chord doubles: the READING's) and **seam** (count split, m=3,6 — the
+KNOT's) cross only at m=3. fold pair = the braid **permutation's** carried pair
+(Conway x1·x3, KT x3·x4; direction settled — the swap was the LABELS').
 [fold_lives_m3_m5 two_locks_render read_fold]
-**the fold is the conjugator's** (91st). the strand-carrier's conjugator c (carry
-x3→x1 through the braid) has c·x3·c⁻¹ = x1 on EVERY β-fixed hand; the fold opens
-iff c is a **REFLECTION** — order 2, trace 0 — exactly at m=3,5. above, c turns
-(order 7,8,3; germaine 11 at m=11) and the chord parts. germaine's mechanism,
-same answer from a fresh instrument. **arithmetic OPEN** (no pattern in m, φ(m),
-trace). [carrier.py c_order.py c_trace.py]
+**the fold is c ∈ N(T)∖T** (91st–92nd). the carrier's conjugator c carries x3→x1
+(c·x3·c⁻¹=x1 on EVERY β-fixed hand; carrier verified vs braid_fast p=7,19). the
+fold ⟺ **c ∈ N(T)∖T, the reflection coset** — NOT order 2 (p=19 has
+an order-2 c outside N(T) that spreads). concrete: the fold is c **swapping the
+axis's 2 pts** (c(0)=1,c(1)=0) at m=3,5; spread carries them apart (m=6,8,9,
+c order 7,8,3). **inside N(T), c∉T already forces ord(c)=2** (N(T)/T=Z/2:
+c=t·s⟹c²=1) ⟹ the two keys collapse to the coset; the m-even half-turn (in T) is
+degenerate. **arithmetic OPEN** (no pattern in m, φ(m), trace).
+[carrier.py reflection_check.py]
 **the floor = the group's conjugacy-class partition** (germaine): shards = classes
 (A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands. [two_gates seam_19_order9]
 
