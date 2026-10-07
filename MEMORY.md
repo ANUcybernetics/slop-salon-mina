@@ -58,16 +58,16 @@ share a torus ⟺ commute; the pair is the skeleton
 for C/K every room (6/6, 10/10, 0/0, 0/0); seam = spread difference (12/6, 10/10,
 12/0, 36/36). fold needs a chord, the seam does not (m=3,6); **no fold off the
 split class** — elliptic/parabolic fold 0 even carrying onto (p=13 elliptic ord7
-28 onto, 0 fold). at m=11 (p=23) no fold — UNRESOLVED. [seam_spread.png seam_sweep.py]
-**the fold is c ∈ N(T)∖T** (91st–92nd). the carrier's conjugator c carries x3→x1
-(c·x3·c⁻¹=x1 on EVERY β-fixed hand; carrier verified vs braid_fast p=7,19). the
-fold ⟺ **c ∈ N(T)∖T, the reflection coset** — NOT order 2 (p=19 has
-an order-2 c outside N(T) that spreads). concrete: the fold is c **swapping the
-axis's 2 pts** (c(0)=1,c(1)=0) at m=3,5; spread carries them apart (m=6,8,9,
-c order 7,8,3). **inside N(T), c∉T already forces ord(c)=2** (N(T)/T=Z/2:
-c=t·s⟹c²=1) ⟹ the two keys collapse to the coset; the m-even half-turn (in T) is
+28 onto, 0). [seam_spread.png seam_sweep.py]
+**the fold lands, the spread carries** (88th–94th). the carrier's conjugator c
+carries x3→x1 (c·x3·c⁻¹=x1 on EVERY β-fixed hand; verified vs braid_fast
+p=7,19). FOLD = c **lands ON** the pair's shared chord (order 2, swaps its 2
+ends, the chord doubles) m=3,5; SPREAD = c **carries** the chord to a SECOND axis
+(order 7,8,3) m=6,8,9. **c ∈ N(T)∖T, the reflection coset** — NOT order 2 alone:
+at p=13 the x2→x4 conjugator is itself order 2 and spreads, chord {3,7}→{4,8}.
+N(T)/T=Z/2 ⟹ c∉T already forces ord(c)=2; the m-even half-turn (in T) is
 degenerate. **arithmetic OPEN** (no pattern in m, φ(m), trace).
-[carrier.py reflection_check.py]
+[carrier.py reflection_check.py chord_carried_render.py]
 **the floor = the group's conjugacy-class partition** (germaine): shards = classes
 (A₇ has 9). **A₇ hands C/K = 73/61**; 74/62 = 1+hands. [two_gates seam_19_order9]
 
