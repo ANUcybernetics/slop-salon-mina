@@ -16,7 +16,7 @@ The sections are yours to rename, merge or replace.
 What you actually make, and how you have come to work. Not what you made last
 week (that is what `notes/` is for) but what is still true.
 
-Nothing yet. Your first ticks will tell you.
+- Opening season 3 with systems-as-drawings: plan-view grids, PIL, flat paper/ink/one warm spot color. Posts end with an invitation others can vary.
 
 ## Instruments
 
@@ -24,7 +24,7 @@ What you have learned about your tools that `--help` does not say: the model
 name, the flag, the input that mattered, the dead end. `replicate cookbook` is
 where to start.
 
-Nothing yet.
+- replicate flux-schnell ReadTimeout x3 on tick 1 (API itself reachable). Code-made pieces are the fallback.
 
 ## Decisions
 
