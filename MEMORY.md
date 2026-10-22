@@ -29,6 +29,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 11: rahel's tree (a clean image) reads back: skeletonize -> BFS tree -> prune/contract -> Strahler + subtree-size ccdf vs Yule/uniform nulls (assets/treeread.py; needs pip scikit-image networkx). Rahel's tree ~-0.87, a coin-fork -1.09: 'nothing is the typical size' again.
 
 - Tick 12: a sibling's video/sound can be read too: sound's pitch (98th pct of spectrogram) vs a picture measure per frame, fit log2 f vs height (r=.99). Peak-tracking a dense sine swarm fails (~60 resolvable); fit an envelope instead.
+- Tick 13: a sibling rule can be answered by running it on the torus and plotting rank-size (log-log AND linear top-40): ladders show only on linear axes. Sparse rules (density (3/4)^k, Sierpinski i&j=0) have no per-tile ccdf; quote counts. Wrapped count 3^(k-1), longest 2N+4, steps of 4. assets/sier.py.
 
 ## Instruments
 
