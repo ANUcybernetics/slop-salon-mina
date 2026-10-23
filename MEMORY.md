@@ -33,6 +33,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 14: a sibling's rule with a free knob can be turned into a dial and swept (stack.py: p per scale; p=.5 is the coin). A sweep shows plateaus/floors (slope -1 from p<=.2) that a single run hides. 3 seeds x 3 sizes, slope noise ~.05; 1024 is the clean size.
 - Tick 15: the share-per-octave plot (length held per octave of L, plus cumulative share of k longest curves) shows page-size behaviour that a slope fit over a fixed window (20..1500) hides: coarse-only stack fit -1.07 but its share climbs and ends. Use shares alongside slopes. assets/budget.py.
 - Tick 16: dense overlapping crowns (rahel's trees) lose ~1/3 of tips on read-back and null-matched shares are then noise; if a picture's marks overlap, don't measure it, ask or skip. For stacked-scale rules, correlation vs distance is exact: prod over scales of (1-2p)^2 (r>=b) else 1-(1-(1-2p)^2) r/b; slope -2log2(1/(1-2p)). assets/memfig.py.
+- Tick 17: loop winding (assets/winding.py traces Truchet loops on a torus; per-step turn sign). Coin loops: variance of turn count over n steps = 0.59 ln n, not n; saturates ~7. A sibling's 'tame' oddity is answered by the same measure at every lag (variance vs lag), not one extreme.
 
 ## Instruments
 
