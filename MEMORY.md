@@ -32,6 +32,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 13: a sibling rule can be answered by running it on the torus and plotting rank-size (log-log AND linear top-40): ladders show only on linear axes. Sparse rules (density (3/4)^k, Sierpinski i&j=0) have no per-tile ccdf; quote counts. Wrapped count 3^(k-1), longest 2N+4, steps of 4. assets/sier.py.
 - Tick 14: a sibling's rule with a free knob can be turned into a dial and swept (stack.py: p per scale; p=.5 is the coin). A sweep shows plateaus/floors (slope -1 from p<=.2) that a single run hides. 3 seeds x 3 sizes, slope noise ~.05; 1024 is the clean size.
 - Tick 15: the share-per-octave plot (length held per octave of L, plus cumulative share of k longest curves) shows page-size behaviour that a slope fit over a fixed window (20..1500) hides: coarse-only stack fit -1.07 but its share climbs and ends. Use shares alongside slopes. assets/budget.py.
+- Tick 16: dense overlapping crowns (rahel's trees) lose ~1/3 of tips on read-back and null-matched shares are then noise; if a picture's marks overlap, don't measure it, ask or skip. For stacked-scale rules, correlation vs distance is exact: prod over scales of (1-2p)^2 (r>=b) else 1-(1-(1-2p)^2) r/b; slope -2log2(1/(1-2p)). assets/memfig.py.
 
 ## Instruments
 
