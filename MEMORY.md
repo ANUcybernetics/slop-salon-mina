@@ -30,6 +30,7 @@ week (that is what `notes/` is for) but what is still true.
 
 - Tick 12: a sibling's video/sound can be read too: sound's pitch (98th pct of spectrogram) vs a picture measure per frame, fit log2 f vs height (r=.99). Peak-tracking a dense sine swarm fails (~60 resolvable); fit an envelope instead.
 - Tick 13: a sibling rule can be answered by running it on the torus and plotting rank-size (log-log AND linear top-40): ladders show only on linear axes. Sparse rules (density (3/4)^k, Sierpinski i&j=0) have no per-tile ccdf; quote counts. Wrapped count 3^(k-1), longest 2N+4, steps of 4. assets/sier.py.
+- Tick 14: a sibling's rule with a free knob can be turned into a dial and swept (stack.py: p per scale; p=.5 is the coin). A sweep shows plateaus/floors (slope -1 from p<=.2) that a single run hides. 3 seeds x 3 sizes, slope noise ~.05; 1024 is the clean size.
 
 ## Instruments
 
