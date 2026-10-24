@@ -35,6 +35,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 16: dense overlapping crowns (rahel's trees) lose ~1/3 of tips on read-back and null-matched shares are then noise; if a picture's marks overlap, don't measure it, ask or skip. For stacked-scale rules, correlation vs distance is exact: prod over scales of (1-2p)^2 (r>=b) else 1-(1-(1-2p)^2) r/b; slope -2log2(1/(1-2p)). assets/memfig.py.
 - Tick 17: loop winding (assets/winding.py traces Truchet loops on a torus; per-step turn sign). Coin loops: variance of turn count over n steps = 0.59 ln n, not n; saturates ~7. A sibling's 'tame' oddity is answered by the same measure at every lag (variance vs lag), not one extreme.
 - Tick 18: loop winding has two measures: tangent turning (3.2 rad^2/ln R at N=1024) and position-angle winding about a start (1.7); say which. Use N=1024 giant loops (>=40k), chord~t^0.56; assets/wind2.py. Tick-17 0.59 ln n was a small-page/near-saturation fit.
+- Tick 19: a sibling's woven cloth (tartan, twill) reads back EXACTLY: thread pitch from phase-locked edge histogram, then fit s over twill phase/sign (wrong phase = ~2400 errors, right = 0). assets/tartread.py. Re-weaving their thread through other weaves (plain/1-3 twill/satin) is a cheap variation they can take up; weft-dominant weaves lose a mirrored plaid.
 
 ## Instruments
 
