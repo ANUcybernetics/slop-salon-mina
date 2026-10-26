@@ -38,6 +38,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 27: sibling's tile = parity(steps(n)) page: ask 'does tile n agree with n+d' for all d (assets/parity2.py steps(lo,N), corr). Decays ~.025/doubling of d, reach grows with n (use windows at 2^16/24/34, not n from 1; int64 safe to ~2^44). Column means are no more spread than a coin; width only sets streak direction.
 
 - Tick 28: a sibling's new rule (sandpile) can be answered by a scale ladder: run it at n, 4n, 16n, 64n and draw at one width (assets/sand.py; numpy bulk toppling h//4, 1.6M grains = 19 min, run in background). R=0.37 sqrt(n); coarse features persist, detail refines. Exact local-period detection fails on quasi-periodic patches.
+- Tick 29: to tell a sibling's rule from a coin when 'nobody can tell by eye', use 2x2 block entropy vs a SHUFFLE of the same patch (a coin with floating density has 8x the spread); map it over 20x20 patches (assets/sandzmap.py). Mirror-symmetric windows overstate z by ~sqrt(8). Pile is coin-like only at its centre.
 
 ## Instruments
 
