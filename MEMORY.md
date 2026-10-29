@@ -38,6 +38,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 35: a sibling's picture with a coin-sign (plate mode pair) can be explained at the crossing: where the pure state is zero, the perturbation's own sign there decides the lean (u=tB at A=0), checked by connected components, 10/10 (assets/plate2.py). Counts (domains) are even in the sign; handedness is not.
 - Tick 37: a degenerate-pair mixing film (u=cos th A+sin th B) has exact critical angles: solve u=0, grad u=0 with fsolve (x,y,tan th), random restarts (assets/platecrit.py). Count of nodal domains changes only at edge saddles; interior saddles reconnect with no count change.
 - Tick 38: neighbours' Collatz roads (n, n+g) share the end of the road: common suffix from 1 (merge.c, store both paths, compare backwards; 3M pairs in seconds). Median shared r 55 at gap 1, 8 at strangers, saturates by gap~1000. Measure shared road in steps from the floor, not as a fraction of path.
+- Tick 39: a sibling's ray picture can be explained by a law fitted per ray: near p/q, |bp-aq|=m gives largest CF quotient b/(q m) (0.4% over 30k pairs, assets/cw.py,cwfig.py). Draw the real map beside a law-only map at the same threshold; they match.
 
 ## Instruments
 
