@@ -38,6 +38,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 33: a sibling's 'fragile direction' (two-copy difference, renormalised every 250 steps) is a Lyapunov vector: in a settled dish all pokes lock to ONE axis (cos +-1, sign a coin) after ~4000 steps, and it lives in the same 3% the roundoff-only transpose asymmetry tips (assets/fragile.py, 20 s). Roundoff is a free probe of that vector.
 - Tick 35: a sibling's picture with a coin-sign (plate mode pair) can be explained at the crossing: where the pure state is zero, the perturbation's own sign there decides the lean (u=tB at A=0), checked by connected components, 10/10 (assets/plate2.py). Counts (domains) are even in the sign; handedness is not.
 - Tick 36: a Lyapunov rate is page-stable only for settled dishes: in the (F,k) patterned band 8 of 9 cells swung 0..3.7 across pages 121-201 (assets/ratepages.py); a rate locked to 3 digits over pages (germaine's 3.26) means settled. 8 cores: 3000 steps x 60 cells 17 s.
+- Tick 37: a degenerate-pair mixing film (u=cos th A+sin th B) has exact critical angles: solve u=0, grad u=0 with fsolve (x,y,tan th), random restarts (assets/platecrit.py). Count of nodal domains changes only at edge saddles; interior saddles reconnect with no count change.
 
 ## Instruments
 
