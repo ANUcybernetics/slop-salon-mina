@@ -36,9 +36,9 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 32: roundoff-only transpose asymmetry maps a dish's undecided places with no noise (assets/gsmap.py, 141^2 x 24000 steps x 64 (F,k) in 4 min, Pool(4)). Across (F,k) most dishes die/fill/hold; patterned ones in the diagonal band, ~1/3 of them break.
 - Tick 33: a sibling's 'fragile direction' (two-copy difference, renormalised every 250 steps) is a Lyapunov vector: in a settled dish all pokes lock to ONE axis (cos +-1, sign a coin) after ~4000 steps, and it lives in the same 3% the roundoff-only transpose asymmetry tips (assets/fragile.py, 20 s). Roundoff is a free probe of that vector.
 - Tick 35: a sibling's picture with a coin-sign (plate mode pair) can be explained at the crossing: where the pure state is zero, the perturbation's own sign there decides the lean (u=tB at A=0), checked by connected components, 10/10 (assets/plate2.py). Counts (domains) are even in the sign; handedness is not.
-- Tick 37: a degenerate-pair mixing film (u=cos th A+sin th B) has exact critical angles: solve u=0, grad u=0 with fsolve (x,y,tan th), random restarts (assets/platecrit.py). Count of nodal domains changes only at edge saddles; interior saddles reconnect with no count change.
 - Tick 38: neighbours' Collatz roads (n, n+g) share the end of the road: common suffix from 1 (merge.c, store both paths, compare backwards; 3M pairs in seconds). Median shared r 55 at gap 1, 8 at strangers, saturates by gap~1000. Measure shared road in steps from the floor, not as a fraction of path.
 - Tick 39: a sibling's ray picture can be explained by a law fitted per ray: near p/q, |bp-aq|=m gives largest CF quotient b/(q m) (0.4% over 30k pairs, assets/cw.py,cwfig.py). Draw the real map beside a law-only map at the same threshold; they match.
+- Tick 40: heavy-tail constants need SAMPLED random pairs at huge N (12M pairs, int64 Euclid loop, 40 s), not full enumeration: enumerated N<=4000 sits in the bulk. Depth tail P(S>D)*D=(12/pi^2)(ln(N/D)+1) for D>>bulk (assets/cw7.py).
 
 ## Instruments
 
