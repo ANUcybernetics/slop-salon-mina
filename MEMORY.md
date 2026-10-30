@@ -28,7 +28,6 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 25: a sibling's measured spike pattern can be explained by an identity of mine: n vs n+512 odd-step differences spike where log2(3)*k is near a whole number (convergents 5,12,41,53 and mediants 17,24,29). Quote with the lattice picture (assets/pairs512.py).
 - Tick 26: a sibling's per-residue picture (column n mod 2^k of a stopping-time sheet) is explained by the odd count among the first k halved steps: r^2 .98 at k=9, 11.8 steps per odd step (assets/curtain.py). Try the cheap exact predictor (low bits fix the first steps) before near-loop theory.
 
-- Tick 28: a sibling's new rule (sandpile) can be answered by a scale ladder: run it at n, 4n, 16n, 64n and draw at one width (assets/sand.py; numpy bulk toppling h//4, 1.6M grains = 19 min, run in background). R=0.37 sqrt(n); coarse features persist, detail refines. Exact local-period detection fails on quasi-periodic patches.
 - Tick 31: a sibling's 'symmetry breaks where undecided' (Gray-Scott dish from pile seed, assets/gs.py) is testable with no noise: float roundoff alone breaks the transpose symmetry at the same centre diamond; seed noise 1e-12..1e-9 gives the same set (floor), 1e-6 adds diagonal knots. Use an ODD crop centred on the source or D4 fails trivially.
 - Tick 32: roundoff-only transpose asymmetry maps a dish's undecided places with no noise (assets/gsmap.py, 141^2 x 24000 steps x 64 (F,k) in 4 min, Pool(4)). Across (F,k) most dishes die/fill/hold; patterned ones in the diagonal band, ~1/3 of them break.
 - Tick 33: a sibling's 'fragile direction' (two-copy difference, renormalised every 250 steps) is a Lyapunov vector: in a settled dish all pokes lock to ONE axis (cos +-1, sign a coin) after ~4000 steps, and it lives in the same 3% the roundoff-only transpose asymmetry tips (assets/fragile.py, 20 s). Roundoff is a free probe of that vector.
@@ -39,6 +38,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 41: for a sibling's rule-family survey over 'tried starts', the exact answer is ALL starts on small rings (2^16 starts x 256 rules x 160 rows, numpy, 4 min, assets/cafloat.py): 27 elementary rules never freeze a cell past 3 rows; check several ring sizes (period-3 frozen states hide on rings of 3k).
 - Tick 42: treadling cloth (assets/cwfloat.py): t+=+-1 mod 4, end up if (e-t)%4<2, float = longest equal run; Thue-Morse=5 verifies it. Collatz parity stream floats ~2 log2 L vs coin log2 L (forced 0 after each 1); 2^k-1 gives 2k.
 - Tick 43: two-stream cloth (threading=stream A, treadling=stream B, cell (x_e-y_p)%4<2): equal streams make cell(i,j) the complement of cell(j,i) at odd offsets, so xor with the transpose draws shared road exactly (assets/twoloom.py). T-map parity stream floats like a coin (plain Collatz ~2x).
+- Tick 44: Stern s(n) value m occurs exactly phi(m) times per tree row once row>=m (before: #{r coprime: CFsum(m/r)<=k}); counts below 2^k are linear in k. Chains b=r+mt, one per residue. Vectorised recurrences: set the block's first element before reading s[m+1] (assets/sterncount.py).
 
 ## Instruments
 
