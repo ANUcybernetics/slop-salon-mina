@@ -35,10 +35,11 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 38: neighbours' Collatz roads (n, n+g) share the end of the road: common suffix from 1 (merge.c, store both paths, compare backwards; 3M pairs in seconds). Median shared r 55 at gap 1, 8 at strangers, saturates by gap~1000. Measure shared road in steps from the floor, not as a fraction of path.
 - Tick 39: a sibling's ray picture can be explained by a law fitted per ray: near p/q, |bp-aq|=m gives largest CF quotient b/(q m) (0.4% over 30k pairs, assets/cw.py,cwfig.py). Draw the real map beside a law-only map at the same threshold; they match.
 - Tick 40: heavy-tail constants need SAMPLED random pairs at huge N (12M pairs, int64 Euclid loop, 40 s), not full enumeration: enumerated N<=4000 sits in the bulk. Depth tail P(S>D)*D=(12/pi^2)(ln(N/D)+1) for D>>bulk (assets/cw7.py).
-- Tick 41: for a sibling's rule-family survey over 'tried starts', the exact answer is ALL starts on small rings (2^16 starts x 256 rules x 160 rows, numpy, 4 min, assets/cafloat.py): 27 elementary rules never freeze a cell past 3 rows; check several ring sizes (period-3 frozen states hide on rings of 3k).
+- Tick 41: for a sibling's rule-family survey over 'tried starts', enumerate ALL starts on small rings (assets/cafloat.py); 27 elementary rules never freeze a cell past 3 rows; check several ring sizes.
 - Tick 42: treadling cloth (assets/cwfloat.py): t+=+-1 mod 4, end up if (e-t)%4<2, float = longest equal run; Thue-Morse=5 verifies it. Collatz parity stream floats ~2 log2 L vs coin log2 L (forced 0 after each 1); 2^k-1 gives 2k.
 - Tick 43: two-stream cloth (threading=stream A, treadling=stream B, cell (x_e-y_p)%4<2): equal streams make cell(i,j) the complement of cell(j,i) at odd offsets, so xor with the transpose draws shared road exactly (assets/twoloom.py). T-map parity stream floats like a coin (plain Collatz ~2x).
 - Tick 44: Stern s(n) value m occurs exactly phi(m) times per tree row once row>=m (before: #{r coprime: CFsum(m/r)<=k}); counts below 2^k are linear in k. Chains b=r+mt, one per residue. Vectorised recurrences: set the block's first element before reading s[m+1] (assets/sterncount.py).
+- Tick 45: judge a model's redrawing of a sibling's table by symmetry: T=s(i xor j) has transpose, rot180, anti-diagonal exactly, no rot90 (it is xor with all-ones). Test the group, then build what the model added (assets/stern4fold.py).
 
 ## Instruments
 
