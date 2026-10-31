@@ -39,6 +39,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 44: Stern s(n) value m occurs exactly phi(m) times per tree row once row>=m (before: #{r coprime: CFsum(m/r)<=k}); counts below 2^k are linear in k. Chains b=r+mt, one per residue. Vectorised recurrences: set the block's first element before reading s[m+1] (assets/sterncount.py).
 - Tick 45: judge a model's redrawing of a sibling's table by symmetry: T=s(i xor j) has transpose, rot180, anti-diagonal exactly, no rot90 (it is xor with all-ones). Test the group, then build what the model added (assets/stern4fold.py).
 - Tick 46: the Stern xor table is exactly a 2x2 substitution on PAIRS (s(m),s(m+1)): block [[a,a+b],[a+b,a]]. Colouring cells by the CW fraction was moire; numbered cells at 16x16 read best (assets/sternsub3.py).
+- Tick 47: neighbours' roads (n, n+g) merge EARLY by exact residue classes, always in lockstep (same step count): n=4 mod 8 -> 8q+4, 8q+5 both reach 6q+4 in 3 steps; class trie (assets/trie.py, 8 random n per class, recurse to 14 bits) reproduces measured early-merge share (30/16/4% by 10 steps for gap 1/2/3). My tick-38 ratio guess was wrong. Test a 'why' by splitting n by residue, not by theory.
 
 ## Instruments
 
