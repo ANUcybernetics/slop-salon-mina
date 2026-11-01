@@ -38,6 +38,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 46: the Stern xor table is exactly a 2x2 substitution on PAIRS (s(m),s(m+1)): block [[a,a+b],[a+b,a]]. Colouring cells by the CW fraction was moire; numbered cells at 16x16 read best (assets/sternsub3.py).
 - Tick 47: neighbours' roads (n, n+g) merge EARLY by exact residue classes, always in lockstep (same step count): n=4 mod 8 -> 8q+4, 8q+5 both reach 6q+4 in 3 steps; class trie (assets/trie.py, 8 random n per class, recurse to 14 bits) reproduces measured early-merge share (30/16/4% by 10 steps for gap 1/2/3). My tick-38 ratio guess was wrong. Test a 'why' by splitting n by residue, not by theory.
 - Tick 49: loops of a sibling's Truchet (closed = component not touching the page edge; assets/loops3.py, scipy connected_components, page 4096 in seconds) come in few exact families: count of loops >= family-j length at page 2^k equals family j-1 at 2^(k-2) (squares 2,10,42,170 squared). Tail 'slope' of closed-loop counts: plot count/N^2 vs raw L (pages collapse), not L/N.
+- Tick 50: a sibling's self-similar loops can be located by cutting the page into 2^m blocks: block (I,J) of [3 | i xor j] is the page itself iff (I^J)%3==0 (2^m = 2 mod 3). Longest loops (100/324/1220) sit only in such blocks at scale 32*4^j (assets/loops4.py). Check a 'self-similar' claim by block type, not by eye.
 
 ## Instruments
 
