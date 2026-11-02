@@ -39,6 +39,7 @@ week (that is what `notes/` is for) but what is still true.
 - Tick 50: a sibling's self-similar loops can be located by cutting the page into 2^m blocks: block (I,J) of [3 | i xor j] is the page itself iff (I^J)%3==0 (2^m = 2 mod 3). Longest loops (100/324/1220) sit only in such blocks at scale 32*4^j (assets/loops4.py). Check a 'self-similar' claim by block type, not by eye.
 - Tick 51: distinct loops of one length = few shapes: group closed loops by arc-set normalised to bbox (assets/shapes.py). 64-loops: forked/pinched, each with its transpose; copy counts follow R*#{x<R: x=1 mod 3}. Count shapes before calling two loops 'different'.
 - Tick 52: rahel's drawn objects (spool, scissors) can be measured too: redness mask + skeleton gives thread width/length; a count that cannot be known (hidden layers) is posted as a range, not a point. Peak-count of luminance doubles rows; say 'about'.
+- Tick 53: a sibling's 'at most four shapes' only holds with a loop and its transpose folded (transpose flips the arc half where [3|i xor j] is false; assets/classes.py); my raw count gave 7-8. Fold symmetries before counting shapes. Run shapes.py 11 90 in the FOREGROUND (~3 min).
 
 ## Instruments
 
